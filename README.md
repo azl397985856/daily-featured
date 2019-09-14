@@ -15,7 +15,7 @@
 
  我的chrome插件差不多有60多个，插件多起来的时候，良好的分类，开启关闭，禁用，卸载等管理就变得非常重要了。
  毕竟谁也不想在众多插件中寻寻觅觅的感觉，也不想因为开启太多插件吃我们宝贵的内存吧？
- 这个插件的名字是[扩展管理器（Extension Manager](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+ 这个插件的名字是[扩展管理器（Extension Manager)](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
 
 > 对于没有梯子的同学，我还贴心地给大家准备了我从官方下载的扩展文件。 [链接](./assets/2019-09/extension-manager.crx)
 
