@@ -3,6 +3,22 @@
 
 ## 历史汇总
 
+### 2019-09-16
+
+经常有同学问我“你的这个扩展看着不错，叫什么”， “有什么好用的扩展程序推荐么？”。
+
+因此我打算出一个《工具推荐》专题， 然后细分一个类别《工具推荐 - chrome插件》。 这个算是这个系列的开篇之作，我默默翻开自己的chrome插件列表来看，
+有什么好用的推荐给大家。突然灵机一动，干脆把这个“扩展插件管理器”安利给大家好了。之后我会向大家推荐更多好用好玩的插件，有“工具”，“效率”， “娱乐”，“前端”等等。
+
+![chrome-extension-manager](./assets/2019-09/chrome-extension-manager.jpg)
+
+
+ 我的chrome插件差不多有60多个，插件多起来的时候，良好的分类，开启关闭，禁用，卸载等管理就变得非常重要了。
+ 毕竟谁也不想在众多插件中寻寻觅觅的感觉，也不想因为开启太多插件吃我们宝贵的内存吧？
+ 这个插件的名字是[扩展管理器（Extension Manager](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+
+> 对于没有梯子的同学，我还贴心地给大家准备了我从官方下载的扩展文件。 [链接](./assets/2019-09/extension-manager.crx)
+
 ### 2019-09-12
 
 今天给大家推荐的是一个在给Git提交记录增加emojis的仓库。
