@@ -11,6 +11,25 @@
 
 ## 新鲜出炉(2019-09)
 
+### 2019-09-17
+
+很多人想要问我“你的成长史是怎么样的？能不能分享一下你的菜鸡成长史”。 开始我是抵触的，这种东西写的不好大家会骂你，写的“太好”也会骂你。
+
+今天我就来做个“lucifer”系列的开篇吧，用图来描述“lucifer的一天”。
+
+
+lucifer的早晨：
+
+![morning-lucifer](./assets/2019-09/morning-lucifer.png)
+
+lucifer搬砖的一天开始了：
+
+![morning-lucifer](./assets/2019-09/day-lucifer.png)
+
+lucifer的晚上：
+
+![morning-lucifer](./assets/2019-09/night-lucifer.png)
+
 ### 2019-09-16
 
 经常有同学问我“你的这个扩展看着不错，叫什么”， “有什么好用的扩展程序推荐么？”。
