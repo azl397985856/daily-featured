@@ -3,7 +3,7 @@
 ![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.daily-featured)
 ![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.daily-featured)
 
-> 统计数据的时间是从 2019-09-015 16:50 起至今
+> 统计数据的时间是从 2019-09-15 16:50 起至今
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
