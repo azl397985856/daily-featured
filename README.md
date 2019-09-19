@@ -11,7 +11,19 @@
 
 ## 新鲜出炉(2019-09)
 
-### 2019-09-18
+### 2019-19[工具推荐 - 软件]
+
+今天给大家推荐一款MarkDown编辑器。 MarkDown在程序员中的使用频率是非常高的，Github是最早一批对MarkDown语法支持度比较好的平台之一。我日常写文档，记笔记等都采用MarkDown格式来书写。 它不仅书写方便，而且由于其格式比较规范，因此理论上可以通过一些“转换规则”将其转化为各种表现形式，市面上也有很多基于Markdown的渲染器，比如[markdown-it](https://github.com/markdown-it/markdown-it)，也有很多基于这些渲染器制作的产品，比如[docsify](https://github.com/docsifyjs/docsify)。
+
+早些时候，我使用的比较多的是[MacDown](https://macdown.uranusjr.com)和VSCode自带的Markdown功能。这两个功能非常简单，但是却能满足我当时的需求，之后我开始经常用Markdown更新文章之类的，因此这些就显得不太够用了，现在我用的是Yu Writer， 算是一个值得推荐的国人开发的MarkDown编辑器，功能非常强大而且免费。 你可能听过MWeb，但是它是收费的，功能和这个比起来也并不占优势。
+
+
+![yu-writer](./assets/2019-09/yu-writer.png)
+
+下载地址：https://ivarptr.github.io/yu-writer.site/
+
+
+### 2019-09-18[工具推荐 - 插件]
 
 前天分享了我的 chrome 插件管理器，今天我们就来分享我的《娱乐插件》。
 
@@ -57,7 +69,7 @@
 
 [bilibili 猜你喜欢](https://chrome.google.com/webstore/detail/ngjddnobeppdekpmimhiamkoonoaccdf)
 
-### 2019-09-17
+### 2019-09-17[学习方法]
 
 很多人想要问我“你的成长史是怎么样的？能不能分享一下你的菜鸡成长史”。 开始我是抵触的，这种东西写的不好大家会骂你，写的“太好”也会骂你。
 
@@ -75,7 +87,7 @@ lucifer 的晚上：
 
 ![morning-lucifer](./assets/2019-09/night-lucifer.png)
 
-### 2019-09-16
+### 2019-09-16[工具推荐 - 插件]
 
 经常有同学问我“你的这个扩展看着不错，叫什么”， “有什么好用的扩展程序推荐么？”。
 
@@ -90,7 +102,7 @@ lucifer 的晚上：
 
 > 对于没有梯子的同学，我还贴心地给大家准备了我从官方下载的扩展文件。 [链接](./assets/2019-09/extension-manager.crx)
 
-### 2019-09-12
+### 2019-09-12[工具推荐 - 类库]
 
 今天给大家推荐的是一个在给 Git 提交记录增加 emojis 的仓库。
 
@@ -101,7 +113,7 @@ lucifer 的晚上：
 
 ![git-emoji](./assets/2019-09/git-emoji.png)
 
-### 2019-09-11
+### 2019-09-11[技能]
 
 Google 内部有很多通用的最佳实践，在这我推荐一个项目，这是挂在 google group 下的一套通用的工程实战指南，被各个项目广泛使用，覆盖全部的编程语言。
 
@@ -117,22 +129,22 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 
 项目地址： https://github.com/google/eng-practices
 
-### 2019-09-10
+### 2019-09-10[工具推荐 - 类库]
 
 今天给大家推荐的是一个打包平台，不知道大家有没有听说过“polyfill.io”，用法有点像。
 
 这个仓库是 fork 自 packed，并进行了魔改，你可以将多个包打包成一个单独的 ESM，支持多种 options， 仓库地址： https://github.com/webcomponents-dev/packd-es
 
-### 2019-09-09
+### 2019-09-09[工具推荐 - 类库]
 
 一个可以将草稿转化 HTML 的工具，利用了机器学习来生成页面。 你可以手画一些东西，然后将其直接生成静态页面。缺点也很明显，一方面是静态的，因此没有什么交互，对于交互强的应用没什么用。
 其次就是生成的是 HTML，可维护性会比较差，如果生成类似 JSX 这样的中间产物可能会好一点。当然市面上其实已经有了生成 JSX 产物的开源框架了。 地址：https://github.com/ashnkumar/sketch-code
 
-### 2019-09-06
+### 2019-09-06[学习方法 - 文章]
 
 如何培养自己的程序员思维。- Problem-solving is the meta-skill. 文章地址： https://learnworthy.net/how-to-think-like-a-programmer/?utm_source=quora&utm_medium=referral
 
-### 2019-09-05
+### 2019-09-05[工具推荐 - 类库]
 
 这是微软开源的内部用来构建大型应用的工具库，包括接口管理，文档管理，代码仓库管理等。 地址： https://github.com/microsoft/web-build-tools
 
