@@ -11,6 +11,24 @@
 
 ## 新鲜出炉(2019-09)
 
+### 2019-20[工具推荐 - 工具]
+
+我开启了[个人博客](https://lucifer.ren/blog/)，增加了评论，分类，统计，RSS，歌单等功能， 之后的文章会在博客首发。 感兴趣的可以RSS订阅我的博客。订阅方法我画了个图。
+
+![rss-feed](./assets/2019-09/rss-feed.jpeg)
+
+RSS是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。RSS文件包含全文或是节录的文字，再加上发布者所订阅之网摘数据和授权的元数据。
+
+简单来说只要提供了符合RSS格式的数据源，你就可以订阅，然后在RSS阅读器上进行查看更新内容。
+
+关于RSS订阅，今天我推荐的就是一个RSS的聚合器feedly。[https://feedly.com](https://feedly.com)
+
+Feedly是一个RSS聚合器应用程序，支持各种网页浏览器和运行iOS或Android的移动设备，也是一个基于云端的服务。其从各种在线资源聚合用户自定的新闻订阅源，并可与他人分享。
+
+![feedly](./assets/2019-09/feedly.png)
+
+后续有机会我会向大家推荐我的RSS订阅源。
+
 ### 2019-19[工具推荐 - 软件]
 
 今天给大家推荐一款MarkDown编辑器。 MarkDown在程序员中的使用频率是非常高的，Github是最早一批对MarkDown语法支持度比较好的平台之一。我日常写文档，记笔记等都采用MarkDown格式来书写。 它不仅书写方便，而且由于其格式比较规范，因此理论上可以通过一些“转换规则”将其转化为各种表现形式，市面上也有很多基于Markdown的渲染器，比如[markdown-it](https://github.com/markdown-it/markdown-it)，也有很多基于这些渲染器制作的产品，比如[docsify](https://github.com/docsifyjs/docsify)。
