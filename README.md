@@ -11,6 +11,30 @@
 
 ## 新鲜出炉(2019-09)
 
+### 2019-09-26[工具]
+
+你一定有想用某一个功能的快捷键，却想不出来的情况。也一定面临过多个软件快捷键不统一带来的烦恼，比如A软件`CMD + S`是保存， 另外一个软件B是`Shift + S`。
+
+对于第一种问题，我们可以用一个叫cheatsheet的mac软件，有了它你就可以通过长按command键，从而查看当前应用的快捷键。
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7bja8uiysj31c20ohdkr.jpg)
+
+cheatsheet下载地址： https://cheatsheet-mac.en.softonic.com/mac   
+
+> 顺便吐槽一下，cheatsheet官网用户体验这块做的不怎么样
+
+对于按键不统一的问题，我们可以直接修改对应软件的快捷键即可，毕竟大多数软件都是支持快捷键定制的，还有一些`服务`快捷键我们可以去`系统偏好设置 - 键盘 - 服务`中修改。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7bjf9q87uj30ik0g1jry.jpg)
+
+另外给大家安利一个软件`Karabiner-Elements`, 它是一个mac上好用的键盘定制工作，可以用来改键，定制超级键等，更多功能等你挖掘。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7bjhb8tfzj30rq0fvjrh.jpg)
+
+>  配合HHKB效果更佳
+
+Karabiner-Elements 下载地址： https://github.com/tekezo/Karabiner-Elements
+
+
 ### 2019-09-25[技能]
 
 熟练使用命令行是一种常常被忽视，或者被认为难以掌握的技能，一旦掌握，会极大提高你工作的效率。当你能够熟练掌握这里列出的所有技巧时，你就学会了很多关于命令行的东西了。
