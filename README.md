@@ -11,6 +11,17 @@
 
 ## 新鲜出炉(2019-09)
 
+### 2019-09-27[类库]
+
+之前我写了一篇 [【前端测试】](https://github.com/azl397985856/frontend-test) 的草稿，一直搁置到现在，之前我做后端的时候，写测试尤其是单元测试是很普遍的。但是做前端这么久发现大家对这方面不是很重视， 其实前端也是非常需要做测试的。
+
+今天给大家推荐的是一个非常流行的前端测试框架jest的GUI工具[majestic](https://github.com/Raathigesh/majestic) (⚡ Zero config GUI for Jest)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7d2hpkzxuj30ym0u0wg9.jpg)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7d2icroztj30cx0a33yn.jpg)
+
+
 ### 2019-09-26[工具]
 
 你一定有想用某一个功能的快捷键，却想不出来的情况。也一定面临过多个软件快捷键不统一带来的烦恼，比如A软件`CMD + S`是保存， 另外一个软件B是`Shift + S`。
