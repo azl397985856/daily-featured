@@ -11,6 +11,33 @@
 
 ## 新鲜出炉(2019-09)
 
+### 2019-09-29
+
+如果你是一个站长，那么你一定需要一个网站速度测试工具。
+
+你的用户如果都是中国用户，那么用[站长工具-国内测试](http://tool.chinaz.com/speedtest/lucifer.ren)应该就够用了。 如果你的用户有海外的话，可以试试[站长工具-国际测试](https://tool.chinaz.com/speedworld/)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7eb8e0j03j30lc0ftq3q.jpg)
+(国内测速)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7eb8xtac5j30kn097dfz.jpg)
+(国际测试)
+
+> 不得不吐槽下，网站体验做的不太好，而且广告有点多。
+
+
+另外还有一个网站，不过这个只能够测试国内的网速，[17ce](https://www.17ce.com/)的体验做的稍微好一点，广告也没有那么显眼，如果你的客户只是国内，不妨考虑这个。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebbwxvykj31340l53z8.jpg)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebcj8p59j30xq0hcq3l.jpg)
+
+最后介绍一个国外的网站[pingdom](https://tools.pingdom.com)，如果客户是全球的，可以考虑用这个，这个是这几个中用户体验做的最好的。给出的技术指标比较多一点，但是他没有区域分布热力图, 并且支持的区域也不多。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7ebja8fm6j30vy0aft93.jpg)
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebgcr1elj30uf0llaay.jpg)
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebhmc7iij30v20nh74w.jpg)
+
 ### 2019-09-27[类库]
 
 之前我写了一篇 [【前端测试】](https://github.com/azl397985856/frontend-test) 的草稿，一直搁置到现在，之前我做后端的时候，写测试尤其是单元测试是很普遍的。但是做前端这么久发现大家对这方面不是很重视， 其实前端也是非常需要做测试的。
