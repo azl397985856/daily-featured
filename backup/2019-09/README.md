@@ -64,7 +64,7 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 因此这款工具对于我这种人来说就非常重要了，他能根据当前网页的结果快速生成大纲，并且支持锚点功能，当然它也有很多覆盖不到的情况，因为标题的种类实现太多了，大家完全可以写一个`div class = 'header'`从而让这个工具无用武之地。 这也从侧面说明了语义化的重要性，不仅对于障碍人士重要，对于无障碍人士也有很大的意义。
 
-[下载地址](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcpx8en4j30hs09vmxp.jpg)
+[下载地址](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
 
 6. 眼睛护航
 
