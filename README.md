@@ -11,7 +11,68 @@
 
 ## 新鲜出炉(2019-09)
 
-### 2019-09-29
+
+#### 2019-09-30[工具]
+
+今天是9月的最后一天，明天就是十一了，提前祝大家国庆节快乐 ～～～ 🎉🎉🎉🎉🎉🎉🎉 ！
+
+今天再来给大家安利6个chrome扩展程序，排名不分先后。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hccis83hj30g30gl3z1.jpg)
+
+1. Proxy SwitchyOmega
+
+此扩展为 SwitchySharp 的升级版，可替代 SwitchyPlus 或 Proxy Switchy. 可轻松快捷地管理和切换多个代理设置，是一个我使用多年的一个插件，配合PAC食用味道更好。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hcjh2gmjj30hs0b43ym.jpg)
+
+[下载地址](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+
+2. OneTab
+
+节省高达95％的内存，并减轻标签页混乱现象。 有些标签关了舍不得，不关太多看的很乱并且更关键的是占用内存。有了这个工具就不存在这些问题了。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hchdk0tyj30hs0b4js1.jpg)
+
+[下载地址](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+
+
+3. AdBlock Plus
+
+Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万用户在使用它。这是一个社区驱动的开源项目，有数百名志愿者为 Adblock Plus 的成功作出了贡献，以实现所有烦人的广告被自动阻挡。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hcm4giztj30u70anjs2.jpg)
+
+[下载地址](https://chrome.google.com/webstore/search/AdBlock)
+
+4. Multi-highlight
+
+普通的网页搜索只能一个一个搜索，不能同时搜索多个关键字，这个扩展提供了这种功能上的扩展。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcoq78bhj30hs0b4q3i.jpg)
+
+[下载地址](https://chrome.google.com/webstore/detail/multi-highlight/pfgfgjlejbbpfmcfjhdmikihihddeeji)
+
+5. HTML5 Outliner
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcpx8en4j30hs09vmxp.jpg)
+
+我平时再看文章或者文档的时候习惯先看一遍目录或者大纲，然后再决定我到底要不要看，看哪里。我相信很多人和我一样有着同样的习惯。但是很多网站，包括infoq，知乎等大网站这方面都做的比较差。下图是我的个人博客的大纲功能：
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcwcm5wgj30uo0prq5e.jpg)
+
+
+因此这款工具对于我这种人来说就非常重要了，他能根据当前网页的结果快速生成大纲，并且支持锚点功能，当然它也有很多覆盖不到的情况，因为标题的种类实现太多了，大家完全可以写一个`div class = 'header'`从而让这个工具无用武之地。 这也从侧面说明了语义化的重要性，不仅对于障碍人士重要，对于无障碍人士也有很大的意义。
+
+[下载地址](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcpx8en4j30hs09vmxp.jpg)
+
+6. 眼睛护航
+
+把网页背景变成眼睛保护色或适合夜晚阅读的夜间模式，一些无法变色的小区块可以通过单击进行变色。到了晚上将自动从绿色护眼模式变为夜间阅读模式。当然，也可以手动强制使用绿色模式或夜间模式。
+
+这在一些体验差的网站上极为重要，还有一些大量使用亮瞎眼的颜色网站也有很好的作用，类似提升阅读体验的扩展还有[简悦](https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN)。
+
+### 2019-09-29[工具]
 
 如果你是一个站长，那么你一定需要一个网站速度测试工具。
 
