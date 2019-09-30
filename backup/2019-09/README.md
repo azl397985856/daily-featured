@@ -72,6 +72,8 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 这在一些体验差的网站上极为重要，还有一些大量使用亮瞎眼的颜色网站也有很好的作用，类似提升阅读体验的扩展还有[简悦](https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN)。
 
+[下载地址](https://chrome.google.com/webstore/detail/care-your-eyes/fidmpnedniahpnkeomejhnepmbdamlhl)
+
 ### 2019-09-29[工具]
 
 如果你是一个站长，那么你一定需要一个网站速度测试工具。
