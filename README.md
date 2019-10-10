@@ -11,6 +11,19 @@
 
 ## 新鲜出炉(2019-10)
 
+### 2019-10-10[技能]
+
+傅里叶变换是一种在各个领域都经常使用的数学工具。这个网站将为你介绍傅里叶变换能干什么，为什么傅里叶变换非常有用，以及你如何利用傅里叶变换干漂亮的事。傅立叶变换有很多实际的应用，比如MP3的原理，MP3是如何将声波转化为二进制，并如何进行压缩的？ 比如JPEG的原理等。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7s4pz83xyj30x50kpt9s.jpg)
+
+这个文章（网站）是我见过傅立叶变换最直观的一个解释之一，并且支持交互式操作。 
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7s4pm4mooj307404j0sl.jpg)
+
+
+网站地址： http://www.jezzamon.com/fourier/zh-cn.html
+
 ### 2019-10-09[工具]
 
 VSCode是我经常使用的一个软件，结合自己的开发习惯我也会增加很多配置和插件等，如何将这些插件进行备份以便将来换电脑可以及时同步过来，这里关于VScode的配置我用的是VSCode [setting sync 插件](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)。
