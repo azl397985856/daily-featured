@@ -11,6 +11,17 @@
 
 ## 新鲜出炉(2019-10)
 
+### 2019-10-12[工具]
+
+前端在调试兼容性样式的时候是一个很头疼的问题，各个浏览器以及同一个浏览器不同版本支持的css都是不同的，比如有些不支持Grid，有些不支持cal函数。如果你自己根据这些去修改代码肯定是非常低效的，这个Chrome插件就是解决这样的问题，你可以在高级的浏览器上调试，自行禁用一些css特性来debug。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7ucx8rqutj30dv05sq2v.jpg)
+
+仓库地址： https://github.com/keithclark/css-feature-toggle-devtools-extension
+
+chrome插件地址： https://chrome.google.com/webstore/detail/css-feature-toggles/aeinmfddnniiloadoappmdnffcbffnjg
+
+
 ### 2019-10-11[工具]
 
 常用正则大全, 支持vscode扩展插件
