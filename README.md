@@ -11,6 +11,17 @@
 
 ## 新鲜出炉(2019-10)
 
+### 2019-10-14[好文]
+
+如果想做一些高级的东西，编译是一个绕不过的坎，Babel是一个前端的转义工具，Babel有着自己的插件系统，这是个系列文章，通过这个系列你可以学到AST，以及Babel插件相关的东西，并且你可以自己动手写一个Babel插件。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7xhj17ovfj30kv0hhmxq.jpg)
+
+文章地址： 
+
+- [Step-by-step guide for writing a custom babel transformation](https://lihautan.com/step-by-step-guide-for-writing-a-babel-transformation/)
+- [Creating custom JavaScript syntax with Babel](https://lihautan.com/creating-custom-javascript-syntax-with-babel/)
+
 ### 2019-10-12[工具]
 
 前端在调试兼容性样式的时候是一个很头疼的问题，各个浏览器以及同一个浏览器不同版本支持的css都是不同的，比如有些不支持Grid，有些不支持cal函数。如果你自己根据这些去修改代码肯定是非常低效的，这个Chrome插件就是解决这样的问题，你可以在高级的浏览器上调试，自行禁用一些css特性来debug。
