@@ -15,6 +15,13 @@
 
 今天给广大的前端朋友们介绍一个在线做题的网站，可以瞬间在线知道答案，而且不需要登陆，一共58道题目，不知道后续会不会更新。 这个网站的题目我看了其实没有什么新意，但是不需要登陆而是直接使用LocalStorage来存储你的答题情况对用户来说很轻量，给我的感觉很好，感兴趣的可以试一下。 
 
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g87wixe9u2j30gk0f93yu.jpg)
+(题目列表)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g87wji13epj30ht0ket8v.jpg)
+(题目详情)
+
+
 网址： https://quiz.typeofnan.dev/
 
 
