@@ -11,6 +11,22 @@
 
 ## 新鲜出炉(2019-10)
 
+
+### 2019-10-28[工具]
+
+这个是人称贺老的百姓网贺师俊`Hax`整理的一份`中文技术活动日程`， 这些活动有几个特点：
+
+- 技术活动的主要语言是中文
+- 技术活动的主要参与者是程序员
+- 技术活动的主要日程接受公开报名
+- 技术活动具有一定规模
+
+目前这个仓库仅有个简陋的 `yaml 数据文件`，记录`技术活动的时间和一些信息`。后续希望能加入一个更好的查询界面。活动组织者可直接修改数据文件并提交PR，或提交issue描述一下活动情况。活动组织者也可以 watch 本仓库，这样当有变动时（通常是会议信息更新），可以收到通知。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ankjskagj30rb0fs74l.jpg)
+
+仓库地址：https://github.com/hax/chinese-tech-conf-schedule
+
 ### 2019-10-25[工具]
 
 今天给大家推荐的是一个我个人非常喜欢的一个`好用且免费图床工具` - [IPic](https://apps.apple.com/cn/app/ipic-markdown-%E5%9B%BE%E5%BA%8A-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/id1101244278?mt=12)。 这个工具不仅内置免费的微博图床,还可以自己定义，我本人还添加了腾讯云的COS
@@ -53,8 +69,6 @@ Github地址： https://github.com/AliasIO/Wappalyzer
 
 
 网址： https://quiz.typeofnan.dev/
-
-
 
 ### 2019-10-22[观点]
 
