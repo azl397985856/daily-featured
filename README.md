@@ -13,6 +13,21 @@
 
 ## 新鲜出炉(2019-10)
 
+### 2019-10-29[网站]
+
+上一次给大家分享了一个常用正则的VSCode插件（2019-10-11期），另外的[《大前端面试宝典》](https://lucifer.ren/fe-interview/#/?id=%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f)也讲到了正则的学习，并给出了我认为非常不错的学习资料。
+
+今天我继续给大家介绍几个正则学习&练习的网站。
+
+- [Regex Golf](https://alf.nu/RegexGolf) 是一个有名的正则练习网站，会根据你的正则打分，难度偏高。
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e747lxbtj30xp08w3yn.jpg)
+- [regexone](https://regexone.com/lesson/introduction_abcs) 是一个交互友好，面向新手的一个正则练习网站，可以交互式地学习正则，右边还贴心地给出了Notes，另外语言不同其实正则规范也不太一样，这个网站给出了不同语言的正则讲解，很用心。值得一题的是，里面的资料非常新，最新的`/u- interpret the regular expression as unicode codepoints` 都有。
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e77k79czj30wm0kwmyy.jpg)
+- [regexr](https://regexr.com/)这个不是练习的， 是用来可视化的， 和之前的[regexper](https://regexper.com/)有点像，就连域名都差不多，不过这个用户体验是真的棒。
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e7a58pt9j31gw0oogn4.jpg)
+
+- [The regular expression game](http://play.inginf.units.it/#/) 是一个过关类型的正则练习网站，有意思的是它可以根据你写的正则匹配程度进行打分，即使你没有全部匹配也是可以得分的。
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e7doryfpj30wv0exdgu.jpg)
 
 ### 2019-10-28[工具]
 
