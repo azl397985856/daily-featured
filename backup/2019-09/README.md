@@ -9,11 +9,8 @@
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
-> 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
-
 ## 2019-09
-
-
+s
 ### 2019-09-30[工具]
 
 今天是9月的最后一天，明天就是十一了，提前祝大家国庆节快乐 ～～～ 🎉🎉🎉🎉🎉🎉🎉 ！
@@ -334,9 +331,6 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 
 这是微软开源的内部用来构建大型应用的工具库，包括接口管理，文档管理，代码仓库管理等。 地址： https://github.com/microsoft/web-build-tools
 
-## 历史汇总
-
-- 暂无历史汇总
 
 ## 关注我
 
@@ -350,12 +344,3 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
 
-## 贡献
-
-- 如果有想法和创意，请提[issue](https://github.com/azl397985856/daily-featured/issues)或者进群提
-- 如果想贡献代码，请提[PR](https://github.com/azl397985856/daily-featured/pulls)
-- 如果需要修改项目中图片，[这里](./assets/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
-
-## License
-
-[Apache-2.0](./LICENSE)
