@@ -13,6 +13,18 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-05[观点]
+
+VSCode和MDN进行了官方联动，[详情](https://code.visualstudio.com/updates/v1_38#_mdn-reference-for-html-and-css).
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8mx8cmd5vj30lh0eo0vr.jpg)
+
+
+ 再也不用跳出IDE用Dash查了。 用Alfred + Dash 虽然方便，但是不免有一种`应用跳出`的感觉。现在就很方便了，如果之后有更多的联动支持，相信体验会越来越好。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8mxbj2wh4j30fn0dfaah.jpg)
+
+
 ### 2019-11-04[好文]
 
 最近几年啊，我本人也看了很多关于微服务的介绍，理念，落地等技术文章，今天给大家推荐一篇阿里飞冰团队发布的技术文，这或许是最简单的微服务落地技术文章。这篇文章详细讲述了业务场景，并详细记录了解决问题的过程以及对比了业界的一些解决方案，管中窥豹，让读者慢慢走进微服务，从这篇文章可以学习到`icestark`这个微服务的解决方案是怎么从从到有再到落地产生实际业务价值的。
