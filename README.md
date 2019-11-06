@@ -13,6 +13,14 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-06[工具]
+
+像PS和Sketch一样，figma也是一个设计工具，和其他相比团队显得更简单，这点有点像蓝湖。做设计的同学要了解起来了。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8nh14xlj6j30tn0fbdhb.jpg)
+
+地址： https://www.figma.com/
+
 ### 2019-11-05[观点]
 
 VSCode和MDN进行了官方联动，[详情](https://code.visualstudio.com/updates/v1_38#_mdn-reference-for-html-and-css).
