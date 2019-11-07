@@ -13,6 +13,18 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-08[好文]
+
+前几天读了一篇文章《Scaling webapps for newbs & non-techies》，文章从最简单的单体应用，逐步讲到大型应用架构，不仅讲的通俗易懂，并且图画的也非常好，是我喜欢的风格。 很期待他的第二篇《the cloud for newbs and non-techies》。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8pr18vd6ij30jg0bu74f.jpg)
+（A single server + database）
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8pr1kkny7j30jg0al74f.jpg)
+（Adding a Reverse Proxy）
+
+
+文章地址： https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/
+
 ### 2019-11-07[学习方法]
 
 前一段事件看了一篇文章 -《如何构建自己的产品知识库》。这篇文章的亮点在于其所提到的技巧能够横向类比到任何领域。换句话说你可以按照它将的方法构建你自己的知识库。
