@@ -13,6 +13,14 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-11[分享]
+
+今天是双十一，大家舵手快乐。
+
+今天给大家分享一下前一段时间刚刚举行的大会`React Conf 2019`，这个是React最高规模的技术会议。喜欢React的小伙伴千万不要错过了，这里有全套视频。
+
+地址：https://www.youtube.com/playlist?list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh
+
 ### 2019-11-08[好文]
 
 前几天读了一篇文章《Scaling webapps for newbs & non-techies》，文章从最简单的单体应用，逐步讲到大型应用架构，不仅讲的通俗易懂，并且图画的也非常好，是我喜欢的风格。 很期待他的第二篇《the cloud for newbs and non-techies》。
