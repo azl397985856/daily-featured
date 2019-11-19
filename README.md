@@ -13,6 +13,17 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-19[工具]
+
+JS依赖检测工具，可以用来生成图片，可视化程度很高，还可以做成自动化，集成到CI CD ，支持CommonJS，AMD和ES Module。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g92f3pun36j30h90awt8w.jpg)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g92f3yps0zj30a905g745.jpg)
+
+
+项目地址： https://github.com/pahen/madge
+
 ### 2019-11-18[娱乐]
 
 今天给大家推荐一个在线nokia短信图片生成器，可以自己输入短语，一键生成。
