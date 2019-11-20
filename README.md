@@ -13,6 +13,33 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-20[工具]
+
+微信的一个插件，功能有很多。 不过目前已经不再维护了。
+
+- 消息自动回复
+- 消息防撤回
+- 远程控制(已支持语音)
+- 微信多开
+- 第二次登录免认证
+- 聊天置底功能(类似置顶)
+- 微信窗口置顶
+- 会话多选删除
+- 自动登录开关
+- 通知中心快捷回复
+- 聊天窗口表情包复制 & 存储
+...
+
+我用的比较多的功能恐怕就是双开和防撤回了。
+
+* 消息防撤回
+![消息防撤回.gif](http://upload-images.jianshu.io/upload_images/965383-30cbea645661e627.gif?imageMogr2/auto-orient/strip)
+
+* 微信多开
+![微信多开.gif](http://upload-images.jianshu.io/upload_images/965383-51d8eae02d48fda9.gif?imageMogr2/auto-orient/strip)
+
+仓库地址：https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/tree/master
+
 ### 2019-11-19[工具]
 
 JS依赖检测工具，可以用来生成图片，可视化程度很高，还可以做成自动化，集成到CI CD ，支持CommonJS，AMD和ES Module。
