@@ -13,6 +13,21 @@
 
 ## 新鲜出炉(2019-11)
 
+
+### 2019-11-21[娱乐]
+
+文章标题 【The skeptic's guide to interpreting developer marketing speak 🗺️】 - 暂翻译为【如何翻译开发人员的营销术语】
+
+里面讲了各种开发人员常用的营销术语，以及对应我们应该怎么去解读ta。比如：
+
+- `现代化` 就是说`刚刚git init`
+- `AI加持` 就是说`无数的if else  switch case语句`
+- `最小化` 就是说`没有测试用例，没有例子`
+- `跨平台` 就是说`我听说Electron可以跨平台，于是我就用它写了`
+- ...
+
+文章地址： https://changelog.com/posts/the-skeptics-guide-to-interpreting-developer-marketing-speak
+
 ### 2019-11-20[工具]
 
 微信的一个插件，功能有很多。 不过目前已经不再维护了。
