@@ -13,6 +13,14 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-22[工具]
+
+Github Large File Storage （简称git-lfs）, 可以用来存储大文件，比如上GB的大文件，相比于传统的Github存储，这种方式空间更大，速度更快，并且工作流程和传统Git flow并无二致。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g95pqj3vo9j30rs0gowec.jpg)
+
+地址：https://git-lfs.github.com/
+
 
 ### 2019-11-21[娱乐]
 
