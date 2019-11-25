@@ -13,6 +13,22 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-25[技巧]
+
+Chrome 开发者工具有非常好用但是却鲜为人知的功能。今天给大家介绍一个功能 - 代码覆盖率。 指的是你下载的代码有多少是被执行了的，这在做性能优化的时候很有用。如果一些代码根本没执行，就可以延迟加载。
+
+使用方法：
+
+- `Ctrl+Shift+P` for windows   `CMD+Shift+P` for mac
+- 输入coverage， 选择如图的选项，并确定。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9a2gz99paj30f504hglj.jpg)
+
+
+然后你就能看到检测结果了：
+
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9a2h750eij30fk0563yl.jpg)
+
 ### 2019-11-22[工具]
 
 Github Large File Storage （简称git-lfs）, 可以用来存储大文件，比如上GB的大文件，相比于传统的Github存储，这种方式空间更大，速度更快，并且工作流程和传统Git flow并无二致。
