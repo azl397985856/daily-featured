@@ -13,17 +13,64 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-11-28[工具]
+
+今天给大家推荐的工具是效率类软件 Alfred 的灵魂 workflows（工作流）。
+
+以下是我使用频率比较高的 workflow，使用频率低的会被我定期清理掉。
+
+> 我自己制作的工作流不在这里展示和推荐
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g9dintchy7j30950ay74e.jpg)
+
+下载地址：
+
+- [Chrome Bookmarks](./assets/2019-11/ChromeBookmarks.alfredworkflow)
+
+- [Colors](./assets/2019-11/Colors.alfredworkflow)
+
+- [Dash](./assets/2019-11/Dash.alfredworkflow)
+
+- [Kill Process](./assets/2019-11/KillProcess.alfredworkflow)
+
+- [RamdaDocs](./assets/2019-11/RamdaDocs.alfredworkflow)
+
+- [TerminalFinder](./assets/2019-11/TerminalFinder.alfredworkflow)
+
+- [Yosemite iOS Simulator](./assets/2019-11/YosemiteiOSSimulator.alfredworkflow)
+
+- [Youdao](./assets/2019-11/Youdao.alfredworkflow)
+
+### 2019-11-27[软件]
+
+mac 端不能右键新建文件，这在某些时候不是很方便。 没有这个软件的时候，我是在编辑器中新建或者是使用 touch 命令。 使用了这个`New File Menu`软件之后多了一种更方便的选择，你可以直接右键新建，Just Like Windows Users。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g9b8meuak2j30gu04yaa8.jpg)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g9b8k1tqqdj30od0f7n3b.jpg)
+
+地址： https://apps.apple.com/cn/app/new-file-menu/id1064959555?l=en&mt=12
+
+### 2019-11-26[网站]
+
+一个网站，可以分析的 Github 仓库，采用手绘风格，对于厌倦了标准图形的我来说简直是耳目一新的感觉。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g9aj5o2tu5j30qv0pmgmq.jpg)
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g9aj7mseg4j30qr0cyjrn.jpg)
+
+项目地址： https://repo-analytics.github.io/
+
 ### 2019-11-25[技巧]
 
 Chrome 开发者工具有非常好用但是却鲜为人知的功能。今天给大家介绍一个功能 - 代码覆盖率。 指的是你下载的代码有多少是被执行了的，这在做性能优化的时候很有用。如果一些代码根本没执行，就可以延迟加载。
 
 使用方法：
 
-- `Ctrl+Shift+P` for windows   `CMD+Shift+P` for mac
-- 输入coverage， 选择如图的选项，并确定。
+- `Ctrl+Shift+P` for windows `CMD+Shift+P` for mac
+- 输入 coverage， 选择如图的选项，并确定。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9a2gz99paj30f504hglj.jpg)
-
 
 然后你就能看到检测结果了：
 
@@ -31,21 +78,20 @@ Chrome 开发者工具有非常好用但是却鲜为人知的功能。今天给�
 
 ### 2019-11-22[工具]
 
-Github Large File Storage （简称git-lfs）, 可以用来存储大文件，比如上GB的大文件，相比于传统的Github存储，这种方式空间更大，速度更快，并且工作流程和传统Git flow并无二致。
+Github Large File Storage （简称 git-lfs）, 可以用来存储大文件，比如上 GB 的大文件，相比于传统的 Github 存储，这种方式空间更大，速度更快，并且工作流程和传统 Git flow 并无二致。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g95pqj3vo9j30rs0gowec.jpg)
 
 地址：https://git-lfs.github.com/
 
-
 ### 2019-11-21[娱乐]
 
 文章标题 【The skeptic's guide to interpreting developer marketing speak 🗺️】 - 暂翻译为【如何翻译开发人员的营销术语】
 
-里面讲了各种开发人员常用的营销术语，以及对应我们应该怎么去解读ta。比如：
+里面讲了各种开发人员常用的营销术语，以及对应我们应该怎么去解读 ta。比如：
 
 - `现代化` 就是说`刚刚git init`
-- `AI加持` 就是说`无数的if else  switch case语句`
+- `AI加持` 就是说`无数的if else switch case语句`
 - `最小化` 就是说`没有测试用例，没有例子`
 - `跨平台` 就是说`我听说Electron可以跨平台，于是我就用它写了`
 - ...
@@ -67,32 +113,31 @@ Github Large File Storage （简称git-lfs）, 可以用来存储大文件，比
 - 自动登录开关
 - 通知中心快捷回复
 - 聊天窗口表情包复制 & 存储
-...
+  ...
 
 我用的比较多的功能恐怕就是双开和防撤回了。
 
-* 消息防撤回
-![消息防撤回.gif](http://upload-images.jianshu.io/upload_images/965383-30cbea645661e627.gif?imageMogr2/auto-orient/strip)
+- 消息防撤回
+  ![消息防撤回.gif](http://upload-images.jianshu.io/upload_images/965383-30cbea645661e627.gif?imageMogr2/auto-orient/strip)
 
-* 微信多开
-![微信多开.gif](http://upload-images.jianshu.io/upload_images/965383-51d8eae02d48fda9.gif?imageMogr2/auto-orient/strip)
+- 微信多开
+  ![微信多开.gif](http://upload-images.jianshu.io/upload_images/965383-51d8eae02d48fda9.gif?imageMogr2/auto-orient/strip)
 
 仓库地址：https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/tree/master
 
 ### 2019-11-19[工具]
 
-JS依赖检测工具，可以用来生成图片，可视化程度很高，还可以做成自动化，集成到CI CD ，支持CommonJS，AMD和ES Module。
+JS 依赖检测工具，可以用来生成图片，可视化程度很高，还可以做成自动化，集成到 CI CD ，支持 CommonJS，AMD 和 ES Module。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g92f3pun36j30h90awt8w.jpg)
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g92f3yps0zj30a905g745.jpg)
 
-
 项目地址： https://github.com/pahen/madge
 
 ### 2019-11-18[娱乐]
 
-今天给大家推荐一个在线nokia短信图片生成器，可以自己输入短语，一键生成。
+今天给大家推荐一个在线 nokia 短信图片生成器，可以自己输入短语，一键生成。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g91bohz6xyj30hc0j9di2.jpg)
 
@@ -100,22 +145,23 @@ JS依赖检测工具，可以用来生成图片，可视化程度很高，还可
 
 ### 2019-11-15[网站]
 
-有的什么我们需要在Google Play上下载软件，但是苦于没有通畅的网络(关于如何获取畅通的网络我在2019-11-01讲到，感兴趣可以翻过去看看)。因此一个Google Play镜像就很重要了。 这就如同我们npm和cnpm的关系。我们可以在这里直接下载apkx。
+有的什么我们需要在 Google Play 上下载软件，但是苦于没有通畅的网络(关于如何获取畅通的网络我在 2019-11-01 讲到，感兴趣可以翻过去看看)。因此一个 Google Play 镜像就很重要了。 这就如同我们 npm 和 cnpm 的关系。我们可以在这里直接下载 apkx。
 
-> apkx需要特殊的安装工具，或者一些小技巧才能安装。
+> apkx 需要特殊的安装工具，或者一些小技巧才能安装。
 
 网站地址： https://apkpure.com/
+
 ### 2019-11-14[技巧]
 
-很多时候我们会看到一些英文的简写。比如邮件，IM等，这些简称能够帮我们提高沟通效率，如果你不知道一些常见的简写，沟通的时候就难免有障碍，以下是一些常见的简写，欢迎补充。
+很多时候我们会看到一些英文的简写。比如邮件，IM 等，这些简称能够帮我们提高沟通效率，如果你不知道一些常见的简写，沟通的时候就难免有障碍，以下是一些常见的简写，欢迎补充。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8wp5bq01zj30hs18xn0d.jpg)
 
 ### 2019-11-13[技巧]
 
-今天要分享的是关于Bash中历史记录那些事。
+今天要分享的是关于 Bash 中历史记录那些事。
 
-- 第一个要介绍的是`history`, history is an alias for fc -l 1,你可以通过这个命令来查看最近你使用的命令。 然后你可以用!n(n指的是history命令返回的命令编号)再次执行。其中有许多缩写，最有用的就是 !$， 用于指代上次键入的参数，!! 可以指代上次键入的命令。
+- 第一个要介绍的是`history`, history is an alias for fc -l 1,你可以通过这个命令来查看最近你使用的命令。 然后你可以用!n(n 指的是 history 命令返回的命令编号)再次执行。其中有许多缩写，最有用的就是 !\$， 用于指代上次键入的参数，!! 可以指代上次键入的命令。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8vi04t5qnj307j02baa0.jpg)
 
@@ -127,19 +173,17 @@ JS依赖检测工具，可以用来生成图片，可视化程度很高，还可
 
 如果你还知道什么和历史记录相关的命令，欢迎大家补充。
 
-
 ### 2019-11-12[技巧]
 
-dig命令是常用的域名查询工具，可以用来测试域名系统工作是否正常。
+dig 命令是常用的域名查询工具，可以用来测试域名系统工作是否正常。
 
-如下`dig lucifer.ren`， 可以发现很多信息，包括域名最终解析到了到了另外一个域名`azl397985856.github.io`, IP是`185.199.108.153`.
+如下`dig lucifer.ren`， 可以发现很多信息，包括域名最终解析到了到了另外一个域名`azl397985856.github.io`, IP 是`185.199.108.153`.
 
 这个工具在很多情况下非常有用，尤其是对于喜欢命令行的你来说。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ugp99e01j30hj0d8mxo.jpg)
 
-
-其实dig是`usr/bin`下的一个可执行文件，更多用法请`man dig`查看。
+其实 dig 是`usr/bin`下的一个可执行文件，更多用法请`man dig`查看。
 
 ```bash
 ~ type dig
@@ -150,7 +194,7 @@ dig命令是常用的域名查询工具，可以用来测试域名系统工作�
 
 今天是双十一，大家剁手快乐。
 
-今天给大家分享一下前一段时间刚刚举行的大会`React Conf 2019`，这个是React最高规模的技术会议。喜欢React的小伙伴千万不要错过了，这里有全套视频。
+今天给大家分享一下前一段时间刚刚举行的大会`React Conf 2019`，这个是 React 最高规模的技术会议。喜欢 React 的小伙伴千万不要错过了，这里有全套视频。
 
 地址：https://www.youtube.com/playlist?list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh
 
@@ -162,7 +206,6 @@ dig命令是常用的域名查询工具，可以用来测试域名系统工作�
 （A single server + database）
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8pr1kkny7j30jg0al74f.jpg)
 （Adding a Reverse Proxy）
-
 
 文章地址： https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/
 
@@ -178,7 +221,7 @@ dig命令是常用的域名查询工具，可以用来测试域名系统工作�
 
 ### 2019-11-06[工具]
 
-像PS和Sketch一样，figma也是一个设计工具，和其他相比团队显得更简单，这点有点像蓝湖。做设计的同学要了解起来了。
+像 PS 和 Sketch 一样，figma 也是一个设计工具，和其他相比团队显得更简单，这点有点像蓝湖。做设计的同学要了解起来了。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8nh14xlj6j30tn0fbdhb.jpg)
 
@@ -186,15 +229,13 @@ dig命令是常用的域名查询工具，可以用来测试域名系统工作�
 
 ### 2019-11-05[观点]
 
-VSCode和MDN进行了官方联动，[详情](https://code.visualstudio.com/updates/v1_38#_mdn-reference-for-html-and-css).
+VSCode 和 MDN 进行了官方联动，[详情](https://code.visualstudio.com/updates/v1_38#_mdn-reference-for-html-and-css).
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8mx8cmd5vj30lh0eo0vr.jpg)
 
-
- 再也不用跳出IDE用Dash查了。 用Alfred + Dash 虽然方便，但是不免有一种`应用跳出`的感觉。现在就很方便了，如果之后有更多的联动支持，相信体验会越来越好。
+再也不用跳出 IDE 用 Dash 查了。 用 Alfred + Dash 虽然方便，但是不免有一种`应用跳出`的感觉。现在就很方便了，如果之后有更多的联动支持，相信体验会越来越好。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8mxbj2wh4j30fn0dfaah.jpg)
-
 
 ### 2019-11-04[好文]
 
@@ -204,18 +245,17 @@ VSCode和MDN进行了官方联动，[详情](https://code.visualstudio.com/updat
 
 ### 2019-11-01[工具]
 
-身为一个程序员，科学上网是标配。市面上免费的软件大多不稳定，出了问题很难及时解决。 自建服务器虽然好，但是还是有一点繁琐的，尤其是碰到了“开会”，IP端口就会被封锁，自己处理就比较麻烦了。
+身为一个程序员，科学上网是标配。市面上免费的软件大多不稳定，出了问题很难及时解决。 自建服务器虽然好，但是还是有一点繁琐的，尤其是碰到了“开会”，IP 端口就会被封锁，自己处理就比较麻烦了。
 
-今天给大家推荐一下SSNG的订阅功能，有了这个订阅地址就相当于有了无数的`自建服务器`，然后你可以在不同的节点之间进行切换。一般而言，我会对服务器进行测速，然后选择速度最快，如果某一个服务器挂了，我只需要一键切换到另外一个即可，无需额外操作。
+今天给大家推荐一下 SSNG 的订阅功能，有了这个订阅地址就相当于有了无数的`自建服务器`，然后你可以在不同的节点之间进行切换。一般而言，我会对服务器进行测速，然后选择速度最快，如果某一个服务器挂了，我只需要一键切换到另外一个即可，无需额外操作。
 
-市面上有很多这种订阅服务，这里推荐一个付费的服务 [KyCloud](https://my.kynetwork.asia/aff.php?aff=12225&gid=8)，挺便宜的，我订阅的是45／季度，平均一个月15，50G流量，基本对于我来说非常够用了。
+市面上有很多这种订阅服务，这里推荐一个付费的服务 [KyCloud](https://my.kynetwork.asia/aff.php?aff=12225&gid=8)，挺便宜的，我订阅的是 45／季度，平均一个月 15，50G 流量，基本对于我来说非常够用了。
 
 使用方式也非常简单，只需要以下三步即可。
 
 1. 下载对应客户端
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8icx1bv11j30980bcgls.jpg)
-
 
 2. 点击复制订阅地址
 
@@ -227,12 +267,9 @@ VSCode和MDN进行了官方联动，[详情](https://code.visualstudio.com/updat
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8icz2pwwuj30d704vjr9.jpg)
 
-
 提示： 你也可以像我一样测速，然后根据速度选择节点。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8iczzsgq4j308s05ot8s.jpg)
-
-
 
 ## 历史汇总
 
