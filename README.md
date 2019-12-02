@@ -13,6 +13,19 @@
 
 ## 新鲜出炉(2019-11)
 
+### 2019-12-02[软件]
+
+我们公司在使用的一个完全开源的堡垒机，是符合 4A 的专业运维审计系统。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9i8em5x8sj31ht0u0td1.jpg)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9i8et0f9hj31mk0u0ten.jpg)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9i8ey12vhj31i60u0taw.jpg)
+
+
+地址： https://github.com/jumpserver/jumpserver
+
 ### 2019-11-29[网站]
 
 之前我在每日一题出了一道题[ 2019-08-16 - 怎么在浏览器中操作本地的文件](https://github.com/azl397985856/fe-interview/issues/16)。 一个可行的思路就是在本地创建一个服务器，比如 node 服务器，浏览器操作发送请求到服务器，然后 node 去操作本地文件。
