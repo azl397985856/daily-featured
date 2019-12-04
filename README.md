@@ -11,7 +11,17 @@
 
 > 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
 
-## 新鲜出炉(2019-11)
+## 新鲜出炉(2019-12)
+
+### 2019-12-04[工具]
+
+相信大家使用shell的时候，会经常碰到忘记的option，或者某一个用法记不清楚。遇到这种问题通常我们会用man或者命令提供的--help查看用法。 这里给大家介绍另外一种工具`tldr`, 它是一个将man page进行简化，将大家常用的用法总结出来的工具。
+
+安全也非常简单，只需要 `npm install -g`(前提是你必须安装node)， 如果你不想安装也没有关系，它还提供了[web版](https://tldr.ostera.io/)。另外你也可以参考这里[定制你的主题](https://github.com/tldr-pages/tldr-node-client#configuration)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9jmo8sh8jj30ic0ei3zt.jpg)
+
+仓库地址： https://github.com/tldr-pages/tldr
 
 ### 2019-12-03[技巧]
 
