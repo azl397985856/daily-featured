@@ -13,6 +13,19 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-06[技能]
+
+在分析 CPU、内存、磁盘等的性能指标时，有几种工具是高频出现的，如 top、vmstat、pidstat，这里稍微总结一下:
+
+CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；
+内存：top、free、vmstat、cachetop、cachestat、sar、jmap；
+磁盘：top、iostat、vmstat、pidstat、du/df；
+网络：netstat、sar、dstat、tcpdump；
+应用：profiler、dump分析。
+排查 Java 应用的线上异常或者分析应用代码瓶颈，可以使用阿里开源的 Arthas ，nodejs应用可以使用alinode
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9jphsv3t0j30u01b5tbj.jpg)
+
 ### 2019-12-05[好文]
 
 如果你想做微前端，一定要能够回答出这10个问题。
