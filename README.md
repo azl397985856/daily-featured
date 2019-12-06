@@ -13,6 +13,12 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-09[类库]
+
+对于前端，我们经常需要将组件进行可视化的展示。在 Vue 中，我们通常会用 [docsify](https://github.com/docsifyjs/docsify) 或者 [vuepress](https://github.com/vuejs/vuepress) 等。而对于 react 比较有名的有 [storybook](https://github.com/storybookjs/storybook) 和 [docz](https://github.com/doczjs/docz)。
+
+当然这并不是绝对的，比如 storybook 也在支持 vue 和 webcomponents。
+
 ### 2019-12-06[技能]
 
 在分析 CPU、内存、磁盘等的性能指标时，有几种工具是高频出现的，如 top、vmstat、pidstat，这里稍微总结一下:
@@ -21,14 +27,14 @@ CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；
 内存：top、free、vmstat、cachetop、cachestat、sar、jmap；
 磁盘：top、iostat、vmstat、pidstat、du/df；
 网络：netstat、sar、dstat、tcpdump；
-应用：profiler、dump分析。
-排查 Java 应用的线上异常或者分析应用代码瓶颈，可以使用阿里开源的 Arthas ，nodejs应用可以使用alinode
+应用：profiler、dump 分析。
+排查 Java 应用的线上异常或者分析应用代码瓶颈，可以使用阿里开源的 Arthas ，nodejs 应用可以使用 alinode
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9jphsv3t0j30u01b5tbj.jpg)
 
 ### 2019-12-05[好文]
 
-如果你想做微前端，一定要能够回答出这10个问题。
+如果你想做微前端，一定要能够回答出这 10 个问题。
 
 1. 微应用的注册、异步加载和生命周期管理；
 2. 微应用之间、主从之间的消息机制；
@@ -45,14 +51,13 @@ CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9kuat53elj30u00lgdhe.jpg)
 
-
 文章地址： https://mp.weixin.qq.com/s/rYNsKPhw2zR84-4K62gliw
 
 ### 2019-12-04[工具]
 
-相信大家使用shell的时候，会经常碰到忘记的option，或者某一个用法记不清楚。遇到这种问题通常我们会用man或者命令提供的--help查看用法。 这里给大家介绍另外一种工具`tldr`, 它是一个将man page进行简化，将大家常用的用法总结出来的工具。
+相信大家使用 shell 的时候，会经常碰到忘记的 option，或者某一个用法记不清楚。遇到这种问题通常我们会用 man 或者命令提供的--help 查看用法。 这里给大家介绍另外一种工具`tldr`, 它是一个将 man page 进行简化，将大家常用的用法总结出来的工具。
 
-安全也非常简单，只需要 `npm install -g`(前提是你必须安装node)， 如果你不想安装也没有关系，它还提供了[web版](https://tldr.ostera.io/)。另外你也可以参考这里[定制你的主题](https://github.com/tldr-pages/tldr-node-client#configuration)
+安全也非常简单，只需要 `npm install -g`(前提是你必须安装 node)， 如果你不想安装也没有关系，它还提供了[web 版](https://tldr.ostera.io/)。另外你也可以参考这里[定制你的主题](https://github.com/tldr-pages/tldr-node-client#configuration)
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9jmo8sh8jj30ic0ei3zt.jpg)
 
@@ -74,9 +79,7 @@ CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9i8ey12vhj31i60u0taw.jpg)
 
-
 地址： https://github.com/jumpserver/jumpserver
-
 
 ## 历史汇总
 
