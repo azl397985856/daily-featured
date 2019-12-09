@@ -13,6 +13,22 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-10[技巧]
+
+我们有时候需要在终端访问一些国外的资源。我目前采取的措施主要是给终端设置 proxy。
+
+```
+alias proxy='export all_proxy=socks5://127.0.0.1:1086'
+alias unproxy='unset all_proxy'
+```
+
+其中`socks5://127.0.0.1:1086`是我的本机的正向代理地址。
+
+如下是使用效果：
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9pep3a663j30nc0nek3l.jpg)
+
+如图显示我们代理成功了，而且我们可以方便的在不想要代理的时候去掉代理。
+
 ### 2019-12-09[类库]
 
 对于前端，我们经常需要将组件进行可视化的展示。在 Vue 中，我们通常会用 [docsify](https://github.com/docsifyjs/docsify) 或者 [vuepress](https://github.com/vuejs/vuepress) 等。而对于 react 比较有名的有 [storybook](https://github.com/storybookjs/storybook) 和 [docz](https://github.com/doczjs/docz)。
