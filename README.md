@@ -13,6 +13,16 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-12[技巧]
+
+Angular 的 Commit Message Conventions 是一套很流行的 Commit Message 规约。简单方便，一目了然，更重要的是这种约定化如果形成一种默契，不管对于之后查看，还是生成各种外部资料（比如 CHNAGELOG）都是非常方便的。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9sr6iuanij30hs0rhacw.jpg)
+
+详细信息： https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+
+相关工具也有很多，我个人使用的是[Commitizen](https://github.com/commitizen?type=source)
+
 ### 2019-12-11[好文]
 
 文章标题 《花椒前端基于 WebAssembly 的 H.265 播放器研发》，本文从背景介绍，技术调研，实际方案到最后的实践效果，完整地讲述了通过 `wasm` 将 H.265 应用到不支持其的浏览器的过程。干货满满，其架构图画的也是我比较喜欢的风格。
