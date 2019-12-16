@@ -13,6 +13,28 @@
 
 ## 新鲜出炉(2019-12)
 
+#### 2019-12-16[新闻]
+
+最新版本的 Chrome 和 Firefo 浏览器取消 EV 证书的显示。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9ybrc3mf7j30mp09a0ty.jpg)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9ybrl2cyuj30mp09agmz.jpg)
+
+只有用户点击了锁 🔒，才会显示出 EV 证书的信息。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9ybutylm2j30ep0ant9k.jpg)
+
+为什么会这样？想要知道答案的可以点击原文阅读。
+
+原文地址：[Chrome and Firefox Changes Spark the End of EV Certificates](https://www.bleepingcomputer.com/news/software/chrome-and-firefox-changes-spark-the-end-of-ev-certificates/)
+
+#### 2019-12-13[类库]
+
+loki 是一个 React Storybook 组件回归测试工具。React Storybook 是一个我 15 年就开始关注的一个工具，本身的设计思想我比较喜欢。现在除了支持 React，也支持 React Native，Vue，Angular 等，甚至最新的 Svelte 也支持。
+
+loki Github 地址： https://github.com/oblador/loki
+
 ### 2019-12-12[技巧]
 
 Angular 的 Commit Message Conventions 是一套很流行的 Commit Message 规约。简单方便，一目了然，更重要的是这种约定化如果形成一种默契，不管对于之后查看，还是生成各种外部资料（比如 CHNAGELOG）都是非常方便的。
