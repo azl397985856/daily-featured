@@ -13,7 +13,7 @@
 
 ## 新鲜出炉(2019-12)
 
-#### 2019-12-16[新闻]
+### 2019-12-16[新闻]
 
 最新版本的 Chrome 和 Firefo 浏览器取消 EV 证书的显示。
 
@@ -29,7 +29,7 @@
 
 原文地址：[Chrome and Firefox Changes Spark the End of EV Certificates](https://www.bleepingcomputer.com/news/software/chrome-and-firefox-changes-spark-the-end-of-ev-certificates/)
 
-#### 2019-12-13[类库]
+### 2019-12-13[类库]
 
 loki 是一个 React Storybook 组件回归测试工具。React Storybook 是一个我 15 年就开始关注的一个工具，本身的设计思想我比较喜欢。现在除了支持 React，也支持 React Native，Vue，Angular 等，甚至最新的 Svelte 也支持。
 
@@ -43,7 +43,7 @@ Angular 的 Commit Message Conventions 是一套很流行的 Commit Message 规�
 
 详细信息： https://gist.github.com/stephenparish/9941e89d80e2bc58a153
 
-相关工具也有很多，我个人使用的是[Commitizen](https://github.com/commitizen?type=source)
+相关工具也有很多，我个人使用的是[Commitizen](https://github.com/commitizen?type=source "Commitizen")
 
 ### 2019-12-11[好文]
 
@@ -71,7 +71,7 @@ alias unproxy='unset all_proxy'
 
 ### 2019-12-09[类库]
 
-对于前端，我们经常需要将组件进行可视化的展示。在 Vue 中，我们通常会用 [docsify](https://github.com/docsifyjs/docsify) 或者 [vuepress](https://github.com/vuejs/vuepress) 等。而对于 react 比较有名的有 [storybook](https://github.com/storybookjs/storybook) 和 [docz](https://github.com/doczjs/docz)。
+对于前端，我们经常需要将组件进行可视化的展示。在 Vue 中，我们通常会用 [docsify](https://github.com/docsifyjs/docsify "docsify") 或者 [vuepress](https://github.com/vuejs/vuepress "vuepress") 等。而对于 react 比较有名的有 [storybook](https://github.com/storybookjs/storybook "storybook") 和 [docz](https://github.com/doczjs/docz "docz")。
 
 当然这并不是绝对的，比如 storybook 也在支持 vue 和 webcomponents。
 
