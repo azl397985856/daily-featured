@@ -13,6 +13,16 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-17[网站]
+
+Learn Git Branching 是一个交互式学习 Git 的网站。沙盒里你能执行相应的命令，还能看到每个命令的执行情况； 通过一系列刺激的关卡挑战，逐步深入的学习 Git 的强大功能，在这个过程中你可能还会发现一些有意思的事情。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9yvse4btrj30z80hhjua.jpg)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1g9yvtbimcaj30zf0ppq51.jpg)
+
+地址： https://learngitbranching.js.org/
+
 ### 2019-12-16[新闻]
 
 最新版本的 Chrome 和 Firefo 浏览器取消 EV 证书的显示。
