@@ -13,6 +13,12 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-20[新闻]
+
+Facebook 发布 Hermes， 一个新的专门用于 React Native 的 JS 引擎。
+
+文章地址：https://facebook.github.io/react-native/blog/2019/07/17/hermes
+
 ### 2019-12-19[好文]
 
 很多高级语言有自动的垃圾回收器，比如 JS，JAVA，Go 等。其会自动地进行垃圾回收工作，而不必像诸如 C 和 C++那样手动分配和清除内存。
