@@ -13,6 +13,24 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-23[学习方法]
+
+很多人问我如何保持高效率。 首先要说的是我的效率并不是很高，这也就是我为什么还在不断学习提高效率的原因之一。那么既然有人问了我就班门弄斧回答一下，大家有什么好的方法和技巧欢迎提出来交流。
+
+为了让自己保持高效率，我自己开了一个仓库记录了自己保持“高效率”的方式。希望可以给大家启发，本仓库内容持续更新～
+
+仓库大纲：
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1ga6fqk9vrpj30ar09tgmp.jpg)
+
+仓库截图：
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1ga6frtxr12j30ly0hawhv.jpg)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1ga6fr6o5gkj30fz0qm77n.jpg)
+
+仓库地址：https://github.com/azl397985856/To-Be-Productive
+
 ### 2019-12-20[新闻]
 
 Facebook 发布 Hermes， 一个新的专门用于 React Native 的 JS 引擎。
