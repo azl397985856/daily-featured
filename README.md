@@ -13,6 +13,44 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-24[]
+
+今天是平安夜，苹果 🍎 和圣诞礼物 🎁 都收到了么？
+
+今天给大家推荐的是一个 linux 中非常常见的命令 `grep` 的常用用法。
+
+图版本：
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1ga81dnom82j30xc0l0afr.jpg)
+
+文字版本：
+
+Matches patterns in input text.Supports simple patterns and regular expressions.
+
+- Search for an exact string:
+  grep search_string path/to/file
+
+- Search in case-insensitive mode:
+  grep -i search_string path/to/file
+
+- Search recursively (ignoring non-text files) in current directory for an exact string:
+  grep -RI search_string .
+
+- Use extended regular expressions (supporting ?, +, {}, () and |):
+  grep -E ^regex\$ path/to/file
+
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+  grep -C|B|A 3 search_string path/to/file
+
+- Print file name with the corresponding line number for each match:
+  grep -Hn search_string path/to/file
+
+- Use the standard input instead of a file:
+  cat path/to/file | grep search_string
+
+- Invert match for excluding specific strings:
+  grep -v search_string
+
 ### 2019-12-23[学习方法]
 
 很多人问我如何保持高效率。 首先要说的是我的效率并不是很高，这也就是我为什么还在不断学习提高效率的原因之一。那么既然有人问了我就班门弄斧回答一下，大家有什么好的方法和技巧欢迎提出来交流。
@@ -24,8 +62,6 @@
 ![](https://tva1.sinaimg.cn/large/006tNbRwly1ga6fqk9vrpj30ar09tgmp.jpg)
 
 仓库截图：
-
-![](https://tva1.sinaimg.cn/large/006tNbRwly1ga6frtxr12j30ly0hawhv.jpg)
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwly1ga6fr6o5gkj30fz0qm77n.jpg)
 
