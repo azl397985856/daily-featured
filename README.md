@@ -13,6 +13,16 @@
 
 ## 新鲜出炉(2019-12)
 
+### 2019-12-31[见闻]
+
+今天是我的生日，祝我生日快乐 🎂 ～～～～
+
+一般公司的卫生间贴的都是公司信息或心灵鸡汤，但是谷歌卫生间贴的是`如何找到代码 Bug`，不得不感叹“这实在是太硬核了”！
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gab8f97lcej30ci0m8dhh.jpg)
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gab8ffahw3j30ek0hlmyg.jpg)
+
 ### 2019-12-24[技巧]
 
 今天是平安夜，苹果 🍎 和圣诞礼物 🎁 都收到了么？
