@@ -1,4 +1,3 @@
-
 # 每日一荐
 
 ![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.daily-featured.2019-11)
