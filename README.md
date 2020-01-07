@@ -13,7 +13,36 @@
 
 ## 新鲜出炉(2020-01)
 
-### 2020-01-06
+### 2019-01-08[好文]
+
+昨天介绍了《当你在浏览器中输入 google.com 并且按下回车之后发生了什么？》，今天推荐一篇《图解浏览器的基本工作原理》。 讲的内容主要是浏览器渲染相关的，让你在更大的视角，更细的粒度了解浏览器原理，最可贵的是文章通俗易懂，图文并茂，对于想了解浏览器原理而又找不到好的入门资料的同学来说很有用。
+
+其中还提到了很多延伸知识，比如事件冒泡更微观角度是什么？事件的 passive：true 做了什么？为什么很多时候我们绘图不流畅以及如何实现平滑绘图？
+
+```js
+window.addEventListener("pointermove", event => {
+  const events = event.getCoalescedEvents();
+  for (let event of events) {
+    const x = event.pageX;
+    const y = event.pageY;
+    // draw a line using x and y coordinates.
+  }
+});
+```
+
+(使用 `getCoalescedEvents` API 来获取组合的事件，从而绘制一条平滑的曲线)
+
+文章地址： https://zhuanlan.zhihu.com/p/47407398
+
+### 2020-01-07[好文]
+
+或许目前实际上最全的《当你在浏览器中输入 google.com 并且按下回车之后发生了什么？》。文档内容不仅局限于 DNS，TCP，HTTP，CDN。发送 HTML，解析 DOM 等过程，甚至包括了物理键盘和系统中断的工作原理，系统中断，ARP 等等更为详细的内容。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gan22rkye3j30au0c5tab.jpg)
+
+地址： https://github.com/skyline75489/what-happens-when-zh_CN
+
+### 2020-01-06[框架]
 
 前端测试正在变得越来越重要，之前也写了一篇文章[前端测试](https://github.com/azl397985856/frontend-test)，那么拥有一个顺手的测试框架显得越来越重要。
 
