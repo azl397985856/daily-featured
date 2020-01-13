@@ -13,6 +13,22 @@
 
 ## 新鲜出炉(2020-01)
 
+### 2019-01-13[]
+
+今天推荐两个关于 Github 的 chrome 插件。
+
+一个是用来查看 Github 提交历史的，名字是`Git History Browser Extension`，安装之后 git 文件右上角信息会多一个按钮。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gaupssm2q0j31010hgn12.jpg)
+
+点开之后是这种画风：
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gauptpbcsoj30vm0mwjwh.jpg)
+
+另外一个插件是`OctoLinker`。这个插件你可以用来方便地进行文件跳转。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gaupv7x3auj30rd0e6gny.jpg)
+
 ### 2019-01-09[好文]
 
 如果你关注 Node.js 社区，那么你一定记得 Node.js v12 一个非常重磅的功能就是，内核的 HTTP Parser 默认使用 llhttp，取代了老旧的 http-parser，性能提升了 156%。
