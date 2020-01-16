@@ -13,6 +13,12 @@
 
 ## 新鲜出炉(2020-01)
 
+### 2019-01-16[工具]
+
+不改变任何功能的情况下给你的 docker image 瘦身。
+
+Github 地址： https://github.com/docker-slim/docker-slim
+
 ### 2019-01-13[插件]
 
 今天推荐两个关于 Github 的 chrome 插件。
