@@ -13,13 +13,31 @@
 
 ## 新鲜出炉(2020-01)
 
-### 2019-01-16[工具]
+### 2020-01-20[网站]
+
+我平时有 RSS 阅读的习惯，我使用的 Feedly 管理订阅内容。但是有的网站本身并不支持 RSS 订阅。那么一种黑科技，就是使用第三方服务帮我们转换一下，生成订阅。原理很简单，就是轮训内容变化，如果变化就通知你。当然前提你要知道“如何判断发布了新内容”，这部分 feed43 做的不错。我们利用 Feed43，将任意网页制作成 RSS 订阅源。 这里有一篇少数派的文章，大家可以参考一下： https://sspai.com/post/34320
+
+### 2020-01-19[网站]
+
+给大家介绍一个 mac 软件下载网站，效果你懂的。类似的网站还有 xclient.info。
+
+地址：https://www.macappdownload.com/
+
+### 2020-01-17[工具]
+
+如果你想开发一个 VSCode 插件，那么一个脚手架是有用的。我推荐使用官方的脚手架工具。顺便再推荐一个 vscode 插件开发指南，来自 sorrycc，地址 https://www.yuque.com/docs/share/cf6d9191-be02-4644-aef5-afc2f2f38297
+
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gb1q8ba9s4j30f505nq3i.jpg)
+
+地址： https://github.com/Microsoft/vscode-generator-code
+
+### 2020-01-16[工具]
 
 不改变任何功能的情况下给你的 docker image 瘦身。
 
 Github 地址： https://github.com/docker-slim/docker-slim
 
-### 2019-01-13[插件]
+### 2020-01-13[插件]
 
 今天推荐两个关于 Github 的 chrome 插件。
 
@@ -35,7 +53,7 @@ Github 地址： https://github.com/docker-slim/docker-slim
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1gaupv7x3auj30rd0e6gny.jpg)
 
-### 2019-01-09[好文]
+### 2020-01-09[好文]
 
 如果你关注 Node.js 社区，那么你一定记得 Node.js v12 一个非常重磅的功能就是，内核的 HTTP Parser 默认使用 llhttp，取代了老旧的 http-parser，性能提升了 156%。
 
@@ -43,7 +61,7 @@ Github 地址： https://github.com/docker-slim/docker-slim
 
 地址： https://zhuanlan.zhihu.com/p/100660049
 
-### 2019-01-08[好文]
+### 2020-01-08[好文]
 
 昨天介绍了《当你在浏览器中输入 google.com 并且按下回车之后发生了什么？》，今天推荐一篇《图解浏览器的基本工作原理》。 讲的内容主要是浏览器渲染相关的，让你在更大的视角，更细的粒度了解浏览器原理，最可贵的是文章通俗易懂，图文并茂，对于想了解浏览器原理而又找不到好的入门资料的同学来说很有用。
 
