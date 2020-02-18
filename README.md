@@ -13,6 +13,14 @@
 
 ## 新鲜出炉(2020-02)
 
+### 2020-02-18[好文]
+
+AWS 是什么？都有哪些功能？如果你不知道，那么这篇文章可以帮到你。这篇文章很详细地讲解了 AWS 提供的服务。
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gbztweann6j30hs0v6jvz.jpg)
+
+文章地址： https://blog.logrocket.com/aws-services-cheat-sheet/
+
 ### 2020-02-17[好文]
 
 如果你还没听过或者不知道 JWT 是干嘛的，那么你可以看下这篇文章《一分钟简单了解 JSON Web Token》，当然这和很多入门科普文章一样缺乏深度，但是对你完全不了解的人来说还是很友好的。
