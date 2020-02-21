@@ -13,6 +13,35 @@
 
 ## 新鲜出炉(2020-02)
 
+### 2020-02-21[工具]
+
+有时候我们开发了一个应用，想给别人看下效果，而这个人不和你一个局域网，并且你没有公网 IP。那么你可以使用一种叫做内网穿透的技术，其中比较有名的有花生壳，如果不熟悉内网穿透的可以看下这篇科普文 https://zhuanlan.zhihu.com/p/30351943。 而我现在使用的是 ngrok：
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gc42ncii7vj30m80duabo.jpg)
+
+ngrok 主页： https://ngrok.com/
+
+### 2020-02-20[仓库]
+
+STPyV8 是一个允许你在 JavaScript（基于 V8） 和 Python 之间互操作的仓库，STPPyV8 是 fork 自 PyV8 项目，目的是为了跟进最新的 V8 和 Python3。
+
+地址： https://github.com/area1/stpyv8
+
+### 2020-02-19[仓库]
+
+NodeTube 是一个使用 node 构建的 用来取代 youtube 的客户端，支持私有化部署。
+
+技术栈：
+
+- Node.js 8.0+
+- MongoDB
+- Redis
+- ffmpeg
+
+你可以使用 NodeTube + ngrok 快速搭建一个公网可以访问的类 Youtube 网站。
+
+仓库地址： https://github.com/mayeaux/nodetube
+
 ### 2020-02-18[好文]
 
 AWS 是什么？都有哪些功能？如果你不知道，那么这篇文章可以帮到你。这篇文章很详细地讲解了 AWS 提供的服务。
