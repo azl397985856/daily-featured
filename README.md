@@ -13,6 +13,39 @@
 
 ## 新鲜出炉(2020-02)
 
+## 2020-02-25[网站]
+
+有时候你想知道 LeetCode 中的题目是哪个公司出的。在 LeetCode 我们需要订阅会员才能看，为了看这个专门订阅会员可能不太值。 这里教你两种方式：
+
+- 使用 [leetcode for vscode 插件](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-leetcode)
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gc8jbzur3zj30m812uq7g.jpg)
+
+- 使用 https://leetcode.jp/problemdetail.php?id=1334
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gc8jck92xkj30ru1m60yi.jpg)
+
+你只需要将上面的 id 改成你想看的 LeetCode 题号即可。这个网站还有一个用途，那就是可以查看被锁定的题目。
+
+## 2020-02-24[仓库]
+
+你如果在做 OCR， 并且技术栈是 js ， 那就不要错过。其可以识别超过 100 种自然语言，目前有 2w 多的 star ✨。
+
+仓库地址： https://github.com/naptha/tesseract.js
+
+### 2020-02-23[框架]
+
+大家如果做过一些图表需求，可能会用过类似 antV，echarts 这样的图表库。这些库帮我们封装了一些常见的图表，比如折线图，饼图，地理图等等。 但是当我们真正想去深度定制的时候，会发现非常困难。如果想实现像素级控制几乎不可能。
+
+微软出了一套图形语言 chart-parts，很好地解决了这个问题。地址：https://microsoft.github.io/chart-parts/documentation/tutorial 。 目前其官方提供了 react 版本：
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gc57dlj85zj30vu0u0n7o.jpg)
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gc57dynfw4j30se0tcwhh.jpg)
+
+可以看出实现同一个功能，代码量显著增加，这是灵活领和可控性之间的平衡。
+因此当你决定使用它的时候，一定要仔细做好评估，是否适合你。
+
 ### 2020-02-22[工具]
 
 age 是一款加解密命令行工具，类似 ssh，我们可以生成自己的公钥，并基于自己的公钥加密，使用自己的私钥进行解密，age 也可以和 ssh 进行很好的合作。
