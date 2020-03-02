@@ -13,6 +13,12 @@
 
 ## 新鲜出炉(2020-03)
 
+### 2020-03-03[好文]
+
+前端新建一个项目的时候，需要用到很多配置文件，通常是以.开头，因此我们也叫 dotfiles。这篇文章介绍了前端开发常见的 dotfiles，以及其简单用法，或许可以给你一点参考。而且我在我的[mac 装机教程](https://github.com/azl397985856/mac-setup "mac 装机教程")中也提到了 dotfiles，只不过那边的 dotfiles 更为广泛。
+
+文章地址： https://lyreal666.com/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E9%85%8D%E7%BD%AE-react-typescript%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9Adotfiles/
+
 ### 2020-03-02[好文]
 
 原文标题《使用 TypeScript 开发 Web 应用的最佳实践》。文中基本将 TS 在日常开发中的姿势都提到了，并且总结了很多坑点，并且给出了自己的探索和思考。
