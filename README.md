@@ -11,11 +11,17 @@
 
 > 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
 
-## 新鲜出炉(2020-03)
+## 新鲜出炉 (2020-03)
+
+### 2020-03-05[好文]
+
+Base64 编/解码器有不同实现，有的不相互兼容，如果使用了不兼容的实现，就会有 bug，比如典型的报错“Illegal base64 character a”。本文详细介绍了产生这个问题的原因，文章通俗易懂，适合新手阅读。
+
+[记一个 Base64 有关的 Bug](https://mp.weixin.qq.com/s/SfFmct12UBc7BLdNUmBBKg)
 
 ### 2020-03-03[好文]
 
-前端新建一个项目的时候，需要用到很多配置文件，通常是以.开头，因此我们也叫 dotfiles。这篇文章介绍了前端开发常见的 dotfiles，以及其简单用法，或许可以给你一点参考。而且我在我的[mac 装机教程](https://github.com/azl397985856/mac-setup "mac 装机教程")中也提到了 dotfiles，只不过那边的 dotfiles 更为广泛。
+前端新建一个项目的时候，需要用到很多配置文件，通常是以。开头，因此我们也叫 dotfiles。这篇文章介绍了前端开发常见的 dotfiles，以及其简单用法，或许可以给你一点参考。而且我在我的 [mac 装机教程](https://github.com/azl397985856/mac-setup "mac 装机教程") 中也提到了 dotfiles，只不过那边的 dotfiles 更为广泛。
 
 文章地址： https://lyreal666.com/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E9%85%8D%E7%BD%AE-react-typescript%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9Adotfiles/
 
@@ -52,9 +58,9 @@
 
 ## 贡献
 
-- 如果有想法和创意，请提[issue](https://github.com/azl397985856/daily-featured/issues)或者进群提
-- 如果想贡献代码，请提[PR](https://github.com/azl397985856/daily-featured/pulls)
-- 如果需要修改项目中图片，[这里](./assets/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
+- 如果有想法和创意，请提 [issue](https://github.com/azl397985856/daily-featured/issues) 或者进群提
+- 如果想贡献代码，请提 [PR](https://github.com/azl397985856/daily-featured/pulls)
+- 如果需要修改项目中图片，[这里](./assets/) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
 
 ## License
 
