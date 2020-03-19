@@ -13,6 +13,46 @@
 
 ## 新鲜出炉 (2020-03)
 
+### 2020-03-19[好文]
+
+政采云的前端 leader（花名堂主） 的一个关于前端基建的分享《堂主 - 如何推动前端团队的基础设施建设 | 7500 字》。如果你的团队也在做基础建设，那么或许可以帮到你，至少可以提供一些思路。
+
+地址： https://mp.weixin.qq.com/s/2VSa3xBpy5St8G1v0RjW9g
+
+### 2020-03-14[仓库]
+
+这里有一个很有意思的仓库，专门用来做远程面试，支持白板代码，视频通话，回放等功能。效果类似之前我在使用的 showmebug。
+
+地址： https://github.com/AgoraIO-Community/2019-Hackathon-Works-CoderLane/blob/master/README.ZH.md
+
+### 2020-03-13[仓库]
+
+一个可以在浏览器端压缩图片的库，从而减少网络传输，进而减小服务端的压力。
+
+地址： https://github.com/Donaldcwl/browser-image-compression
+
+### 2020-03-12[仓库]
+
+一个获取本机网卡信息的库，可以获取到 IPv4，IPv6 以及 MAC 地址。
+
+地址： https://github.com/scravy/node-macaddress
+
+### 2020-03-11[仓库]
+
+著名的知识管理平台《羽雀》就是从最开是的 CodeMirror 迁移到了 slate，slate 其实就是一个 Markdown 编辑器。
+
+> 但是羽雀最终还是转向自研道路，基于浏览器的 contenteditable 实现富文本编辑器，通过 canvas 实现表格编辑器，通过 SVG 实现思维导图编辑器。
+
+地址：https://github.com/slatedocs/slate
+
+### 2020-03-10[仓库]
+
+一个可以制作类似“Github Project”效果的库。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gcnvvmc8y3j30r50cpta0.jpg)
+
+地址： https://github.com/lourenci/react-kanban
+
 ### 2020-03-09[网站]
 
 之前给大家推荐了几个在线练习的网站，有算法的，有正则的，还有 git 的。今天介绍一个练习 SQL 语句的：
