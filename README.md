@@ -13,6 +13,29 @@
 
 ## 新鲜出炉 (2020-03)
 
+### 2020-03-20[工具]
+
+这是一个在线服务，用来生成几何占位符，类似于 Github 的默认头像。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gd0hyqu3sij30fy069q2y.jpg)
+（Github 的默认头像）
+
+使用方式也很简单，并支持多种参数：
+
+```html
+<img
+  src="https://generative-placeholders.glitch.me/image?width=600&height=300&img=01"
+/>
+<img
+  src="https://generative-placeholders.glitch.me/image?width=600&height=300&img=02"
+/>
+<img
+  src="https://generative-placeholders.glitch.me/image?width=600&height=300&img=03"
+/>
+```
+
+地址： https://generative-placeholders.glitch.me/
+
 ### 2020-03-19[好文]
 
 政采云的前端 leader（花名堂主） 的一个关于前端基建的分享《堂主 - 如何推动前端团队的基础设施建设 | 7500 字》。如果你的团队也在做基础建设，那么或许可以帮到你，至少可以提供一些思路。
