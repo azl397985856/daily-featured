@@ -13,6 +13,12 @@
 
 ## 新鲜出炉 (2020-03)
 
+### 2020-03-02[好文]
+
+Elasticsearch 已经火了很多年了，现在依然可以见到他们活跃的身影。笔者公司就在用，我也参与了相关开发，其使用起来很简单，但是精通起来却不容易。而很多人正好对其不熟悉，这里正好有一个非常简单易懂的中文教程：《Elasticsearch 学习：入门篇》
+
+地址： https://www.cyhone.com/articles/introduction-of-elasticsearch/index.html
+
 ### 2020-03-20[工具]
 
 这是一个在线服务，用来生成几何占位符，类似于 Github 的默认头像。
