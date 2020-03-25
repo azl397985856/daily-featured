@@ -13,6 +13,25 @@
 
 ## 新鲜出炉 (2020-03)
 
+### 2020-03-25[工具]
+
+微软开源的 Puppeteer的衍生项目 `Playwirght`，或许能够替代Puppeteer。 和Puppeteer相比，其有以下特点：
+
+- 弥补了Puppeteer的平台局限性，为所有热门渲染引擎提供类似的功能
+- 和Puppeteer基本兼容，用户可以无痛（低痛）迁移
+- 使用了隔离的BrowserContext，而不是像Puppeteer一样共用一个defaultBrowserContext。
+
+
+项目地址： https://github.com/microsoft/playwright
+
+### 2020-03-24[工具]
+
+如果你是学生党或者学术党，需要经常查找文献，那么一个文献管理工具就显得很有必要。这里推荐一个工具：Zotero。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gd3of2gqywj30wi0iaqbp.jpg)
+
+地址： https://www.zotero.org/
+
 ### 2020-03-23[好文]
 
 Elasticsearch 已经火了很多年了，现在依然可以见到他们活跃的身影。笔者公司就在用，我也参与了相关开发，其使用起来很简单，但是精通起来却不容易。而很多人正好对其不熟悉，这里正好有一个非常简单易懂的中文教程：《Elasticsearch 学习：入门篇》
