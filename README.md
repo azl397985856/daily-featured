@@ -13,6 +13,31 @@
 
 ## 新鲜出炉 (2020-03)
 
+### 2020-03-27[库]
+
+今天给大家推荐的是一个图片上传组件 - uppload。支持：
+
+- 20多种选择文件的方式
+- 10种编辑文件的方式
+- 支持自定义将文件发送到服务端
+- 主题
+- 插件
+- 。。。
+
+更重要的是其源码写的很赞，模块划分，代码解耦，以及单元测试都非常值得学习， 感兴趣的可以研究一下。 
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gd6c9hp23qj30u30gfgpc.jpg)
+
+https://github.com/elninotech/uppload
+
+### 2020-03-26[好文]
+
+一个外国游客来中国广州游玩，定了一家酒店，但是通过Google地图去找，离目的地相差几英里，原因在于Google使用的地图坐标系统是WGS-84 ，而国内的比如Baidu地图可以很好的显示，因为其用的是GCJ-02。一句话总结来说：
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gd64j9pkdlj30ge02s3yt.jpg)
+
+原文地址：https://abstractkitchen.com/blog/a-short-guide-to-chinese-coordinate-system/
+
 ### 2020-03-25[工具]
 
 微软开源的 Puppeteer的衍生项目 `Playwirght`，或许能够替代Puppeteer。 和Puppeteer相比，其有以下特点：
