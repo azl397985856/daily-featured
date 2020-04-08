@@ -13,6 +13,20 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-08[网站]
+
+大家经常会在分享大会上看到过一些高大上的 PPT，这些看起来高大上 PPT 除了内容本身优质之外，还有一个共同点，就是善于运用图和表。之前我分享过一篇文章 - [累死累活干不过一个写 PPT 的](https://lucifer.ren/blog/2019/12/11/ppt-data/)。里面讲到了如何讲数据说话，将自己的成果通过可视化的方式展示出来，其中也推荐了几个工具。今天再向大家推荐一个相对来说“更加面向新手，入门更容易”的产品，虽然操作简单，但实际上其自定义设置也非常丰富。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc53wwrdj318j0jwwm3.jpg)
+
+对于常见的图表可以直接使用，并且支持导入数据，多种自定义设置等。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc68fz5yj31h60nywi2.jpg)
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc6lom1lj31gk0gagnq.jpg)
+
+地址： https://app.flourish.studio/projects
+
 ### 2020-04-07[好文]
 
 > 清明节后的第一天。
