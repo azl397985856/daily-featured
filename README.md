@@ -13,6 +13,18 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-10[好文]
+
+来自 Chrome 官方人员最最权威的宏任务，微任务指南。 这篇文章是目前我看过最好的讲解《浏览器事件循环，宏任务，微任务》的文章。
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdoh95vy36j30by0940t3.jpg)
+
+他的教程的特点是可以可视化交互式学习，真的很赞：
+
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdoh9td11hj30ke0fit9p.jpg)
+
+https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+
 ### 2020-04-09[好文]
 
 Nginx 作为一个优秀的反向代理，常常活跃于各大公司，甚至有的大公司会对 nginx 做二次开发。Nginx 里面的配置很多，每次学习一点点，日积月累，你也能变成 nginx “配置专家”。
