@@ -13,6 +13,32 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-20[好文]
+
+如果你被考察过一些 JS 诡异行为知识，比如让你猜测输出，会不会报错等，那么你很可能有很多疑问“为什么？为什么这么诡异？为什么不同浏览器执行结果还不一样？为什么相同浏览器不同版本执行结果也不一样？”。
+
+要回答这些问题，恐怕仅靠查阅 MDN，是很难查到的。比如 `String.prototype.substring.call(undefined, 2, 4)`会输出什么？ `String.prototype.substring.call(window, 2, 4)`又会输出什么？ 要回答这个问题，最根本的就是查 ECMA 文档，比如上面这个问题， 我就会查到[ecma262/#sec-string.prototype.substring](https://tc39.es/ecma262/#sec-string.prototype.substring)，可以看出 ECMA 给出了我们答案：
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdz71b627aj31w80j6wkb.jpg)
+
+但是这些符号 - `?`，`!`代表什么？ `RequireObjectCoercible` 和 `ToString()` 是什么？ 很多人是懵逼的，即使你是很熟悉 JS 的各种特性，但是阅读标准或许不是一件容易的事情。 为了方便描述，它掺杂了很多其他内容，比如一些记法（Notation）。如何阅读 ECMA 文档呢？
+
+我这里推荐三个资料：
+
+- [dmitrysoshnikov](http://dmitrysoshnikov.com/)
+- [How to Read the ECMAScript Specification(内容较少，还在更新中，不过似乎断更一年了)](https://timothygu.me/es-howto/)
+- [V8 团队出品的系列文章]
+
+1. [understanding-ecmascript-part-1](https://v8.dev/blog/understanding-ecmascript-part-1)
+2. [understanding-ecmascript-part-2](https://v8.dev/blog/understanding-ecmascript-part-2)
+3. [understanding-ecmascript-part-3](https://v8.dev/blog/understanding-ecmascript-part-3)
+
+### 2020-04-17[工具]
+
+前端基本都是对前端应用进行打包，生成静态资源。那么如何将你的 NodeJS 应用打包，从而可以在没有 Node 环境的地方直接使用呢？这里介绍一个由鼎鼎大名的 ziet 开发的工具`pkg`，这里有一篇介绍的中文文章 [《把你的 NodeJS 程序给没有 NodeJS 的人运行》](https://github.com/75team/w3c/blob/master/articles/20191113_liuguanyu_%E6%8A%8A%E4%BD%A0%E7%9A%84NodeJS%E7%A8%8B%E5%BA%8F%E7%BB%99%E6%B2%A1%E6%9C%89NodeJS%E7%9A%84%E4%BA%BA%E8%BF%90%E8%A1%8C.md)，也可以看下。
+
+https://github.com/zeit/pkg
+
 ### 2020-04-16[仓库]
 
 现在公司会做一些大屏数据展示的功能。目前我们使用的是 echarts，会基于他们做二次封装。但是有一些东西做起来还是比较繁琐的。这个仓库提供了更加丰富的封装功能，更加容易上手使用。这是 一个 Vue 数据可视化组件库（类似阿里 DataV，大屏数据展示），提供 SVG 的边框及装饰、图表、水位图、飞线图等组件，简单易用，长期更新(React 版已发布)。
