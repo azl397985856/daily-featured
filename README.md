@@ -13,6 +13,14 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-21[仓库]
+
+来了一个挑战 TS 的货？JSMonk/hegel 号称是没有`运行时的类型错误`，上次看到 No Runtime Error 还是在看 Elm，不过 ELM 更牛逼的地方在于， 其是真正的 No Runtime Error。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge01re791aj310t06qjt0.jpg)
+
+https://github.com/JSMonk/hegel
+
 ### 2020-04-20[好文]
 
 如果你被考察过一些 JS 诡异行为知识，比如让你猜测输出，会不会报错等，那么你很可能有很多疑问“为什么？为什么这么诡异？为什么不同浏览器执行结果还不一样？为什么相同浏览器不同版本执行结果也不一样？”。
