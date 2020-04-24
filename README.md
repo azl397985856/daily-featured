@@ -13,6 +13,18 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-23[研究]
+
+原文标题《Audio samples from "Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis"》。
+
+研究人员搭建了一个系统，该系统只需要你提供几秒的语音信息，就能通过神经网络的训练，从而在在许多不同的说话者的声音中生成语音音频。
+
+这是一个划时代的技术。试想，你可以拥有任何人的声音，那么你就可以将某些人作为虚拟人物永远存在这个世界上，比如已故的人，明星等。当然用的不好，也可能会被用到不好的地方。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge4thpquajj31ex0mmn24.jpg)
+
+https://google.github.io/tacotron/publications/speaker_adaptation/
+
 ### 2020-04-21[仓库]
 
 来了一个挑战 TS 的货？JSMonk/hegel 号称是没有`运行时的类型错误`，上次看到 No Runtime Error 还是在看 Elm，不过 ELM 更牛逼的地方在于， 其是真正的 No Runtime Error。
