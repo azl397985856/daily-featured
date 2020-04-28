@@ -13,6 +13,20 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-28[仓库]
+
+这个是一个基于 Chrome Develop Protocl（简称 CDP）的工具， 可以帮你管理多种服务，包括 NetWork，Page（功能类似 Chrome 开发者工具）。
+
+业界很多工具，比如 Puppeteer 也是基于 CDP 完成的。 值得注意的是，其有多种实现，可以作用在不同的浏览器，只要浏览器实现了 CDP 规定的接口即可。如果没有实现，那么你需要做一个代理进行格式转换。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge9ism7vtcj30l30783zd.jpg)
+（不同实现）
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge9iutukhnj30al08zmyd.jpg)
+（API 种类）
+
+https://github.com/cyrus-and/chrome-remote-interface
+
 ### 2020-04-23[研究]
 
 原文标题《Audio samples from "Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis"》。
