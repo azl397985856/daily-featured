@@ -27,6 +27,19 @@
 
 https://github.com/cyrus-and/chrome-remote-interface
 
+### 2020-04-27[好文]
+
+这篇文章是 Puppeteer 的实战文章。 从十个具体的例子入手，带你了解 Puppeteer 应该如何使用。包括：
+
+- 网页截图或者生成 PDF
+- 爬取 SPA 或 SSR 网站
+- UI 自动化测试，模拟表单提交，键盘输入，点击等行为
+- 捕获网站的时间线，帮助诊断性能问题
+- 创建一个最新的自动化测试环境，使用最新的 js 和最新的 Chrome 浏览器运行测试用例
+- 测试 Chrome 扩展程序
+
+https://zhuanlan.zhihu.com/p/76237595
+
 ### 2020-04-23[研究]
 
 原文标题《Audio samples from "Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis"》。
