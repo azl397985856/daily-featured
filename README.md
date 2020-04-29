@@ -13,6 +13,14 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-29[网站]
+
+对于前端安全，量化构成“良好开发实践”的内容可能比较困难，但是可以相当准确地度量安全头的强度。就像我们使用 Lighthouse 获取性能，SEO 和可访问性分数一样，我们可以使用工具，这个工具可以根据当前响应头获取安全分数。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1geagknl5zoj30xm0khzmm.jpg)
+
+网址： https://securityheaders.com
+
 ### 2020-04-28[仓库]
 
 这个是一个基于 Chrome Develop Protocl（简称 CDP）的工具， 可以帮你管理多种服务，包括 NetWork，Page（功能类似 Chrome 开发者工具）。
