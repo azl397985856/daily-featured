@@ -13,6 +13,10 @@
 
 ## 新鲜出炉 (2020-04)
 
+### 2020-04-30[观点]
+
+Web 应用（包括 PC 和移动）变得越来越流行，相对于传统的客户端程序，Web 更加轻量，传播性更强。如今大家可以直接[使用 CodePen 写 Flutter 程序](https://codepen.io/pen?template=LYpGWBx)，在网页上看效果。还有比如实验楼帮我们构建交互式学习环境。 支付宝小程序 IDE 如今也可以在[Web 浏览器端](https://minicode.alipay.com/ide/wVYQPjr71)直接运行。 相信之后，Web 端肯定会发展地越来越好。期待更多标准规范的推出，以及各个厂商的积极合作，推动标准化落地。
+
 ### 2020-04-29[网站]
 
 对于前端安全，量化构成“良好开发实践”的内容可能比较困难，但是可以相当准确地度量安全头的强度。就像我们使用 Lighthouse 获取性能，SEO 和可访问性分数一样，我们可以使用工具，这个工具可以根据当前响应头获取安全分数。
@@ -47,6 +51,20 @@ https://github.com/cyrus-and/chrome-remote-interface
 - 测试 Chrome 扩展程序
 
 https://zhuanlan.zhihu.com/p/76237595
+
+### 2020-04-26[仓库]
+
+之前面试过一些人，问过一个问题“如何在 React 应用中使用 Vue 组件？”，“类似 Remaxjs 这种运行时跨端的原理是什么？”。
+
+大家也可以思考下这几个问题。当然这个问题的答案相对比较宽泛，并且需要自己来做一些权衡。其中针对 API 进行一些定制是一个思路。拿 React 来说，它有一个渲染器的包，用户可以通过这个包定制端的概念，从而理论上让 React 可以运行在任何端。 不过这个包，目前还在实验阶段，如果要使用的话，需要冒一定的风险，因此不建议生产环境直接使用。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gebrio1pm8j30yi08hdgy.jpg)
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gebrj1rpe6j31jk0qsn1d.jpg)
+
+仓库地址： https://github.com/facebook/react/tree/master/packages/react-reconciler
+
+这里还有一份介绍的视频演讲资料。 [Building a Custom React Renderer | Sophie Alpert - YouTube](https://www.youtube.com/watch?v=CGpMlWVcHok) 。是在 React Conf 上进行的一个分享。作者带你现场手撸一个 custom renderer。
 
 ### 2020-04-23[研究]
 
