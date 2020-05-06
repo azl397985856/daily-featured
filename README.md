@@ -33,6 +33,10 @@ https://github.com/deepfakes/faceswap
 
 ### 2020-05-03[技巧]
 
+今天发现 Github 更新了一个很有意思的功能，据说是为了有时差远程办公的人设计的。
+
+如果用户设置了地理位置，那么将鼠标悬浮到头像上，会显示其当地时间。
+
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gedvhuahc3j31000e2417.jpg)
 
 ### 2020-05-02[技巧]
