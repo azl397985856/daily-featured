@@ -13,6 +13,38 @@
 
 ## 新鲜出炉 (2020-05)
 
+### 2020-05-08[教程]
+
+课程内容与赫尔辛基大学计算机科学系的 2020 春季课程【全栈课程】相同，含金量比较高。 我大概看了下，内容写的还不错。相信看完之后， 简单的全栈开发已经难不倒你了。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0jycsdqj30z50qljux.jpg)
+（部分课程）
+
+这门课程`从基本的 web 开发到 react，redux，typescript，graphql 一应俱全，一共是 10 章内容`。该课的合作伙伴和友情机构包括 Houston Inc, Terveystalo, Elisa, K-ryhmä, Unity Technologies 以及 Konecranes。这里可以观看由我们的合作伙伴和友情机构的多为专家提供的与本门课程主题相关的客座讲座。
+
+地址：https://github.com/fullstack-hy2020/fullstack-hy2020.github.io
+
+### 2020-05-07[网站]
+
+今天给大家推荐的是一个薪资职级统计网站。这里可以看到各大公司（包括金融公司和科技公司）的薪水情况，以及职级对比情况。
+
+这个网站有两个特点：
+
+- 数据相对真实，这个是听朋友说的。
+- 数据比较全。 除了基础薪资（Base）还有签字费（Sign-On），股票等信息。
+- 可以很方便对比各个公司的职级。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0dr41ykj31dz0j4diq.jpg)
+（薪资数据经常会更新，实时性好）
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0db9vnvj31b40o8aen.jpg)
+（收录了很多大公司，国内国外都有）
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0cs7ce2j31c70o1dhn.jpg)
+（公司职级对比）
+
+地址：https://www.salarytics.com/
+
 ### 2020-05-06[工具]
 
 今天给大家分享的是 mac 上的一款截图工具，这是我目前见过的最好用的截图工具。 官方的话说“其不仅是一个截图工具，而是一个工作流”。
