@@ -13,6 +13,24 @@
 
 ## 新鲜出炉 (2020-05)
 
+### 2020-05-11[仓库]
+
+webpack 是最流行的打包工具之一，尤其是对于业务类型的应用来说。虽然很多工具，比如 vue-cli 或者 create-react-app 等已经帮我们进行了一波封装， 但是我们仍然常常不可避免的需要对其进行配置。
+
+很多人的选择是复制粘贴的模式。 这本身无可厚非，因为 webpack 的语法很多，并且还是经常变化的。这个仓库提供了一种心的方式，你可以将所有的 webpack 配置封装到一个个函数中，然后通过函数实现复用。 这样业务内的 webpack 配置就可以很方便的共享， 因为函数更容易被定制。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1geocd0j9woj30ps02z74t.jpg)
+
+项目地址：https://github.com/andywer/webpack-blocks
+
+### 2020-05-09[工具]
+
+如果你在做 graphql 方面的开发， 那么应该听说过 Facebook 的 relay 和 Apollo 的 ApolloGraphql。 而这两个我更推荐你使用后者。
+
+如果你用到了 ApolloGraphql， 那么一个调试工具肯定能让你事半功倍，这个 Chrome 调试工具请收好。
+
+Chrome 商店地址：https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm/related
+
 ### 2020-05-08[教程]
 
 课程内容与赫尔辛基大学计算机科学系的 2020 春季课程【全栈课程】相同，含金量比较高。 我大概看了下，内容写的还不错。相信看完之后， 简单的全栈开发已经难不倒你了。
