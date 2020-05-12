@@ -13,6 +13,16 @@
 
 ## 新鲜出炉 (2020-05)
 
+### 2020-05-12[仓库]
+
+和 webpack，pacel 类似，esbuild 是一个 JS 的打包和压缩工具。不同的是，其采用 Go 语言编写，且编译环节采用并行的方式，用作者的话来说就是“设计之初，就想着怎么提高性能”。
+
+从 Benchmark 上来看， 其性能有着明显的优势，从实际使用上来说也是如此。但是目前其还不是很稳定，大家可以先关注一下。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gepil3ncjbj30pe0dq0to.jpg)
+
+地址：https://github.com/evanw/esbuild
+
 ### 2020-05-11[仓库]
 
 webpack 是最流行的打包工具之一，尤其是对于业务类型的应用来说。虽然很多工具，比如 vue-cli 或者 create-react-app 等已经帮我们进行了一波封装， 但是我们仍然常常不可避免的需要对其进行配置。
