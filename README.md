@@ -21,6 +21,16 @@ blitz 是一个类似 CRA 和 vue-cli 的脚手架工具，只不过其提供的
 
 项目地址： https://github.com/blitz-js/blitz
 
+### 2020-05-14[好文]
+
+原文标题《OpenCV directly in the browser (webassembly + webworker)》， 讲述的是如何在浏览器使用 OpenCV。
+
+基本思路是将 opencv 编译成 webassembly，然后通过 web worker 加载 webassembly 脚本实现。大家有做计算机视觉，且想让其在浏览器端发光发热的可以看下。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1get9s6ix35j30mm0by0w8.jpg)
+
+文章地址：https://aralroca.com/blog/opencv-in-the-web
+
 ### 2020-05-12[仓库]
 
 和 webpack，pacel 类似，esbuild 是一个 JS 的打包和压缩工具。不同的是，其采用 Go 语言编写，且编译环节采用并行的方式，用作者的话来说就是“设计之初，就想着怎么提高性能”。
