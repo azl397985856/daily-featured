@@ -23,7 +23,7 @@
 
 Bison 做的就是这样的事情（准确的说是完成这个需求中的一环）， 它是 GBU 托管的一个开源项目（Yacc 的 GNU 版）。 对 Bison 不熟悉的朋友推荐看一下这个[新手教程](http://dinosaur.compilertools.net/bison/bison_4.html "Bison 新手教程")
 
-而今天介绍给大家的是 Bison 的 JS 版本， 名字是 Jison，也就是 JS + Bison 的意思，简单来说和 Bison 很像，不同的是他是利用 JS 去解析产生式子（JS 驱动），并且 Jison 也扩展了一些新的功能，感性的赶紧下载下来试试吧。
+而今天介绍给大家的是 Bison 的 JS 版本， 名字是 Jison，也就是 JS + Bison 的意思，简单来说和 Bison 很像，不同的是他是利用 JS 去解析产生式子（JS 驱动），并且 Jison 也扩展了一些新的功能，感兴趣的赶紧下载下来试试吧。
 
 项目地址： https://github.com/zaach/jison
 
