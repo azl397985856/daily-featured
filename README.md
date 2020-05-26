@@ -13,6 +13,19 @@
 
 ## 新鲜出炉 (2020-05)
 
+### 2020-05-26[随笔]
+
+HTML5 中竟然还有为视频定制的字幕标签 track。而在 Chrome 中，这个功能由 webCore 模块支持。
+
+```html
+<vedio>
+  <source src="video.mp4" type="video/mp4" />
+  <track src="captions.vtt" kind="subtitle" srclang="en" label="English" />
+</vedio>
+```
+
+更多关于 track 的介绍，参考：https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/track
+
 ### 2020-05-22[仓库]
 
 小公司经常会使用一些业界口碑好的开源产品。比如我们公司就用都了开源的堡垒机，开源的 NPM 仓库。今天给大家介绍的是一个开源的运维平台 `spug`，定位是面向中小型企业设计的轻量级无 Agent 的自动化运维平台，整合了主机管理、主机批量执行、主机在线终端、应用发布部署、在线任务计划、配置中心、监控、报警等一系列功能。。
