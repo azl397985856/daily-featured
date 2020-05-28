@@ -13,6 +13,18 @@
 
 ## 新鲜出炉 (2020-05)
 
+### 2020-05-28[好文]
+
+很多人说编译原理很重要。 但是也有很多前端觉得用不到这些知识，真的是这样么？先不说编译原理中大量的数据结构和算法对你编程思路上的扩展。单单说编译原理在前端的应用就有很多。
+
+比如早期的 Taro 以及很多多端框架就是将一套代码编译成多端。再比如小程序严格的代码审核机制，导致发布不能随着自己的节奏走，那么我们其实可以利用编译的知识自己动态更新小程序的内容，从而绕开小程序内部的审核机制。
+
+今天给大家分享的是一个系列教程，讲述的是`如何用JS写一个JS解释器`，你给它一段 JS 代码，它能帮你执行出来，原文标题《Build a JS Interpreter in JavaScript Using Acorn as a Parser》。
+
+原文地址：https://blog.bitsrc.io/build-a-js-interpreter-in-javascript-using-acorn-as-a-parser-5487bb53390c
+
+另外有一个`JS实现JS解释器`的仓库也一并推荐给大家，地址：https://github.com/zuluoaaa/makeJs。
+
 ### 2020-05-26[随笔]
 
 HTML5 中竟然还有为视频定制的字幕标签 track。而在 Chrome 中，这个功能由 webCore 模块支持。
