@@ -13,6 +13,14 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-07[工具]
+
+Tooling.Report 是一个帮助你从多个维度分析 web 打包工具的平台，包括 browserify，parcel，rollup，webpack。这个网站给的比较非常的直观，测试用例（每个比较维度都有很多测试用例）也很多。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gheuqngi4xj30zp0aodh6.jpg)
+
+地址：https://bundlers.tooling.report/
+
 ### 2020-08-06[好文]
 
 一个适合 JavaScript 程序员看的 Rust 系列教程，目前更新了三篇。
