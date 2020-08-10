@@ -13,6 +13,28 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-10[好文]
+
+手把手教你自建图床。
+
+文章地址： https://sspai.com/post/61624
+
+> 除了使用 OSS+ CDN 的方式，我们也可以选择白嫖 Github。使用全免费方案：用 github 做图床，jsDelivr 做 cdn 加速。在 GitHub 上开一个 public 的仓库，然后把图片传上去，访问的时候用 https://cdn.jsdelivr.net/gh/<user_name>/>repo_name>/<file_name> 来访问就行。
+
+### 2020-08-09[好文]
+
+这个是个将 Git Workflow 的文章，特点是讲解了多种 workflow 方式，包括主干式，feature 分支式等，并每一种都给了非常好看的配图。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghi0t97nkwj30nl0al0u3.jpg)
+
+文章地址：https://zepel.io/blog/5-git-workflows-to-improve-development/
+
+### 2020-08-08[网站]
+
+想学 Go 却不想装环境？或者装了环境，不想每次都新建文件，然后执行？这个在线 Go 执行网站或许可以帮到你。
+
+地址：https://play.studygolang.com/
+
 ### 2020-08-07[工具]
 
 Tooling.Report 是一个帮助你从多个维度分析 web 打包工具的平台，包括 browserify，parcel，rollup，webpack。这个网站给的比较非常的直观，测试用例（每个比较维度都有很多测试用例）也很多。
