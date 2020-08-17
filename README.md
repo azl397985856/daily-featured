@@ -13,6 +13,28 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-17[工具]
+
+我们知道 deno 是基于 ESM 的，并且没有统一的包管理平台的。那如果你在使用 deno，并且想要用 npm 上的包怎么办？如果你想要用的 node 上的包是 ESM 格式的，可以通过一些 CDN 工具，比如 unpkg，比如：
+
+```js
+import throttle from https://unpkg.com/lodash@4.17.19/throttle.js
+```
+
+如果源码是 ESM，但是最终被编译成了别的模块语法。你可以直接用 URL 引用源码，比如：
+
+```js
+import throttle from "https://raw.githubusercontent.com/lodash/lodash/master/throttle.js";
+```
+
+而如果源码也是 commonjs 写的，那么你可以使用这个在线服务，可以帮助你无感知转换格式。使用方法：
+
+```js
+import lodash from "https://dev.jspm.io/lodash";
+```
+
+工具地址： https://jspm.org/
+
 ### 2020-08-10[好文]
 
 手把手教你自建图床。
