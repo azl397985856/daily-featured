@@ -13,6 +13,26 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-18[好文]
+
+你或许已经熟悉了 ESM 了，到时 importmap 呢？
+
+```js
+// index.html
+
+<script type="importmap">
+{
+  "imports": {
+    "lodash": "/node_modules/lodash-es/lodash.js"
+  }
+}
+</script>
+```
+
+如上代码什么意思？如果你还不知道，可以看下这个文章。还是一如既往的循序渐进的风格， 很适合新手阅读。
+
+文章地址：https://blog.logrocket.com/es-modules-in-browsers-with-import-maps/
+
 ### 2020-08-17[工具]
 
 我们知道 deno 是基于 ESM 的，并且没有统一的包管理平台的。那如果你在使用 deno，并且想要用 npm 上的包怎么办？如果你想要用的 node 上的包是 ESM 格式的，可以通过一些 CDN 工具，比如 unpkg，比如：
