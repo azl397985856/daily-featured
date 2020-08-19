@@ -15,7 +15,7 @@
 
 ### 2020-08-18[好文]
 
-你或许已经熟悉了 ESM 了，到时 importmap 呢？
+你或许已经熟悉了 ESM 了，那 importmap 呢？
 
 ```js
 // index.html
