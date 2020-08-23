@@ -13,6 +13,16 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-19[工具]
+
+我们可以将 TypeScript 编译成 JavaScript，我们也可以将 JavaScript + .d.ts 反编译成 TypeScript。 于是我一直思考， 有没有一种方法能够不依赖 .d.ts 直接将 JavaScript 转换为 TypeScript 项目呢？ 我觉得是可行的。 我们要做的无非就是动态类型推导，即根据值的分布情况（有可能值的分布满足正太分布？^\_^）推导变量的类型。 实际上这是个理想的情况。
+
+不过八天前 Airbnb 发布的一个仓库 ts-migrate 则和我的想法类似，大家可以关注一下。
+
+仓库主页：https://github.com/airbnb/ts-migrate
+
+相关文章： https://medium.com/airbnb-engineering/ts-migrate-a-tool-for-migrating-to-typescript-at-scale-cd23bfeb5cc
+
 ### 2020-08-18[好文]
 
 你或许已经熟悉了 ESM 了，那 importmap 呢？
