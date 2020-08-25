@@ -13,6 +13,24 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-25[工具]
+
+有时候大家会碰到网页不能复制（比如禁止转载）的情况，我们可以使用开发者工具来解决。而这个有点复杂。
+
+这里推荐一个插件 Simple Allow Copy，只需轻轻一点即可随意复制网页内容。插件地址： https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gi2w0ge1wdj319805vdgw.jpg)
+
+没有科学的同学可以去我的公众号《力扣加加》 回复 Allow Copy 即可获取。
+
+另外我打算之后再这里维护科学资料， 需要的自取 https://github.com/azl397985856/cdn/blob/master/README.md
+
+### 2020-08-24[好文]
+
+这是一个讲 V8 内部实现原理的深度好文，主要讲了 V8 在对象访问方面做的优化，比如用到了 shape， IC（inline cache） 等，并且难得的是有大量图片，内容也层层递进，即使你没有基础也可以听懂一部分。
+
+文章地址： https://mathiasbynens.be/notes/shapes-ics
+
 ### 2020-08-19[工具]
 
 我们可以将 TypeScript 编译成 JavaScript，我们也可以将 JavaScript + .d.ts 反编译成 TypeScript。 于是我一直思考， 有没有一种方法能够不依赖 .d.ts 直接将 JavaScript 转换为 TypeScript 项目呢？ 我觉得是可行的。 我们要做的无非就是动态类型推导，即根据值的分布情况（有可能值的分布满足正太分布？^\_^）推导变量的类型。 实际上这是个理想的情况。
