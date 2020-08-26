@@ -13,6 +13,16 @@
 
 ## 新鲜出炉 (2020-08)
 
+### 2020-08-26[好文]
+
+原文标题：《Under the hood of React’s hooks system》，这是一个讲 React Hook 的底层实现原理的文章，能够帮你更好的理解 hooks，写出更好的 hooks 代码。
+
+比如 React 对各种 effect 做了位的标识，用于简化判断，文章也进行了讲解。以及 useState 实际上调用的就是 useReducer 等。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gi446z1e66j30ko0h4tb3.jpg)
+
+原文链接：https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba
+
 ### 2020-08-25[工具]
 
 有时候大家会碰到网页不能复制（比如禁止转载）的情况，我们可以使用开发者工具来解决。而这个有点复杂。
