@@ -15,13 +15,13 @@
 
 ### 2020-03-31[好文]
 
-gRPC使用protobuf进行数据封装(序列化和反序列化)，同时使用http2进行数据传输，为什么不直接基于TCP传输呢？grpc究竟和其他rpc框架，比如阿里的dubbo，facebook的Thrift有什么区别？这篇文章带你了解一下。
+gRPC 使用 protobuf 进行数据封装(序列化和反序列化)，同时使用 http2 进行数据传输，为什么不直接基于 TCP 传输呢？grpc 究竟和其他 rpc 框架，比如阿里的 dubbo，facebook 的 Thrift 有什么区别？这篇文章带你了解一下。
 
 地址：https://mp.weixin.qq.com/s/GuMp4Z8oJv9K_MJxMptsSA
 
 ### 2020-03-30[好文]
 
-《吊打面试官》系列 Node.js 全栈秒杀系统。这篇文章非常详细地讲述了如何使用nodejs构建一个秒杀系统，文中提到的知识点，我也经常在面试中向候选人提问。
+《吊打面试官》系列 Node.js 全栈秒杀系统。这篇文章非常详细地讲述了如何使用 nodejs 构建一个秒杀系统，文中提到的知识点，我也经常在面试中向候选人提问。
 
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gdbxfr99o9j30jb0p4405.jpg)
 
@@ -31,14 +31,14 @@ https://mp.weixin.qq.com/s/LoRr76smB-M8sNp-85wdqg
 
 今天给大家推荐的是一个图片上传组件 - uppload。支持：
 
-- 20多种选择文件的方式
-- 10种编辑文件的方式
+- 20 多种选择文件的方式
+- 10 种编辑文件的方式
 - 支持自定义将文件发送到服务端
 - 主题
 - 插件
 - 。。。
 
-更重要的是其源码写的很赞，模块划分，代码解耦，以及单元测试都非常值得学习， 感兴趣的可以研究一下。 
+更重要的是其源码写的很赞，模块划分，代码解耦，以及单元测试都非常值得学习， 感兴趣的可以研究一下。
 
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gd6c9hp23qj30u30gfgpc.jpg)
 
@@ -46,7 +46,7 @@ https://github.com/elninotech/uppload
 
 ### 2020-03-26[好文]
 
-一个外国游客来中国广州游玩，定了一家酒店，但是通过Google地图去找，离目的地相差几英里，原因在于Google使用的地图坐标系统是WGS-84 ，而国内的比如Baidu地图可以很好的显示，因为其用的是GCJ-02。一句话总结来说：
+一个外国游客来中国广州游玩，定了一家酒店，但是通过 Google 地图去找，离目的地相差几英里，原因在于 Google 使用的地图坐标系统是 WGS-84 ，而国内的比如 Baidu 地图可以很好的显示，因为其用的是 GCJ-02。一句话总结来说：
 
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gd64j9pkdlj30ge02s3yt.jpg)
 
@@ -54,12 +54,11 @@ https://github.com/elninotech/uppload
 
 ### 2020-03-25[工具]
 
-微软开源的 Puppeteer的衍生项目 `Playwirght`，或许能够替代Puppeteer。 和Puppeteer相比，其有以下特点：
+微软开源的 Puppeteer 的衍生项目 `Playwirght`，或许能够替代 Puppeteer。 和 Puppeteer 相比，其有以下特点：
 
-- 弥补了Puppeteer的平台局限性，为所有热门渲染引擎提供类似的功能
-- 和Puppeteer基本兼容，用户可以无痛（低痛）迁移
-- 使用了隔离的BrowserContext，而不是像Puppeteer一样共用一个defaultBrowserContext。
-
+- 弥补了 Puppeteer 的平台局限性，为所有热门渲染引擎提供类似的功能
+- 和 Puppeteer 基本兼容，用户可以无痛（低痛）迁移
+- 使用了隔离的 BrowserContext，而不是像 Puppeteer 一样共用一个 defaultBrowserContext。
 
 项目地址： https://github.com/microsoft/playwright
 
@@ -170,7 +169,6 @@ Base64 编/解码器有不同实现，有的不相互兼容，如果使用了不
 
 文章地址：https://yrq110.me/post/front-end/best-practice-of-typescript-in-webapp-developing/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 
-
 ## 关注我
 
 我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
@@ -182,13 +180,3 @@ Base64 编/解码器有不同实现，有的不相互兼容，如果使用了不
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
-
-## 贡献
-
-- 如果有想法和创意，请提[issue](https://github.com/azl397985856/daily-featured/issues)或者进群提
-- 如果想贡献代码，请提[PR](https://github.com/azl397985856/daily-featured/pulls)
-- 如果需要修改项目中图片，[这里](./assets/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
-
-## License
-
-[Apache-2.0](./LICENSE)

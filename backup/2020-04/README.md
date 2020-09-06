@@ -214,13 +214,3 @@ WebAssembly 是一种一种新的“语言”。允许开发者使用 C/C++等�
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
-
-## 贡献
-
-- 如果有想法和创意，请提[issue](https://github.com/azl397985856/daily-featured/issues)或者进群提
-- 如果想贡献代码，请提[PR](https://github.com/azl397985856/daily-featured/pulls)
-- 如果需要修改项目中图片，[这里](./assets/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
-
-## License
-
-[Apache-2.0](./LICENSE)
