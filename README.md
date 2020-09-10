@@ -13,6 +13,24 @@
 
 ## 新鲜出炉 (2020-09)
 
+### 2020-09-09[小技巧]
+
+如何检测是否打开了 chrome 控制台？下面代码可以帮你:
+
+```
+var devtools = function() {};
+devtools.toString = function() {
+  if (!this.opened) {
+    alert("Opened");
+  }
+  this.opened = true;
+}
+
+console.log('%c', devtools);
+```
+
+你知道原理么？
+
 ### 2020-09-07[好文]
 
 在 Vue 中，我们可以使用 keep-alive 包裹一个动态组件，从而缓存不活跃的实例，而不是直接销毁他们：
