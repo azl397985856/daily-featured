@@ -17,16 +17,16 @@
 
 如何检测是否打开了 chrome 控制台？下面代码可以帮你:
 
-```
-var devtools = function() {};
-devtools.toString = function() {
+```js
+var devtools = function () {};
+devtools.toString = function () {
   if (!this.opened) {
     alert("Opened");
   }
   this.opened = true;
-}
+};
 
-console.log('%c', devtools);
+console.log("%c", devtools);
 ```
 
 你知道原理么？
