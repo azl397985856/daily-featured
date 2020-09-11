@@ -13,6 +13,18 @@
 
 ## 新鲜出炉 (2020-09)
 
+### 2020-09-11[经验分享]
+
+会正则真的可以为所欲为。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimhwl6jpkj30q70k076l.jpg)
+
+（力扣真题 https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions/）
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimhwvvsguj30nj0ojjvz.jpg)
+
+（牛客真题）https://github.com/azl397985856/leetcode/issues/424
+
 ### 2020-09-10[工具]
 
 [ngrok](https://ngrok.com/) 是一个可以允许你暴露内网服务的简单快捷的方法， 有时候还是很有用的。而今天介绍的工具是一个在 VSCODE 中控制 ngrok 的扩展程序，使用起来异常简单。
