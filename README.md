@@ -13,6 +13,24 @@
 
 ## 新鲜出炉 (2020-09)
 
+### 2020-09-14[库]
+
+vuedraggable 是一个支持拖拽的高阶组件，可用于实现拖拽排序的功能。start 数比较高， 且更新稳定，很多项目都在用。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimrdl34brj308a03f74c.jpg)
+
+地址：https://github.com/SortableJS/Vue.Draggable
+
+### 2020-09-13[技巧]
+
+VSCode 有一个快捷键，非常好用，就是返回上一个光标 (上一个浏览位置)，你知道么？
+
+- Windows: Alt + ←
+- Linux: Ctrl + Alt + -
+- Mac: Ctrl + -
+
+VSCode 的 Keyboard Shortcuts” 中搜索 “前进 / Go Forward 或 后退 / Go Back”，可以对其定制。
+
 ### 2020-09-11[经验分享]
 
 会正则真的可以为所欲为。
@@ -48,6 +66,14 @@ console.log("%c", devtools);
 ```
 
 你知道原理么？
+
+### 2020-09-08[工具]
+
+一个适合程序员的，充满极客风的，非常硬核的 PPT 制作工具。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimsl44w6og30s40i23zg.gif)
+
+地址： https://github.com/vinayak-mehta/present
 
 ### 2020-09-07[好文]
 
