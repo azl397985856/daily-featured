@@ -13,6 +13,18 @@
 
 ## 新鲜出炉 (2020-09)
 
+### 2020-09-15[类库]
+
+有一个网络抓包工具 lightproxy。这是由阿里巴巴出品的扩展了 whitsle 的抓包工具，跨平台。目前已经支持 Mac 和 window，linux 正在开发中。
+
+界面都是直接用的 whistle：
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1girfjqdbq0j31710sa475.jpg)
+
+支持 ES6 模板字符串， 语法上来说更爽了?(Maybe) 我的态度是观望。
+
+地址：https://github.com/alibaba/lightproxy
+
 ### 2020-09-14[库]
 
 vuedraggable 是一个支持拖拽的高阶组件，可用于实现拖拽排序的功能。start 数比较高， 且更新稳定，很多项目都在用。
