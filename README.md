@@ -13,6 +13,37 @@
 
 ## 新鲜出炉 (2020-09)
 
+### 2020-09-18[工具]
+
+大家写 ts 的时候是不是写了 好多 any。你可以通过 typeof 利用 ts 的类型推导来自动生成类型。不过还是有点麻烦。 大家可以试试 `JSON To TS` ， 复制你的 JSON 自动生成 interface。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1giuufh1r3fj31300de76b.jpg)
+
+地址:http://www.jsontots.com/
+
+### 2020-09-17[类库]
+
+React Hooks library for remote data fetching。一个专注于请求的 hooks 库， 有缓存管理的功能，在某些时候可以显著地帮助你减少请求量。当然功能远不止这个，还有：
+
+- Transport and protocol agnostic data fetching
+- Revalidation on focus
+- Interval polling
+- Request deduplication
+- Local mutation
+- Pagination
+- SSR support
+- Suspense mode
+
+等等。
+
+地址：https://github.com/vercel/swr
+
+### 2020-09-16[好文]
+
+这是一份 ES decorators 的提案。 如果你不懂 ES decorators，那么这是一个很好的学习资料， 如果你懂 ES decorators， 那么看完之后你可能会觉得你不懂。
+
+地址：https://github.com/tc39/proposal-decorators/blob/simplified/README.md
+
 ### 2020-09-15[类库]
 
 有一个网络抓包工具 lightproxy。这是由阿里巴巴出品的扩展了 whitsle 的抓包工具，跨平台。目前已经支持 Mac 和 window，linux 正在开发中。
