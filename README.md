@@ -19,6 +19,8 @@ Service Worker Cookbook 是 Mozilla 发起的一个网站，该网站包含了�
 
 如果你想用 Service Worker 增强你的应用， 基本都可以在这个网站找到对应的 Demo。网站还贴心地按照难度进行了区分，有 `Beginner`， `Intermediate` 和 `Advanced` 难度。
 
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj5ey06vnjj316h0je42o.jpg)
+
 地址：https://serviceworke.rs/
 
 ### 2020-09-18[工具]
