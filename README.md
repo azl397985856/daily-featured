@@ -13,6 +13,14 @@
 
 ## 新鲜出炉 (2020-09)
 
+### 2020-09-27[网站]
+
+Service Worker Cookbook 是 Mozilla 发起的一个网站，该网站包含了一系列实用的 Service Worker 例子，并从功能维度进行了划分。
+
+如果你想用 Service Worker 增强你的应用， 基本都可以在这个网站找到对应的 Demo。网站还贴心地按照难度进行了区分，有 `Beginner`， `Intermediate` 和 `Advanced` 难度。
+
+地址：https://serviceworke.rs/
+
 ### 2020-09-18[工具]
 
 大家写 ts 的时候是不是写了 好多 any。你可以通过 typeof 利用 ts 的类型推导来自动生成类型。不过还是有点麻烦。 大家可以试试 `JSON To TS` ， 复制你的 JSON 自动生成 interface。
