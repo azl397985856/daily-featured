@@ -11,7 +11,29 @@
 
 > 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
 
-## 新鲜出炉 (2020-09)
+## 新鲜出炉 (2020-10)
+
+### 2020-09-30[网站]
+
+Google 有一个服务 automl， 旨在降低人工智能的学习和使用成本，可以在运动训练数据，使用简单。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjj8v7g8atj317a0ovdk1.jpg)
+
+地址：https://cloud.google.com/automl
+
+### 2020-09-29[技能]
+
+shell 是程序员的标配技能之一。掌握基础的 shell 是每个程序员必备的， 除此之外， 也有一些复杂的 shell 。 比如这个：
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjj8zdgdamj30rn0ciwg3.jpg)
+
+这是一个中高难度的 shell 题目，地址：https://github.com/azl397985856/fe-interview/issues/151。
+
+如果你对 shell 感兴趣，可以去 leetcode shell 专区找几个题做（截止目前， 一共四道题，真希望他们多出一点）。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjj8yxlqjdj30pv09j3zi.jpg)
+
+地址： https://leetcode-cn.com/problemset/shell/
 
 ### 2020-09-27[网站]
 
