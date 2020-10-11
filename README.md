@@ -13,11 +13,56 @@
 
 ## 新鲜出炉 (2020-10)
 
-### 2019-10-10[书籍]
+### 2020-10-12[资料]
+
+vue3 出来了，大家都开始学了起来。这里有一份 vue3 学习资料的集合，或者可以帮助你。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjlbt5q7ygj30u00w1wkz.jpg)
+
+地址：https://github.com/gautemo/vue-3-playground
+
+### 2020-10-10[书籍]
 
 给大家安利一本书现代操作系统（第 4 版），豆瓣评分 9.1。很多人推荐的一本书， 读完绝对有巨大的收获。
 
 如果实在觉得读起来吃力，可以关注一下小林和 cxuan，这两个人对操作系统的理解还是蛮深刻的，文章通俗易懂。
+
+### 2020-10-09[工具]
+
+figlet.js 是一个用于生产 FIGfont 规范的一个 JS 库。效果图：
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjlbpo5l30j31c00tgdix.jpg)
+
+地址：https://github.com/patorjk/figlet.js
+
+### 2020-10-08[工具]
+
+我们平常使用 vue 或者 react 脚手架生产的项目的时候， 启动项目会自动打开浏览器， 你可以借助这款工具实现这个效果。
+
+用法：
+
+```js
+const open = require("open");
+
+(async () => {
+  // Opens the image in the default image viewer and waits for the opened app to quit.
+  await open("unicorn.png", { wait: true });
+  console.log("The image viewer app quit");
+
+  // Opens the URL in the default browser.
+  await open("https://sindresorhus.com");
+
+  // Opens the URL in a specified browser.
+  await open("https://sindresorhus.com", { app: "firefox" });
+
+  // Specify app arguments.
+  await open("https://sindresorhus.com", {
+    app: ["google chrome", "--incognito"],
+  });
+})();
+```
+
+地址：https://github.com/sindresorhus/open
 
 ## 历史汇总
 
