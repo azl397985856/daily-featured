@@ -13,6 +13,20 @@
 
 ## 新鲜出炉 (2020-10)
 
+### 2020-10-14[行业人物]
+
+在一个圈子中混，怎么能不知道这个行业的领军人物呢？ 今天给大家推荐的是 20 个前端领域的领军人物。
+
+> 你关注了几个？
+
+地址：https://blog.newrelic.com/technology/javascript-nodejs-developers/?utm_campaign=FY21-Q3-DEV-OBSV-AMER-JSW-NL-SL-B_JN&utm_medium=NL&utm_source=JSW&utm_content=B_JN
+
+### 2020-10-13[好文]
+
+我在 [数据结构与算法在前端领域的应用 - 第三篇](https://lucifer.ren/blog/2019/09/20/algorthimn-fe-3/) 中的`重新思考我们的前端应用`小节提到了**假如流行的前端框架比如 React 内置了这种线程分离的功能，即将调和算法交给 WebWorker 来处理，会给前端带来怎么样的变化？**。 这绝对不是异想天开，比如今天给大家分享的这一个文章的观点就很好地印证了这一点。
+
+地址：https://blog.asayer.io/redux-in-web-workers-off-main-thread-redux-reducers-and-middleware
+
 ### 2020-10-12[资料]
 
 vue3 出来了，大家都开始学了起来。这里有一份 vue3 学习资料的集合，或者可以帮助你。
@@ -63,6 +77,14 @@ const open = require("open");
 ```
 
 地址：https://github.com/sindresorhus/open
+
+### 2020-10-08[教程]
+
+一个 30 天免费学习的网站，适合基础薄弱的前端。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjmpyj2eiuj30zg0lo7l2.jpg)
+
+https://javascript30.com/
 
 ## 历史汇总
 
