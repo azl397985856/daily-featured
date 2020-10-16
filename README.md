@@ -13,6 +13,36 @@
 
 ## 新鲜出炉 (2020-10)
 
+### 2020-10-20[好文]
+
+相信你在工作中一定用过堡垒机， 大中型公司都会有堡垒机。有的是自建，也有的是用的开源系统。它究竟是什么？做了什么事呢？
+
+[「系统架构」什么是堡垒机？为什么需要堡垒机？](https://mp.weixin.qq.com/s/ptzcIjRePFd_K8_8IiqXfg) 是一个介绍堡垒机的科普文，看我你或许就有答案了。
+
+地址：https://www.toutiao.com/i6881462700229329421/
+
+### 2020-10-17[工具]
+
+不知道你有没有碰到过这样的问题： 你同是开发多个项目，每个项目依赖的 node 和 npm 版本都不一样， 他们彼此不兼容。 你需要在切换项目前修改你的 node 和 npm 版本（当然也可能是其他包管理器，比如 yarn）。你可以使用 nvm 等工具来帮助你，同是在项目的 package.json 中定义一个 engineer 字段，用于指定项目依赖的 node 版本。
+
+这虽然可以解决问题， 但是每次都切换也很浪费时间。 没有使用 volta 时，我的方式是开启多个 tty，每个 tty 的 node 版本不同， 当你切换项目使用对应的 tty 即可。
+
+不过当你使用了 volta，一切会变得不同。volta 可以帮助你管理项目的引擎依赖， 支持 npm， yarn 等宝管理工具。 快来用 volata 管理你的项目包管理器吧。
+
+地址：https://docs.volta.sh/guide/understanding#managing-your-toolchain
+
+### 2020-10-16[工具]
+
+一个可以将 TypeScript 转换为 webassembly 的工具。这意味着你可以用 JS 写 webassembly，获得更好的性能。
+
+地址：https://github.com/AssemblyScript/assemblyscript
+
+### 2020-10-15[工具]
+
+RSLint 是一个用 Rust 写的 lint 工具。 规则挺有意思的， 最关键的是性能好， 其比用 JS 写的 linter 快很多，比如 eslint。
+
+地址：https://rdambrosio016.github.io/RSLint/index.html
+
 ### 2020-10-14[行业人物]
 
 在一个圈子中混，怎么能不知道这个行业的领军人物呢？ 今天给大家推荐的是 20 个前端领域的领军人物。
