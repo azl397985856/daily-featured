@@ -51,6 +51,8 @@ fastify.listen(3000, (err, address) => {
 
 这看起来不错， 以至于很长时间被认为是标配和主流，直到 Svelte 的出现，用他们自己的话来说就是 **It's important to understand that virtual DOM isn't a feature. It's a means to an end**。Svelte 是一个不算新的 UI 框架。 和 React， Vue 不同的是，其没有采用虚拟 DOM，而是编译时确定。 如果你还没有用过， 可以尝试一下。
 
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gk6ft1ngdqj30wc0fo0uy.jpg)
+
 地址：https://svelte.dev/
 
 ### 2020-10-26[工具]
