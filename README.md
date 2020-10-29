@@ -11,12 +11,72 @@
 
 > 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
 
-
 在线阅读：https://leetcode-solution-leetcode-pp.gitbook.io/mz-ri-yi-jm/
 
 电子书文件太大， 大家可到我的公众号《脑洞前端》回复“每日一荐”获取。
 
 ## 新鲜出炉 (2020-10)
+
+### 2020-10-29[框架]
+
+fastify 是一个 nodejs 框架，和 express，koa 类似。使用起来区别也不大：
+
+```js
+// Require the framework and instantiate it
+const fastify = require("fastify")({
+  logger: true,
+});
+
+// Declare a route
+fastify.get("/", (request, reply) => {
+  reply.send({ hello: "world" });
+});
+
+// Run the server!
+fastify.listen(3000, (err, address) => {
+  if (err) throw err;
+  fastify.log.info(`server listening on ${address}`);
+});
+```
+
+如果你会 express 或者 koa， 那么学习 fastify 也会很快。
+
+它的特点正如他的名字那样，速度快。快到不需要怎么优化就可以处理 76 k 的 qps。另外值得一提的是， 它有中文文档。
+
+仓库地址：https://github.com/fastify/fastify
+
+### 2020-10-26[工具]
+
+输入你的用户名，这个工具帮你全网搜索所有网站，哪些网站有这个用户名的用户。
+
+使用效果：
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gk410e7xatj30jz0hpak7.jpg)
+
+地址：https://github.com/sherlock-project/sherlock#usage
+
+### 2020-10-21[库]
+
+一个可以在 Python 中执行 JS 的库，这个库在你做爬虫相关内容的时候很有用。
+
+使用示例：
+
+```py
+>>> import execjs
+>>> execjs.eval("'red yellow blue'.split(' ')")
+['red', 'yellow', 'blue']
+>>> ctx = execjs.compile("""
+...     function add(x, y) {
+...         return x + y;
+...     }
+... """)
+>>> ctx.call("add", 1, 2)
+3
+```
+
+ta 底层用的是 PyV8 实现的，也就是一个封装 V8 引擎的 Python 容器。
+
+地址：https://github.com/doloopwhile/PyExecJS
 
 ### 2020-10-20[好文]
 
