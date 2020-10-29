@@ -45,6 +45,14 @@ fastify.listen(3000, (err, address) => {
 
 仓库地址：https://github.com/fastify/fastify
 
+### 2020-10-28[框架]
+
+我们知道， 虚拟 DOM 是一个简单的 JS 对象。用来表示真实 DOM 的。框架（典型的是 React 或者 Vue）会在运行时生成虚拟 DOM，并在应用状态更新的时候进行组件更新的时候进行 DOM diff，以使用最小的代价更新 DOM。这里涉及到一个树的最小编辑距离算法， 不过 React 做了一定的取舍，使得复杂度可以降低到线性。
+
+这看起来不错， 以至于很长时间被认为是标配和主流，直到 Svelte 的出现，用他们自己的话来说就是 **It's important to understand that virtual DOM isn't a feature. It's a means to an end**。Svelte 是一个不算新的 UI 框架。 和 React， Vue 不同的是，其没有采用虚拟 DOM，而是编译时确定。 如果你还没有用过， 可以尝试一下。
+
+地址：https://svelte.dev/
+
 ### 2020-10-26[工具]
 
 输入你的用户名，这个工具帮你全网搜索所有网站，哪些网站有这个用户名的用户。
