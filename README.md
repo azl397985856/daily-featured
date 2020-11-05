@@ -27,6 +27,15 @@
 
 文章地址：https://felixgerschau.com/javascript-memory-management/
 
+### 2020-11-04[技巧]
+
+很多国人碰到过 node-saas 按照失败的情况，今天介绍一个方法给大家。这个方法其实很简单，使用中国镜像按照即可，比如你用的是 npm，执行以下命令即可：
+
+```bash
+npm install -g mirror-config-china --registry=http://registry.npm.taobao.org
+npm install node-sass
+```
+
 ## 历史汇总
 
 - [2020-09](./backup/2020-09/README.md)
