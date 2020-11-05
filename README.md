@@ -36,6 +36,18 @@ npm install -g mirror-config-china --registry=http://registry.npm.taobao.org
 npm install node-sass
 ```
 
+### 2020-11-03[组件库]
+
+当你想使用一些偏门的组件，比如水印，高德地图，音视频等，那么可以考虑使用这个组件库。它是由阿里内部维护开源的，质量应该不错の。
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gked9ow3hrj31cr0nh17z.jpg)
+（直播组件）
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gkeda9fyk7j312z0k6tsb.jpg)
+（地图组件）
+
+仓库地址：https://github.com/pansyjs/react-components
+
 ## 历史汇总
 
 - [2020-09](./backup/2020-09/README.md)
