@@ -19,9 +19,11 @@
 
 ### 2020-11-05(好文)
 
-一个面向初级前端的好文，图文并茂，生动形象，基本上属于看了就会系列了。
+一个面向初级前端的好文，图文并茂，甚至配了动画，生动形象，基本上属于看了就会系列了。
 
 文章讲了什么是垃圾回收以及垃圾回收的两种算法：引用计数和标记清除。还讲了内存泄漏相关的实践内容。
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gkecvqx32zj30m80brt9u.jpg)
 
 文章地址：https://felixgerschau.com/javascript-memory-management/
 
