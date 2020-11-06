@@ -17,6 +17,32 @@
 
 ## 新鲜出炉 (2020-11)
 
+### 2020-11-06[工具]
+
+lighthouse 大家应该都比较熟悉了。 由于不可抗力，国内很多公司都使用 puppeteer + lighthouse 来搭建公司内部的性能评估平台。
+
+一些公司甚至将 lighthouse 的魔改版加入到了公司的构建流程中来了，而 Chrome 官方开源的 lighthouse + ci 来了，不用自己搭建啦~
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gkee9gqo42j30ob0hfgpe.jpg)
+
+你如果用 github ，那么集成 lighthouse ci 简直不要太简单，真的是福音啊~
+
+```yml
+name: CI
+on: [push]
+jobs:
+  lighthouseci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm install && npm install -g @lhci/cli@0.6.x
+      - run: npm run build
+      - run: lhci autorun
+```
+
+地址：https://github.com/GoogleChrome/lighthouse-ci
+
 ### 2020-11-05(好文)
 
 一个面向初级前端的好文，图文并茂，甚至配了动画，生动形象，基本上属于看了就会系列了。
