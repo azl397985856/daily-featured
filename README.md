@@ -17,6 +17,35 @@
 
 ## 新鲜出炉 (2020-11)
 
+### 2020-11-19[工具]
+
+fd 是一个可以代替 find 命令的工具命令，使用起来非常简单，而且速度很快。比如:
+
+```
+#  查找隐藏文件
+fd --hidden
+# 查找包括 x 的文件和文件夹
+fd x
+# 查找 md 后缀的文件
+fd -e md
+```
+
+等等。。。
+
+mac 用户可以直接 `brew install fd` 安装，其他系统参考下方链接的 install 部分。
+
+地址：https://github.com/sharkdp/fd
+
+### 2020-11-18[技能]
+
+一些 emoji 点缀会使得页面焕发生机。这里列举了 Github 支持的 Markdown emoji 标记，也就是说你可以编辑 markdown 在 Github 看效果。
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gktiihfn6jj30qj0kfwic.jpg)
+
+上图是我给我的 [leetcode 仓库](https://github.com/azl397985856/leetcode)增加的 emoji。
+
+地址：https://gist.github.com/rxaviers/7360908
+
 ### 2020-11-16[工具]
 
 如果你做一个网站，那么首先要考虑的是用户注册登录这些东西。一个公司都会有自己的账户系统，各个系统进行对接，也就是我们常说的单点登录（SSO）。
