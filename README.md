@@ -17,6 +17,14 @@
 
 ## 新鲜出炉 (2020-11)
 
+### 2020-11-25[仓库]
+
+这里有一个测试你 JS 基础能力的系列试题。我做了一下，难度偏简单，更多的还是科普。如果你基础比较差建议看一下。目前有五大块内容：
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gl1qpggbtpj30ih07vt95.jpg)
+
+仓库地址：https://github.com/sadanandpai/javascript-code-challenges
+
 ### 2020-11-20[好文]
 
 Rust 最近随着 deno 以及其他前端工具的崛起进入了大家的视野。这里有一份 Rust 的教学博客，内容会持续更新，目前有一篇已经翻译成了中文。
