@@ -17,6 +17,18 @@
 
 ## 新鲜出炉 (2020-11)
 
+### 2020-11-26[合集]
+
+又一个 awesome 系列的仓库。这个仓库是 sorrycc 写的，sorrycc 是 antd，umijs，qiankun 等优秀前端开源框架的核心开发人员。
+
+这个仓库的内容相当多，我大概看了几个，质量还可以。大家可以收藏一下，等有需要的话去翻翻看，说不定有你需要的呢~
+
+部分仓库内容：
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gl1qu0tjkwj307k0cmq44.jpg)
+
+仓库地址：https://github.com/sorrycc/awesome-javascript#testing-frameworks
+
 ### 2020-11-25[仓库]
 
 这里有一个测试你 JS 基础能力的系列试题。我做了一下，难度偏简单，更多的还是科普。如果你基础比较差建议看一下。目前有五大块内容：
