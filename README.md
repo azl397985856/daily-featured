@@ -17,6 +17,20 @@
 
 ## 新鲜出炉 (2020-11)
 
+### 2020-11-28[仓库]
+
+作者刷了 200 多道题顺利拿到了满意的 offer 之后写的一个电子书，将自己的心路历程记录了下来，本书一共精选了 101 道题目。
+
+简单评价一下内容，**排版不错，内容丰富，几乎囊括了所有常见考点，致命伤是讲解很少，不适合小白**。
+
+项目地址：https://github.com/changgyhub/leetcode_101
+
+### 2020-11-27[好文]
+
+一文带你看遍 Java 8 到 Java 15 的更新。
+
+文章地址：https://advancedweb.hu/new-language-features-since-java-8-to-15/
+
 ### 2020-11-26[合集]
 
 又一个 awesome 系列的仓库。这个仓库是 sorrycc 写的，sorrycc 是 antd，umijs，qiankun 等优秀前端开源框架的核心开发人员。
