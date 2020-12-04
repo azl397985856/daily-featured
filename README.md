@@ -17,6 +17,20 @@
 
 ## 新鲜出炉 (2020-11)
 
+### 2020-11-30[好文]
+
+任何一个 Git 仓库，都包含一个相同的对象（哈希为 4b82...4904），指向一个空树（empty tree），这是为什么？
+
+地址：https://floatingoctothorpe.uk/2017/empty-trees-in-git.html
+
+### 2020-11-29[技巧]
+
+Chrome 浏览器引入了一项试验性功能，在开发者工具里面提供 CSS 样式表的概况统计。
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glbr89bxaij30ip0c3gme.jpg)
+
+地址：https://umaar.com/dev-tips/240-css-overview-improved/
+
 ### 2020-11-28[仓库]
 
 作者刷了 200 多道题顺利拿到了满意的 offer 之后写的一个电子书，将自己的心路历程记录了下来，本书一共精选了 101 道题目。
