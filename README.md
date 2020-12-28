@@ -17,6 +17,20 @@
 
 ## 新鲜出炉 (2020-12)
 
+### 2020-12-29[工具]
+
+这是一个我自己开发的刷题工具，可以帮助你更有效率地刷 leetcode。使用方式可以去下面链接中的概述部分查看。
+
+https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle/related?hl=zh-CN&authuser=0
+
+如果不能科学上网的也可以去我的公众号《力扣加加》回复**插件**获取。
+
+### 2020-12-28[好文]
+
+到年底了，很多平台都开始了一年一度的年度总结。Github 在这一年都做了什么大事呢？这篇文章告诉你~
+
+https://www.toutiao.com/i6909426764825494028
+
 ### 2020-12-23[仓库]
 
 fuse.js 是一个前端模糊搜索的库，帮助你在不依赖后端的情况下实现模糊搜索。
