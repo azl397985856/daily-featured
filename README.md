@@ -31,6 +31,20 @@ https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakb
 
 https://www.toutiao.com/i6909426764825494028
 
+### 2020-12-25[好文]
+
+圣诞节快乐 🎄
+
+bash 大家可能在工作中都用过。不过很多人写的 bash 都比较粗糙，没有错误处理，打印不友好，没有帮助文档等等。
+
+这其中的主要原因在于 bash 比较难，还有一个原因是 bash 不是我们工作的主要内容。但其实用好 bash 能很大提高工作的质量和效率，并且 bash 中的很多知识（比如管道）也可以迁移到其他地方。
+
+而这篇稳重不是教你 bash 的，而是告诉你一个合格的 bash 脚本应该有什么，并直接给出了模板，大家之后直接“套”即可。
+
+文章地址：https://betterdev.blog/minimal-safe-bash-script-template/
+
+另外我将其中的模板提取到了 gist，大家可以直接访问 https://gist.github.com/azl397985856/40cd0d80f5cb3e011ebc62bf98246f77。
+
 ### 2020-12-23[仓库]
 
 fuse.js 是一个前端模糊搜索的库，帮助你在不依赖后端的情况下实现模糊搜索。
