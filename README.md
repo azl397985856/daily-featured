@@ -12,7 +12,120 @@
 
 ## 新鲜出炉 (2021-01)
 
-暂无
+### 2021-01-18[技巧]
+
+App 在 macOS Catalina 下**提示已损坏，无法打开**解决办法。
+
+1. 打开终端；
+2. 输入以下命令，回车；
+
+```bash
+sudo xattr -d com.apple.quarantine /Applications/xxxx.app
+```
+
+> 注意：/Applications/xxxx.app 换成你的 App 路径（推荐直接将.app 文件拖入终端中自动生成路径，以防空格等转义字符手动复制或输入出现错误）
+
+3. 重启 App 即可。
+
+### 2021-01-15[好文]
+
+NodeJS 中的流和 Buffer 是两个很重要的概念，几乎所有的内容都与他们有关。如果你想精通 NodeJS ，这肯定是绕不开的坎。Buffer 是流的基础，这篇文章算是 Buffer 的入门文章了，详细讲解了各个 Buffer 的 API 的用法。
+
+地址：https://blog.logrocket.com/node-js-buffer-a-complete-guide/
+
+### 2021-01-14[工具]
+
+有时候你需要进行性能分析，那么使用火焰图绝对是一个不错的选择。
+
+FlameGraph 是一个对操作系统的性能制作火焰图的工具。
+
+![FlameGraph](https://tva1.sinaimg.cn/large/008eGmZEly1gme7d6beljj30x80gsq6j.jpg)
+
+我们知道火焰图横轴表示的是时间长短，越宽表示运行的时间越长。纵轴表示的是调用栈，可以看出代码的执行顺序。
+
+Chrome 的 Performance 面板就使用了火焰图。
+
+![Chrome Performance 的火焰图](https://tva1.sinaimg.cn/large/008eGmZEly1gme7eomq4zj30ni0qc78g.jpg)
+
+你可以用它分析应用的性能瓶颈，除此之外，Chrome 还提供了饼图，智能诊断等其他工具，帮助你更好的发现潜在的性能问题。
+
+地址：https://github.com/brendangregg/FlameGraph
+
+### 2021-01-13[经验分享]
+
+source script.sh 和 ./script.sh 有什么区别?
+
+这两种情况 script.sh 都会在 bash 会话中被读取和执行，不同点在于哪个会话执行这个命令。 对于 source 命令来说，命令是在当前的 bash 会话中执行的，因此当 source 执行完毕，对当前环境的任何更改（例如更改目录或是定义函数）都会留存在当前会话中。 单独运行 ./script.sh 时，当前的 bash 会话将启动新的 bash 会话（实例），并在新实例中运行命令 script.sh。 因此，如果 script.sh 更改目录，新的 bash 会话（实例）会更改目录，但是一旦退出并将控制权返回给父 bash 会话，父会话仍然留在先前的位置（不会有目录的更改）。 同样，如果 script.sh 定义了要在终端中访问的函数，需要用 source 命令在当前 bash 会话中定义这个函数。否则，如果你运行 ./script.sh，只有新的 bash 会话（进程）才能执行定义的函数，而当前的 shell 不能。
+
+### 2021-01-12[工具]
+
+lnav 是一个日志查看工具。使用方式超级简单，直接打开就行。
+
+它会帮助你自动分析当前目录下所有的日志，并根据时间戳自动排序。如果来自不同的文件，他也会进行分组，并使用不同的颜色加以区分。
+
+![不同颜色区分的日志](https://tva1.sinaimg.cn/large/008eGmZEly1gme77g4zb1j30mt0hkgrl.jpg)
+
+只要你的日志是以时间戳开始，都可以被 Lnav 捕获到。另外它还提供了常见的过滤功能，更有意思的是它竟然内置了 sqlLite 数据库，使得你可以使用 sql 语言来对日志进行查询。
+
+![使用 SQL 查询](https://tva1.sinaimg.cn/large/008eGmZEly1gme7aeg8zdj30lm0fl79s.jpg)
+
+地址：http://lnav.org/features
+
+### 2021-01-11[经验分享]
+
+一般来说，特定种类的文件存储有一定的规范，文件系统，层次结构标准（Filesystem, Hierarchy Standard）可以查到我们讨论内容的详细列表。
+
+- /bin - 基本命令二进制文件
+- /sbin - 基本的系统二进制文件，通常是 root 运行的
+- /dev - 设备文件，通常是硬件设备接口文件
+- /etc - 主机特定的系统配置文件
+- /home - 系统用户的家目录
+- /lib - 系统软件通用库
+- /opt - 可选的应用软件
+- /sys - 包含系统的信息和配置(第一堂课介绍的)
+- /tmp - 临时文件( /var/tmp ) 通常在重启之间删除
+- /usr/ - 只读的用户数据
+- /usr/bin - 非必须的命令二进制文件
+- /usr/sbin - 非必须的系统二进制文件，通常是由 root 运行的
+- /usr/local/bin - 用户编译程序的二进制文件
+- /var -变量文件 像日志或缓存
+
+### 2021-01-08[工具]
+
+[交互式记事本](https://en.wikipedia.org/wiki/Notebook_interface)可以帮助开发者进行与运行结果交互等探索性的编程。现在最受欢迎的交互式记事本环境大概是 [Jupyter](https://jupyter.org/)。它的名字来源于所支持的三种核心语言：Julia、Python、R。[Wolfram Mathematica](https://www.wolfram.com/mathematica/) 是另外一个常用于科学计算的优秀环境。
+
+### 2021-01-07[工具]
+
+[Hammerspoon](https://www.hammerspoon.org/) 是面向 macOS 的一个桌面自动化框架。它允许用户编写和操作系统功能挂钩的 Lua 脚本，从而与键盘、鼠标、窗口、文件系统等交互。
+
+下面是 Hammerspoon 的一些示例应用：
+
+- 绑定移动窗口到的特定位置的快捷键
+- 创建可以自动将窗口整理成特定布局的菜单栏按钮
+- 在你到实验室以后，通过检测所连接的 WiFi 网络自动静音扬声器
+- 在你不小心拿了朋友的充电器时弹出警告
+
+从用户的角度，Hammerspoon 可以运行任意 Lua 代码，绑定菜单栏按钮、按键、或者事件。Hammerspoon 提供了一个全面的用于和系统交互的库，因此它能没有限制地实现任何功能。你可以从头编写自己的 Hammerspoon 配置，也可以结合别人公布的配置来满足自己的需求。
+
+### 2021-01-06[经验分享]
+
+大多数工具中，使用 - 代替输入或者输出文件名意味着工具将从标准输入（standard input）获取所需内容，或者向标准输出（standard output）输出结果。
+
+### 20202120-01-05[工具]
+
+onepassword 和 keePassXC
+
+### 2021-01-04[工具]
+
+pdb，即 Python Debugger 是 Python 的官方内置调试器，也就是说你可以直接使用如下命令加载：
+
+```py
+python3 -m pdb a.py
+```
+
+个人感觉它的设计哲学还是很不错的，上到 API 设计，下到代码实现都透露出满满的优雅。如果我下次需要做调试器的话，恐怕会参考它 和 vscode debugger 的实现。
+
+地址：https://docs.python.org/3/library/pdb.html#module-pdb
 
 ## 历史汇总
 

@@ -129,7 +129,8 @@ https://www.yuque.com/antv/blog/ydsuqn
 一个可视化图标网站，可以在线拖拽生成图表，支持多种图表类型。
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdt9pamyhqj30rm0ekgmg.jpg)
-![](https://camo.githubusercontent.com/ff9a469b4660550135a442fcae2f1c400ca6654b/68747470733a2f2f7770696d672e77616c6c7374636e2e636f6d2f66656332366636372d663762642d343463352d393839392d3337313238333566323161642e676966)
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmexjfnhd4g30hs0amqv6.gif)
 
 https://github.com/dongsuo/vue-data-board
 
