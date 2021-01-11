@@ -12,6 +12,26 @@
 
 ## 新鲜出炉 (2021-01)
 
+### 2020-01-22[工具]
+
+vite 是尤雨溪写的一个代替 webpack 的工具，它包含了本地开发服务器和打包模块。除了支持 vue，其还拓展支持了 react 和 preact 等流行框架。
+
+> vite 在法语中是快的意思，尤雨溪这货还真是喜欢法语啊。
+
+地址：https://vitejs.dev/guide/introduction.html
+
+### 2020-01-21[视频教程]
+
+vue 作者尤雨溪本身亲自下海讲课，手把手教你实现一个 mini-vue，来看下作者本人的思路吧。
+
+地址：https://www.vuemastery.com/courses/vue3-deep-dive-with-evan-you/vue3-overview
+
+### 2020-01-20[工具]
+
+一个在线展示 latex 效果的网站， 你输入 latex，它可以实时展示效果，并支持多种格式的导出。
+
+https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn
+
 ### 2020-01-19[工具]
 
 给不同的网站和应用不同的密码以防止密码泄露带来的大规模问题已经是一个公认的方法。可是密码设置地太过简单很容易被破解，设置太复杂自己又很难记住。
@@ -132,9 +152,13 @@ lnav 是一个日志查看工具。使用方式超级简单，直接打开就行
 
 大多数工具中，使用 - 代替输入或者输出文件名意味着工具将从标准输入（standard input）获取所需内容，或者向标准输出（standard output）输出结果。
 
-### 20202120-01-05[工具]
+### 2020-01-05[好文]
 
-onepassword 和 keePassXC
+如何做一个换肤的功能？主要的思路有两个，一个是基于运行时，一个是基于编译时，各有优缺点，当然你也可以将二者结合。
+
+这篇文章讲的是如何使用 react + style-component 实现网站换肤功能，结合实例，一步步教你怎么做。
+
+地址：https://css-tricks.com/theming-and-theme-switching-with-react-and-styled-components/#top-of-site
 
 ### 2021-01-04[工具]
 
