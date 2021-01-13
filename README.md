@@ -12,7 +12,68 @@
 
 ## 新鲜出炉 (2021-01)
 
-### 2020-01-22[工具]
+### 2021-01-29[网站]
+
+上次（2020-12）给大家推荐了一个可视化算法的网站。今天给大家介绍一个 功能更全面的网站，不仅可以可视化算法，还提供了大量数据结构的可视化。
+
+![网站截图](https://tva1.sinaimg.cn/large/008eGmZEly1gmm43gho7tj31er0n0gs5.jpg)
+
+![二叉堆的可视化](https://tva1.sinaimg.cn/large/008eGmZEly1gmm444sdypj30o506zjrq.jpg)
+
+地址：https://visualgo.net/
+
+### 2021-01-28[仓库]
+
+厌恶了 996 的“安逸”生活？想进体制内？ 程序员如何考取公务员？这个仓库或许能帮助你。
+
+仓库内容：
+
+- 程序员成功上岸经历
+- 程序员备考的最佳实践
+- 程序员备考过程中会遇到哪些问题？
+- 公考公平吗，35 岁再去考可以么？
+- 资料、工具推荐和扩展阅读
+- 。。。
+
+地址：https://github.com/azl397985856/coder2gwy
+
+### 2021-01-27[好文]
+
+不使用 vuex， 我们可以如何集中化管理应用状态（如何自己实现）？
+
+使用 vue3 提供的 api，比如 react ，watch 等可以很容易的实现这个功能。
+
+文章地址：https://zhuanlan.zhihu.com/p/309371894
+
+### 2021-01-26[仓库]
+
+React 在前一段时间提出了一个新的特性**服务端组件（server-components）**。不同于服务端渲染（SSR），它只是一个运行在服务端的组件而已。
+
+当你使用服务端组件的时候， 只需要在后缀中进行区分，用 .server.js 即可。相对的，客户端组件需要使用 .client.js。如果没有这两种后缀的文件会被认为在两种环境都可以跑，为了避免出现问题，如果不写后缀，只能用服务端组件和客户端组件的交集。
+
+服务端组件目前只是 alpha 阶段，到真正生产可用还有一段路要走，比如构建工具和 lint 工具的支持等。
+
+这里有一个官方提供的服务端组件 demo 仓库，供大家学习，仓库主页还提供了一个**演讲视频**的链接。如果你第一次听说这个概念，不妨先看下视频了解一下。
+
+仓库地址：https://github.com/reactjs/server-components-demo
+
+### 2021-01-25[好文]
+
+文章内容我**部分认同**，但是结尾有一句话我非常认同。那就是：
+
+```
+用领域驱动解决高层级问题，用函数式解决低层级问题，才是最佳开发范式
+
+也就是说，函数式和面向对象，没有好坏，他们只是两个关注点不同的思想方法而已
+
+你要是被这种思想方法影响，眼里只有对错 ——
+
+实际上是被忽悠了
+```
+
+文章地址：https://zhuanlan.zhihu.com/p/342774974
+
+### 2021-01-22[工具]
 
 vite 是尤雨溪写的一个代替 webpack 的工具，它包含了本地开发服务器和打包模块。除了支持 vue，其还拓展支持了 react 和 preact 等流行框架。
 
@@ -20,19 +81,19 @@ vite 是尤雨溪写的一个代替 webpack 的工具，它包含了本地开发
 
 地址：https://vitejs.dev/guide/introduction.html
 
-### 2020-01-21[视频教程]
+### 2021-01-21[视频教程]
 
 vue 作者尤雨溪本身亲自下海讲课，手把手教你实现一个 mini-vue，来看下作者本人的思路吧。
 
 地址：https://www.vuemastery.com/courses/vue3-deep-dive-with-evan-you/vue3-overview
 
-### 2020-01-20[工具]
+### 2021-01-20[工具]
 
 一个在线展示 latex 效果的网站， 你输入 latex，它可以实时展示效果，并支持多种格式的导出。
 
 https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn
 
-### 2020-01-19[工具]
+### 2021-01-19[工具]
 
 给不同的网站和应用不同的密码以防止密码泄露带来的大规模问题已经是一个公认的方法。可是密码设置地太过简单很容易被破解，设置太复杂自己又很难记住。
 
@@ -152,7 +213,7 @@ lnav 是一个日志查看工具。使用方式超级简单，直接打开就行
 
 大多数工具中，使用 - 代替输入或者输出文件名意味着工具将从标准输入（standard input）获取所需内容，或者向标准输出（standard output）输出结果。
 
-### 2020-01-05[好文]
+### 2021-01-05[好文]
 
 如何做一个换肤的功能？主要的思路有两个，一个是基于运行时，一个是基于编译时，各有优缺点，当然你也可以将二者结合。
 
@@ -183,7 +244,7 @@ python3 -m pdb a.py
 - [2020-04](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-04/README.md)
 - [2020-03](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-03/README.md)
 - [2020-02](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-02/README.md)
-- [2020-01](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-01/README.md)
+- [2021-01](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-01/README.md)
 - [2019-12](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-12/README.md)
 - [2019-11](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-11/README.md)
 - [2019-10](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-10/README.md)
