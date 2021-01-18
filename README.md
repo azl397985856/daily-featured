@@ -233,6 +233,42 @@ python3 -m pdb a.py
 
 地址：https://docs.python.org/3/library/pdb.html#module-pdb
 
+### 2021-01-03[类库]
+
+React hooks 毫无疑问改变了传统的写代码方式。带来便利性的同时，也会有一些困扰。不过这丝毫不影响其受欢迎程度。
+
+今天给大家介绍一个 React Hooks 的库 `react-hooks-lib`。
+
+其功能覆盖了：
+
+- 生命周期
+- 状态
+- 副作用(useShallowEqualEffect 和 useDeepEqualEffect)
+- 网络(useFeth 和 useOnlineStatus)
+- 用户反馈（比如 useFocus, useHover）
+
+你可以用它简化你的”双向绑定“代码。比如如下代码：
+
+> 注意并不是真正的双向绑定
+
+```js
+import React from "react";
+import { useField } from "react-hooks-lib";
+
+export default function App() {
+  const { value, bind } = useField("text");
+
+  return (
+    <div>
+      <input type="text" {...bind} />
+      <p>{value}</p>
+    </div>
+  );
+}
+```
+
+仓库地址：https://github.com/beizhedenglong/react-hooks-lib
+
 ## 历史汇总
 
 - [2020-12](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-12/README.md)
