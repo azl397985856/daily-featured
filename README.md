@@ -12,6 +12,61 @@
 
 ## 新鲜出炉 (2021-02)
 
+### 2021-02-20[网站]
+
+midwayjs 是阿里淘宝前端团队在 serverless 领域开源的一个行业标杆级产品。除了提供”完善的 serverless 生命周期管理，不绑定某一家云服务厂商，提供方便的从其他框架迁移功能“等核心功能之外。其还提供了一些通用组件，hooks 能力，丰富的装饰器等辅助功能。更加令人欣慰的是，它还提供了 vscode 的良好支持，使得我们可以在 vscode 中方便地进行调试，以及查看接口信息。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gnsm76n0q6j30lp0nhq8s.jpg)
+
+地址：https://www.yuque.com/midwayjs/faas/what_to_do
+
+### 2021-02-19[网站]
+
+Github 老是挂。但是最近 Github 在这方面做得努力真的令人佩服，不仅有事故报告，值班制度，工单系统等，还提供了 github status，方便你查看现在 github 的状况。通过它，你可以知道 Github Action 是挂的。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gn3dqpxbsxj30pt0n3n1h.jpg)
+
+它精确地告诉了你事故发生的时间以及具体影响的业务，真的是很贴心了，我希望更多的产品都能提供这样的功能。
+
+地址：https://www.githubstatus.com/
+
+### 2021-02-18[网站]
+
+文章标题：《Serverless 如何让前端程序员没有后端也能完成项目?》，文章脑洞比较大，前端直接调用后端的数据库等组件。这在技术上很容易实现，但是业务上肯定有很多的问题需要解决，比如安全性以及性能问题，这篇文章提供了一些不错的思路。
+
+文章地址：https://www.codingstyle.cn/topics/75
+
+### 2021-02-04[网站]
+
+skypack 允许你直接**在浏览器引入 npm 库**，而不需要在本地 npm 安装。
+
+类似如下方式：
+
+```js
+import confetti from "https://cdn.skypack.dev/canvas-confetti";
+confetti();
+```
+
+https://www.skypack.dev/
+
+### 2021-02-03[网站]
+
+功能强大的 Kafka 集群监控和运维管理平台
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gn7urs549qj30u00h6q4f.jpg)
+
+地址：https://github.com/didi/Logi-KafkaManager
+
+### 2021-02-02[网站]
+
+如果你想要学习 Python，可以先看下入门书籍或者官方的文档，之后可以做一些练习来巩固。今天就给大家推荐一个在线练习 Python 的网站。
+
+该网站目前提供了 36 道练习题，覆盖了 Python 中绝大数知识点，每一道题都提供了答案，方便你卡壳的时候参考。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gnsm0bciw6j30mv0ezgoi.jpg)
+
+地址： http://www.practicepython.org/
+
 ### 2021-02-01[网站]
 
 transform 是一个提供在线**数据格式转换**服务的网站。它提供了众多数据结构的互相转换功能。
