@@ -10,6 +10,11 @@
 
 电子书文件太大， 大家可到我的公众号《脑洞前端》回复“每日一荐”获取。
 
+## :newspaper: &nbsp; RSS
+
+大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓库更新。
+​
+
 ## 新鲜出炉 (2021-02)
 
 ### 2021-02-23[工具]
