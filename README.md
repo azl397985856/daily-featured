@@ -12,6 +12,37 @@
 
 ## 新鲜出炉 (2021-02)
 
+### 2021-02-23[工具]
+
+pipcook 是阿里开源的人工智能在前端领域的一个工具。使用它，你可以在不借助后端的情况下直接使用人工智能算法，这得益于著名框架 tensorflow 出的 tensorflow.js。将运算转移到客户端，无疑缓解了 AI 对算力的要求。
+
+pipcook 目前主要的功能是图片和文字识别创造等传统的功能，如果你有类似的需求，而不打算投入服务器算力资源，那么可以考虑使用。
+
+有的人担心直接使用 JS  玩 AI 是不是不太靠谱，还是觉得 Python 比较稳。没有关系， pipcook 也考虑到了这一点， 它提供了一个包 **boa**，从而允许你在 js 中直接使用 Python 中的函数。比如：
+
+```js
+const boa = require("@pipcook/boa");
+const os = boa.import("os");
+console.log(os.getpid()); // prints the pid from python.
+
+// using keyword arguments namely `kwargs`
+os.makedirs(
+  "..",
+  boa.kwargs({
+    mode: 0x777,
+    exist_ok: false,
+  })
+);
+
+// using bult-in functions
+const { range, len } = boa.builtins();
+const list = range(0, 10); // create a range array
+console.log(len(list)); // 10
+console.log(list[2]); // 2
+```
+
+地址：https://alibaba.github.io/pipcook
+
 ### 2021-02-22[网站]
 
 type-challenges 是一批 ts 爱好者搞出来的一个网站，它提供了大量的 ts 练习题，现在已经有 70 道题了，而且还在不断增加。
