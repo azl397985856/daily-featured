@@ -17,6 +17,36 @@
 
 ## 新鲜出炉 (2021-02)
 
+### 2021-02-28[好文]
+
+是不是有许多小伙伴在刷力扣的时候感觉无从下手？从头按顺序开始刷的童鞋们可能会比较有感触，为什么才第四题就感觉很难了?没关系，本文将对力扣的 1-700 题中不需要会员的数据结构与算法题目(数据库与 shell 除外)进行分类，并推荐一个刷题的顺序。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gnzsviwg53j30k00pl41f.jpg)
+
+（部分题目）
+
+文章地址：https://leetcode-cn.com/circle/article/48kq9d/
+
+### 2021-02-27[好文]
+
+A\* 算法是一种比较复杂的启发式算法，在面试中考察的次数不多。但是其本身覆盖的知识很广，也可以解决很多实际问题，比如游戏路径指引（我承认很多算法没有用）。因此我建议学有余力的同学可以尝试学习一下。 而今天这篇文章是我见过的 A\* 算法讲的最好的文章之一。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gnzsypjm6yj30n20obacx.jpg)
+
+（部分目录）
+
+文章地址：http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html#the-a-star-algorithm
+
+### 2021-02-26[仓库]
+
+这是一个关于 Domain-Driven Design（领域驱动设计），简称 DDD 的一个聚合型仓库。里面包含了基本概念，六边形理论，原则方法，例子，最佳实践等。**是我见过最全的 DDD 知识仓库**。最近这个仓库也登上了 Github Trending。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gnzsn98drpj30ee0m140e.jpg)
+
+（仓库部分目录）
+
+仓库地址：https://github.com/Sairyss/domain-driven-hexagon#Architecture
+
 ### 2021-02-25[框架]
 
 rest_rpc 是一款由 C++ 编写的，使用简单，高性能跨平台，支持 callback 和 future 两种风格的 rpc 框架。
@@ -107,6 +137,55 @@ Github 老是挂。但是最近 Github 在这方面做得努力真的令人佩�
 文章标题：《Serverless 如何让前端程序员没有后端也能完成项目?》，文章脑洞比较大，前端直接调用后端的数据库等组件。这在技术上很容易实现，但是业务上肯定有很多的问题需要解决，比如安全性以及性能问题，这篇文章提供了一些不错的思路。
 
 文章地址：https://www.codingstyle.cn/topics/75
+
+### 2021-02-12[好文]
+
+pnpm 是什么？相比于 npm 和 yarn ，它的优势在哪里？本文带你解密。
+
+文章地址：https://juejin.cn/post/6932046455733485575
+
+### 2021-02-11[好文]
+
+如何给自己的 Github 主页增加**自动更新博客文章**的功能？
+
+### 2021-02-10[好文]
+
+掘金点赞超 1000 的文章。详细列举了各种 web 前端设计技巧。注意有如下内容：
+
+- 各种布局方式
+- 页面设计优化
+- 字体优化
+- 可访问性
+
+文章地址：https://juejin.cn/post/6932647134944886797
+
+### 2021-02-09[仓库]
+
+良好的命名是好的代码的基本条件。不过要想写出通俗易懂，一致性的命名可不简单。这供仓库列举了关于命名的原则和最佳实践，帮助你写出良好的命名。
+
+仓库地址：https://github.com/kettanaito/naming-cheatsheet
+
+### 2021-02-08[工具]
+
+骨架图是一种又爱又恨的东西，虽然它都提升性能没有任何帮助。但是有时候却可以缓解用户等待的焦急情绪。
+
+生成骨架图方式有很多。一种简单的实现方式就是使用无头浏览器渲染页面，并加页面中的**关键位置**做灰色背景处理，最后使用无头浏览器的截图功能生成图片即可。
+
+今天给大家推荐的这个工具是网易考拉团队开源的一个生成骨架图的工具。使用方式很简单：
+
+安装：
+
+```bash
+npm i awesome-skeleton -g
+```
+
+使用：
+
+```bash
+skeleton -c ./skeleton.config.json
+```
+
+仓库地址：https://github.com/kaola-fed/awesome-skeleton
 
 ### 2021-02-04[网站]
 
