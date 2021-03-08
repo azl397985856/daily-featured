@@ -17,6 +17,28 @@
 
 ## 新鲜出炉 (2021-03)
 
+### 2021-03-10[好文]
+
+文章名《如何构建一款超级玛丽》。虽然说是教你构建超级玛丽，其实就是一个简单的小人运动，并没有什么吃蘑菇的场景。不过基于它的代码再去实现也不是难事，毕竟入门是最难的。作者写了好几篇博客来讲构建超级玛丽的细节。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1go7ygjneihg318y0cy4c4.gif)
+
+文章地址：http://www.wopaige.cn/views/JS%E5%9F%BA%E7%A1%80/Super.html
+
+### 2021-03-09[仓库]
+
+随着 vue3.0 的发布 elementui 也开始跟进，推出了 elementui-plus。如果你对 element-ui 比较熟悉，那么使用它的话过渡也会比较自然。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gocg8zb556j30sv0ozgox.jpg)
+
+地址：https://github.com/element-plus/element-plus
+
+### 2021-03-08[仓库]
+
+一个关于 JS 统计的仓库，收集一些比较流行的框架，工具等，并按照多个维度进行整合，帮助大家**快速了解最近有哪些 JS 技术值得关注**。
+
+地址：https://github.com/bestofjs/javascript-risingstars
+
 ### 2021-03-05[好文]
 
 有道前端团队出品的《有道云笔记新版编辑器架构设计 》，分为上下两篇。详细讲述了**富文本编辑器**的采坑之路。如果你对**富文本编辑器** 感兴趣，千万不要错过。
@@ -26,13 +48,15 @@
 - 上篇：https://zhuanlan.zhihu.com/p/345895871
 - 下篇：https://zhuanlan.zhihu.com/p/347415991
 
-### 2021-03-04[好文]
+### 2021-03-04[仓库]
 
-文章名《如何构建一款超级玛丽》。虽然说是教你构建超级玛丽，其实就是一个简单的小人运动，并没有什么吃蘑菇的场景。不过基于它的代码再去实现也不是难事，毕竟入门是最难的。作者写了好几篇博客来讲构建超级玛丽的细节。
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gocg4np4s6j31980e0q4b.jpg)
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go7ygjneihg318y0cy4c4.gif)
+类似于 Rust，deno 等，rome 是对 JS,TS, JSON, HTML, CSS 等资源进行管理的一体化工具。之所以说是一体化，指的是其提供 lint，编译，打包，测试等全生命周期。
 
-文章地址：http://www.wopaige.cn/views/JS%E5%9F%BA%E7%A1%80/Super.html
+它的出现就是位了取代 babel，eslint，webpack，prettier，jest 等等，可以看出其野心之大。这或许也是没有被大家广泛使用的原因之一吧。现在项目已经 14.8 star，值得大家关注一波。
+
+地址：https://github.com/rome/tools
 
 ### 2021-03-03[好文]
 
