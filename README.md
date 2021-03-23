@@ -17,6 +17,34 @@
 
 ## 新鲜出炉 (2021-03)
 
+### 2021-03-23[工具]
+
+今天介绍的是一个打包工具 snowpack。它借助了现代浏览器支持 ESM 的特性，使得开发的时候不进行打包，而是每次修改文件只修改改变部分的 ESM 模块，使得热更新的时间复杂度从 $O(n)$,降低到 $O(1)# 其中 n 为模块数目。
+
+推荐的做法是开发中用 snowpack 的 ESM 构建使得构建速度不会随着项目变大而增长，发布的时候根据自己项目的需要支持的浏览器进行打包。
+
+snowpack 也提供了类似 React 的 create-react-app。使用方式很简单，敲以下命令就可以了:
+
+```bash
+npx create-snowpack-app react-snowpack --template @snowpack/app-template-react
+```
+
+地址：https://www.snowpack.dev/
+
+### 2021-03-22[类库]
+
+console-ban 是一个脑洞很大的库。其可以让你的前端代码免于被人打开控制台查看，减少了前端代码被分析，盗取的风险。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gog22w36j7j30p90nbdhu.jpg)
+
+地址：https://github.com/fz6m/console-ban
+
+### 2021-03-19[类库]
+
+nolimits4web（一个俄国程序员） 写的 swiper 或许是最好的 swiper 插件了。唯一的缺点就是太大了，不过你可以懒加载它。如果你的需求比较轻量，不想引入那么大的文件可考虑使用 tiny-swiper，地址：https://github.com/joe223/tiny-swiper
+
+swiper 地址：https://github.com/nolimits4web/swiper
+
 ### 2021-03-18[仓库]
 
 波兰的的一个牛人用 JS 实现了一个非常火爆的像素风游戏 《我的世界》。服务端和客户端代码全部开源。

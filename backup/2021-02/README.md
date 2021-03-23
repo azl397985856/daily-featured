@@ -178,6 +178,12 @@ skeleton -c ./skeleton.config.json
 
 仓库地址：https://github.com/kaola-fed/awesome-skeleton
 
+## 2021-02-05[工具]
+
+mkcert 是一个允许你在本机（localhost）允许 https 的工具。这在你需要在本地调试 https 的时候极为有用。
+
+地址：https://github.com/FiloSottile/mkcert
+
 ### 2021-02-04[网站]
 
 skypack 允许你直接**在浏览器引入 npm 库**，而不需要在本地 npm 安装。
