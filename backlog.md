@@ -1,8 +1,42 @@
+### 2021-04-04[类库]
+
+sql.js 是一个在 web 端运行的 SQLite 库。 通过它，你就可以直接在 web 端操作”SQLite“ 了。之所以加了引号，是因为它并不是真正的 sqlite，而是符合 sqlite 规范的内存型数据库。它将所有的数据统一放到内存中进行管理。
+
+它允许你导入已有的 sqlite 数据库，并支持导出符合 sqlite 规范的格式，很神奇吧？
+
+下面是官方提供的演示代码：
+
+```js
+const initSqlJs = require("sql.js");
+
+const SQL = await initSqlJs({
+  locateFile: (file) => `https://sql.js.org/dist/${file}`,
+});
+
+// Create a database
+var db = new SQL.Database();
+
+// Prepare an sql statement
+var stmt = db.prepare("SELECT * FROM hello WHERE a=:aval AND b=:bval");
+
+// Bind values to the parameters and fetch the results of the query
+var result = stmt.getAsObject({ ":aval": 1, ":bval": "world" });
+console.log(result); // Will print {a:1, b:'world'}
+```
+
+地址：https://github.com/sql-js/sql.js
+
+### 2021-04-04[工具]
+
+今天介绍的 spectacle 并不是 mac 上的窗口管理工具，而是一个 JS 库。 功能和 revealjs 一样，都是用来做精美的 PPT 的。
+
+地址：https://github.com/FormidableLabs/spectacle
+
 ### 2021-04-03[好文]
 
 网上讲 https 文章很多。但是大多数是讲原理的，本文直接使用 openssl 通过代码（严格来说是命令行）让你理解 https，毕竟纸上得来终觉浅，绝知此事要躬行。
 
-https://cjting.me/2021/03/02/how-to-validate-tls-certificate/
+地址：https://cjting.me/2021/03/02/how-to-validate-tls-certificate/
 
 ### 2021-04-02[类库]
 
@@ -100,11 +134,3 @@ OpenSSH 是使用 SSH 透过计算机网络加密通信的开源免费实现。�
 OpenSSH 实践手册详细讲解了如何使用 ssh，比如 sshpass 实现无密码登录，做 Socks 代理，端口转发等。我想**大多数人都没有彻底利用好 ta**。
 
 地址：https://engr-z.com/326.html
-
-### 2021-03-24[类库]
-
-vue-use-gesture 是一个 vue 的 hooks 库，用于手势控制。可以使得任意的元素可拖动。你还可以配合 `vue-use-spring` 实现更多动画效果。
-
-![](https://tva1.sinaimg.cn/large/008eGmZEly1goh5o62202g30jc08y4qq.gif)
-
-地址：https://vue-use-gesture.netlify.app/docs

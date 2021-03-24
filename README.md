@@ -17,6 +17,14 @@
 
 ## 新鲜出炉 (2021-03)
 
+### 2021-03-24[类库]
+
+vue-use-gesture 是一个 vue 的 hooks 库，用于手势控制。可以使得任意的元素可拖动。你还可以配合 `vue-use-spring` 实现更多动画效果。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1goh5o62202g30jc08y4qq.gif)
+
+地址：https://vue-use-gesture.netlify.app/docs
+
 ### 2021-03-23[工具]
 
 今天介绍的是一个打包工具 snowpack。它借助了现代浏览器支持 ESM 的特性，使得开发的时候不进行打包，而是每次修改文件只修改改变部分的 ESM 模块，使得热更新的时间复杂度从 $O(n)$,降低到 $O(1)# 其中 n 为模块数目。
