@@ -1,4 +1,12 @@
-### 2021-04-12[类库]
+#### 2021-04-15[好文]
+
+正如文章所说，做一个打包工具其实不难的，我之前就自己徒手撸了一个小的打包器，核心代码不到 100 行，仓库地址：[从零开始开发一个 Webpack](https://github.com/azl397985856/mono-webpack)。打包器难的地方在于如何设计插件系统。以及如何支持更多其他功能（比如**虚拟模块**）。
+
+文章标题《基于 esbuild 的 universal bundler 设计》，详细讲述了打包器是什么，以及设计一个通用的打包器需要考虑什么。
+
+地址：https://juejin.cn/post/6940218189921910797#heading-28
+
+#### 2021-04-14[类库]
 
 eslint-plugin-clean-regex 是一个帮助你写出干净正则表达式的 eslint 插件。
 
@@ -19,6 +27,24 @@ eslint-plugin-clean-regex 是一个帮助你写出干净正则表达式的 eslin
 - /\w+/
 
 地址：https://github.com/RunDevelopment/eslint-plugin-clean-regex
+
+#### 2021-04-13[好文]
+
+不少前端 npm script 太过依赖。将所有的命令都写到 package.json 的 script 中，然后通过 npm run xxx 的形式执行。
+
+这在一些小项目没啥问题，甚至 react 和 vue 的脚手架生产的项目工程都是这样的。但是当你的项目规模增长，脚本增多。npm script 的问题就暴露出来了，比如依赖管理比较复杂，再比如每次构建都是全量构建（不考虑优化），即使你根本没有改变代码。相比于 npm script， 老牌的 makefile 可以很好地解决这些问题。
+
+如果你参与的是大型项目，不妨考虑使用 makefile 来管理你的项目。
+
+文章地址：https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/
+
+### 2021-04-12[好文]
+
+美团技术团队出的优质 Flutter Web 实践文章，文章标题《Flutter Web 在美团外卖的实践》。
+
+文章从基础架构，性能优化，流程等多方面对问题进行了分析，值得大家学习。如果你正好在学习和使用 Flutter，那么就更应该看一下啦~
+
+文章地址：https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg
 
 ### 2021-04-09[类库]
 
