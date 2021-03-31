@@ -1,3 +1,25 @@
+### 2021-04-20[好文]
+
+vim 是一门语言。掌握 vim 的人对其爱不释手，不懂得人对其望而生畏。
+
+> 你有过使用 vim ，却不知道如何退出的窘境么？
+
+我的浏览器和 vscode 都装了 vim。 （如果可能的话，想给自己操作系统也装一个 vim 插件）。
+
+文章提到了学习 vim 的几种境界：
+
+- Level 0: not knowing about Vim
+- Level 1: knows Vim basics
+- Level 2: knows visual mode
+- Level 3: knows various motions
+- Level 4: not needing visual mode
+
+我感觉自己在 2 和 3 之间，如果能达到 4，你肯定会对 vim 爱不释手的。
+
+这篇文章是我见过的 vim 讲的比较不错的之一，推荐给大家。
+
+文章地址：https://danielmiessler.com/study/vim/
+
 #### 2021-04-19[类库]
 
 - language: JS
