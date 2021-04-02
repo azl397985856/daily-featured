@@ -21,7 +21,7 @@
 
 一个可以实时翻译不同语言，以支持不同语言的人一起开会。这或许就是跨国远程办公党的胜利？
 
-> 赚美刀 ^\_^
+> 更容易赚美刀 ^\_^ 啦？
 
 https://business-review.eu/tech/cisco-webex-breaks-through-language-barriers-and-launches-real-time-translation-217869
 

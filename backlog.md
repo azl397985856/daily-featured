@@ -1,3 +1,17 @@
+### 2021-04-21[好文]
+
+如何写一个 vscode 插件？这篇文章告诉你。
+
+这篇文章的特色有：
+
+- 提供代码，更具有实战价值。
+- 系统讲解了 vscode 插件的整体结构。虽然不够详细，但是知识系统化，你需要什么更精细的内容，可以阅读官方文档或者其他细粒度的资料。
+- vscode 的插件需要用到的常见 api 都进行了讲解。除此之外还讲了如何调试和测试插件，可以说相当全面了。
+
+如果你正准备开发 vscode 插件，或者将来有开发 vscode 插件的打算，那么这篇入门文章会很适合你。
+
+地址：https://blog.logrocket.com/writing-vs-code-extensions-in-javascript/
+
 ### 2021-04-20[好文]
 
 vim 是一门语言。掌握 vim 的人对其爱不释手，不懂得人对其望而生畏。
@@ -141,41 +155,3 @@ console.log(result); // Will print {a:1, b:'world'}
 网上讲 https 文章很多。但是大多数是讲原理的，本文直接使用 openssl 通过代码（严格来说是命令行）让你理解 https，毕竟纸上得来终觉浅，绝知此事要躬行。
 
 地址：https://cjting.me/2021/03/02/how-to-validate-tls-certificate/
-
-### 2021-04-02[类库]
-
-之前我关注 lit-html，现在我开始关注 linkeddom。两者都是没有编译时，在运行时解决字符串为 DOM 的类库。
-
-一个简单的用法：
-
-```js
-const {
-  // note, these are *not* globals
-  window, document, customElements,
-  HTMLElement,
-  Event, CustomEvent
-  // other exports ..
-} = parseHTML(`
-  <!doctype html>
-  <html lang="en">
-    <head>
-      <title>Hello SSR</title>
-    </head>
-    <body>
-      <form>
-        <input name="user">
-        <button>
-          Submit
-        </button>
-      </form>
-    </body>
-  </html>
-```
-
-linkdom 功能更加丰富，而且对标准的支持更加好一点。不过两者也不是替代关系，这两个大家都可以关注一下。
-
-### 2021-04-01[Github Action]
-
-Issues Translator 是一个可以自动将 Github 的中文 issue 翻译为英文的 Github Action。如果你的项目是面向全世界开发者的，那么就可以考虑使用 ta 。
-
-地址：https://github.com/marketplace/actions/issues-translator
