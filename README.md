@@ -15,216 +15,213 @@
 大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓库更新。
 ​
 
-## 新鲜出炉 (2021-03)
+## 新鲜出炉 (2021-04)
 
-### 2021-03-31[工具]
+### 2021-04-22[好文]
 
-一个可以实时翻译不同语言，以支持不同语言的人一起开会。这或许就是跨国远程办公党的胜利？
+awk 是一个**简单，好用的**基于列的文本处理工具。如果你需要处理一些列分割的文本，那么一定考虑它。功能非常强大，很多语法和 Python 比较像，学习成本不高（一个小时就够了）。
 
-> 更容易赚美刀 ^\_^ 啦？
+最近看了一篇文章**使用 awk 生成二维数组，并基于此处理文本**。由于以前都没这么用过，感觉还是蛮有意思的。文章地址：https://www.lujun9972.win/blog/2021/04/15/%E4%BD%BF%E7%94%A8awk%E6%9F%A5%E6%89%BE%E5%B9%B6%E4%BF%AE%E5%A4%8D%E6%95%B0%E6%8D%AE%E4%B8%AD%E4%B8%80%E5%AF%B9%E5%A4%9A%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E9%97%AE%E9%A2%98/index.html
 
-https://business-review.eu/tech/cisco-webex-breaks-through-language-barriers-and-launches-real-time-translation-217869
+虽然学习 awk 不难，但是网上资料良莠不齐，我推荐一个快速入门，十分钟左右就能看完。看完掌握 80% awk 内容不成问题。
 
-### 2021-03-30[类库]
+文章地址：http://www.hcs.harvard.edu/~dholland/computers/awk.html
 
-prisma 是一个 Nodejs 端的 ORM 框架。和 [waterline](https://github.com/balderdashy/waterline "waterline") 类似，也提供了多种主流数据库的接入，以及统一的便捷的封装函数。
+### 2021-04-21[好文]
 
-从使用体验上来看，prisma 更加舒服。 prisma 通过自己定义一套 DSL（prisma 文件中使用的语法），并自己解析，使得开发体验更加友好。另外从 Github 的 star 数以及 npm 上的下载量来看，prisma 都表现地不错。
+如何写一个 vscode 插件？这篇文章告诉你。
 
-使用示例(Create a new User and a new Post record in the same query)：
+这篇文章的特色有：
+
+- 提供代码，更具有实战价值。
+- 系统讲解了 vscode 插件的整体结构。虽然不够详细，但是知识系统化，你需要什么更精细的内容，可以阅读官方文档或者其他细粒度的资料。
+- vscode 的插件需要用到的常见 api 都进行了讲解。除此之外还讲了如何调试和测试插件，可以说相当全面了。
+
+如果你正准备开发 vscode 插件，或者将来有开发 vscode 插件的打算，那么这篇入门文章会很适合你。
+
+地址：https://blog.logrocket.com/writing-vs-code-extensions-in-javascript/
+
+### 2021-04-20[好文]
+
+vim 是一门语言。掌握 vim 的人对其爱不释手，不懂得人对其望而生畏。
+
+> 你有过使用 vim ，却不知道如何退出的窘境么？
+
+我的浏览器和 vscode 都装了 vim。 （如果可能的话，想给自己操作系统也装一个 vim 插件）。
+
+文章提到了学习 vim 的几种境界：
+
+- Level 0: not knowing about Vim
+- Level 1: knows Vim basics
+- Level 2: knows visual mode
+- Level 3: knows various motions
+- Level 4: not needing visual mode
+
+我感觉自己在 2 和 3 之间，如果能达到 4，你肯定会对 vim 爱不释手的。
+
+这篇文章是我见过的 vim 讲的比较不错的之一，推荐给大家。
+
+文章地址：https://danielmiessler.com/study/vim/
+
+#### 2021-04-19[类库]
+
+- language: JS
+
+你或许听说过使用 gpu 加速动画。你听过使用 gpu 运行 js 代码么？就像 web worker 一样？
+
+gpu.js 就是这样的一个工具库，可以帮助你使用 gpu 的能力加速你的应用。不过不建议在一些简单的项目中使用，因为那样做不仅增加了项目复杂度还有可能造成性能不升反降。
+
+地址：https://github.com/gpujs/gpu.js
+
+#### 2021-04-16[好文]
+
+Git Submodule 大家使用过么？ submodule 其实不难理解，它就像是一个指向另外一个远程仓库的远程指针。
+
+我其实早就知道这个概念了，但是一直没有机会使用，直到最近在做公司的一个项目的时候。这让我感受到了”纸上得来终觉浅“。这篇文章从作者自身的角度出发，一步一步讲述了为啥使用 submodule 以及如何做的，解决了什么问题。每一个问题都讲解地很清楚。读完之后自己试下，效果更好哦~
+
+地址：https://blog.bitsrc.io/how-to-utilize-submodules-within-git-repos-5dfdd1c62d09
+
+#### 2021-04-15[好文]
+
+正如文章所说，做一个打包工具其实不难的，我之前就自己徒手撸了一个小的打包器，核心代码不到 100 行，仓库地址：[从零开始开发一个 Webpack](https://github.com/azl397985856/mono-webpack)。打包器难的地方在于如何设计插件系统。以及如何支持更多其他功能（比如**虚拟模块**）。
+
+文章标题《基于 esbuild 的 universal bundler 设计》，详细讲述了打包器是什么，以及设计一个通用的打包器需要考虑什么。
+
+地址：https://juejin.cn/post/6940218189921910797#heading-28
+
+#### 2021-04-14[类库]
+
+eslint-plugin-clean-regex 是一个帮助你写出干净正则表达式的 eslint 插件。
+
+比如如下的正则就是”不干净“的。
+
+- /(?:\w|\d)+/
+- /(?:a|(b)|c|(?:d)|(?:ee)){0,}/
+- /(?<!\w)a+(?=$)/mi
+- /[\s\S]#[\0-\uFFFF]/ysi
+- /\d*\w(?:[a-z_]|\d+)*/im
+
+这个插件会提示你改成下面这样（和上面一一对应）：
+
+- /\w+/
+- /(?:[acd]|(b)|ee)\*/
+- /\ba+$/im
+- /.#./sy
+- /\w+/
+
+地址：https://github.com/RunDevelopment/eslint-plugin-clean-regex
+
+#### 2021-04-13[好文]
+
+不少前端 npm script 太过依赖。将所有的命令都写到 package.json 的 script 中，然后通过 npm run xxx 的形式执行。
+
+这在一些小项目没啥问题，甚至 react 和 vue 的脚手架生产的项目工程都是这样的。但是当你的项目规模增长，脚本增多。npm script 的问题就暴露出来了，比如依赖管理比较复杂，再比如每次构建都是全量构建（不考虑优化），即使你根本没有改变代码。相比于 npm script， 老牌的 makefile 可以很好地解决这些问题。
+
+如果你参与的是大型项目，不妨考虑使用 makefile 来管理你的项目。
+
+文章地址：https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/
+
+### 2021-04-12[好文]
+
+美团技术团队出的优质 Flutter Web 实践文章，文章标题《Flutter Web 在美团外卖的实践》。
+
+文章从基础架构，性能优化，流程等多方面对问题进行了分析，值得大家学习。如果你正好在学习和使用 Flutter，那么就更应该看一下啦~
+
+文章地址：https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg
+
+### 2021-04-09[类库]
+
+bytemd 字节跳动团队开发的一个基于 svelte（一个 JS 框架）的 Markdown 编辑器。功能非常多，符合了代码高亮，流程图，主题等方方面面，掘金就是基于它开发的。你可以基于它做一些扩展，给你的网站增加 markdown 编辑的能力。
+
+![bytemd 使用效果](https://tva1.sinaimg.cn/large/008eGmZEly1gow93ij9a7j30xx0mrtdj.jpg)
+
+地址：https://github.com/bytedance/bytemd
+
+### 2021-04-08[仓库]
+
+为了学习 html 的解析过程，手写的一个 html 解析器，用于将 html 字符串解析为树形结构。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gov8qo72gjj30q10n2wh2.jpg)
+
+地址：https://github.com/azl397985856/html-parser
+
+### 2021-04-07[类库]
+
+sql.js 是一个在 web 端运行的 SQLite 库。 通过它，你就可以直接在 web 端操作”SQLite“ 了。之所以加了引号，是因为它并不是真正的 sqlite，而是符合 sqlite 规范的内存型数据库。它将所有的数据统一放到内存中进行管理。
+
+它允许你导入已有的 sqlite 数据库，并支持导出符合 sqlite 规范的格式，很神奇吧？
+
+下面是官方提供的演示代码：
 
 ```js
-// Run inside `async` function
-const user = await prisma.user.create({
-  data: {
-    name: "Alice",
-    email: "alice@prisma.io",
-    posts: {
-      create: { title: "Join us for Prisma Day 2021" },
-    },
-  },
+const initSqlJs = require("sql.js");
+
+const SQL = await initSqlJs({
+  locateFile: (file) => `https://sql.js.org/dist/${file}`,
 });
+
+// Create a database
+var db = new SQL.Database();
+
+// Prepare an sql statement
+var stmt = db.prepare("SELECT * FROM hello WHERE a=:aval AND b=:bval");
+
+// Bind values to the parameters and fetch the results of the query
+var result = stmt.getAsObject({ ":aval": 1, ":bval": "world" });
+console.log(result); // Will print {a:1, b:'world'}
 ```
 
-Update an existing Post record
+地址：https://github.com/sql-js/sql.js
+
+### 2021-04-06[工具]
+
+今天介绍的 spectacle 并不是 mac 上的窗口管理工具，而是一个 JS 库。 功能和 revealjs 一样，都是用来做精美的 PPT 的。
+
+地址：https://github.com/FormidableLabs/spectacle
+
+### 2021-04-05[好文]
+
+网上讲 https 文章很多。但是大多数是讲原理的，本文直接使用 openssl 通过代码（严格来说是命令行）让你理解 https，毕竟纸上得来终觉浅，绝知此事要躬行。
+
+地址：https://cjting.me/2021/03/02/how-to-validate-tls-certificate/
+
+### 2021-04-02[类库]
+
+之前我关注 lit-html，现在我开始关注 linkeddom。两者都是没有编译时，在运行时解决字符串为 DOM 的类库。
+
+一个简单的用法：
 
 ```js
-// Run inside `async` function
-const post = await prisma.post.update({
-  where: { id: 42 },
-  data: { published: true },
-});
+const {
+  // note, these are *not* globals
+  window, document, customElements,
+  HTMLElement,
+  Event, CustomEvent
+  // other exports ..
+} = parseHTML(`
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <title>Hello SSR</title>
+    </head>
+    <body>
+      <form>
+        <input name="user">
+        <button>
+          Submit
+        </button>
+      </form>
+    </body>
+  </html>
 ```
 
-地址：https://github.com/prisma/prisma
+linkdom 功能更加丰富，而且对标准的支持更加好一点。不过两者也不是替代关系，这两个大家都可以关注一下。
 
-### 2021-03-29[工具]
+### 2021-04-01[Github Action]
 
-一个可以运行在多端(window, linux 和 mac)的 switch 模拟器。从此畅玩 switch？
+Issues Translator 是一个可以自动将 Github 的中文 issue 翻译为英文的 Github Action。如果你的项目是面向全世界开发者的，那么就可以考虑使用 ta 。
 
-地址：https://ryujinx.org/download
-
-### 2021-03-26[工具]
-
-https://github.com/azl397985856/UnicomTask
-
-### 2021-03-25[好文]
-
-OpenSSH 是使用 SSH 透过计算机网络加密通信的开源免费实现。大多数程序员都或多或少和它打过交道。
-
-OpenSSH 实践手册详细讲解了如何使用 ssh，比如 sshpass 实现无密码登录，做 Socks 代理，端口转发等。我想**大多数人都没有彻底利用好 ta**。
-
-地址：https://engr-z.com/326.html
-
-### 2021-03-24[类库]
-
-vue-use-gesture 是一个 vue 的 hooks 库，用于手势控制。可以使得任意的元素可拖动。你还可以配合 `vue-use-spring` 实现更多动画效果。
-
-![](https://tva1.sinaimg.cn/large/008eGmZEly1goh5o62202g30jc08y4qq.gif)
-
-地址：https://vue-use-gesture.netlify.app/docs
-
-### 2021-03-23[工具]
-
-今天介绍的是一个打包工具 snowpack。它借助了现代浏览器支持 ESM 的特性，使得开发的时候不进行打包，而是每次修改文件只修改改变部分的 ESM 模块，使得热更新的时间复杂度从 $O(n)$,降低到 $O(1)# 其中 n 为模块数目。
-
-推荐的做法是开发中用 snowpack 的 ESM 构建使得构建速度不会随着项目变大而增长，发布的时候根据自己项目的需要支持的浏览器进行打包。
-
-snowpack 也提供了类似 React 的 create-react-app。使用方式很简单，敲以下命令就可以了:
-
-```bash
-npx create-snowpack-app react-snowpack --template @snowpack/app-template-react
-```
-
-地址：https://www.snowpack.dev/
-
-### 2021-03-22[类库]
-
-console-ban 是一个脑洞很大的库。其可以让你的前端代码免于被人打开控制台查看，减少了前端代码被分析，盗取的风险。
-
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gog22w36j7j30p90nbdhu.jpg)
-
-地址：https://github.com/fz6m/console-ban
-
-### 2021-03-19[类库]
-
-nolimits4web（一个俄国程序员） 写的 swiper 或许是最好的 swiper 插件了。唯一的缺点就是太大了，不过你可以懒加载它。如果你的需求比较轻量，不想引入那么大的文件可考虑使用 tiny-swiper，地址：https://github.com/joe223/tiny-swiper
-
-swiper 地址：https://github.com/nolimits4web/swiper
-
-### 2021-03-18[仓库]
-
-波兰的的一个牛人用 JS 实现了一个非常火爆的像素风游戏 《我的世界》。服务端和客户端代码全部开源。
-
-地址：https://github.com/michaljaz/web-minecraft
-
-### 2021-03-17[网站]
-
-OrbitDB 一个去中心化的 p2p 数据库，非常有意思。相对于传统的集中式， OrbitDB 将数据分布在我们每个人的机器上。你可以通过他们的网站来感受一下。
-
-地址：https://orbitdb.org/
-
-### 2021-03-16[类库]
-
-一些网站会有一些新手导航，就是下一步上一步的那个蒙层，用来帮助用户快速了解网站的使用方式。
-
-之前刚毕业的时候用过一个这种类库，是基于 React 的 reactour。 类似的还有 react-wizard-tour 等。
-
-今天给大家介绍的是一个原生 JS 写的类库 - shepherd，其不仅支持原生，还提供了所有主流框架的集成版本，比如 react，vue，angular 等等。此外其 api 设计比较好，star 也比较多。
-
-地址：https://github.com/shipshapecode/shepherd
-
-### 2021-03-15[好文]
-
-广告无处不在，它是支撑互联网高速发展的经济基石。互联网广告对互联网公司意味着什么？互联网的产业组成有哪些？CPC/CPM/CPS/CPI，这些术语意味着什么？各种 Vlog 博主能赚多少钱？普通人如何利用互联网广告赚钱？这篇文章告诉你答案。
-
-地址：https://www.bmpi.dev/dev/what-is-internet-advertising/
-
-### 2021-03-12[好文]
-
-很多技术人员到了一定的阶段（年纪）都会转到管理岗。而技术转管理很多人一开始是不适应的，毕竟工作内容以及责任发生了很大的变化。从对自己负责变成了对整个团队负责。
-
-人的习惯是难以改变的，这需要大家不断地有意识地提醒自己并纠正才可以。除此之外一个指导准则也很重要，这几篇文章是我整理的适合技术转管理看的文章列表。
-
-> 列表后续也会持续更新
-
-- [如何做好技术 Team Leader？](https://mp.weixin.qq.com/s/U-hqectN-fes7Td6Osut7Q)
-- [想要做大事，就要有高效的协作机制](https://mp.weixin.qq.com/s/2o5Ib23SaOSqs5yW71W-Eg)
-
-### 2021-03-11[好文]
-
-很多公司都在讲 OKR。但说实话落地起来都效果不好，各种走偏。这其实也和当前的发展阶段有关。相关的 OKR 文章我也看过一些， 而这篇文章是字节飞书团队写的，是我见过**实操性最强的文章**。不仅有大量的例子还有工具（飞书 OKR 模块）配合。如果你正在用 OKR 或者即将使用 OKR，一定不要错过~
-
-文章列表：
-
-- [5 分钟快速掌握 OKR 管理法 - OKR 理论篇](https://bytedance.feishu.cn/docs/doccnASRymC3YRjobicaOacpLFc#)
-- [5 分钟快速掌握 OKR 管理法 - OKR 实施篇](https://bytedance.feishu.cn/docs/doccnzkPxGyukUNZWr9sgJgouVf)
-- [制定与撰写 OKR | 两种思路与七类方法](https://bytedance.feishu.cn/docs/doccnF0yzGWKvRomAw0Ely9CJhg#)
-
-### 2021-03-10[好文]
-
-文章名《如何构建一款超级玛丽》。虽然说是教你构建超级玛丽，其实就是一个简单的小人运动，并没有什么吃蘑菇的场景。不过基于它的代码再去实现也不是难事，毕竟入门是最难的。作者写了好几篇博客来讲构建超级玛丽的细节。
-
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go7ygjneihg318y0cy4c4.gif)
-
-文章地址：http://www.wopaige.cn/views/JS%E5%9F%BA%E7%A1%80/Super.html
-
-### 2021-03-09[仓库]
-
-随着 vue3.0 的发布 elementui 也开始跟进，推出了 elementui-plus。如果你对 element-ui 比较熟悉，那么使用它的话过渡也会比较自然。
-
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gocg8zb556j30sv0ozgox.jpg)
-
-地址：https://github.com/element-plus/element-plus
-
-### 2021-03-08[仓库]
-
-一个关于 JS 统计的仓库，收集一些比较流行的框架，工具等，并按照多个维度进行整合，帮助大家**快速了解最近有哪些 JS 技术值得关注**。
-
-地址：https://github.com/bestofjs/javascript-risingstars
-
-### 2021-03-05[好文]
-
-有道前端团队出品的《有道云笔记新版编辑器架构设计 》，分为上下两篇。详细讲述了**富文本编辑器**的采坑之路。如果你对**富文本编辑器** 感兴趣，千万不要错过。
-
-文章地址：
-
-- 上篇：https://zhuanlan.zhihu.com/p/345895871
-- 下篇：https://zhuanlan.zhihu.com/p/347415991
-
-### 2021-03-04[仓库]
-
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gocg4np4s6j31980e0q4b.jpg)
-
-类似于 Rust，deno 等，rome 是对 JS,TS, JSON, HTML, CSS 等资源进行管理的一体化工具。之所以说是一体化，指的是其提供 lint，编译，打包，测试等全生命周期。
-
-它的出现就是位了取代 babel，eslint，webpack，prettier，jest 等等，可以看出其野心之大。这或许也是没有被大家广泛使用的原因之一吧。现在项目已经 14.8 star，值得大家关注一波。
-
-地址：https://github.com/rome/tools
-
-### 2021-03-03[好文]
-
-一个关于 Ryan Dahl （nodejs 和 deno 的作者）的采访。来看看，大佬是如何看待当前大环境的，以及大佬有哪些良好的习惯可以借鉴吧！
-
-地址：https://evrone.com/ryan-dahl-interview
-
-### 2021-03-02[网站]
-
-有时候你想快速运行一个代码片段，而不想繁琐地准备一大堆环境。JS 有类似的工具浏览器控制台或者 runjs，而其他语言呢？
-
-其实很多语言都有在线运行网站，这里推荐一个在线运行各种语言的网站（现在支持语言有十余种）。免去了你准备环境的烦恼，直接打开浏览器输入代码就可运行看效果。
-
-![网站效果](https://tva1.sinaimg.cn/large/e6c9d24ely1go5pivwe8ij20tr09r3zx.jpg)
-
-地址： https://www.onlinegdb.com/online_python_compiler
-
-### 2021-03-01[好文]
-
-91 天学算法是我和几个算法大佬一起组建的一个算法提高班。通过 91 天的集中化的学习，让你**遇见更好的自己**。
-
-这是 91 天学算法第三期视频会议的一个文字版总结。
-
-地址：https://lucifer.ren/blog/2021/03/01/91meeting-season-3-1/
+地址：https://github.com/marketplace/actions/issues-translator
 
 ## 历史汇总
 
