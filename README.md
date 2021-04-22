@@ -17,6 +17,24 @@
 
 ## 新鲜出炉 (2021-04)
 
+### 2021-04-28[工具]
+
+markdown-preview-enhanced 是一个增强版的 markdown 预览工具，目前支持 atom 和 vscode。
+
+说它是增强版一点都不过分，它是我见过的最强的 markdown 预览插件。支持 ppt 模式，主题定制，公式显示等等诸多功能。
+
+![markdown-preview-enhanced](https://tva1.sinaimg.cn/large/008i3skNly1gpsori13phj30xf0lp42t.jpg)
+
+![导出的 ppt 效果](https://tva1.sinaimg.cn/large/008i3skNly1gpsouluvddj31700m3ase.jpg)
+
+地址：https://github.com/shd101wyy/markdown-preview-enhanced
+
+此外也有一款工具也可以将 md 转化为 ppt，效果比较一般。 都是他自带了一个服务端，你可以实现云端投屏（air play）的效果。
+
+![air play](https://tva1.sinaimg.cn/large/008i3skNly1gpsotzjm4tj30wp0lj10v.jpg)
+
+地址：https://github.com/aiyanbo/md-ppt
+
 ### 2021-04-27[言论]
 
 我建议大家多学习几门编程语言。 这样不仅在必要的时候可以用到，而且可以扩展你的视野。 比如 JS 中有一个 import 语法。
