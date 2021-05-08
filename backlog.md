@@ -1,3 +1,9 @@
+## 2021-05-12[教程]
+
+微软出品的一个 Rust 基本教程，基本内容就是一些基础语法，语言特性， 以及一个 TODOList 的 demo。除了最后一部分 TODOList 比较复杂外，其他模块还是相当容易的。
+
+https://docs.microsoft.com/zh-cn/learn/paths/rust-first-steps/
+
 ## 2021-05-11[好文]
 
 原文标题《探秘神奇的运动路径动画 Motion Path 》。
