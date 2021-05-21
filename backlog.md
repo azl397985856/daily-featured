@@ -1,3 +1,18 @@
+## 2021-05-21[好文]
+
+git 合并大家都用过。那 git 合并有几种模式？它们之间有什么区别你知道么？
+
+简单来说有四种：
+
+- fast-forward。如果从 A 拉取新分支并合并回 A，在此期间 A 没有变化，则默认执行 fast forward，git 历史看不到分支合并的过程，这是默认行为，你可是适用 no-ff 在合并后创建一个新的提交。
+- no-ff(no fast-forward)
+- recursive 如果从 A 拉取新分支合并回 A，在此期间 A 发生了变化，则只能使用 recursive 和 sqush，两者区别在于 recursive 会保留 A 的所有 commit，而 squash 则会仅生成一个 commit，因此使用 squash 的历史记录会更干净。
+- squash
+
+相信内容请看文章。
+
+地址：https://blog.dnsimple.com/2019/01/two-years-of-squash-merge/
+
 ## 2021-05-17[好文]
 
 前端如何监听静态资源的加载错误？
