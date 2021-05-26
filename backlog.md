@@ -1,3 +1,23 @@
+## 2021-05-27[网站]
+
+一个可爱风的**前端事件可视化**网站。 它可以模拟事件的触发过程并通过可视化的方式展示出来， 支持用户自定义一些修改。如果你是新手，这绝对是一个不可多得的前端事件系统知识学习工具。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gqvoixh3fzj31370gkjv2.jpg)
+
+地址： https://domevents.dev/
+
+## 2021-05-26[工具]
+
+我一直想做又一直没有时间做的东西终于有人做了，而且开源出来了。
+
+这是一个 vscode 工具，可以根据运行时数据自动生成 TypeScript 类型。
+
+目前项目还是比较初级的阶段，建议大家先观望一段时间后使用。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gqvocd9chdg311q0tm7wj.gif)
+
+地址：https://github.com/rikukissa/typehole
+
 ## 2021-05-21[好文]
 
 git 合并大家都用过。那 git 合并有几种模式？它们之间有什么区别你知道么？
