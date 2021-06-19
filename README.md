@@ -17,6 +17,14 @@
 
 ## 新鲜出炉 (2021-06)
 
+## 2021-06-19[仓库]
+
+Mock Servic Worker （简称 MSW）是一个通过 ServiceWoker 拦截请求实现**无需更改代码实现 mock** 的库，支持 fetch，xhr，graphql。
+
+如果你在为单元测试 mock 接口烦恼，不妨试一下。
+
+地址：https://github.com/mswjs/msw
+
 ## 2021-06-18[仓库]
 
 很多人都知道 react 有 next.js 这样的前后端同构框架，用于快速开发同构项目。相应地，vue 有 nuxt.js。
