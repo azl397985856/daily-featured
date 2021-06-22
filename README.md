@@ -109,6 +109,12 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
 
+## 2021-06-01[工具]
+
+synthesia 是一个 AI 工具，允许你通过**上传一个带人物的视频并录入一段文字**，从而上视频中的人“说”出你写好的文字的工具。
+
+地址：https://www.synthesia.io/
+
 ## 历史汇总
 
 - [2021-05](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-05/README.md)
