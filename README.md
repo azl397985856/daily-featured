@@ -17,6 +17,16 @@
 
 ## 新鲜出炉 (2021-06)
 
+## 2021-06-23[仓库]
+
+这个仓库是 JavaScript 的知识图谱，目前更新了 JavaScript 基础，HTML & CSS 以及 JavaScript 数据结构与算法。
+
+我看了一下，内容很简单，干货不多，更适合初学者或者是查缺补漏，不适合拿来**修炼**。不过这种将知识点浓缩到一张超级大的图片中的做法还是很震撼的。尤其是我第一次打开的时候。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1grr47lidm1j31h20r6hbq.jpg)
+
+地址：https://github.com/mechaniac/Map-of-Javascript
+
 ## 2021-06-22[网站]
 
 我们很多时候都需要找一些相对权威的资料。比如一个 JS 特性不清楚的话（比如多个浏览器对同一个特性实现不同，谁对？），可以翻阅 ECMA 规范。
