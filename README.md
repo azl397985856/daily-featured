@@ -37,6 +37,12 @@
 
 地址：https://rfc.fyi/
 
+## 2021-06-21[好文]
+
+HMR 是大家都在用的一个特性，webpack 内置 HRM。那么 HMR 的原理你知道吗？
+
+地址：https://mp.weixin.qq.com/s?__biz=Mzg2ODQ1OTExOA==&mid=2247491058&idx=1&sn=05b0ddcc20627c46931bafce4d4a745f
+
 ## 2021-06-19[仓库]
 
 Mock Servic Worker （简称 MSW）是一个通过 ServiceWoker 拦截请求实现**无需更改代码实现 mock** 的库，支持 fetch，xhr，graphql。
