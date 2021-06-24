@@ -109,6 +109,14 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
 
+## 2021-06-02[好文]
+
+简单使用 esbuild-loader 替换 babel-loader 就把项目构建速度提升了一倍以上？
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1grt7m077zxj30ka0djtbz.jpg)
+
+文章地址：[webpack or esbuild: Why not both?](https://blog.logrocket.com/webpack-or-esbuild-why-not-both/ "webpack or esbuild: Why not both?")
+
 ## 2021-06-01[工具]
 
 synthesia 是一个 AI 工具，允许你通过**上传一个带人物的视频并录入一段文字**，从而上视频中的人“说”出你写好的文字的工具。
