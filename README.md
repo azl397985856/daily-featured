@@ -109,6 +109,21 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
 
+## 2021-06-03[框架]
+
+astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 的演示视频，因此对它影响还蛮深的。
+
+它的定位其实不是框架，只不过我找不到很好的词去形容。 astro 本身可以和其他框架（react，vue， svelte 等）进行集成。另外它本身也提供了一些特有语法，也有自己的文件后缀 .astro 解析（类似于 vue 提供了模板语法，并可解析自己的 vue 文件）。
+
+除此之外，它还有一些很有意思的特性。比如：
+
+- 默认 0 JS。
+- 原生支持 md 文件的解析，并渲染成 html。
+
+所以我认为 astro 是一个优雅降级的前端框架。
+
+地址：https://github.com/snowpackjs/astro
+
 ## 2021-06-02[好文]
 
 简单使用 esbuild-loader 替换 babel-loader 就把项目构建速度提升了一倍以上？
