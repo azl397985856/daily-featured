@@ -109,6 +109,29 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
 
+## 2021-06-06[小知识]
+
+nodejs 中异步信息很难跟踪，比如如下代码：
+
+```js
+fs.open("hello.txt", (err, res) => {
+  // something
+  console.log("cb");
+});
+```
+
+如果回调函数失败了，那么调用堆栈就消失了，也就自然无法复现完整的操作路径，这在大项目中是致命的。
+
+Node.js v8.x 增加了 async hooks 模块很好地解决了这个问题，并且异步资源还可以使用 async storage 共享一些数据。
+
+## 2021-06-05[框架]
+
+eggjs 是一个很火的阿里出品的 nodejs 框架。不过我一直认为 ta 做的还不够，尽管 ta 自己宣称的是**企业级 nodejs 框架**。
+
+相比之下，Nestjs 更接近我心目中的**企业级框架**，并且 Nestjs 还提供完成的学习教程（文字和视频都有，不过视频只有几个是免费的）。
+
+地址：https://docs.nestjs.com/
+
 ## 2021-06-04[网站]
 
 一个可视化 TypeScript AST 节点的网站。与其他 AST 可视化网站不同的是其专门用于 TS 的可视化，有 Node，Symbol 这种 TS 专用的节点显示。如果你要了解 TypeScript 的原理或者准备基于其进行改造，那么这个东西一定不要错过了。
