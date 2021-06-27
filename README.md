@@ -109,6 +109,14 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
 
+## 2021-06-04[网站]
+
+一个可视化 TypeScript AST 节点的网站。与其他 AST 可视化网站不同的是其专门用于 TS 的可视化，有 Node，Symbol 这种 TS 专用的节点显示。如果你要了解 TypeScript 的原理或者准备基于其进行改造，那么这个东西一定不要错过了。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1grwxr8a1ugj31p30u0aiv.jpg)
+
+地址：https://ts-ast-viewer.com/#code/DYUwLgBAhgXAzmATgSwHYHMIF4BEBGHAKEKmwhwCYcg
+
 ## 2021-06-03[框架]
 
 astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 的演示视频，因此对它影响还蛮深的。
