@@ -15,159 +15,113 @@
 大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓库更新。
 ​
 
-## 新鲜出炉 (2021-06)
+## 新鲜出炉 (2021-08)
 
-## 2021-06-23[仓库]
+### 2021-08-05[类库]
 
-这个仓库是 JavaScript 的知识图谱，目前更新了 JavaScript 基础，HTML & CSS 以及 JavaScript 数据结构与算法。
+在上一家公司工作的时候，我负责开发公司的 ab test 系统。说实话，我们的功能极其简单。尽管如此，这个功能也花费了我们大量的时间去设计，实现，调试，发布。
 
-我看了一下，内容很简单，干货不多，更适合初学者或者是查缺补漏，不适合拿来**修炼**。不过这种将知识点浓缩到一张超级大的图片中的做法还是很震撼的。尤其是我第一次打开的时候。
+easy-abtest 正如它的名字一样，是一个使用极为简单的 abtest 框架。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1grr47lidm1j31h20r6hbq.jpg)
+有多简单呢？我们来看下。
 
-地址：https://github.com/mechaniac/Map-of-Javascript
-
-## 2021-06-22[网站]
-
-我们很多时候都需要找一些相对权威的资料。比如一个 JS 特性不清楚的话（比如多个浏览器对同一个特性实现不同，谁对？），可以翻阅 ECMA 规范。
-
-这次分享的是一个查阅 RFC 规范的网站。RFC 的内容很多，比如大家常常听到的 DNS，TCP 等等。如果你有什么拿不准的，可以过来查查看。
-
-> 这个网站相应速度很快
-
-地址：https://rfc.fyi/
-
-## 2021-06-21[好文]
-
-HMR 是大家都在用的一个特性，webpack 内置 HRM。那么 HMR 的原理你知道吗？
-
-地址：https://mp.weixin.qq.com/s?__biz=Mzg2ODQ1OTExOA==&mid=2247491058&idx=1&sn=05b0ddcc20627c46931bafce4d4a745f
-
-## 2021-06-19[仓库]
-
-Mock Servic Worker （简称 MSW）是一个通过 ServiceWoker 拦截请求实现**无需更改代码实现 mock** 的库，支持 fetch，xhr，graphql。
-
-如果你在为单元测试 mock 接口烦恼，不妨试一下。
-
-地址：https://github.com/mswjs/msw
-
-## 2021-06-18[仓库]
-
-很多人都知道 react 有 next.js 这样的前后端同构框架，用于快速开发同构项目。相应地，vue 有 nuxt.js。
-
-不过它们都是基于 node.js 的，那基于 deno 的前后端同构框架呢？aleph.js 就是一个基于 react 的前后端同构框架，并且是基于 deno 运行时的。
-
-地址：https://github.com/alephjs/aleph.js
-
-## 2021-06-17[仓库]
-
-zx 是一个谷歌出品的让你使用 JS 编写“bash” 脚本的工具。从而将 JS 的便捷性和 bash 提供的底层能力相结合。
-
-https://github.com/google/zx
-
-## 2021-06-16[仓库]
-
-越来越多的人用性能更好的语言写一些基础工具并转为 wasm 给 JS 调用。 wasm-bindgen 就是一个可以支持 rust 和 JS 互操作的 rust 库。
-
-https://github.com/rustwasm/wasm-bindgen
-
-## 2021-06-14[好文]
-
-大多数时候，当公司发生故障的时候，我们总是倾向于找负责人（背锅侠），这本身没有什么错误，可以这却可能导致一些人由于怕担责任而故意掩盖甚至扭曲一些东西，这是很可怕的。 那么如何做事故的复盘？这篇文章提供了一个思路。
-
-文章地址：https://mp.weixin.qq.com/s/_q0n-gK7tSQCIiE7d8GJCw
-
-## 2021-06-09[好文]
-
-以前我做过很多技术调研或者出一些技术方案。这个过程免不了对各种方案进行对比。如果我让你对比一下 react 和 preact 你会如何对比呢？从几个方向？
-
-这里推荐一篇关于《react 升级调研 - react or preact》技术调研文章。大家可以看看大佬是如何做技术调研的，提供一些思路。
-
-地址：https://github.com/mq2thez/blog/blob/main/upgrade-react-etsy/preact-vs-react.md
-
-## 2021-06-08[仓库]
-
-很多时候，我们会做一些 checklist，方便我们最后做一些校验。 比如火箭发射前，会对着清单逐一检查完毕才最终发射。
-
-我接触比较多的是发布清单，每次发布前都会对着清单检查一遍。有的是自动检查，有的是手动检查。
-
-这里给出了一个腾讯的安全清单，供你对自己的代码安全性进行自检。
-
-> 安全无小事！
-
-地址：https://github.com/Tencent/secguide/blob/main/JavaScript%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md#1
-
-除了 JS，提供了其他语言的，参考：
-
-- https://github.com/Tencent/secguide
-
-## 2021-06-07[好文]
-
-原文标题：《居然有比 npm link 更好的调试？》
-
-讲述了如何使用 yalc 来提高本地开发 npm 包的调试效率。
-
-地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
-
-## 2021-06-06[小知识]
-
-nodejs 中异步信息很难跟踪，比如如下代码：
+首先是定义变量，以及权重等配置。
 
 ```js
-fs.open("hello.txt", (err, res) => {
-  // something
-  console.log("cb");
+const abtest = require("easy-abtest");
+let options = {
+  enabled: true,
+  name: "experiment-ID-here",
+  buckets: [
+    { variant: 0, weight: 0.4 },
+    { variant: 1, weight: 0.6 },
+  ],
+};
+app.use(abtest(options));
+```
+
+> 字段含义参考官方文档
+
+接下来就是使用了。经过上面的配置，你就可以在业务代码拿到之前定义的变量。比如上面的配置，你就有 40% 的请求拿到 variant 为 1，60% 请求拿到 variant 为 2。
+
+这个数据默认是挂在 req.session.test 上的。
+
+```js
+if (req.session.test.bucket == 0) {
+  return res.render("index"); // 40%
+} else if (req.session.test.bucket == 1) {
+  return res.render("index-new"); // 60%
+}
+```
+
+这是一个刚刚发布不到一个月的产品，代码只有 100 行左右（加上测试用例代码差不多 200 行），不太建议直接在生产环境使用。
+
+地址：https://github.com/darshanbib/easy-abtest
+
+### 2021-08-03[好文]
+
+RPC 是什么？自己如何实现 RPC？实现 RPC 需要考虑什么内容？听字节跳动 web infra 团队大佬娓娓道来。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gt82hmlkw3j30nk1ck763.jpg)
+（RPC 流程图，包含通信和加解码两大部分）
+
+https://mp.weixin.qq.com/s/Ky6SoWJv85orqYioihTRqg
+
+### 2021-08-02[类库]
+
+folio 是微软出品的测试框架。它的 fixture 设计我很喜欢，通过这个功能可以实现很多其他测试框架不那么容易实现的功能，值得大家尝试。
+
+比如测试的时候我依赖了 express 服务器，并且我想启动多个进程并发地进行测试。
+
+大家知道 express 服务需要绑定端口提供服务，那么端口号怎么填呢？
+
+基于 folio 的 fixture 设计，我们可以这面使用：
+
+```js
+// express.spec.ts
+import test from "./express-test";
+import fetch from "node-fetch";
+
+test("fetch 1", async ({ port }) => {
+  const result = await fetch(`http://localhost:${port}/1`);
+  test.expect(await result.text()).toBe("Hello World 1!");
+});
+
+test("fetch 2", async ({ port }) => {
+  const result = await fetch(`http://localhost:${port}/2`);
+  test.expect(await result.text()).toBe("Hello World 2!");
 });
 ```
 
-如果回调函数失败了，那么调用堆栈就消失了，也就自然无法复现完整的操作路径，这在大项目中是致命的。
+> port 需要实现注册，关于如何注册可以查看官方文档。
 
-Node.js v8.x 增加了 async hooks 模块很好地解决了这个问题，并且异步资源还可以使用 async storage 共享一些数据。
+地址：https://github.com/microsoft/folio
 
-## 2021-06-05[框架]
+### 2021-08-01[仓库]
 
-eggjs 是一个很火的阿里出品的 nodejs 框架。不过我一直认为 ta 做的还不够，尽管 ta 自己宣称的是**企业级 nodejs 框架**。
+当你试图对一个 npm 库做修改，一个常见的方法是
 
-相比之下，Nestjs 更接近我心目中的**企业级框架**，并且 Nestjs 还提供完成的学习教程（文字和视频都有，不过视频只有几个是免费的）。
+1. 新建一个不同的名字的库，在这个新的库里你复制原有的代码并做修改。
+2. 修改依赖，引用新的被修改的库的名字。
 
-地址：https://docs.nestjs.com/
+这很不方便，且不利于追踪（比如如何查看改了什么功能？）。
 
-## 2021-06-04[网站]
+patch-package 就解决了这个问题。使用方式也非常简单：
 
-一个可视化 TypeScript AST 节点的网站。与其他 AST 可视化网站不同的是其专门用于 TS 的可视化，有 Node，Symbol 这种 TS 专用的节点显示。如果你要了解 TypeScript 的原理或者准备基于其进行改造，那么这个东西一定不要错过了。
+```bash
+# fix a bug in one of your dependencies
+vim node_modules/some-package/brokenFile.js
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1grwxr8a1ugj31p30u0aiv.jpg)
+# run patch-package to create a .patch file
+npx patch-package some-package
 
-地址：https://ts-ast-viewer.com/#code/DYUwLgBAhgXAzmATgSwHYHMIF4BEBGHAKEKmwhwCYcg
+# commit the patch file to share the fix with your team
+git add patches/some-package+3.14.15.patch
+git commit -m "fix brokenFile.js in some-package"
 
-## 2021-06-03[框架]
+```
 
-astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 的演示视频，因此对它影响还蛮深的。
-
-它的定位其实不是框架，只不过我找不到很好的词去形容。 astro 本身可以和其他框架（react，vue， svelte 等）进行集成。另外它本身也提供了一些特有语法，也有自己的文件后缀 .astro 解析（类似于 vue 提供了模板语法，并可解析自己的 vue 文件）。
-
-除此之外，它还有一些很有意思的特性。比如：
-
-- 默认 0 JS。
-- 原生支持 md 文件的解析，并渲染成 html。
-
-所以我认为 astro 是一个优雅降级的前端框架。
-
-地址：https://github.com/snowpackjs/astro
-
-## 2021-06-02[好文]
-
-简单使用 esbuild-loader 替换 babel-loader 就把项目构建速度提升了一倍以上？
-
-![](https://tva1.sinaimg.cn/large/008i3skNly1grt7m077zxj30ka0djtbz.jpg)
-
-文章地址：[webpack or esbuild: Why not both?](https://blog.logrocket.com/webpack-or-esbuild-why-not-both/ "webpack or esbuild: Why not both?")
-
-## 2021-06-01[工具]
-
-synthesia 是一个 AI 工具，允许你通过**上传一个带人物的视频并录入一段文字**，从而上视频中的人“说”出你写好的文字的工具。
-
-地址：https://www.synthesia.io/
+地址：https://github.com/ds300/patch-package#readme
 
 ## 历史汇总
 
