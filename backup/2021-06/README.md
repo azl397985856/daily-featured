@@ -6,18 +6,9 @@
 
 > 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
 
-在线阅读：https://leetcode-solution-leetcode-pp.gitbook.io/mz-ri-yi-jm/
+## 2021-06
 
-电子书文件太大， 大家可到我的公众号《脑洞前端》回复“每日一荐”获取。
-
-## :newspaper: &nbsp; RSS
-
-大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓库更新。
-​
-
-## 新鲜出炉 (2021-06)
-
-## 2021-06-23[仓库]
+### 2021-06-23[仓库]
 
 这个仓库是 JavaScript 的知识图谱，目前更新了 JavaScript 基础，HTML & CSS 以及 JavaScript 数据结构与算法。
 
@@ -27,7 +18,7 @@
 
 地址：https://github.com/mechaniac/Map-of-Javascript
 
-## 2021-06-22[网站]
+### 2021-06-22[网站]
 
 我们很多时候都需要找一些相对权威的资料。比如一个 JS 特性不清楚的话（比如多个浏览器对同一个特性实现不同，谁对？），可以翻阅 ECMA 规范。
 
@@ -37,13 +28,13 @@
 
 地址：https://rfc.fyi/
 
-## 2021-06-21[好文]
+### 2021-06-21[好文]
 
 HMR 是大家都在用的一个特性，webpack 内置 HRM。那么 HMR 的原理你知道吗？
 
 地址：https://mp.weixin.qq.com/s?__biz=Mzg2ODQ1OTExOA==&mid=2247491058&idx=1&sn=05b0ddcc20627c46931bafce4d4a745f
 
-## 2021-06-19[仓库]
+### 2021-06-19[仓库]
 
 Mock Servic Worker （简称 MSW）是一个通过 ServiceWoker 拦截请求实现**无需更改代码实现 mock** 的库，支持 fetch，xhr，graphql。
 
@@ -51,7 +42,7 @@ Mock Servic Worker （简称 MSW）是一个通过 ServiceWoker 拦截请求实�
 
 地址：https://github.com/mswjs/msw
 
-## 2021-06-18[仓库]
+### 2021-06-18[仓库]
 
 很多人都知道 react 有 next.js 这样的前后端同构框架，用于快速开发同构项目。相应地，vue 有 nuxt.js。
 
@@ -59,25 +50,25 @@ Mock Servic Worker （简称 MSW）是一个通过 ServiceWoker 拦截请求实�
 
 地址：https://github.com/alephjs/aleph.js
 
-## 2021-06-17[仓库]
+### 2021-06-17[仓库]
 
 zx 是一个谷歌出品的让你使用 JS 编写“bash” 脚本的工具。从而将 JS 的便捷性和 bash 提供的底层能力相结合。
 
 https://github.com/google/zx
 
-## 2021-06-16[仓库]
+### 2021-06-16[仓库]
 
 越来越多的人用性能更好的语言写一些基础工具并转为 wasm 给 JS 调用。 wasm-bindgen 就是一个可以支持 rust 和 JS 互操作的 rust 库。
 
 https://github.com/rustwasm/wasm-bindgen
 
-## 2021-06-14[好文]
+### 2021-06-14[好文]
 
 大多数时候，当公司发生故障的时候，我们总是倾向于找负责人（背锅侠），这本身没有什么错误，可以这却可能导致一些人由于怕担责任而故意掩盖甚至扭曲一些东西，这是很可怕的。 那么如何做事故的复盘？这篇文章提供了一个思路。
 
 文章地址：https://mp.weixin.qq.com/s/_q0n-gK7tSQCIiE7d8GJCw
 
-## 2021-06-09[好文]
+### 2021-06-09[好文]
 
 以前我做过很多技术调研或者出一些技术方案。这个过程免不了对各种方案进行对比。如果我让你对比一下 react 和 preact 你会如何对比呢？从几个方向？
 
@@ -85,7 +76,7 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址：https://github.com/mq2thez/blog/blob/main/upgrade-react-etsy/preact-vs-react.md
 
-## 2021-06-08[仓库]
+### 2021-06-08[仓库]
 
 很多时候，我们会做一些 checklist，方便我们最后做一些校验。 比如火箭发射前，会对着清单逐一检查完毕才最终发射。
 
@@ -101,7 +92,7 @@ https://github.com/rustwasm/wasm-bindgen
 
 - https://github.com/Tencent/secguide
 
-## 2021-06-07[好文]
+### 2021-06-07[好文]
 
 原文标题：《居然有比 npm link 更好的调试？》
 
@@ -109,7 +100,7 @@ https://github.com/rustwasm/wasm-bindgen
 
 地址： https://mp.weixin.qq.com/s/kG5cXpohvQBFVigaQk2a7w
 
-## 2021-06-06[小知识]
+### 2021-06-06[小知识]
 
 nodejs 中异步信息很难跟踪，比如如下代码：
 
@@ -124,7 +115,7 @@ fs.open("hello.txt", (err, res) => {
 
 Node.js v8.x 增加了 async hooks 模块很好地解决了这个问题，并且异步资源还可以使用 async storage 共享一些数据。
 
-## 2021-06-05[框架]
+### 2021-06-05[框架]
 
 eggjs 是一个很火的阿里出品的 nodejs 框架。不过我一直认为 ta 做的还不够，尽管 ta 自己宣称的是**企业级 nodejs 框架**。
 
@@ -132,7 +123,7 @@ eggjs 是一个很火的阿里出品的 nodejs 框架。不过我一直认为 ta
 
 地址：https://docs.nestjs.com/
 
-## 2021-06-04[网站]
+### 2021-06-04[网站]
 
 一个可视化 TypeScript AST 节点的网站。与其他 AST 可视化网站不同的是其专门用于 TS 的可视化，有 Node，Symbol 这种 TS 专用的节点显示。如果你要了解 TypeScript 的原理或者准备基于其进行改造，那么这个东西一定不要错过了。
 
@@ -140,7 +131,7 @@ eggjs 是一个很火的阿里出品的 nodejs 框架。不过我一直认为 ta
 
 地址：https://ts-ast-viewer.com/#code/DYUwLgBAhgXAzmATgSwHYHMIF4BEBGHAKEKmwhwCYcg
 
-## 2021-06-03[框架]
+### 2021-06-03[框架]
 
 astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 的演示视频，因此对它影响还蛮深的。
 
@@ -155,7 +146,7 @@ astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 
 
 地址：https://github.com/snowpackjs/astro
 
-## 2021-06-02[好文]
+### 2021-06-02[好文]
 
 简单使用 esbuild-loader 替换 babel-loader 就把项目构建速度提升了一倍以上？
 
@@ -163,34 +154,11 @@ astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 
 
 文章地址：[webpack or esbuild: Why not both?](https://blog.logrocket.com/webpack-or-esbuild-why-not-both/ "webpack or esbuild: Why not both?")
 
-## 2021-06-01[工具]
+### 2021-06-01[工具]
 
 synthesia 是一个 AI 工具，允许你通过**上传一个带人物的视频并录入一段文字**，从而上视频中的人“说”出你写好的文字的工具。
 
 地址：https://www.synthesia.io/
-
-## 历史汇总
-
-- [2021-06](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-06/README.md)
-- [2021-05](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-05/README.md)
-- [2021-04](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-04/README.md)
-- [2021-03](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-03/README.md)
-- [2021-02](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-02/README.md)
-- [2021-01](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-01/README.md)
-- [2020-12](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-12/README.md)
-- [2020-11](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-11/README.md)
-- [2020-10](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-10/README.md)
-- [2020-09](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-09/README.md)
-- [2020-08](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-08/README.md)
-- [2020-05](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-05/README.md)
-- [2020-04](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-04/README.md)
-- [2020-03](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-03/README.md)
-- [2020-02](https://github.com/azl397985856/daily-featured/tree/master/backup/2020-02/README.md)
-- [2021-01](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-01/README.md)
-- [2019-12](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-12/README.md)
-- [2019-11](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-11/README.md)
-- [2019-10](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-10/README.md)
-- [2019-09](https://github.com/azl397985856/daily-featured/tree/master/backup/2019-09/README.md)
 
 ## 关注我
 
@@ -203,13 +171,3 @@ synthesia 是一个 AI 工具，允许你通过**上传一个带人物的视频�
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
-
-## 贡献
-
-- 如果有想法和创意，请提 [issue](https://github.com/azl397985856/daily-featured/issues) 或者进群提
-- 如果想贡献代码，请提 [PR](https://github.com/azl397985856/daily-featured/pulls)
-- 如果需要修改项目中图片，[这里](./assets/) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
-
-## License
-
-[Apache-2.0](./LICENSE)
