@@ -58,6 +58,19 @@ if (req.session.test.bucket == 0) {
 
 地址：https://github.com/darshanbib/easy-abtest
 
+### 2021-08-04[技巧]
+
+已知一个环，比如环的长度为 n，环的编号是 [0,n-1]，那么 n - 1 的下一个位置 0。
+
+给定起始位置 pos 和环长度 n，让你求走 x 步之后， pos 的位置。x 为正数表示编号增加，x 为负数，表示编号减少。
+
+我们可以分情况讨论：
+
+- 如果 x 大于 0，那么下个坐标 `nxt = (pos+x)%n`
+- 如果 x 小于 0，那么下个坐标 `nxt = pos+x+n*((pos+x)/n)`
+
+组合起来就是 nxt = ((pos + x)%n+n)%n。
+
 ### 2021-08-03[好文]
 
 RPC 是什么？自己如何实现 RPC？实现 RPC 需要考虑什么内容？听字节跳动 web infra 团队大佬娓娓道来。
