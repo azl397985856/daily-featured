@@ -8,7 +8,7 @@
 
 ## 2021-05
 
-## 2021-05-28[好文]
+### 2021-05-28[好文]
 
 一个教你如何写 AST 插件的教程，真的是图文并茂，并且可交互，做的很用心了。
 
@@ -20,7 +20,7 @@
 
 地址：https://nan.fyi/debugger
 
-## 2021-05-27[网站]
+### 2021-05-27[网站]
 
 一个可爱风的**前端事件可视化**网站。 它可以模拟事件的触发过程并通过可视化的方式展示出来， 支持用户自定义一些修改。如果你是新手，这绝对是一个不可多得的前端事件系统知识学习工具。
 
@@ -28,7 +28,7 @@
 
 地址： https://domevents.dev/
 
-## 2021-05-26[工具]
+### 2021-05-26[工具]
 
 我一直想做又一直没有时间做的东西终于有人做了，而且开源出来了。
 
@@ -40,7 +40,7 @@
 
 地址：https://github.com/rikukissa/typehole
 
-## 2021-05-21[好文]
+### 2021-05-21[好文]
 
 git 合并大家都用过。那 git 合并有几种模式？它们之间有什么区别你知道么？
 
@@ -55,7 +55,7 @@ git 合并大家都用过。那 git 合并有几种模式？它们之间有什�
 
 地址：https://blog.dnsimple.com/2019/01/two-years-of-squash-merge/
 
-## 2021-05-17[好文]
+### 2021-05-17[好文]
 
 前端如何监听静态资源的加载错误？
 
@@ -65,7 +65,7 @@ git 合并大家都用过。那 git 合并有几种模式？它们之间有什�
 
 地址：http://www.alloyteam.com/2021/01/15358/
 
-## 2021-05-13[工具]
+### 2021-05-13[工具]
 
 这个工具还蛮有意思的，它是一个 react 高阶组件，可以帮助你可视化组件的盒模型。
 
@@ -73,13 +73,13 @@ git 合并大家都用过。那 git 合并有几种模式？它们之间有什�
 
 仓库地址：https://github.com/raunofreiberg/inspx
 
-## 2021-05-12[教程]
+### 2021-05-12[教程]
 
 微软出品的一个 Rust 基本教程，基本内容就是一些基础语法，语言特性， 以及一个 TODOList 的 demo。除了最后一部分 TODOList 比较复杂外，其他模块还是相当容易的。
 
 https://docs.microsoft.com/zh-cn/learn/paths/rust-first-steps/
 
-## 2021-05-11[好文]
+### 2021-05-11[好文]
 
 原文标题《探秘神奇的运动路径动画 Motion Path 》。
 
@@ -87,7 +87,7 @@ https://docs.microsoft.com/zh-cn/learn/paths/rust-first-steps/
 
 文章地址：https://github.com/chokcoco/iCSS/issues/113
 
-## 2021-05-10[库]
+### 2021-05-10[库]
 
 之前我写过一篇文章 [你不知道的前端异常处理（万字长文，建议收藏）](https://lucifer.ren/blog/2020/10/02/error-catch/)，里面就详细了异常就是一个数据结构，异常处理就是对应这种数据结构的算法而已。
 
@@ -97,19 +97,19 @@ https://docs.microsoft.com/zh-cn/learn/paths/rust-first-steps/
 
 地址：https://github.com/joyent/node-verror
 
-## 2021-05-09[工具]
+### 2021-05-09[工具]
 
 一款通过模拟真实用户操作来白嫖 tinypng 的 gulp 插件。源码很简单，你可以将其轻易地移植到其他工具，比如 webpack，vite，esbuild 等。
 
 https://github.com/fulme/tinypng-free
 
-## 2021-05-08[工具]
+### 2021-05-08[工具]
 
 微信浏览器调试工具（目前仅支持安卓）
 
 地址：https://debugx5.qq.com/
 
-## 2021-05-07[工具]
+### 2021-05-07[工具]
 
 如何观察你的电脑上的 DNS 请求呢？
 
@@ -122,7 +122,7 @@ https://github.com/fulme/tinypng-free
 - https://dns-lookup.jvns.ca 一个发送 DNS 请求的工具。
 - https://dns-lookup.jvns.ca/trace.html 一个可以查询 DNS 详细工具过程的工具
 
-## 2021-05-06[工具]
+### 2021-05-06[工具]
 
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gptj6rdktlj30go0esq3y.jpg)
 
