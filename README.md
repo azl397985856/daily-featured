@@ -17,6 +17,30 @@
 
 ## 新鲜出炉 (2021-08)
 
+### 2021-08-20[工具]
+
+bibi 是一个在线 epub 阅读器。
+
+主要特点：
+
+- 符合 EPUB 3。除了日语竖写和 ruby 外，还显示了各种语言和布局。
+- 基于 MIT 许可开源软件。请放心使用。
+- 它由 100% JavaScript 制成，适用于各种设备浏览 ​ 器。支持的环境： Chrome / Safari / Opera / Firefox / Microsoft Edge / Internet Explorer 11
+
+地址：https://bibi.epub.link/#demo
+
+### 2021-08-19[工具]
+
+txiki 是一个 JS Runtime，它的特点就是一个字：**小**。
+
+什么是 JS Runtime？顾名思义，就是 JS 的运行环境。它和 JS 引擎是不一样的，JS 引擎对接的是 ECMA 规范。而运行时则可能会增加一些符合其他规范的内容。比如浏览器就是 JS Runtime，Node 也是 JS Runtime。
+
+比如 DOM API，再比如 BOM API 都是运行时提供的，和 JS 引擎没有关系。node 的话还有一些系统 api，比如 fs 等，这些也是运行时提供的。
+
+而 txiki 则对接的是浏览器 api。底层 JS 引擎用的是 quickjs，使用 libuv 跨平台（与 node 一样）。
+
+地址：https://github.com/saghul/txiki.js
+
 ### 2021-08-18[技巧]
 
 如果你想重命名一个项目中的某个变量，你会怎么做呢？
@@ -30,6 +54,60 @@
 本文介绍的是利用学生身份可以享受到的相关学生优惠权益，但也希望各位享受权利的同时不要忘记自己的义务，不要售卖、转手自己的学生优惠资格，使得其他同学无法受益。
 
 https://github.com/ivmm/Student-resources
+
+### 2021-08-14[新闻]
+
+Github 出了一个新的功能，用来方便地在论文中引用 Github 资料。
+
+如果你想让其他人正确引用你的仓库，你需要：
+
+1. Github 中的内容发表过论文，这样你会得到一个 [doi](https://zh.wikipedia.org/zh-hans/DOI)
+2. 在 Github 仓库的根目录新建文件 `CITATION.cff`。文件类似：
+
+```
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Lisa"
+  given-names: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Bot"
+  given-names: "Hew"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "My Research Software"
+version: 2.0.4
+doi: 10.5281/zenodo.1234
+date-released: 2017-12-18
+url: "https://github.com/github/linguist"
+```
+
+这样你的 Github 主页就有这样一个按钮。其他人想要引用你的 Github 论文，就可以直接点击这里进行复制粘贴。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtnodqvgbpj30xq0jgmzl.jpg)
+
+关于这个功能的详细介绍请参考：https://github.blog/2021-08-19-enhanced-support-citations-github/
+
+### 2021-08-13[好文]
+
+SSR（Server Side Rendering)，CSR（Client Side Rendering），SSG（Static Site Generation），ISR（Incremental Static Regeneration） 分别是什么，基本原理如何你知道么？
+
+next.js 支持这几种渲染模式。不仅如此， next.js 还支持这几种模式的混合模式，比如 SSR + CSR 模式 和 SSG + SSR 模式。这篇文章就详细介绍了 next.js 中的几种渲染模式。
+
+地址：https://mp.weixin.qq.com/s/tDPkTwrR031CjsWbiVTVGw
+
+### 2021-08-12[仓库]
+
+mitosis 是一个遵循 **write once，run everywhere** 哲学的前端框架。你可以使用 mitosis 写代码，并最终编译为其他平台，比如 Vue, React, Solid, Angular, Svelte 等等。
+
+如下是其目前对各个框架的支持情况：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtl8zwhq9yj60fs0uugn302.jpg)
+
+它的基本原理很简单，就是将 mitosis 代码转义为 JSON，接下来 mitosis 通过解析这份 JSON 文件生成其他不同平台的代码。
+
+个人认为想法很不错，但是**学习价值大于实用价值**。因为这种方案坑可能会有很多，不太建议大家直接在商业项目使用。如果非要使用，请做好详细的调研 ⚠️。
+
+地址：https://github.com/BuilderIO/mitosis
 
 ### 2021-08-11[技巧]
 
