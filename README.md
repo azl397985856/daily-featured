@@ -17,7 +17,17 @@
 
 ## 新鲜出炉 (2021-08)
 
-### 2021-08-28[资讯]
+### 2021-08-31[工具]
+
+wavesurfer.js 是一个可视化声波的 js 库。
+
+它可以将一个音频（比如 mp3）的声波以可视化的方式渲染到浏览器上。不仅如此，你也可以通过组合多种参数，响应事件，调用方法等实现更多的效果，具体可参考官方文档。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtww39y86ij61jw0dydhn02.jpg)
+
+地址：https://wavesurfer-js.org/
+
+### 2021-08-30[资讯]
 
 91 天学算法是我和几个算法大佬一起组建的一个算法提高班。通过 91 天的集中化的学习，让你**遇见更好的自己**。
 
@@ -26,6 +36,24 @@
 地址：https://lucifer.ren/blog/2021/08/21/91algo-5/
 
 官网：https://leetcode-solution.cn/91
+
+### 2021-08-27[工具]
+
+marked 是又一个将 markdown 转为 html 工具。这其实是我很早就 star 的一个仓库。
+
+之前我一直用的是 markdown-it，原因很简单，就是因为它老牌用的人多，插件生态丰富。而 marked 主打的是性能。因此如果你对性能有要求，不妨可以调研一下 marked 是否更合适。
+
+地址：https://github.com/markedjs/marked
+
+### 2021-08-26[教程]
+
+这算是我见过的唯一一个通俗易懂的 haskell 教程。目前已经更新了三篇：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtww9r129uj61i90u0dkl02.jpg)
+
+如果你对函数式编程感兴趣，不妨学习一下 haskell，一定不会让你失望。几年前我在学习 fp（函数式编程）的时候，就借用了一些 haskell 的思想。比如使用 fn :: a -> a 的方式给函数添加签名。
+
+地址：https://blog.kalvad.com/tag/haskell/
 
 ### 2021-08-24[仓库]
 
