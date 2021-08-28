@@ -17,6 +17,57 @@
 
 ## 新鲜出炉 (2021-08)
 
+### 2021-08-28[资讯]
+
+91 天学算法是我和几个算法大佬一起组建的一个算法提高班。通过 91 天的集中化的学习，让你**遇见更好的自己**。
+
+如果你想提高算法能力进击大厂，不妨试一下。
+
+地址：https://lucifer.ren/blog/2021/08/21/91algo-5/
+
+官网：https://leetcode-solution.cn/91
+
+### 2021-08-24[仓库]
+
+如果你想开发 vscode 插件，并且想用 webview 承载 vscode 插件的内容。不妨可以参考下这个 demo 程序。
+
+使用 webview 开发好处是可以使用 web 技术栈，这使得将以往 web 内容无缝迁移到 vscode 插件变得可能。比如公司内部已经有一套基于 web 的系统，使用 webview 几乎可以不用多大改动就可以做成一个运行在 vscode 的插件。
+
+上面说不用多大改动，其实这里的改动主要就是**vscode 插件和 webview 的通信**。比如 webview 不能发送网络请求，而需要 vscode 进行转发等等。因此**如果你的应用又很多网络或者需要借助于 vscode 核心 api 的功能，而展示内容不多，就不适合用 webview 来做 vscode 插件**。
+
+仓库地址：https://github.com/youngjuning/juejin-me
+
+### 2021-08-23[技巧]
+
+测试驱动开发（TDD）要求大家先写测试用例。很多时候，我们第一时间想到的是功能点，即我要测试的几个功能是什么，但具体如何断言还没想好。
+
+这个时候，我们可以先写下一个空的测试用例。类似这样：
+
+```js
+describe("#1 do something", () => {
+  test("#1.1  should work when ..."); //
+  test("#1.2  should work when ...");
+  test("#1.3  should work when ...);
+  ...
+});
+```
+
+而这样的话通常会报错（比如使用著名的 jest 测试框架）。
+
+那为什么 jest 要设计成空的测试用例要报错呢？不报错不好么？这里有一个回答很中肯：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtwfeyiugoj60y20j2wgv02.jpg)
+
+那既然空的测试用例报错是合理的，我们写空的测试用例这个事情也是合理的，那如何调节这个矛盾呢？
+
+- 一种方式是使用 test.skip 跳过测试用例。这个和使用 jest -t 'test case name' 有点像。都是跳过部分用例，仅执行一部分用例。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtwfi6w404j60hi02mdfy02.jpg)
+
+- 另外一种方式是使用 test.todo。这个是新增的一个方法，功能类似。不过显示的方式有点变化，起到了前面那位小哥提到的**提示用户有空的测试用例没有写**的效果。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtwfhxqp4zj60g4030mx802.jpg)
+
 ### 2021-08-20[工具]
 
 bibi 是一个在线 epub 阅读器。
