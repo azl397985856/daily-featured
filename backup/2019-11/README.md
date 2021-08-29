@@ -1,10 +1,5 @@
 # 每日一荐
 
-![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.daily-featured.2019-11)
-![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.daily-featured.2019-11)
-
-> 统计数据的时间是从 2019-12-03 12:23 起至今
-
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。。

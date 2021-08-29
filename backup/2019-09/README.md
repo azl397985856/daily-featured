@@ -1,10 +1,5 @@
 # 每日一荐
 
-![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.daily-featured.2019-09)
-![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.daily-featured.2019-09)
-
-> 统计数据的时间是从 2019-09-30 11:30 起至今
-
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
@@ -13,15 +8,15 @@
 
 ### 2019-09-30[工具]
 
-今天是9月的最后一天，明天就是十一了，提前祝大家国庆节快乐 ～～～ 🎉🎉🎉🎉🎉🎉🎉 ！
+今天是 9 月的最后一天，明天就是十一了，提前祝大家国庆节快乐 ～～～ 🎉🎉🎉🎉🎉🎉🎉 ！
 
-今天再来给大家安利6个chrome扩展程序，排名不分先后。
+今天再来给大家安利 6 个 chrome 扩展程序，排名不分先后。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hccis83hj30g30gl3z1.jpg)
 
 1. Proxy SwitchyOmega
 
-此扩展为 SwitchySharp 的升级版，可替代 SwitchyPlus 或 Proxy Switchy. 可轻松快捷地管理和切换多个代理设置，是一个我使用多年的一个插件，配合PAC食用味道更好。
+此扩展为 SwitchySharp 的升级版，可替代 SwitchyPlus 或 Proxy Switchy. 可轻松快捷地管理和切换多个代理设置，是一个我使用多年的一个插件，配合 PAC 食用味道更好。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hcjh2gmjj30hs0b43ym.jpg)
 
@@ -29,12 +24,11 @@
 
 2. OneTab
 
-节省高达95％的内存，并减轻标签页混乱现象。 有些标签关了舍不得，不关太多看的很乱并且更关键的是占用内存。有了这个工具就不存在这些问题了。
+节省高达 95％的内存，并减轻标签页混乱现象。 有些标签关了舍不得，不关太多看的很乱并且更关键的是占用内存。有了这个工具就不存在这些问题了。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hchdk0tyj30hs0b4js1.jpg)
 
 [下载地址](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
-
 
 3. AdBlock Plus
 
@@ -56,10 +50,9 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcpx8en4j30hs09vmxp.jpg)
 
-我平时再看文章或者文档的时候习惯先看一遍目录或者大纲，然后再决定我到底要不要看，看哪里。我相信很多人和我一样有着同样的习惯。但是很多网站，包括infoq，知乎等大网站这方面都做的比较差。下图是我的个人博客的大纲功能：
+我平时再看文章或者文档的时候习惯先看一遍目录或者大纲，然后再决定我到底要不要看，看哪里。我相信很多人和我一样有着同样的习惯。但是很多网站，包括 infoq，知乎等大网站这方面都做的比较差。下图是我的个人博客的大纲功能：
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcwcm5wgj30uo0prq5e.jpg)
-
 
 因此这款工具对于我这种人来说就非常重要了，他能根据当前网页的结果快速生成大纲，并且支持锚点功能，当然它也有很多覆盖不到的情况，因为标题的种类实现太多了，大家完全可以写一个`div class = 'header'`从而让这个工具无用武之地。 这也从侧面说明了语义化的重要性，不仅对于障碍人士重要，对于无障碍人士也有很大的意义。
 
@@ -87,7 +80,6 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 > 不得不吐槽下，网站体验做的不太好，而且广告有点多。
 
-
 另外还有一个网站，不过这个只能够测试国内的网速，[17ce](https://www.17ce.com/)的体验做的稍微好一点，广告也没有那么显眼，如果你的客户只是国内，不妨考虑这个。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebbwxvykj31340l53z8.jpg)
@@ -104,60 +96,56 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 之前我写了一篇 [【前端测试】](https://github.com/azl397985856/frontend-test) 的草稿，一直搁置到现在，之前我做后端的时候，写测试尤其是单元测试是很普遍的。但是做前端这么久发现大家对这方面不是很重视， 其实前端也是非常需要做测试的。
 
-今天给大家推荐的是一个非常流行的前端测试框架jest的GUI工具[majestic](https://github.com/Raathigesh/majestic) (⚡ Zero config GUI for Jest)
+今天给大家推荐的是一个非常流行的前端测试框架 jest 的 GUI 工具[majestic](https://github.com/Raathigesh/majestic) (⚡ Zero config GUI for Jest)
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7d2hpkzxuj30ym0u0wg9.jpg)
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7d2icroztj30cx0a33yn.jpg)
 
-
 ### 2019-09-26[工具]
 
-你一定有想用某一个功能的快捷键，却想不出来的情况。也一定面临过多个软件快捷键不统一带来的烦恼，比如A软件`CMD + S`是保存， 另外一个软件B是`Shift + S`。
+你一定有想用某一个功能的快捷键，却想不出来的情况。也一定面临过多个软件快捷键不统一带来的烦恼，比如 A 软件`CMD + S`是保存， 另外一个软件 B 是`Shift + S`。
 
-对于第一种问题，我们可以用一个叫cheatsheet的mac软件，有了它你就可以通过长按command键，从而查看当前应用的快捷键。
+对于第一种问题，我们可以用一个叫 cheatsheet 的 mac 软件，有了它你就可以通过长按 command 键，从而查看当前应用的快捷键。
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7bja8uiysj31c20ohdkr.jpg)
 
-cheatsheet下载地址： https://cheatsheet-mac.en.softonic.com/mac   
+cheatsheet 下载地址： https://cheatsheet-mac.en.softonic.com/mac
 
-> 顺便吐槽一下，cheatsheet官网用户体验这块做的不怎么样
+> 顺便吐槽一下，cheatsheet 官网用户体验这块做的不怎么样
 
 对于按键不统一的问题，我们可以直接修改对应软件的快捷键即可，毕竟大多数软件都是支持快捷键定制的，还有一些`服务`快捷键我们可以去`系统偏好设置 - 键盘 - 服务`中修改。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7bjf9q87uj30ik0g1jry.jpg)
 
-另外给大家安利一个软件`Karabiner-Elements`, 它是一个mac上好用的键盘定制工作，可以用来改键，定制超级键等，更多功能等你挖掘。
+另外给大家安利一个软件`Karabiner-Elements`, 它是一个 mac 上好用的键盘定制工作，可以用来改键，定制超级键等，更多功能等你挖掘。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7bjhb8tfzj30rq0fvjrh.jpg)
 
->  配合HHKB效果更佳
+> 配合 HHKB 效果更佳
 
 Karabiner-Elements 下载地址： https://github.com/tekezo/Karabiner-Elements
-
 
 ### 2019-09-25[技能]
 
 熟练使用命令行是一种常常被忽视，或者被认为难以掌握的技能，一旦掌握，会极大提高你工作的效率。当你能够熟练掌握这里列出的所有技巧时，你就学会了很多关于命令行的东西了。
 
-今天介绍的这个仓库，首发于 Quora， 后面迁移到了 Github，并由众多高手做出了许多改进，现在已经有6W+ Star了。
+今天介绍的这个仓库，首发于 Quora， 后面迁移到了 Github，并由众多高手做出了许多改进，现在已经有 6W+ Star 了。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7aupdnzicj30dc08040e.jpg)
-
 
 仓库目录（目录是我用工具自己抓的，非官方提供）：
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7aupokxczj30ed0bp74e.jpg)
 
-
 仓库地址： https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md
 
 ### 2019-09-24[工具]
-今天给大家分享的是VSCode 前一段时间推出的SSH扩展，实际使用效果非常棒，除了延迟，让你感觉不到你是在操作远程的文件。虽然有延迟，但是也仅仅限于你和服务器有IO交互的情况下才会有感知，结合我的使用体验来说，是“几乎”感觉不到差异（当然也有可能我的网比较快）。
 
-VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。而你所需要做的仅仅是点击SSH面板，然后配置一下就好了，配置也极其简单，对于经常使用SSH的你来说千万不要错过了。
+今天给大家分享的是 VSCode 前一段时间推出的 SSH 扩展，实际使用效果非常棒，除了延迟，让你感觉不到你是在操作远程的文件。虽然有延迟，但是也仅仅限于你和服务器有 IO 交互的情况下才会有感知，结合我的使用体验来说，是“几乎”感觉不到差异（当然也有可能我的网比较快）。
+
+VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。而你所需要做的仅仅是点击 SSH 面板，然后配置一下就好了，配置也极其简单，对于经常使用 SSH 的你来说千万不要错过了。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g79mut0ml3j30d40ebjra.jpg)
-
 
 下面是官方提供的原理架构图：
 
@@ -165,12 +153,11 @@ VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。
 
 地址： https://code.visualstudio.com/docs/remote/ssh
 
-
 ### 2019-09-23[好文]
 
-为什么一行80个字符是一个值得遵守的规范，即使你拥有4k显示器？
+为什么一行 80 个字符是一个值得遵守的规范，即使你拥有 4k 显示器？
 
-我个人一直是80字符的践行者，不仅仅是因为是这大家都普遍采用的标准，更重要的是我个人更习惯多窗口平铺的方式来展示我的窗口，这样效率更高一点，因此太大肯定会影响窗口平铺，太小又不方便阅读，80对我来说其实刚刚好，其他比较常见的还有100字符等， 现在就让我们来看下为什么一行80个字符是一个值得遵守的规范吧。
+我个人一直是 80 字符的践行者，不仅仅是因为是这大家都普遍采用的标准，更重要的是我个人更习惯多窗口平铺的方式来展示我的窗口，这样效率更高一点，因此太大肯定会影响窗口平铺，太小又不方便阅读，80 对我来说其实刚刚好，其他比较常见的还有 100 字符等， 现在就让我们来看下为什么一行 80 个字符是一个值得遵守的规范吧。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn405nqj31hc0u0asd.jpg)
 
@@ -178,33 +165,31 @@ VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。
 
 ### 2019-09-20[工具]
 
-我开启了[个人博客](https://lucifer.ren/blog/)，增加了评论，分类，统计，RSS，歌单等功能， 之后的文章会在博客首发。 感兴趣的可以RSS订阅我的博客。订阅方法我画了个图。
+我开启了[个人博客](https://lucifer.ren/blog/)，增加了评论，分类，统计，RSS，歌单等功能， 之后的文章会在博客首发。 感兴趣的可以 RSS 订阅我的博客。订阅方法我画了个图。
 
 ![rss-feed](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn4kb9ej30pk0g03zx.jpg)
 
-RSS是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。RSS文件包含全文或是节录的文字，再加上发布者所订阅之网摘数据和授权的元数据。
+RSS 是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。RSS 文件包含全文或是节录的文字，再加上发布者所订阅之网摘数据和授权的元数据。
 
-简单来说只要提供了符合RSS格式的数据源，你就可以订阅，然后在RSS阅读器上进行查看更新内容。
+简单来说只要提供了符合 RSS 格式的数据源，你就可以订阅，然后在 RSS 阅读器上进行查看更新内容。
 
-关于RSS订阅，今天我推荐的就是一个RSS的聚合器feedly。[https://feedly.com](https://feedly.com)
+关于 RSS 订阅，今天我推荐的就是一个 RSS 的聚合器 feedly。[https://feedly.com](https://feedly.com)
 
-Feedly是一个RSS聚合器应用程序，支持各种网页浏览器和运行iOS或Android的移动设备，也是一个基于云端的服务。其从各种在线资源聚合用户自定的新闻订阅源，并可与他人分享。
+Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运行 iOS 或 Android 的移动设备，也是一个基于云端的服务。其从各种在线资源聚合用户自定的新闻订阅源，并可与他人分享。
 
 ![feedly](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn51dupj313j0hjjtr.jpg)
 
-后续有机会我会向大家推荐我的RSS订阅源。
+后续有机会我会向大家推荐我的 RSS 订阅源。
 
 ### 2019-09-19[工具]
 
-今天给大家推荐一款MarkDown编辑器。 MarkDown在程序员中的使用频率是非常高的，Github是最早一批对MarkDown语法支持度比较好的平台之一。我日常写文档，记笔记等都采用MarkDown格式来书写。 它不仅书写方便，而且由于其格式比较规范，因此理论上可以通过一些“转换规则”将其转化为各种表现形式，市面上也有很多基于Markdown的渲染器，比如[markdown-it](https://github.com/markdown-it/markdown-it)，也有很多基于这些渲染器制作的产品，比如[docsify](https://github.com/docsifyjs/docsify)。
+今天给大家推荐一款 MarkDown 编辑器。 MarkDown 在程序员中的使用频率是非常高的，Github 是最早一批对 MarkDown 语法支持度比较好的平台之一。我日常写文档，记笔记等都采用 MarkDown 格式来书写。 它不仅书写方便，而且由于其格式比较规范，因此理论上可以通过一些“转换规则”将其转化为各种表现形式，市面上也有很多基于 Markdown 的渲染器，比如[markdown-it](https://github.com/markdown-it/markdown-it)，也有很多基于这些渲染器制作的产品，比如[docsify](https://github.com/docsifyjs/docsify)。
 
-早些时候，我使用的比较多的是[MacDown](https://macdown.uranusjr.com)和VSCode自带的Markdown功能。这两个功能非常简单，但是却能满足我当时的需求，之后我开始经常用Markdown更新文章之类的，因此这些就显得不太够用了，现在我用的是Yu Writer， 算是一个值得推荐的国人开发的MarkDown编辑器，功能非常强大而且免费。 你可能听过MWeb，但是它是收费的，功能和这个比起来也并不占优势。
-
+早些时候，我使用的比较多的是[MacDown](https://macdown.uranusjr.com)和 VSCode 自带的 Markdown 功能。这两个功能非常简单，但是却能满足我当时的需求，之后我开始经常用 Markdown 更新文章之类的，因此这些就显得不太够用了，现在我用的是 Yu Writer， 算是一个值得推荐的国人开发的 MarkDown 编辑器，功能非常强大而且免费。 你可能听过 MWeb，但是它是收费的，功能和这个比起来也并不占优势。
 
 ![yu-writer](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn5yydqj31hc0u0tep.jpg)
 
 下载地址：https://ivarptr.github.io/yu-writer.site/
-
 
 ### 2019-09-18[工具]
 
@@ -331,7 +316,6 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 
 这是微软开源的内部用来构建大型应用的工具库，包括接口管理，文档管理，代码仓库管理等。 地址： https://github.com/microsoft/web-build-tools
 
-
 ## 关注我
 
 我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
@@ -343,4 +327,3 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
-
