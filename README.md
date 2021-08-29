@@ -55,6 +55,18 @@ marked 是又一个将 markdown 转为 html 工具。这其实是我很早就 st
 
 地址：https://blog.kalvad.com/tag/haskell/
 
+### 2021-08-25[工具]
+
+有没有想象过：当你入职一家新公司，只需要下载一个 app 或者登录一个网站，然后所有软件都可以通过它来安装更新，包括常见的开发工具，编辑器插件，浏览器插件等等。
+
+AppWorks Toolkit 就是这样一个工具。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gtxn2vsqnbj61e00u0mzp02.jpg)
+
+可惜的是，现在功能还没有图上那么多。目前似乎只有可怜 node 管理，并且迟迟不更新，因此我的建议是不妨**再等等，等个一年半载等它完善或者参考这个思路自己开发一款类似的工具**。
+
+仓库地址：https://github.com/appworks-lab/toolkit
+
 ### 2021-08-24[仓库]
 
 如果你想开发 vscode 插件，并且想用 webview 承载 vscode 插件的内容。不妨可以参考下这个 demo 程序。
