@@ -17,6 +17,30 @@
 
 ## 新鲜出炉 (2021-09)
 
+### 2021-09-04[新闻]
+
+近日 Github 推出 Github 全球大学（Introducing GitHub Global Campus）功能。
+
+你可以在这里申请：https://education.github.com/discount_requests/student_application
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gu2n2awta8j60yt0u0adn02.jpg)
+
+地址：https://education.github.com/
+
+### 2021-09-03[工具]
+
+最近 Github 更新了凭证（credential）认证机制，因此很多人碰到了这样的报错：
+
+```
+refusing to allow a Personal Access Token to create or update ....
+```
+
+这就是 Git 凭证没有配置正确的结果。解决的方式很多，不过我强烈推荐你使用 Git-Credential-Manager-Core，这个是微软自己出的工具。众所周知微软收购了 Github。因此这个工具可谓是为 Github 量身打造，并可以扩展到其他基于 git 的平台上。
+
+mac 用户可以安装 pkg 文件，windows 用户可以安装 exe 文件。之后第一次 push 的时候会提示你认证，你只需按照提示操作就行。
+
+地址：https://github.com/microsoft/Git-Credential-Manager-Core
+
 ### 2021-09-02[趣闻]
 
 一个可以摆在桌子上的**监控服务器的小摆件**。
