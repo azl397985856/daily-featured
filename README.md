@@ -17,6 +17,37 @@
 
 ## 新鲜出炉 (2021-09)
 
+### 2021-09-15[工具]
+
+gron 是一个使得**grep 可以处理格式化 json 结构的文本的工具**。
+
+比如你有这样一个 json：
+
+```json
+[
+  {
+    "commit": {
+      "author": {
+        "date": "2016-07-02T10:51:21Z",
+        "email": "mail@tomnomnom.com",
+        "name": "Tom Hudson"
+      }
+    }
+  }
+]
+```
+
+你可以 `gron test.json | fgrep "commit.author"` 就可以获得这样的结果(获取到 json 中的 author 字段的信息)：
+
+```js
+json[0].commit.author = {};
+json[0].commit.author.date = "2016-07-02T10:51:21Z";
+json[0].commit.author.email = "mail@tomnomnom.com";
+json[0].commit.author.name = "Tom Hudson";
+```
+
+地址：https://github.com/tomnomnom/gron
+
 ### 2021-09-14[类库]
 
 lit 是一个我关注了蛮长时间的库。这个库目前完善了很多功能，这里推荐给大家。
