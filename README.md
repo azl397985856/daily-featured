@@ -17,6 +17,37 @@
 
 ## 新鲜出炉 (2021-09)
 
+### 2021-09-18[好文]
+
+ESM 可以借助浏览器的模块化能力从而实现”无打包“，这样前端也不需要安装 node_modules，而仅仅是 import cdn 上的文件即可了。借助包的分发服务，甚至能将本地安装依赖的速度提升 10 倍。
+
+将 CJS 转化为 ESM 如何进行？有哪些坑？这篇文章告诉你。
+
+地址：https://mp.weixin.qq.com/s/KmlyjxTphGBMu69cVGbKlg
+
+### 2021-09-17[工具]
+
+这个工具可以让你将一个网页版的 vscode 部署在你的云端服务。
+
+你可以将其部署到一些免费的平台，比如 heroku 的 free plan。这样你就可以拥有一个自己独有的云端 vscode 了。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gukrsa7xzej61ca0tmjw002.jpg)
+
+地址：https://github.com/cdr/deploy-code-server
+
+### 2021-09-16[工具]
+
+MDVideo 是一个可以将 markdown 转为视频的插件。其支持：
+
+- 自动”剪辑“
+- 添加字幕
+- 语言合成
+- 。。。
+
+不过目前仍然不支持 mac 平台且语言实现相对简单，期待功能更加完善。
+
+地址：http://mdvideo.gshll.com/
+
 ### 2021-09-15[工具]
 
 gron 是一个使得**grep 可以处理格式化 json 结构的文本的工具**。
