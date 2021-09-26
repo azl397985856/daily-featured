@@ -21,9 +21,9 @@
 
 ESM 可以借助浏览器的模块化能力从而实现”无打包“，这样前端也不需要安装 node_modules，而仅仅是 import cdn 上的文件即可了。借助包的分发服务，甚至能将本地安装依赖的速度提升 10 倍。
 
-将 CJS 转化为 ESM 如何进行？有哪些坑？这篇文章告诉你。
+不过现有的许多 npm 包是 cjs 的，那么将 CJS 转化为 ESM 如何进行？有哪些坑？这篇文章告诉你。
 
-地址：https://mp.weixin.qq.com/s/KmlyjxTphGBMu69cVGbKlg
+地址：https://mp.weixin.qq.com/s?__biz=MzA3MjU5NjU2NA==&mid=2455508622&idx=1&sn=10f0d16a4becb945e849e49d3af478f3
 
 ### 2021-09-17[工具]
 
