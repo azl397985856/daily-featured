@@ -17,6 +17,35 @@
 
 ## 新鲜出炉 (2021-09)
 
+### 2021-09-30[工具]
+
+GraphQL Code Generator 是一个 GraphQl 生态的一个很有名的代码生成工具。基本上有一些 GraphQL 工程经验的人都知道它。
+
+ 简单来说你可以将它看成是一个黑盒：
+
+- 输入是 graphql 的 schema（查询语句以及类型定义等），yml （配置文件）和 operation（操作，这个是可选的）。
+- 输出是代码文件
+
+ 比如你在 yml 中配置了 ts 插件，那么输出就是一个 ts 文件。其整体是插件化的，因此功能也会随着插件的完善而变得多样。比如实际工程中你可以在启动项目的时候生成 ts 代码，帮助你在获得更好的 ts 智能提示。
+
+地址：https://www.graphql-code-generator.com/
+
+### 2021-09-29
+
+apollographql 是很有名的 graphql 工具。它提供了服务端和客户端全套解决方案。
+
+当然这不意味着你必须使用一个客户端框架才可以用，你完全可以使用原生的 http 去集成 graphql。不过客户端框架可以帮助我们解决很多问题，比如缓存策略，样板代码等等。比如 apollo 就集成了 React Hooks，使得你可在 React 应用中非常舒适地使用 graphql。
+
+地址：https://www.apollographql.com/docs/react/data/queries/
+
+### 2021-09-28
+
+阿里巴巴淘系的 graphql 解决方案，他们是如何在工具集成 graphql 的？遇到了哪些问题？又是如何解决的？
+
+另外很有意思的点是，他们利用 cdn 的分布式能力，将 graphql 缓存写入 cdn 从而有效降低了 QPS。
+
+地址：https://mp.weixin.qq.com/s/ZO1Vpslk3-17YxUVt9Vhrw
+
 ### 2021-09-18[好文]
 
 ESM 可以借助浏览器的模块化能力从而实现”无打包“，这样前端也不需要安装 node_modules，而仅仅是 import cdn 上的文件即可了。借助包的分发服务，甚至能将本地安装依赖的速度提升 10 倍。
