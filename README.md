@@ -30,21 +30,27 @@ GraphQL Code Generator 是一个 GraphQl 生态的一个很有名的代码生成
 
 地址：https://www.graphql-code-generator.com/
 
-### 2021-09-29
+### 2021-09-29[好文]
 
-apollographql 是很有名的 graphql 工具。它提供了服务端和客户端全套解决方案。
+copilot 是一个基于 AI 的编程辅助工具。目前已经集成在了 vscode 中，后续可能集成到更多平台和工具，目前还是测试阶段。
 
-当然这不意味着你必须使用一个客户端框架才可以用，你完全可以使用原生的 http 去集成 graphql。不过客户端框架可以帮助我们解决很多问题，比如缓存策略，样板代码等等。比如 apollo 就集成了 React Hooks，使得你可在 React 应用中非常舒适地使用 graphql。
+地址：https://mp.weixin.qq.com/s?__biz=MzA3MjU5NjU2NA==&mid=2455508654&idx=1&sn=8f5e4c94a10d683cc4e2d15193c620c7
 
-地址：https://www.apollographql.com/docs/react/data/queries/
-
-### 2021-09-28
+### 2021-09-28[好文]
 
 阿里巴巴淘系的 graphql 解决方案，他们是如何在工具集成 graphql 的？遇到了哪些问题？又是如何解决的？
 
 另外很有意思的点是，他们利用 cdn 的分布式能力，将 graphql 缓存写入 cdn 从而有效降低了 QPS。
 
 地址：https://mp.weixin.qq.com/s/ZO1Vpslk3-17YxUVt9Vhrw
+
+### 2021-09-21[工具]
+
+apollographql 是很有名的 graphql 工具。它提供了服务端和客户端全套解决方案。
+
+当然这不意味着你必须使用一个客户端框架才可以用，你完全可以使用原生的 http 去集成 graphql。不过客户端框架可以帮助我们解决很多问题，比如缓存策略，样板代码等等。比如 apollo 就集成了 React Hooks，使得你可在 React 应用中非常舒适地使用 graphql。
+
+地址：https://www.apollographql.com/docs/react/data/queries/
 
 ### 2021-09-18[好文]
 
