@@ -17,6 +17,14 @@
 
 ## 新鲜出炉 (2021-10)
 
+### 2021-10-12[好文]
+
+vue 中可以用 v-html 直接动态注入 html，类似地，React 则可以通过 dangerouslySetInnerHTML 设置 html。
+
+但是如果不加以处理，很可能会遭遇 xss 攻击。 一种简单的方法就是 html entity 转义。社区也有类似的解决方案，比如 DomPurify。而这次官方标准出来了，它就是 Sanitizer API。这篇文章就详细讲述了 sanitizer 是什么，有什么用，兼容性如何，demo 程序，如何开启等等一系列问题。
+
+地址：https://web.dev/sanitizer/
+
 ### 2021-10-09[网站]
 
 很多人会问这样的问题：**xx 语言的 yy 特性在 zz 语言中怎么写啊？** 比如 Python 语言的 reverse 在 C++ 中怎么实现？
