@@ -17,13 +17,32 @@
 
 ## 新鲜出炉 (2021-10)
 
-### 2021-10-12[好文]
+### 2021-10-12[工具]
+
+ES Module Lexer 是一个针对 ESM 的词法分析器，使用它可以对 ESM 文本进行分析，vite 中就使用了它分析文件依赖。由于使用了 wasm（默认情况下）， 它的速度很快。
+
+地址：https://github.com/guybedford/es-module-lexer
+
+### 2021-10-11[好文]
 
 vue 中可以用 v-html 直接动态注入 html，类似地，React 则可以通过 dangerouslySetInnerHTML 设置 html。
 
 但是如果不加以处理，很可能会遭遇 xss 攻击。 一种简单的方法就是 html entity 转义。社区也有类似的解决方案，比如 DomPurify。而这次官方标准出来了，它就是 Sanitizer API。这篇文章就详细讲述了 sanitizer 是什么，有什么用，兼容性如何，demo 程序，如何开启等等一系列问题。
 
 地址：https://web.dev/sanitizer/
+
+### 2021-10-11[组件库]
+
+Webview UI Toolkit for Visual Studio Code 是一个针对 vscode 开发的组件库，由微软官方开发。
+
+相比于其他组件库，它有如下特点：
+
+1. 针对 vscode 定制，不仅 UI 更加一致，并且还能根据 vscode 主题变换样式
+2. 使用 web components，因此理论上可以应用于任何前端框架
+3. 注重可访问性。这点是国内的很多组件库都不注重的，但是这点却很重要，不仅仅是针对障碍人士，对待一些正常人这也是必要的。比如我习惯使用 ESC 来关闭弹窗，但是很多网站却关不掉，这让我想起了垃圾广告横行的年代。
+4. 官方出品，必数精品。
+
+地址：https://microsoft.github.io/vscode-webview-ui-toolkit/
 
 ### 2021-10-09[网站]
 
