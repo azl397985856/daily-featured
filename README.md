@@ -17,6 +17,32 @@
 
 ## 新鲜出炉 (2021-10)
 
+### 2021-10-15[资讯]
+
+Github 中的 markdown 语法支持脚注（Footnotes）了。
+
+你可以使用如下语法
+
+```
+Here is a simple footnote[^1].
+
+[^1]: My reference.
+```
+
+这样就可以渲染出如下带有脚注的内容：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvh9d925moj615u08kt8x02.jpg)
+
+类似地，之前其他平台有类似如下的渲染脚注的语法，它通过扩展 markdown 链接语法的形式实现了脚注。
+
+```
+Here is a simple [footnote](http://xxx.com "My reference")
+```
+
+不过限制也很明显，那就是必须是链接才能生成脚注，Github 的这种脚注语法就很好地解决了这个问题。
+
+更多关于 Github markdown 的语法可以参考这篇文章：https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 ### 2021-10-13[工具]
 
 Graphql 是 facebook 开源的一门查询语言（query language）。
