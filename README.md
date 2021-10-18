@@ -17,6 +17,15 @@
 
 ## 新鲜出炉 (2021-10)
 
+### 2021-10-18[好文]
+
+最近在开发小程序的调试工具，类似微信的调试工具。参考了几篇文章，如果你也在做类似的事情，不妨参考下这几篇文章。
+
+- [深入理解 Chrome DevTools](https://zhaomenghuan.js.org/blog/chrome-devtools.html#chrome-devtools-protocol)
+- [devtools](http://quickapp.vivo.com.cn/tag/devtools/)
+
+不过说实话这几篇文章的思路很值得借鉴，但是缺乏细节，并且部分细节由于版本原因已经缺乏参考性了（新版本 devtool api 发生了些变化），大家在阅读的时候注意一下。
+
 ### 2021-10-15[资讯]
 
 Github 中的 markdown 语法支持脚注（Footnotes）了。
