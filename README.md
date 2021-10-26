@@ -17,6 +17,20 @@
 
 ## 新鲜出炉 (2021-10)
 
+### 2021-10-26[好文]
+
+OAuth 是什么？你如果还不知道就太 out 了。我的《91天学算法》官方网站就用了 OAuth 来链接 Github 登录，地址：https://leetcode-solution.cn/91
+
+本文以 Github 为例，讲解如果从零接入 OAuth2，适合新手。
+
+地址：https://www.honeybadger.io/blog/oauth-nodejs-javascript/
+
+### 2021-10-25[工具]
+
+一个语法检查的工具，注意这里的语法是自然语言的语法，不是编程语言的语法，这同时也是该工具独特的地方。
+
+地址：https://caderek.github.io/gramma/
+
 ### 2021-10-19[工具]
 
 上家公司一直想做一个前端工具链，其中一环就是在编辑器（我们是 vscode）中集成工作流。比如在编辑器中新建工程，提交代码，发布代码， code review ， 代码检查等等。
