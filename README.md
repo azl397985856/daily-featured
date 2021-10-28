@@ -17,6 +17,64 @@
 
 ## 新鲜出炉 (2021-10)
 
+### 2021-10-28[技巧]
+
+chrome 95 出了一个新的 api `EyeDropper` 蛮有意思的。 据说这个功能是微软大佬贡献的。
+
+使用后会出来一个采集颜色的光标，当你确定后会在用户选择的颜色的 rgb 值返回你。
+
+代码：
+
+```js
+const eyeDropper = new EyeDropper();
+const result = await eyeDropper.open();
+// result = {sRGBHex: '#160731'}
+```
+
+大家可以直接在 chrome 95 以上的浏览器上在 devtool 的 console 中输入上面的代码查看效果。
+
+更多 chrome 95 新特性：https://developer.chrome.com/blog/new-in-chrome-95/
+
+### 2021-10-27[好文]
+
+chrome 扩展想必大家都用过么？ 那你有想过开发一款 chrome 扩展么？
+
+西法就开发了一款 chrome 扩展：《leetcode-cheatsheet》https://leetcode-solution.cn/download
+
+chrome 扩展开发最最头疼的就是各种通信，比如 content-script 和 backgound 通信， background 如何和 popup 通信等等。这篇文章对这些常见的扩展开发问题进行了讲述，并有大量的代码和图片，使得内容通俗易懂。
+
+比如如果在 devtool 新建一个 panel？怎么在 devtool 的 elements 面板新建一个侧边栏。
+
+代码演示:
+
+```js
+// 创建自定义面板，同一个插件可以创建多个自定义面板
+// 几个参数依次为：panel标题、图标（其实设置了也没地方显示）、要加载的页面、加载成功后的回调
+chrome.devtools.panels.create('MyPanel', 'img/icon.png', 'mypanel.html', function(panel)
+{
+  console.log('自定义面板创建成功！'); // 注意这个log一般看不到
+});
+
+// 创建自定义侧边栏
+chrome.devtools.panels.elements.createSidebarPane("Images", function(sidebar)
+{
+  // sidebar.setPage('../sidebar.html'); // 指定加载某个页面
+  sidebar.setExpression('document.querySelectorAll("img")', 'All Images'); // 通过表达式来指定
+  //sidebar.setObject({aaa: 111, bbb: 'Hello World!'}); // 直接设置显示某个对象
+});
+```
+
+图片演示：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvvdqdygloj30al063jrd.jpg)
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvvdqjzykhj306s03ldfv.jpg)
+
+
+文章很长，有几万字，大家可以根据自己的需要挑重点看。
+
+地址：https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html
+
 ### 2021-10-26[好文]
 
 OAuth 是什么？你如果还不知道就太 out 了。我的《91天学算法》官方网站就用了 OAuth 来链接 Github 登录，地址：https://leetcode-solution.cn/91
