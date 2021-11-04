@@ -17,6 +17,25 @@
 
 ## 新鲜出炉 (2021-11)
 
+### 2021-11-06[仓库]
+
+预约 Apple 官方产品的一个工具。如果你是果粉的话可以试试。由于我不是，就没有尝试，也不知道是否好用，使用方式很简单，感兴趣的可以尝试一下。
+
+https://github.com/Sunnyyoung/AppleReserver
+
+### 2021-11-05[仓库]
+
+和 浏览器，Node 等一样， txiki.js 是一个 JavaScript 运行时，包括 JS解析引擎以及运行时的api（比如 console）。
+
+它是基于 quickjs 做的 js 引擎，基于 libuv 做的跨平台事件驱动。这点和 node 很像，只不过 node 使用的 js 引擎是 v8 而已。
+
+txiki.js 非常小，如果你想学习实现 JS Runtime 或者想在你的项目中用到沙箱等不妨考虑使用一下。 
+
+基于这个项目你可以顺便学习一下 quickjs 和 libuv，说到 libuv 我推荐一个资料 https://github.com/nikhilm/uvbook/tree/master。正好它也有中文版翻译：https://luohaha.github.io/Chinese-uvbook/source/filesystem.html
+
+地址：https://github.com/saghul/txiki.js
+
+
 ### 2021-11-04[网站]
 
 在线生成头像的一个网站， 我用它生成了一个有点像自己的头像。
