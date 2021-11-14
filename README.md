@@ -17,6 +17,34 @@
 
 ## 新鲜出炉 (2021-11)
 
+### 2021-11-11[仓库]
+
+
+一款轻量级的收集页面的用户点击行为、路由跳转、接口报错、代码报错、并上报服务端的SDK
+
+
+功能：
+
+ - 🔨监听请求错误
+ - 🔨console
+ - 🔨路由跳转
+ - 🔨代码报错
+ - 🔨click、wx:tab、touchmove
+ - 🔨资源加载错误
+ - 🏅自定义上报错误
+ - 🚀丰富的hooks与配置项支持可高定制化
+ - 🌝支持IE8和安卓5以上
+ - 👌持续迭代与更新
+ - 完善的浏览器e2e和微信小程序e2e
+ - 完善的单元测试（77%~coding）
+ - 支持原生Web @zyf2e/monitor-browser
+ - 支持Web框架（Vue3、Vue2、React@Next） @zyf2e/monitor-web
+ - 支持原生微信小程序、支持uni-app等微信小程序框架 @zyf2e/monitor-wx-mini
+ - 支持Web性能监控 @zyf2e/monitor-web-performance
+ - 支持微信小程序性能监控 @zyf2e/monitor-wx-mini-performance
+
+地址：https://github.com/clouDr-f2e/monitor
+
 ### 2021-11-10[好文]
 
 vue 和 react 的一个非常大的区别在于 vue 是基于模板的，vue 会编译模板而生成 render function，而 react 则是手写 jsx。当然你也可以直接在 vue 中手写render 来获得和 react 几乎等价的语法。
