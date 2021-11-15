@@ -17,6 +17,35 @@
 
 ## 新鲜出炉 (2021-11)
 
+### 2021-11-15[网站]
+
+该网站允许你仅仅输入一个 url，就可以自动分析网站下的 npm 包信息，包括包名，大小，Licence 等信息。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gwfrwgonbtj31g60u0gpi.jpg)
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gwfrwa2pwej319l0u0gp7.jpg)
+
+和大多数的工具一样，它也是分析 dist 产物，比如里面的注释，字面量等信息。经测试，效果还是很准确的。
+
+其原理也相当简单，就是直接访问你的网站，拿到 JS 资源并利用正则匹配里面的关键注释或者字面量进而判断使用的库的类型。
+
+地址：https://bundlescanner.com/
+
+### 2021-11-12[技巧]
+
+Chrome 98 出了一个实验性功能 `copy css as js`。你可以直接 copy css 代码为 JS 对象。这在你使用 `css in js` 库的情况下很有用。
+
+即使你不使用 `css in js` 库，它也是有用的。比如这种情况。
+
+```js
+const anchor = document.querySelector('a');
+
+Object.assign(anchor.style, {
+    color: 'white',
+    letterSpacing: '2px'
+});
+```
+
 ### 2021-11-11[仓库]
 
 
