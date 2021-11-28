@@ -17,6 +17,51 @@
 
 ## 新鲜出炉 (2021-11)
 
+### 2021-11-26[类库]
+
+minimist 是一个处理命令行参数的 node 库。
+
+使用方法非常简单，直接将 process.argv 传给它就好了。
+
+```bash
+var argv = require('minimist')(process.argv.slice(2));
+console.log(argv);
+```
+
+一个简单的使用例子：
+
+```bash
+$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
+{ _: [ 'foo', 'bar', 'baz' ],
+  x: 3,
+  y: 4,
+  n: 5,
+  a: true,
+  b: true,
+  c: true,
+  beep: 'boop' }
+```
+
+这样你就可以直接获取到用户传入的各种参数了。
+
+由于之前我一直用的是 tj 大神开发的 [commander.js])(https://github.com/tj/commander.js) 因此不太用到这个库。而如果你就是写一个小的应用，仅仅是解析下命令行参数，那么这个库就非常适合。
+
+地址：https://github.com/substack/minimist
+
+### 2021-11-25[类库]
+
+`execa` 是一个 node 端的将常用操作进行简化的库。这些简化体现在多个方面，比如：
+
+- 支持 promise，因此可以直接 await 来处理异步，很方便。
+- 支持 pipe
+- 取消任务（cancel api）
+- kill 进程
+- 等等
+
+官方的宣传语是：Process execution for humans。可以看出它的功能主要就是 node 的进程运行相关，而它所有功能都是围绕 node 的 child_process 模块进行的。
+
+地址：https://github.com/sindresorhus/execa
+
 ### 2021-11-15[网站]
 
 该网站允许你仅仅输入一个 url，就可以自动分析网站下的 npm 包信息，包括包名，大小，Licence 等信息。
