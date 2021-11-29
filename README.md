@@ -79,6 +79,14 @@ remix 是一个集大成的框架。基于它，你可以创建现代化的前�
 
 地址：https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
 
+### 2021-11-22[网站]
+
+LeetCode 是一个非常不错的，适合算法学习入门的网站。其中的每日一题质量很高，不仅仅是题目选的不错，而且官方题解以及部分优质选手的题解都非常有参考价值，推荐学习算法的大家学习。
+
+我在刚刚的 11 月份中就完成了全勤打卡（虽然有补卡😄）
+
+地址：https://leetcode-cn.com/problemset/all/
+
 ### 2021-11-15[网站]
 
 该网站允许你仅仅输入一个 url，就可以自动分析网站下的 npm 包信息，包括包名，大小，Licence 等信息。
