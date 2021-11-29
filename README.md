@@ -62,6 +62,23 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
 
 地址：https://github.com/sindresorhus/execa
 
+### 2021-11-24[类库]
+
+remix 是一个集大成的框架。基于它，你可以创建现代化的前端应用，其本身是基于 react 技术栈的。和其他现代化的大而全的框架类似，它有两个显著特征：
+
+- 开箱即用，很多功能都内置。比如路由，数据处理，视图层等等
+- 插件化。很多功能都可以扩展包的形式增删。比如其核心包有 @remix-run/dev, @remix-run/node 等等。
+
+地址：https://remix.run/docs/en/v1
+
+### 2021-11-23[好文]
+
+如何发布一个 react 库？本文讲解如何用 TypeScript + rollup + react 开发 UI 组件库。其中涉及了很多细节，比如如何初始化项目，如何配置打包工具，如何发布到 npm ，如果导出 types 信息给第三方使用等等。文章还提供了配套的视频，如果文章对你有难度，可以直接看视频（有点软件开发基础的不建议看视频，直接文章足以）。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gwwcflo68uj30u016gdkr.jpg)
+
+地址：https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
+
 ### 2021-11-15[网站]
 
 该网站允许你仅仅输入一个 url，就可以自动分析网站下的 npm 包信息，包括包名，大小，Licence 等信息。
