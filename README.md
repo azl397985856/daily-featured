@@ -95,6 +95,19 @@ LeetCode 是一个非常不错的，适合算法学习入门的网站。其中�
 
 地址：https://leetcode-cn.com/problemset/all/
 
+### 2021-11-19[工具]
+
+1password 是一个老牌的密码管理工具，之前我也推荐过。而今天介绍的这款 bitwarden 也同样是一个老牌的密码管理工具，与 1password 相比，个人感觉有两个明显优势：
+
+1. 用户界非常简洁，清爽，功能几乎都是一看就懂。
+2. 代码开源，并且产品对个人免费。 这恐怕是大多数人最介意的。
+
+它的客户端种类很多，有桌面，手机，浏览器，甚至还是命令行。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gwyjf7ji9kj31270u041j.jpg)
+
+地址：https://bitwarden.com/download/
+
 ### 2021-11-15[网站]
 
 该网站允许你仅仅输入一个 url，就可以自动分析网站下的 npm 包信息，包括包名，大小，Licence 等信息。
