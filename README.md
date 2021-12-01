@@ -17,6 +17,14 @@
 
 ## 新鲜出炉 (2021-11)
 
+### 2021-11-30[好文]
+
+webpack 等打包工具的功能都是将非 JS 模块打包成 JS 模块。比如 html，css，image 都可以打包成 js。那么它们分别如何打包成 js 呢？以 webpack 为例， 你需要一堆的 loader，比如 处理 css 需要 css-loader，图片需要 file-loader 等等。
+
+这篇文章就详细告诉了你如何使用打包工具处理这些非 js 资源，这在你配置你项目打包工具的时候很有用。
+
+地址：https://blog.bitsrc.io/how-to-bundle-non-javascript-resources-abda2d5826f
+
 ### 2021-11-26[类库]
 
 minimist 是一个处理命令行参数的 node 库。
