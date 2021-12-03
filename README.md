@@ -82,6 +82,10 @@ chrome 中 你可以给资源手动地指定优先级。如果浏览器目前还
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
 
+大家也可以加我微信好友进行交流！
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gx11szd02ej30e80e8dg3.jpg)
+
 ## 贡献
 
 - 如果有想法和创意，请提 [issue](https://github.com/azl397985856/daily-featured/issues) 或者进群提
