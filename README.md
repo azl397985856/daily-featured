@@ -43,6 +43,36 @@ chrome 中 你可以给资源手动地指定优先级。如果浏览器目前还
 
 如上，我们可以指定图片，js，uframe，甚至是 fetch 请求的优先级。这有时候在提高 LCP 等性能数据的时候很有用。
 
+### 2021-12-02[工具]
+
+相信大家都或多或少有被无良商家贩卖信息的经历。这些数据大多就是访问网站的时候被窃取的。我们可以不暴露这些隐私吗？
+
+答案是很难。不过我们可以通过一些手段，比如限制浏览器的某些获取信息的 api 而减少一些信息泄漏， JavaScript Restrictor 就是这样的工具。
+
+友情提示：很多网站如果使用了这个工具可能就直接无法访问了。大家可以设置白名单或者给不同网站设置不同限制级别来完成。
+
+我使用的是 chrome，因此点击这里就可以下载插件了。如果你是其他浏览器，那么就点击对应链接即可。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gx1sw2j5ttj31010u0qdp.jpg)
+
+地址：https://polcak.github.io/jsrestrictor/
+
+### 2021-12-01[好文]
+
+如何制作一个 CPU？
+
+这个标题是不是很吸引人？当我点进去的时候，我迅速翻了一下文章。第一张图片和最后一张图片的对比逗笑了我。
+
+第一步，取一块石头：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gx1szxnz6dj31lm0mewi4.jpg)
+
+最后一步（第 19 步），CPU 做好了。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gx1t0kpqo3j31980u0gpw.jpg)
+
+地址：https://blog.robertelder.org/how-to-make-a-cpu/
+
 ## 历史汇总
 
 - [2021-11](https://github.com/azl397985856/daily-featured/tree/master/backup/2021-11/README.md)
