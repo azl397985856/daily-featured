@@ -23,8 +23,7 @@
 
 chrome 中 你可以给资源手动地指定优先级。如果浏览器目前还不支持，可以在 Experimental Web Platform Features 中 打开。
 
-```html
-
+```
 <!-- We don't want a high priority for this above-the-fold image -->
 <img src="/images/in_viewport_but_not_important.svg" importance="low" alt="I'm an unimportant image!">
 
