@@ -17,6 +17,16 @@
 
 ## 新鲜出炉 (2021-12)
 
+### 2021-12-09[工具]
+
+该工具可以直接将 html 转化为 markdown(简称 md)，如果你想要 md 源码可以尝试使用它。
+
+对于我来说，就可以将 html 转化为 md，然后再通过工具讲 md 转化为符合我风格的 html。关于如何将 md 转化为格式良好的 html， 可以使用我的工具 [Markdiwn Reader](https://leetcode-solution.cn/github)
+
+原理是根据语义化标签来做的，比如 h1 标签就转义为 markdown 的 `#`。
+
+地址：https://devtool.tech/html-md
+
 ### 2021-12-03[技巧]
 
 浏览器加载资源是有优先级的，他们分别是 high，medium 和 low。浏览器默认会给资源一个优先级，优先级高的会优先加载，相同优先级的按照出现顺序依次加载。
