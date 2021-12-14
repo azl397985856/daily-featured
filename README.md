@@ -17,6 +17,25 @@
 
 ## 新鲜出炉 (2021-12)
 
+### 2021-12-14[好文]
+
+jest 是一个非常流行的前端框架。jest 是如何 mock 模块的呢？ 官方文档给了详细的文档，比如 jest.mock('axios') 就可以 mock axios，然后:
+
+```ts
+const resp = { data: users };
+axios.get.mockResolvedValue(resp);
+```
+
+就可以 mocj axios 的 get 方法。
+
+具体参考：https://jestjs.io/docs/mock-functions
+
+那么对于全局变量，比如 WebSocket，fetch 等，如果进行 mock 呢？
+
+这篇文章从基础 mock 到 jest.spyOn 一步步教你如果 mock 全局变量。
+
+文章地址：https://benjaminjohnson.me/mocking-fetch
+
 ### 2021-12-10[工具]
 
 firefox relay 是 firefox 官方出品的邮箱转发工具。
