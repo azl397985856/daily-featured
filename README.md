@@ -17,6 +17,26 @@
 
 ## 新鲜出炉 (2021-12)
 
+### 2021-12-20[技巧]
+
+相信大家都有过 copy 对象的经验，包括浅拷贝和深拷贝。
+
+深拷贝一般都是使用 JSON.stringify, MessageChannel 或者 一些第三方库，比如 lodash。 而浏览器 HTML 规范增加了一个新的 api structuredClone，可以在浏览器层面上深拷贝对象，和内置的 JSON.stringify 不同的是，它支持的数据格式更多。
+
+值得注意的是，structuredClone 目前浏览器的兼容性比较差，chrome 最新版也是不支持的，主流的差不多就 firefox 支持。
+
+地址：https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
+
+## 2021-12-17[网站]
+
+Github 年度统计，以下是我的 Github 年度统计，大家可以用下面的网站自己生成自己的 Github 年度统计。
+
+> 统计数据不包括私有仓库，但包括你的所有个人账户和组织（比如下图的 leetcode-pp 就是组织）下的数据
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gxkhrchc0gj31ez0u0tdc.jpg)
+
+地址： https://wrapped.run/
+
 ### 2021-12-14[好文]
 
 jest 是一个非常流行的前端框架。jest 是如何 mock 模块的呢？ 官方文档给了详细的文档，比如 jest.mock('axios') 就可以 mock axios，然后:
