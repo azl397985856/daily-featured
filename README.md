@@ -17,6 +17,24 @@
 
 ## 新鲜出炉 (2021-12)
 
+### 2021-12-28[工具]
+
+npm 和 yarn 的早期版本在处理依赖的时候，会将依赖安装 hoist 到顶层的 node_modules。这意味着：源码可以访问 本不属于当前项目所设定的依赖包。
+
+并且多个项目的依赖是不共享的。这意味着：当使用 npm 或 Yarn 时，如果你有 100 个项目，并且所有项目都有一个相同的依赖包，那么， 你在硬盘上就需要保存 100 份该相同依赖包的副本。
+
+pnpm 很好地解决了这些问题。当你使用 Monorepo 管理代码的时候，这种优点会被放大。
+
+地址：https://github.com/pnpm/pnpm
+
+### 2021-12-27[仓库]
+
+Rust 在前端的基建发挥越来越重要的作用，很多新的流行构建工具都是 rust 写的，比如 [swc](https://github.com/swc-project/swc)。也有一些插件被 rust 重写用于提高性能，比如 [postcss-rs](https://github.com/postcss-rs/postcss-rs)。
+
+这个仓库集合了这些前端使用的 Rust 项目以及前端领域的 rust 先导者。其实这个仓库就类似于 awesome-xxxx
+
+地址：https://github.com/i5ting/rust-fe
+
 ### 2021-12-24[好文]
 
 cookie、session、token、jwt 傻傻分不清楚？这篇文章给你解惑。
