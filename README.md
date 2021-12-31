@@ -17,6 +17,45 @@
 
 ## 新鲜出炉 (2021-12)
 
+### 2021-12-31[技巧]
+
+今天是我的生日，祝我生日快乐！🎂🎂🎂 我们明年见~
+
+随着 Webpack 逐步发展，其性能越来越强，用户接入成本也越来越低。但是我们仍然会有自定义打包配置的时候， 而 webpack 的配置实在是多，并且配置的格式以及可选项也很复杂。大多数我们只能通过查官方文档的方式来解决。
+
+今天介绍一个小技巧，使用 vscode 的 ts 只能提示来提示你配置该怎么去写。众所周知，webpack 的配置文件一个 js 文件并且运行在 node 环境。那如何用 ts 实现智能提示呢？我们可以引入 webpack 对外暴露的 Configuration 对象，并使用 JS 注释告诉 vscode 我们的 config 是 Configuration 类型即可。
+
+代码演示:
+
+```js
+// webpack.config.js
+import { Configuration } from "webpack";
+
+/**
+ * @type {Configuration}
+ */
+
+const config = {
+  entry: "./src/main.js",
+  mode: "development",
+  output: {
+    filename: "bundle.js",
+  },
+};
+
+module.exports = config;
+```
+
+我刚刚说了 webpack.config.js 是运行在 node 的，因此 node 低版本 import 是无法直接运行的，会报错。这个时候大家需要注释掉 import 代码，等到需要智能提示再加上即可。
+
+## 2021-12-30[工具]
+
+ts-node 是一个可以直接执行 TypeScript 代码的工具。
+
+它的原理很简单，就是先调用 tsc 生成 js，然后再执行生成后的 js 文件。对于开发者而言就是简化了一部操作。
+
+地址：https://github.com/TypeStrong/ts-node
+
 ### 2021-12-28[工具]
 
 npm 和 yarn 的早期版本在处理依赖的时候，会将依赖安装 hoist 到顶层的 node_modules。这意味着：源码可以访问 本不属于当前项目所设定的依赖包。
@@ -99,6 +138,59 @@ firefox relay 是 firefox 官方出品的邮箱转发工具。
 原理是根据语义化标签来做的，比如 h1 标签就转义为 markdown 的 `#`。
 
 地址：https://devtool.tech/html-md
+
+### 2021-12-04[技巧]
+
+sourcemap 可以帮助我们定位打包之前的代码。
+
+如果不使用 sourcemap，比如我们的代码报错，则只能看到编译打包之后的，很难定位到源代码。这个时候 sourcemap 就有用了。
+
+我个人使用 sourcemap 是在开发的时候使用 cheap-module-eval-source-map， 而在发布上线的时候使用 nosource-source-map。
+
+代码参考：
+
+```js
+// webpack.config.js
+
+module.exports = (env, args) => {
+  // common config  正式使用的话更多的是 webpack.common.js
+  const config = {
+    // ...
+  };
+
+  // 正式使用的话更多的是  webpack.development.js
+  if (env === "development") {
+    config.mode = "development";
+    config.devtool = "cheap-module-eval-source-map";
+  } else {
+    // 正式使用的话更多的是  webpack.production.js
+    config.mode = "production";
+    config.devtool = "nosource-source-map";
+  }
+
+  return config;
+};
+```
+
+这里的 cheap 指的是只能定位到行，不能定位到列，对大多数人来说到行就够了，这样本地开发打包编译也快一点。module 指的是定位到源代码，而不是经过 loader 等处理后的代码。eval 指的是代码会包裹在 eval 函数执行。nosource 指的是仅显示出错的源代码位置，而无法定位到源代码，这对我们的生产环境起到了保护作用，避免被其他人拿到前端完整的源代码。
+
+### 2021-12-04[技巧]
+
+TypeScript 中如何判断一个类型是否是 any 呢？
+
+我们可以自定义一个泛型来实现。
+
+由于**只有** any 和 1 交叉后的类型为 0 的父类型，因此可以这样写。
+
+```ts
+type isAny<T> = 0 extends 1 & T ? true : false;
+
+type A = isAny<any>; // true   any 和 1 的交叉类型为 any
+type B = isAny<number>; // false number 和 1 的交叉类型为 1
+type C = isAny<3>; // false  3 和 1 的交叉类型为 never
+```
+
+当然你可以使用其他数字，甚至使用其他类型代替，思路是一样的。
 
 ### 2021-12-03[技巧]
 
