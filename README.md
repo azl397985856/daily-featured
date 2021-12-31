@@ -139,6 +139,24 @@ firefox relay 是 firefox 官方出品的邮箱转发工具。
 
 地址：https://devtool.tech/html-md
 
+### 2021-12-05[技巧]
+
+很多人把 @ts-expect-error 当然是 ignore 来用。比如我有一个 ts error，就加一个 @ts-expect-error 注解。
+
+这是不对的，@ts-expect-error 不是这么用的。 @ts-expect-error 的其中一个用法是做类型单元测试。
+
+代码演示：
+
+```ts
+it("number can't assign to string", () => {
+  let a: string = "xx";
+  // @ts-expect-error
+  a = 3;
+});
+```
+
+在这里 @ts-expect-error 被当做断言来使用了。
+
 ### 2021-12-04[技巧]
 
 sourcemap 可以帮助我们定位打包之前的代码。
