@@ -90,6 +90,16 @@ cookie、session、token、jwt 傻傻分不清楚？这篇文章给你解惑。
 
 地址：https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
 
+### 2021-12-19[工具]
+
+如果你使用 jest 不做任何配置并使用 import 语句的话，很可能会得到一个报错。
+
+不仅仅是 jest，其实大多数的 node 工具都不认识 import。 对于 jest 来说，我们可以使用 babel-jest，并配置一下 babel 环境为 node 即可。
+
+babel jest 之前是一个独立的仓库，现在已经迁移到了 jest 的 mono repo 中，由 jest 项目统一维护了。
+
+地址:https://github.com/facebook/jest/tree/main/packages/babel-jest
+
 ## 2021-12-17[网站]
 
 Github 年度统计，以下是我的 Github 年度统计，大家可以用下面的网站自己生成自己的 Github 年度统计。
