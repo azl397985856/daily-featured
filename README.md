@@ -17,6 +17,55 @@
 
 ## 新鲜出炉 (2022-01)
 
+## 2022-01-04[技巧]
+
+两个问题看你有没有高并发经验。
+
+1. 如何避免项目的错误日志扎堆上报，导致服务器瞬间压力过大？
+2. 如何保证后端突然接受大量请求而不至于挂？
+
+其实这两个问题是一个是客户端问题，一个是服务端问题，还是很有代表性的。
+
+答案其实不唯一， 我这里简单分享个**随机丢弃**思路。
+
+1. 可以采取随机数舍弃的方法，比如随机舍弃 50% 的请求。
+2. 可以采取随机数舍弃的方法，比如在 cpu 大于 80% 的时候，随机舍弃 50% 的请求。专业一点这个叫熔断。
+
+当然除了这个思路还可以采用异步上报，引入队列等众多方法， 这里就不多做介绍。这个随机丢弃的方式简单粗暴且有效，但是对于重要的业务，比如支付还是谨慎使用。
+
+## 2022-01-03[工具]
+
+如果你需要做增量更新的功能，可以考虑使用这个工具集。
+
+其中 bsdiff 用来 diff 两个二进制包 bspatch 用来将 diff 信息 patch 过去。
+
+参考代码：
+
+```js
+var assert = require("assert"),
+  bsdiff = require("bsdiff"),
+  crypto = require("crypto");
+
+// cur 是当前的二进制包
+// ref 是需要更新到的二进制包
+var cur = crypto.randomBytes(1024),
+  ref = crypto.randomBytes(1024);
+
+bsdiff.diff(cur, ref, function (err, ctrl, diff, xtra) {
+  if (err) throw err;
+  bsdiff.patch(cur.length, ref, ctrl, diff, xtra, function (err, out) {
+    if (err) throw err;
+    // 将 out 信息更新到当前的二进制包 cur 上
+    for (var i = 0; i < cur.length; i++) {
+      if (cur[i] !== out[i]) throw "Patch did not work";
+    }
+    console.log("Patch worked!");
+  });
+});
+```
+
+地址：https://github.com/mikepb/node-bsdiff
+
 ## 2022-01-02[技巧]
 
 adb 全称 Android Debug Bridge，是安卓上的调试工具。我们可以用它做一些自动化的事情。
