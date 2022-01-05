@@ -17,7 +17,39 @@
 
 ## 新鲜出炉 (2022-01)
 
-## 2022-01-04[技巧]
+### 2021-01-07[工具]
+
+vue 的可视化模板编译工具 Template Explorer
+
+如果你只是想看下 template 会被编译为怎么样的 ast 以及 render function，那么可以使用这个工具来帮你。
+
+这个工具的源码在 Github 的 vue 仓库中，地址：https://github.com/vuejs/vue-next/tree/master/packages/template-explorer 如果你需要 debug 的话可以在仓库中启动运行，如果只是看下结果，使用在线版足够了。
+
+地址：https://vue-next-template-explorer.netlify.com/
+
+### 2021-01-06[工具]
+
+clinic.js 是一个诊断工具，可以帮助你发现潜在的性能和安全问题。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gy1mtk9y0lj32f90u0dlw.jpg)
+
+如上图， clinic 可以诊断包括 CPI，内存，事件循环延迟（卡顿）以及 handlers。
+
+它还可以直接帮你定位到具体的可能存在的问题点。如下图：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gy1muyqj26j31j90u0aff.jpg)
+
+clinic.js 就诊断到了代码可能存在 IO 方面的问题。
+
+地址：https://clinicjs.org/
+
+### 2021-01-05[工具]
+
+类似于 apache 的 abtest， wrk 也是一个 http 压测工具，二者功能和用法都是类似的。你可以用它来测试你的代码能否满足业务要求的并发量。
+
+地址：https://github.com/wg/wrk
+
+### 2022-01-04[技巧]
 
 两个问题看你有没有高并发经验。
 
@@ -33,7 +65,7 @@
 
 当然除了这个思路还可以采用异步上报，引入队列等众多方法， 这里就不多做介绍。这个随机丢弃的方式简单粗暴且有效，但是对于重要的业务，比如支付还是谨慎使用。
 
-## 2022-01-03[工具]
+### 2022-01-03[工具]
 
 如果你需要做增量更新的功能，可以考虑使用这个工具集。
 
@@ -66,7 +98,7 @@ bsdiff.diff(cur, ref, function (err, ctrl, diff, xtra) {
 
 地址：https://github.com/mikepb/node-bsdiff
 
-## 2022-01-02[技巧]
+### 2022-01-02[技巧]
 
 adb 全称 Android Debug Bridge，是安卓上的调试工具。我们可以用它做一些自动化的事情。
 
