@@ -9,3 +9,13 @@ micro-app 与技术栈无关，也不和业务绑定，可以用于任何前端�
 一句话总结就是：或许是接入最简单的微前端框架。它的部分功能实现挺有意思的，有时间我后面会专门针对他们的部分功能进行讲解。
 
 地址：https://github.com/micro-zoe/micro-app/blob/master/README.zh-cn.md
+
+### 2
+
+https://cpojer.net/posts/building-a-javascript-testing-framework
+
+### 3
+
+https://github.com/facebook/jest/tree/main/packages/jest-worker
+
+### 4

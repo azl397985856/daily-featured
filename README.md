@@ -17,7 +17,157 @@
 
 ## 新鲜出炉 (2022-01)
 
-### 2021-01-07[工具]
+### 2022-01-19[仓库]
+
+Electron 的竞品，用来开发桌面客户端。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gydie04gijj30u012bjv5.jpg)
+
+地址：https://github.com/tauri-apps/tauri
+
+### 2022-01-18[仓库]
+
+一个自动生成中国山水画的仓库， 效果真的惊艳，可见作者的数学功底。 仓库就是一个 html，代码全部在 html 中。
+
+地址：https://github.com/LingDong-/shan-shui-inf
+
+### 2022-01-17[工具]
+
+monorepo 越来越流行，相应的工具也在不断发展。
+
+> 如果大家还不清楚什么是 monorepo 的话，可以看下这篇文章：[Monorepo vs Polyrepo: 5 Things You Should Consider](https://blog.bitsrc.io/monorepo-vs-polyrepo-5-things-you-should-consider-897f3b588e70)
+
+其中两个工具最近很是抢眼。这两个工具其实都算是构建工具（build tool）
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gydibmaccej31ua0u0gv8.jpg)
+
+一个是 TurboRepo，另外一个是 nx。其中 TurboRepo 借鉴了 nx 了一些内容。二者其实各有优劣。这里有一个对于二者的比较文章 [Nx and Turborepo](https://nx.dev/guides/turbo-and-nx) ，这篇文章是 nx 官方写的。
+
+另外推荐一篇侧重讲 TurboRepo 的文章，[Why TurboRepo Will Be The First Big Trend of 2022](https://dev.to/swyx/why-turborepo-will-be-the-first-big-trend-of-2022-4gfj)
+
+### 2022-01-14[好文]
+
+作者用 [qwik](https://github.com/builderio/qwik) 对自己的网站进行了优化，减少了 99% 的 JS。优化后使用 PageSpeed Insights 测试为 100 分，并且是移动端和 PC 端全 100 。
+
+地址：https://www.builder.io/blog/how-we-cut-99-percent-js-with-qwik-and-partytown
+
+### 2022-01-13[技巧]
+
+CSS 出了一个新的媒体查询特性 prefers-color-scheme，它可用于检测用户是否有将系统的主题色设置为亮色或者暗色。
+
+代码示例：
+
+```css
+@media (prefers-color-scheme: dark) {
+  .day.dark-scheme {
+    background: #333;
+    color: white;
+  }
+  .night.dark-scheme {
+    background: black;
+    color: #ddd;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .day.light-scheme {
+    background: white;
+    color: #555;
+  }
+  .night.light-scheme {
+    background: #eee;
+    color: black;
+  }
+}
+```
+
+如上:
+
+- `prefers-color-scheme: dark` 内的样式代码会在用户的浏览器是暗黑主题下启用
+- `prefers-color-scheme: light` 内的样式代码会在用户的浏览器是浅色主题下启用
+
+基于此，我们可以给网站定制不同的主题样式以适配用户电脑上的主题设置（目前就是暗黑和浅色两种）。
+
+### 2022-01-12[技巧]
+
+yarn 支持一个特性叫做 resolutions。它主要解决了用户不能指定依赖的依赖（嵌套依赖）的版本问题。
+
+比如你依赖了 react，而 react 依赖了一个包 A，这个包有安全问题，但是 react 迟迟不更新，你就可以通过 resolutions 来强行升级 A （前提是升级满足 package 中的兼容性定义）
+
+yarn 官方给的一个使用例子：
+
+```json
+{
+  "name": "project",
+  "version": "1.0.0",
+  "dependencies": {
+    "left-pad": "1.0.0",
+    "c": "file:../c-1",
+    "d2": "file:../d2-1"
+  },
+  "resolutions": {
+    "d2/left-pad": "1.1.1",
+    "c/**/left-pad": "^1.1.2"
+  }
+}
+```
+
+我们通过 resolutions 指定了 d2 的依赖 left-pad 升级到 1.1.1。
+
+更多内容参考：https://github.com/yarnpkg/rfcs/blob/master/implemented/0000-selective-versions-resolutions.md
+
+### 2022-01-11[工具]
+
+vm 是 node 原生提供的一个模块， 提供了一个沙箱环境。
+
+ 比如你想造一个测试框架的轮子，那么测试用例间的隔离如何做？比如一个测试用例修改了 Array.prototype.map，那么会不会因此影响其他测试用例呢？ 使用 vm 就可以解决这个问题。
+
+参考代码：
+
+```js
+// replace this code in worker.js:
+const context = { describe, it, expect, mock };
+vm.createContext(context);
+
+// with this:
+const NodeEnvironment = require("jest-environment-node");
+const environment = new NodeEnvironment({
+  testEnvironmentOptions: { describe, it, expect, mock },
+});
+vm.runInContext(code, environment.getVmContext());
+```
+
+ 如上代码的 jest-environment-node 是用来模拟 node 端的环境的（而不是浏览器），我们可以使用 testEnvironmentOptions 来定制一些全局变量。
+
+### 2022-01-10[技巧]
+
+import map 是 ESM 中的一个特性，允许你自定义引入模块的解析逻辑。
+
+如果不使用 import maps，直接在浏览器上执行类似下面这种绝对路径就会有问题：
+
+```js
+import moment from "moment";
+import { partition } from "lodash";
+```
+
+我们可以使用 import maps 解决这个问题：
+
+```html
+<script type="importmap">
+  {
+    "imports": {
+      "moment": "/node_modules/moment/src/moment.js",
+      "lodash": "/node_modules/lodash-es/lodash.js"
+    }
+  }
+</script>
+```
+
+这样 moment 和 lodash 就会从网站根路径的 node_modules 查找模块了。
+
+这些特性浏览器支持还不理想，如果需要使用的话可以考虑 [es-module-shims](https://github.com/guybedford/es-module-shims)
+
+### 2022-01-07[工具]
 
 vue 的可视化模板编译工具 Template Explorer
 
@@ -27,7 +177,7 @@ vue 的可视化模板编译工具 Template Explorer
 
 地址：https://vue-next-template-explorer.netlify.com/
 
-### 2021-01-06[工具]
+### 2022-01-06[工具]
 
 clinic.js 是一个诊断工具，可以帮助你发现潜在的性能和安全问题。
 
@@ -43,7 +193,7 @@ clinic.js 就诊断到了代码可能存在 IO 方面的问题。
 
 地址：https://clinicjs.org/
 
-### 2021-01-05[工具]
+### 2022-01-05[工具]
 
 类似于 apache 的 abtest， wrk 也是一个 http 压测工具，二者功能和用法都是类似的。你可以用它来测试你的代码能否满足业务要求的并发量。
 
