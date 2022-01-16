@@ -17,6 +17,16 @@
 
 ## 新鲜出炉 (2022-01)
 
+### 2022-01-20[好文]
+
+feiker.js 作者故意添加无限死循环逻辑到代码中，这究竟是人性的扭曲还是道德的沦丧？欢迎收看本期的社会与法节目。
+
+地址：
+
+- [Dev corrupts NPM libs 'colors' and 'faker' breaking thousands of apps](https://www.bleepingcomputer.com/news/security/)dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/
+- [下载量和 Vue 一样大的开源软件被作者恶意破坏，数千款应用受到牵连](https://mp.weixin.qq.com/s/TDh4BPeYTITjJIZ4KH-4Jw)
+- [暴力拒绝白嫖，著名开源项目作者删库跑路，数千个应用程序无限输出乱码](https://www.jiqizhixin.com/articles/2022-01-10-2)
+
 ### 2022-01-19[仓库]
 
 Electron 的竞品，用来开发桌面客户端。
