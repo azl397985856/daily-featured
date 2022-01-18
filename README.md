@@ -17,6 +17,36 @@
 
 ## 新鲜出炉 (2022-01)
 
+### 2022-01-23[工具]
+
+fuite 是一个 cli 工具，帮助你一键检测网页是否可能有**潜在的内存泄漏**。
+
+最简单的用法：
+
+```bash
+npx fuite https://example.com
+```
+
+地址：https://github.com/nolanlawson/fuite
+
+### 2022-01-22[仓库]
+
+低代码已经发展了好多年了，也火了很多年。我本人也做了低代码好多年。我实在是不建议大家现在从零开始做低代码，很耗费时间，回报也不高。
+
+目前社区有不少现成工具可以使用或者参考，比如 mometa。
+
+地址：https://github.com/imcuttle/mometa
+
+### 2022-01-21[工具]
+
+使用 mono repo 的其中一个挑战就是版本管理更加复杂。原先是仅控制其中一个 package 版本就 ok 了，而现在 mono 仓库有多少 package 就需要管理多少，复杂度就增大了。
+
+于是使用高效的版本管理工具就有必要了，这次推荐两个工具给大家。
+
+其中一个是 [changesets](https://github.com/changesets/changesets) ，这个比较推荐。还有一个是 lerna 工具集中的一个 [lerna-changelog](https://github.com/lerna/lerna-changelog)
+
+这两个工作方式不太一样，大家可以看文档详细了解一下。另外推荐一篇文章，这个文章列举了很多 mono tool，地址：https://turborepo.org/docs/guides/complimentary-tools
+
 ### 2022-01-20[好文]
 
 feiker.js 作者故意添加无限死循环逻辑到代码中，这究竟是人性的扭曲还是道德的沦丧？欢迎收看本期的社会与法节目。
