@@ -17,6 +17,45 @@
 
 ## 新鲜出炉 (2022-01)
 
+### 2022-01-28[工具]
+
+前端经常碰到跨域安全问题。之前我的解决方式是通过本地代理（node 或 nginx 等服务）解决。
+
+基本思路就是给请求响应头增加大概如下内容：
+
+```
+Access-Control-Allow-Origin: https://foo.example
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
+Access-Control-Max-Age: 86400
+```
+
+后来我使用了更方便的工具： 浏览器扩展。刚开始的时候用的是一个专门给请求加跨域头的插件。后来发现有些头不会加上，比如 access-control-expose-headers 。
+
+因此一个通用的给请求增加头信息的插件就有必要了。于是我选择了 `requestly`
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gysjmuktv3j32do0u0q6n.jpg)
+
+美中不足是每个规则只能免费改**一个**头。不过好消息是你可以新建多个规则，每个规则改一个头就可以白嫖了。
+
+地址：https://app.requestly.io
+
+### 2022-01-27[技巧]
+
+Web 上传文件，我们可以使用 input 标签 + form 表单来做。而现在更多是使用 js + formData 实现。
+
+参考代码：
+
+```js
+const formData = new FormData();
+const file = new File([buffer], filename);
+formData.append("file", file, filename);
+```
+
+这样会更加自由，我们可以控制上传的文件内容。 接下来， 浏览器会给我们添加 `multipart/form-data` 以及 `WebKitFormBoundary` 等，这样文件就可以上传了。
+
+如果是在 Node 端，FormData 是不存在的。因此前面提到的 `multipart/form-data` 以及 `WebKitFormBoundary` 等 都需要自己来完成了。这样有点麻烦，不过大家可以使用 [form-data](https://github.com/form-data/form-data) 来完成。如果是浏览器，form-data 会使用浏览器原生的 FormData，否则会自己实现一个“几乎等价” 的 FormData。
+
 ### 2022-01-26[类库]
 
 Tauri 是一个让用户使用 JS 开发跨平台桌面程序的类库，核心是 Rust 写的（如今 web 基础工具很多都是 Rust 写的），是大名鼎鼎的 Electron 的竞品。
