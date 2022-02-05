@@ -17,6 +17,12 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-03[视频]
+
+一个非常好的关于 nx 科普的视频，尤其推荐 8:12 开始的那个分享。
+
+地址：https://www.youtube.com/watch?v=VKVTzVM0nVM&list=PLakNactNC1dG1CoyVWFppw3X8hnXRhFuy
+
 ### 2022-02-02[好文]
 
 swc 作者打算使用 Go 重写 tsc，目的是为 tsc 提速，进而减少大家 CI/CD 的时间。 该项目目前正在进行中。
