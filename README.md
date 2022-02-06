@@ -66,18 +66,28 @@ React Server Componnet 其中的序列化原理我觉得很有意思，大家如
 
 ```js
 {
+  // The ClientComponent element placeholder with "module reference"
   $$typeof: Symbol(react.element),
-  // The type field  now has a reference object,
-  // instead of the actual component function
   type: {
     $$typeof: Symbol(react.module.reference),
-    // ClientComponent is the default export...
     name: "default",
-    // from this file!
     filename: "./src/ClientComponent.client.js"
   },
-  props: { children: "oh my" },
+  props: {
+    // children passed to ClientComponent, which was <ServerComponent />.
+    children: {
+      // ServerComponent gets directly rendered into html tags;
+      // notice that there's no reference at all to the
+      // ServerComponent - we're directly rendering the `span`.
+      $$typeof: Symbol(react.element),
+      type: "span",
+      props: {
+        children: "Hello from server land"
+      }
+    }
+  }
 }
+
 ```
 
 具体内容可以参考下原文。
