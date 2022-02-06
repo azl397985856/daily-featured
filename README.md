@@ -17,6 +17,14 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-06[工具]
+
+大家一定特别熟悉**转到定义（Go To Definition）**这个功能。不过可惜的是我们无法跳转到 css 的定义。
+
+而 css-navigation 是一个可以支持直接跳转到 css 定义的 vscode 插件。
+
+地址：https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation
+
 ### 2022-02-03[视频]
 
 一个非常好的关于 nx 科普的视频，尤其推荐 8:12 开始的那个分享。
