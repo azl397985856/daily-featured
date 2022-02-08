@@ -17,7 +17,15 @@
 
 ## 新鲜出炉 (2022-02)
 
-### 2022-02-06[工具]
+### 2022-02-08[好文]
+
+文章标题《TypeScript Features to Avoid》，大概意思是那些 TypeScript 的特性应该避免使用。
+
+其中第一个特性我在工作中也碰到过坑，公司甚至专门为这个定了一个 eslint 规则。其他倒没太大感觉。大家可以把这些作为一个最佳实践来做吧。
+
+地址：https://www.executeprogram.com/blog/typescript-features-to-avoid
+
+### 2022-02-07[工具]
 
 大家一定特别熟悉 **转到定义（Go To Definition）** 这个功能。不过可惜的是我们无法跳转到 css 的定义。
 
