@@ -23,7 +23,9 @@
 
 其中第一个特性我在工作中也碰到过坑，公司甚至专门为这个定了一个 eslint 规则。其他倒没太大感觉。大家可以把这些作为一个最佳实践来做吧。
 
-地址：https://www.executeprogram.com/blog/typescript-features-to-avoid
+文章地址：https://www.executeprogram.com/blog/typescript-features-to-avoid
+
+> 另外有一个小插曲，文章中提到的 private field ，我使用 TypeScript Playgound 测试发现 #filed 的方式表示 private field 的方式在 ts 中跑不通，各位知道哪里出问题了么？ 附上 playgound 地址：https://www.typescriptlang.org/play?ts=4.6.0-dev.20220116#code/MYGwhgzhAECyCeBhcVoG8BQ1oAcBOAlgG5gAuAptAGYHkgAmAjAFzQSmEB2A5tALzQA5IIDcWaMAD2ndngCuwUpLwAKAJTpx2bFJmSQ5AHQhJ3FaQAWBCIZp0mAGmiXrt2gwBMa8QF9xAYjtPVlkCHn4hUQwfIA
 
 ### 2022-02-07[工具]
 
