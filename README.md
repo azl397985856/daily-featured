@@ -17,6 +17,18 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-10[网站]
+
+这是一个在线学习和练习正则表达式（regex）的网站。
+
+这个网站竟然提示我今天学的够多了，让我明天来？ 第一次见这样的提示，还能**根据你的错误率掌控你的学习进度**，如果你能力够强且足够细心的话应该可以一次不休息通关,必须推荐给大家。
+
+附上我的通关截图：
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gz8b0ec5r4j31mu0u0dk6.jpg)
+
+地址：https://www.executeprogram.com/courses/regexes
+
 ### 2022-02-08[好文]
 
 文章标题《TypeScript Features to Avoid》，大概意思是那些 TypeScript 的特性应该避免使用。
