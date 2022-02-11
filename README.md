@@ -17,6 +17,12 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-11[网站]
+
+nginx playground 是一个在线配置和运行 nginx 的网站，在这里你可以使用 curl 或者 http 实时看到配置的 nginx 的效果。和其他 playground 一样， 它可以将你的配置通过链接分享给其他人。
+
+地址：https://nginx-playground.wizardzines.com/
+
 ### 2022-02-10[网站]
 
 这是一个在线学习和练习正则表达式（regex）的网站。
