@@ -17,6 +17,24 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-17[类库]
+
+`ci-info` 整理了市面上绝大多数的 ci 平台的信息。这样你可以通过 `ci-info` 获取到当前代码执行的环境。如果当前执行环境是在 ci ，那么其大概率还能获取到具体的 ci 平台信息。这在你需要在不同环境执行不同逻辑的时候很有用。
+
+```js
+var ci = require("ci-info");
+
+if (ci.isCI) {
+  console.log("The name of the CI server is:", ci.name);
+} else {
+  console.log("This program is not running on a CI server");
+}
+```
+
+具体支持的 ci 平台列表可以在主页的 Supported CI tools 部分查到。
+
+地址：https://github.com/watson/ci-info
+
 ### 2022-02-11[网站]
 
 nginx playground 是一个在线配置和运行 nginx 的网站，在这里你可以使用 curl 或者 http 实时看到配置的 nginx 的效果。和其他 playground 一样， 它可以将你的配置通过链接分享给其他人。
