@@ -16,6 +16,44 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-27[工具]
+
+http://testflight.apple.com
+
+### 2022-02-26[工具]
+
+在实体书中我们可以用高亮笔画重点，之后还可以**复习**。而看电子书呢？我们可以使用 readwise。 如果你是电子书的重度爱好者，那么可以试试这个软件。
+
+地址：https://readwise.io/
+
+### 2022-02-25[技巧]
+
+RSS 是我跟上社会节奏的一个重要工具。对于 bilibili，我们可以使用如下的地址来订阅 RSS。
+
+https://rsshub.app/bilibili/user/video/${userid}
+
+其中 userid 就是点击个人主页后的 url 中最后的那串数字。比如我的 bilibili RSS 地址就是：https://rsshub.app/bilibili/user/video/36074883
+
+将其添加到 RSS 阅读器就可以”第一时间“收到更新了。
+
+对应地，微信公众号可以使用这个工具生成 RSS 链接：https://werss.app/
+
+比如我的公众号《力扣加加》的 RSS 就是 https://cdn.werss.weapp.design/api/v1/feeds/b4cf5a3e-fbea-4cc1-b8e8-50a448c5e9bc.xml
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1gznrhf1r3uj21av0u0jtz.jpg)
+
+### 2022-02-24[好文]
+
+《Zoom 会议摸鱼学》讲的是如何使用虚拟摄像头将一段视频投射到 zoom 的接收源上，从而实现其他人通过**摄像头看到的其实是一个实现录制好的视频**的效果。
+
+你将会学到：
+
+- 如何使用 OBS
+- 如何使用虚拟摄像头
+- zoom 更换背景，从而避免自己家被看到的尴尬
+
+地址：https://sspai.com/post/71404
+
 ### 2022-02-23[好文]
 
 作者的 3-2-1 备份法则。
