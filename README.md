@@ -16,9 +16,27 @@
 
 ## 新鲜出炉 (2022-02)
 
+### 2022-02-28[工具]
+
+伽马影迷插件是一个浏览器插件，安装好之后你就可以在某一个视频评分网站看到所有知名视频评分网站的评分。
+
+如下图，当我打开豆瓣的时候，下面就显示了包括豆瓣在内的若干其他平台的评分。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzsi6lipkxj21d20u077p.jpg)
+
+除了看评分，还可以找片源，甚至可以找解说视频。
+
+地址：https://ggt1024.com/#/productJwksExt
+
 ### 2022-02-27[工具]
 
-http://testflight.apple.com
+testflight 是一个 apple 推出的工具，允许没有上架 apple store 的应用被用户安装。
+
+如果你想做上线之前的测试，使用它会很有用。你只需要生成一个测试链接，用户点击链接就可以下载安装并使用了。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzsi8tg2flj21jw0qwmzu.jpg)
+
+地址：http://testflight.apple.com
 
 ### 2022-02-26[工具]
 
