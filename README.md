@@ -16,6 +16,16 @@
 
 ## 新鲜出炉 (2022-03)
 
+### 2022-03-03[好文]
+
+文章对比了 Python 和 TypeScript 两种编程语言的类型系统中的**两个特性** 。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzy1c12761j212o086gmd.jpg)
+
+对深度理解两种编程语言的类型系统有很大的帮助。
+
+地址：https://medium.com/@Pilot-EPD-Blog/typescript-for-pythonistas-f90bbb297f0a
+
 ### 2022-03-02[网站]
 
 作者是 iOS / macOS 的开发程序员，另外也是北航软院的一名非全硕士（在读）。曾在大学期间学习过算法知识，并参加过 3 年的 ACM 比赛。从 2021 年 03 月 30 日开始每日在 LeetCode 刷题，到 2021 年 11 月 26 日已经刷了 700+ 道题目，并且完成了 650+ 道题解。
