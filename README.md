@@ -19,6 +19,17 @@
 
 ## 新鲜出炉 (2022-03)
 
+### 2022-03-30[仓库]
+
+如果你需要调用 github 的 api，那么可以使用官方提供的客户端工具 octokit。而如果你
+需要调用 gitlab 的 api，则可以使用 gitbeaker（仅支持 NodeJS）。
+
+地址：
+
+- https://github.com/octokit/octokit.js/ （这个是 JS 客户端，其他客户端在
+  [Octokit 组织](https://github.com/octokit?type=source)下查看）
+- https://github.com/jdalrymple/gitbeaker
+
 ### 2022-03-28[网站]
 
 一个关于辟谣的网站，内容更新慢，实用性不是特别强。大家也可关注一个微信官方的公众
