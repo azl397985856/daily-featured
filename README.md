@@ -19,6 +19,16 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-02[好文]
+
+Github 面试还会布置家庭作业？
+
+家庭作业也通过 Github 进行。大概是给你一个仓库，然后你 fork 过去后进行编辑，完成
+后 pr 到原仓库进行 review。
+
+地址
+：https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/
+
 ### 2022-04-01[网站]
 
 CS 61A: Structure and Interpretation of Computer Programs
