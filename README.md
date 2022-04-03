@@ -19,6 +19,35 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-03[技巧]
+
+vscode 中会自动为 typescript 项目选择 workspace 的 node_modules 的 typescript，
+但是我们可以手动选择 workspace。
+
+方法很简单， 你只需要打开一个 workespace 下的 TypeScript 文件，然后点击右下角的
+TypeScript 旁边的版本号。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wl93ju5oj20o006lgm9.jpg)
+
+然后会让你选择版本。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wl8r7c9xj217q0bqjtn.jpg)
+
+如果有多个 TypeScript ，错误使用其他版本的 TypeScript 会导致编译失败。项目中可以
+通过配置 vscode 的方式解决这问题。
+
+具体地，大家可以在项目根目录的 .vscode 文件夹下新建一个 setting.json 然后进行如
+下配置。
+
+```json
+{
+  "typescript.tsdk": "node_modules/typescript/lib/typescript.js"
+}
+```
+
+更多用法参考官方文档
+：https://code.visualstudio.com/docs/typescript/typescript-compiling
+
 ### 2022-04-02[好文]
 
 Github 面试还会布置家庭作业？
