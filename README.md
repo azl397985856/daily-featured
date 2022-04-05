@@ -19,6 +19,17 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-05[工具]
+
+bitbucket 是一个开源的代码仓库，可以用来存放开源项目的代码。
+
+和 Github，Gitlab 不同，bitbucket 内置了 jira 用于管理需求 ，snyk 用于管理 包安
+全。个人感觉 Github 和 Gitlab 在这几方面体验还没那么好。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0yxmq4gwoj21r70u0tfa.jpg)
+
+地址：https://bitbucket.org
+
 ### 2022-04-03[技巧]
 
 vscode 中会自动为 typescript 项目选择 workspace 的 node_modules 的 typescript，
