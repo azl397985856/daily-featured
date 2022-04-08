@@ -30,6 +30,39 @@ Games104 网站提供了从零学习游戏引擎的教程，有成型的完整�
 
 地址：https://games104.boomingtech.com/sc/course-list/
 
+### 2022-04-07[好文]
+
+chrome 103 目前支持了 fs api。
+
+用户可以通过 fs api 来读取文件，写入文件，删除文件，创建文件等。
+
+比如读取文件的代码：
+
+```js
+let fileHandle;
+
+document.querySelector(".pick-file").onclick = async () => {
+  [fileHandle] = await window.showOpenFilePicker();
+
+  const file = await fileHandle.getFile();
+  const content = await file.text();
+
+  return content;
+};
+```
+
+除了 chrome 103 ，其他部分浏览器的新版本也提供了支持，具体支持情况如下图。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h12jqsmkbnj20nw0m6q4s.jpg)
+
+地址：https://css-tricks.com/getting-started-with-the-file-system-access-api/
+
+### 2022-04-06[杂谈]
+
+想去贵州看樱花~
+
+地址：https://fashion.sina.cn/l/ds/2022-03-07/detail-imcwipih5777616.d.html
+
 ### 2022-04-05[工具]
 
 bitbucket 是一个开源的代码仓库，可以用来存放开源项目的代码。
