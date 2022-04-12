@@ -4,8 +4,7 @@
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
-> 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自
-> 己感兴趣的月份点进去即可。
+> 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
 
 在线阅读：https://leetcode-solution-leetcode-pp.gitbook.io/mz-ri-yi-jm/
 
@@ -13,18 +12,21 @@
 
 ## :newspaper: &nbsp; RSS
 
-大家可以用 Github 提供的
-[RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓
-库更新。
+大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓库更新。
 
 ## 新鲜出炉 (2022-04)
+
+### 2022-04-14[好文]
+
+JS 的继承和传统的 class 继承（比如 Java 的）有什么区别？（How does JavaScript's prototypal inheritance differ from classical inheritance?）
+
+地址：https://dev.to/chalarangelo/how-does-javascripts-prototypal-inheritance-differ-from-classical-inheritance-oii
 
 ### 2022-04-13[网站]
 
 和昨天的推荐类似，这个网站也是移除不想要的部分的神奇网站。
 
-只不过它不是移除图片中不想要的部分，而是分离音频中的人声和非人声。这样就可以达
-到**移除人声或者移除噪音的效果**。
+只不过它不是移除图片中不想要的部分，而是分离音频中的人声和非人声。这样就可以达到**移除人声或者移除噪音的效果**。
 
 地址：https://vocalremover.org/
 
@@ -42,15 +44,13 @@
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h13famjjjtj21el0u0ae7.jpg)
 
-并且提供免费的高清下载，比如蒙娜丽莎这里可以直接下载，分辨率是 3931 \* 5178，4 M
-左右的大小。
+并且提供免费的高清下载，比如蒙娜丽莎这里可以直接下载，分辨率是 3931 \* 5178，4 M 左右的大小。
 
 地址：https://gallerix.asia/
 
 ### 2022-04-08[网站]
 
-Games104 网站提供了从零学习游戏引擎的教程，有成型的完整代码托管在开源的 Github
-仓库。
+Games104 网站提供了从零学习游戏引擎的教程，有成型的完整代码托管在开源的 Github 仓库。
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h12buulgk5j21wp0u0tby.jpg)
 
@@ -95,8 +95,7 @@ document.querySelector(".pick-file").onclick = async () => {
 
 bitbucket 是一个开源的代码仓库，可以用来存放开源项目的代码。
 
-和 Github，Gitlab 不同，bitbucket 内置了 jira 用于管理需求 ，snyk 用于管理 包安
-全。个人感觉 Github 和 Gitlab 在这几方面体验还没那么好。
+和 Github，Gitlab 不同，bitbucket 内置了 jira 用于管理需求 ，snyk 用于管理 包安全。个人感觉 Github 和 Gitlab 在这几方面体验还没那么好。
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0yxmq4gwoj21r70u0tfa.jpg)
 
@@ -104,11 +103,9 @@ bitbucket 是一个开源的代码仓库，可以用来存放开源项目的代�
 
 ### 2022-04-03[技巧]
 
-vscode 中会自动为 typescript 项目选择 workspace 的 node_modules 的 typescript，
-但是我们可以手动选择 workspace。
+vscode 中会自动为 typescript 项目选择 workspace 的 node_modules 的 typescript，但是我们可以手动选择 workspace。
 
-方法很简单， 你只需要打开一个 workespace 下的 TypeScript 文件，然后点击右下角的
-TypeScript 旁边的版本号。
+方法很简单， 你只需要打开一个 workespace 下的 TypeScript 文件，然后点击右下角的 TypeScript 旁边的版本号。
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wl93ju5oj20o006lgm9.jpg)
 
@@ -116,11 +113,9 @@ TypeScript 旁边的版本号。
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wl8r7c9xj217q0bqjtn.jpg)
 
-如果有多个 TypeScript ，错误使用其他版本的 TypeScript 会导致编译失败。项目中可以
-通过配置 vscode 的方式解决这问题。
+如果有多个 TypeScript ，错误使用其他版本的 TypeScript 会导致编译失败。项目中可以通过配置 vscode 的方式解决这问题。
 
-具体地，大家可以在项目根目录的 .vscode 文件夹下新建一个 setting.json 然后进行如
-下配置。
+具体地，大家可以在项目根目录的 .vscode 文件夹下新建一个 setting.json 然后进行如下配置。
 
 ```json
 {
@@ -128,26 +123,21 @@ TypeScript 旁边的版本号。
 }
 ```
 
-更多用法参考官方文档
-：https://code.visualstudio.com/docs/typescript/typescript-compiling
+更多用法参考官方文档：https://code.visualstudio.com/docs/typescript/typescript-compiling
 
 ### 2022-04-02[好文]
 
 Github 面试还会布置家庭作业？
 
-家庭作业也通过 Github 进行。大概是给你一个仓库，然后你 fork 过去后进行编辑，完成
-后 pr 到原仓库进行 review。
+家庭作业也通过 Github 进行。大概是给你一个仓库，然后你 fork 过去后进行编辑，完成后 pr 到原仓库进行 review。
 
-地址
-：https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/
+地址：https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/
 
 ### 2022-04-01[网站]
 
 CS 61A: Structure and Interpretation of Computer Programs
 
-一个 CS 课程，前半部分以 Python 为主，后半部分以 Schema 为主。网站资源很丰富，作
-为一个普通游客最主要的就是课件，其提供了 html 和 pdf 两种格式。课件图文丰富，这
-和其他同级别课程差异很大，对新手比较友好。
+一个 CS 课程，前半部分以 Python 为主，后半部分以 Schema 为主。网站资源很丰富，作为一个普通游客最主要的就是课件，其提供了 html 和 pdf 两种格式。课件图文丰富，这和其他同级别课程差异很大，对新手比较友好。
 
 地址：https://cs61a.org/
 
@@ -157,18 +147,13 @@ CS 61A: Structure and Interpretation of Computer Programs
 
 ## 关注我
 
-我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打
-开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会
-收到系统性总结和思考。
+我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
 
-在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标
-。
+在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标。
 
-之后我的文章会同步到微信公众号 `脑洞前端` ，你可以关注获取最新的文章，并和我进行
-交流。
+之后我的文章会同步到微信公众号 `脑洞前端` ，你可以关注获取最新的文章，并和我进行交流。
 
-另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，
-如果想加入 qq 群，请回复 qq。
+另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
 <img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
 
@@ -178,12 +163,9 @@ CS 61A: Structure and Interpretation of Computer Programs
 
 ## 贡献
 
-- 如果有想法和创意，请提
-  [issue](https://github.com/azl397985856/daily-featured/issues) 或者进群提
-- 如果想贡献代码，请提
-  [PR](https://github.com/azl397985856/daily-featured/pulls)
-- 如果需要修改项目中图片，[这里](./assets/) 存放了项目中绘制图的源代码， 大家可
-  以用 [draw.io](https://www.draw.io/) 打开进行编辑。
+- 如果有想法和创意，请提 [issue](https://github.com/azl397985856/daily-featured/issues) 或者进群提
+- 如果想贡献代码，请提 [PR](https://github.com/azl397985856/daily-featured/pulls)
+- 如果需要修改项目中图片，[这里](./assets/) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
 
 ## License
 
