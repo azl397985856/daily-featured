@@ -16,6 +16,24 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-15[技巧]
+
+Github 的 issue 有很多不好用的地方，比如不支持 comment 自定义排序，以至于有一些插件“钻了空子”，提供了按照 reactions 进行排序的功能。
+
+Disscussion 弥补了这块空白。 Disscussion 内置两种排序规则，分别是时间顺序和投票数。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h17zutur0fj20w80u0n16.jpg)
+
+你可以结合使用 issue 和 Disscussion 获得更好的体验。
+
+近期 Github 还给 Disscussion 提供了问答社区才有的功能 - **选为答案**。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h17ztg5lguj20yl0u0ado.jpg)
+
+只需要在新建 Disscussion 的时候类别选择 Q&A 就可以体验这个功能了。
+
+地址：https://github.com/azl397985856/leetcode/discussions
+
 ### 2022-04-14[好文]
 
 JS 的继承和传统的 class 继承（比如 Java 的）有什么区别？（How does JavaScript's prototypal inheritance differ from classical inheritance?）
