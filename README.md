@@ -16,6 +16,47 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-22[好文]
+
+之前我写过 TypeScript 系列教程，其中有一篇是 [上帝视角看 TypeScript](https://segmentfault.com/a/1190000023489694)
+
+这个文章和我的那篇很像，都是从宏观上带大家理解 TypeScript 究竟做了什么。这篇文章比我的更细致一点，推荐大家结合起来阅读。
+
+地址：https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles
+
+### 2022-04-21[网站]
+
+yandex 提供了简洁的在线翻译功能。 你可以直接输入文字进行翻译，也可以上传文件整体翻译。
+
+它还提供了 api 供开发者使用，我的 leetcode 项目的部分内容就是用它进行翻译的。不得不承认，专有名词的翻译还是不行，比如动态规划会翻译为 dynamic planning。
+
+地址：https://translate.yandex.com/
+
+### 2022-04-20[好文]
+
+只要 5 美元就可以破解指纹解锁？Your Fingerprint Can Be Hacked For $5. Here’s How.
+
+地址：https://blog.kraken.com/post/11905/your-fingerprint-can-be-hacked-for-5-heres-how/
+
+### 2022-04-19[好文]
+
+如果检测有没有全局变量引起的内存泄漏？这篇文章告诉你，作者提供了 js 代码，大家可以直接拿来主义。
+
+文中有一点没有提到，其实很多全局变量是需要一定条件才会触发的。因此要想真正将其集成到项目的 CI 中，还需要一些额外的条件，那就是在程序中手动多次调用检测方法，而不是调用一次就完事了。
+
+地址：https://mmazzarolo.com/blog/2022-02-14-find-what-javascript-variables-are-leaking-into-the-global-scope/
+
+### 2022-04-18[工具]
+
+上海疫情使得很多人买不到菜。热爱折腾的网友开源了抢菜软件。
+
+注：如非必要，不要使用这种极端方法，这会给其他没有菜吃的人带来很多麻烦。
+
+地址：
+
+- [ddshop](https://github.com/zc2638/ddshop)
+- [dingdong-helper](https://github.com/JannsenYang/dingdong-helper)
+
 ### 2022-04-15[技巧]
 
 Github 的 issue 有很多不好用的地方，比如不支持 comment 自定义排序，以至于有一些插件“钻了空子”，提供了按照 reactions 进行排序的功能。
