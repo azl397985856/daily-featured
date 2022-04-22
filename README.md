@@ -16,6 +16,16 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-23[好文]
+
+Navidrome 是一个音乐管理系统，你可以将其部署到本地，然后通过网页播放器播放**本地音乐**。Navidrome 体验地址：https://demo.navidrome.org/app/
+
+很多其他的工具使用的都是网上现成的资源，比如 1listen 就是使用的虾米，QQ 和网易云的音乐源。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1ika0dv7mj20sm0fut9d.jpg)
+
+地址：https://www.navidrome.org/
+
 ### 2022-04-22[好文]
 
 之前我写过 TypeScript 系列教程，其中有一篇是 [上帝视角看 TypeScript](https://segmentfault.com/a/1190000023489694)
