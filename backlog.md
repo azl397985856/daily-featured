@@ -24,16 +24,8 @@ https://github.com/node-fetch/node-fetch
 
 ### 5
 
-https://github.com/sindresorhus/import-local
-
-### 6
-
 https://gitee.com/koode/kooder
 
-### 7
-
-https://stackoverflow.com/questions/630453/what-is-the-difference-between-post-and-put-in-http
-
-### 8
+### 6
 
 https://sqliteonline.com/

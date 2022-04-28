@@ -16,6 +16,18 @@
 
 ## 新鲜出炉 (2022-04)
 
+### 2022-04-28[工具]
+
+import-local 是一个 NodeJS 端的工具，用于检测本地是否安装了某个包。如果你在开发一个 node 的 cli 应用，并且想要提高性能使用用户本地安装好的包，它就很适合你。
+
+地址：https://github.com/sindresorhus/import-local
+
+### 2022-04-28[好文]
+
+rest api 中的 POST 和 PUT 有什么区别？一个用于新建资源，一个用于更新资源？不是的！
+
+地址：https://stackoverflow.com/questions/630453/what-is-the-difference-between-post-and-put-in-http
+
 ### 2022-04-25[网站]
 
 一个低代码平台，通过它可以拖拽生成自己的网站。
