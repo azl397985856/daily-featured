@@ -16,6 +16,94 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-06[好文]
+
+文章标题：Using GitHub Actions to get notified when an API response (or web page) changes
+
+如果你想监控一个网页的状态你会怎么做？比如抢购一个商品？
+
+最简单的思路就是写一个脚本不断轮训。如果没有现成接口，也可以使用爬虫来做。
+
+这篇文章就是类似的思路，只不过其借助了 Github Action 这个自动化工具来完成。
+
+这个是作者使用的完整 github action yml 文件：
+
+```yml
+on:
+  schedule:
+    # Run every hour, on the hour. This can be customized to checking as frequently as every 5 minutes.
+    - cron: "0 * * * *"
+
+name: Check for changes
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # Use cURL to fetch the given URL, saving the response to `data.json`
+      - name: Fetch data
+        run: curl "<URL YOU WANT TO CHECK HERE>" -o data.json
+
+      # Optionally, use `jq` to pull one or more fields from the JSON to include in the SMS message
+      - name: Parse data
+        id: parse_data
+        run: echo '::set-output name=someField::'$(jq -r '.someField' data.json)
+
+      # Compare the response to the previous run, using a hash of the response as the cache key
+      - name: Fetch Cache
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: data.json
+          key: ${{ hashFiles('data.json') }}
+
+      # If there was not a cache hit (meaning the response changed), notify me via text message
+      # See https://github.com/twilio-labs/actions-sms for setup instructions
+      # You could use a different notification action here, so long as you include the `if` condition below
+      - name: Notify if data has changed
+        uses: twilio-labs/actions-sms@v1
+        if: steps.cache.outputs.cache-hit != 'true'
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
+          TWILIO_API_SECRET: ${{ secrets.TWILIO_API_SECRET }}
+        with:
+          fromPhoneNumber: ${{ secrets.from_phone }}
+          toPhoneNumber: ${{ secrets.to_phone }}
+          message: "There's been a change! someField is now ${{ steps.parse_data.outputs.someField }}."
+```
+
+地址：https://ben.balter.com/2021/12/15/github-actions-website-api-change-notification/
+
+### 2022-05-05[好文]
+
+我们常常听说某某网站被注入恶意 JS 脚本，造成 xxx 的严重后果。但是你听过 CSS 也可以用来攻击么？
+
+CSS 不仅可以窃取你的访问记录，知道你访问了哪些网站，还能窃取你的密码，从而造成更严重后果。
+
+文章讲的 CSS 攻击技巧很有趣，同时也给我们提了一个醒，大家上网的时候多多留意，做好防范。
+
+地址：
+
+- [Can you get pwned with CSS?](https://scotthelme.co.uk/can-you-get-pwned-with-css/)
+- [Retrieving your browsing history through a CAPTCHA](https://varun.ch/history)
+
+### 2022-05-04[技巧]
+
+测试用例可以通过 only 和 skip 实现仅测试部分测试用例。主流测试框架都支持它们。
+
+```js
+describe.skip("skip test", () => {});
+// or
+it.skip("skip test", () => {});
+
+describe.only("only test", () => {});
+// or
+it.only("only test", () => {});
+```
+
+具体来说，skip 可以跳过测试用例。only 可以只测试部分测试用例。
+
 ### 2022-05-03[网站]
 
 actual 是最近上 Github trending 的一个仓库。
