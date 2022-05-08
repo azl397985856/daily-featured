@@ -16,6 +16,26 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-10[好文]
+
+如何落地一个客户机器人？这个文章告诉你。
+
+这个文章是那种实战型的，没有理论基础讲解。因此如果你有类似需求的话倒是可以读一下。或者收藏一下等到用的时候借鉴一下。如果你纯粹想知道技术原理的话，这篇文章不是很适合。
+
+地址:https://zoo.team/article/intelligent-robot
+
+### 2022-05-09[工具]
+
+客户遇到问题了，如何远程调试？devtools-remote 这个工具帮助你。
+
+客户只需要安装这个插件，然后你在自己的应用中进行集成即可。
+
+其原理很简单，代码也只有短短的 200 行左右。核心原理是利用 CDP（chrome devtool protocol） 和远程通信，将本地的支持 CDP 应用的信息同步到远程。 其实就是一个调试代理。
+
+值得注意的是这个工具仅支持 **支持 CDP 的客户端**，比如 chrome。如果客户端不支持 CDP 是不行的。
+
+地址：https://github.com/auchenberg/devtools-remote
+
 ### 2022-05-06[好文]
 
 文章标题：Using GitHub Actions to get notified when an API response (or web page) changes
