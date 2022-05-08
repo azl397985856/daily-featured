@@ -16,6 +16,12 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-11[好文]
+
+如果公司有一个公共的代码需要在多个项目间使用，你的做法是什么？ 复制粘贴？npm？cdn + external？ 你可以试试 webpack5 中的 Module Federation！
+
+地址：https://mp.weixin.qq.com/s?__biz=Mzg2MDY5MTMxOA==&mid=2247485894&idx=1&sn=debfda7356d2d3098c78bd0f436c1510
+
 ### 2022-05-10[好文]
 
 如何落地一个客户机器人？这个文章告诉你。
