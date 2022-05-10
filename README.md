@@ -16,6 +16,45 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-12[仓库]
+
+在 JS 中 调用 Python。不仅支持 python 的语法，还支持 python 的三方库。
+
+比如你想用 numpy 提供的功能，你就可以这样写：
+
+```py
+# data.py
+import numpy as np
+
+def make_x_and_y(n):
+    x = np.random.randn(n)
+    y = np.random.randn(n)
+    return x, y
+```
+
+然后在 JS 中进行调用。
+
+```html
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env> - numpy - matplotlib - paths: - /data.py </py-env>
+  </head>
+
+  <body>
+    <h1>Let's plot random numbers</h1>
+    <div id="plot"></div>
+    <py-script output="plot">
+      import matplotlib.pyplot as plt from data import make_x_and_y x, y =
+      make_x_and_y(n=1000) fig, ax = plt.subplots() ax.scatter(x, y) fig
+    </py-script>
+  </body>
+</html>
+```
+
+地址：https://github.com/pyscript/pyscript
+
 ### 2022-05-11[好文]
 
 如果公司有一个公共的代码需要在多个项目间使用，你的做法是什么？ 复制粘贴？npm？cdn + external？ 你可以试试 webpack5 中的 Module Federation！
