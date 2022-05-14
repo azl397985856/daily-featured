@@ -16,11 +16,24 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-16[技巧]
+
+两行命令可以审查 macos 系统 UI。
+
+```bash
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+defaults write -g WebKitDeveloperExtras -bool YES
+```
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27zhe2s0pj20u00v142c.jpg)
+
+via: https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/
+
 ### 2022-05-15[仓库]
 
 微软出品的前端基础学习资料。话说微软在技术入门资料这块发力不少啊？刚看完 Python， 前端又出来了。
 
-地址：https://github.com/microsoft/Web-Dev-For-Beginners
+via: https://github.com/microsoft/Web-Dev-For-Beginners
 
 ### 2022-05-14[好文]
 
@@ -28,13 +41,13 @@ Web 可以读取 USB 数据？可以通过蓝牙进行数据传输？还能用 N
 
 这份资料讲解了 web （这里是 chrome 为例）如何与硬件进行交互。
 
-地址：https://web.dev/devices/
+via: https://web.dev/devices/
 
 ### 2022-05-13[网站]
 
 Google 开发的前端学习网站，用于谷歌技术布道(给自己打广告)以及一些学习资料。强烈建议前端开发者关注。
 
-地址： https://web.dev/
+via: https://web.dev/
 
 ### 2022-05-12[仓库]
 
@@ -73,13 +86,13 @@ def make_x_and_y(n):
 </html>
 ```
 
-地址：https://github.com/pyscript/pyscript
+via: https://github.com/pyscript/pyscript
 
 ### 2022-05-11[好文]
 
 如果公司有一个公共的代码需要在多个项目间使用，你的做法是什么？ 复制粘贴？npm？cdn + external？ 你可以试试 webpack5 中的 Module Federation！
 
-地址：https://mp.weixin.qq.com/s?__biz=Mzg2MDY5MTMxOA==&mid=2247485894&idx=1&sn=debfda7356d2d3098c78bd0f436c1510
+via: https://mp.weixin.qq.com/s?__biz=Mzg2MDY5MTMxOA==&mid=2247485894&idx=1&sn=debfda7356d2d3098c78bd0f436c1510
 
 ### 2022-05-10[好文]
 
@@ -87,7 +100,7 @@ def make_x_and_y(n):
 
 这个文章是那种实战型的，没有理论基础讲解。因此如果你有类似需求的话倒是可以读一下。或者收藏一下等到用的时候借鉴一下。如果你纯粹想知道技术原理的话，这篇文章不是很适合。
 
-地址:https://zoo.team/article/intelligent-robot
+via: https://zoo.team/article/intelligent-robot
 
 ### 2022-05-09[工具]
 
@@ -99,7 +112,7 @@ def make_x_and_y(n):
 
 值得注意的是这个工具仅支持 **支持 CDP 的客户端**，比如 chrome。如果客户端不支持 CDP 是不行的。
 
-地址：https://github.com/auchenberg/devtools-remote
+via: https://github.com/auchenberg/devtools-remote
 
 ### 2022-05-06[好文]
 
@@ -158,7 +171,7 @@ jobs:
           message: "There's been a change! someField is now ${{ steps.parse_data.outputs.someField }}."
 ```
 
-地址：https://ben.balter.com/2021/12/15/github-actions-website-api-change-notification/
+via: https://ben.balter.com/2021/12/15/github-actions-website-api-change-notification/
 
 ### 2022-05-05[好文]
 
@@ -168,7 +181,7 @@ CSS 不仅可以窃取你的访问记录，知道你访问了哪些网站，还�
 
 文章讲的 CSS 攻击技巧很有趣，同时也给我们提了一个醒，大家上网的时候多多留意，做好防范。
 
-地址：
+via:
 
 - [Can you get pwned with CSS?](https://scotthelme.co.uk/can-you-get-pwned-with-css/)
 - [Retrieving your browsing history through a CAPTCHA](https://varun.ch/history)
@@ -206,7 +219,23 @@ actual 是最近上 Github trending 的一个仓库。
 
 相反，如果这两点你都不是特别在意，使用目前现有的记账理财软件也是 ok 的。
 
-地址：https://github.com/actualbudget/actual
+via: https://github.com/actualbudget/actual
+
+### 2022-05-02[仓库]
+
+一个后台管理系统的前端 UI。我之前的公司内部的系统就和这个长的几乎一样。如果当时直接拿过来用，岂不是省了很多时间么？
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27zk8mxsqj21hc0u0dit.jpg)
+
+via: https://github.com/HalseySpicy/Geeker-Admin
+
+### 2022-05-01[工具]
+
+一个可以下载咪咕音乐曲库的 cli 工具。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27zzxnfs1j20vg07i0uf.jpg)
+
+via: https://github.com/zonemeen/musicn
 
 ## 历史汇总
 
