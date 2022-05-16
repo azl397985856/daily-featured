@@ -16,6 +16,18 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-20[工具]
+
+国内音乐这块网易云很受欢迎。因此有很多针对网易云的工具。
+
+比如这款将其他平台版权的歌曲收录到网易云的，表现上就是你可以在网易云听网易没版权（灰色）的歌曲。
+
+via: https://github.com/nondanee/UnblockNeteaseMusic
+
+另外还有网友做了网易云的 sdk 供大家使用，你可以用它搭建自己的音乐客户端。
+
+via: https://github.com/Binaryify/NeteaseCloudMusicApi
+
 ### 2022-05-19[工具]
 
 一个老照片修复的工具。
