@@ -16,6 +16,62 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-25[好文]
+
+一个关于部署的专栏，其中有一章比较有意思，就是根据分支不同，部署到不同的地方，能通过不同的 URL 地址访问。
+
+比如:
+
+- feature-preview 分支部署在 https://feature-preview.lucifer.ren
+- feature-prod 分支部署在 https://feature-prod.lucifer.ren
+
+via: https://q.shanyue.tech/deploy/ci-preview.html
+
+### 2022-05-24[仓库]
+
+ya-webadb（yet another webadb） 是一个在 web 上操作安卓设备的工具。注意是操作安卓设备，不是调试安卓设备上的网页。
+
+比如你可以通过它截屏，安卓 apk 应用，开关机等等操作。
+
+via: https://github.com/yume-chan/ya-webadb
+
+### 2022-05-23[仓库]
+
+得益于无头浏览器（headless browser），我们可以对 UI 进行自动化测试。
+
+也因为无头浏览器，我们可以自动化检测应用可能的内存泄漏。原理也很容易，使用无头浏览器打开网页，然后使用浏览器的相关 api 检测堆内存，通过对比不同时间内存使用情况从而检查出潜在的内存泄漏。
+
+这款工具就可以捕获浏览器的堆内存使用情况。
+
+使用起来也非常简单：
+
+```js
+const browser = await Puppeteer.launch();
+const page = await browser.newPage();
+
+await page.goTo("https://google.com");
+
+const heapSnapshot = await captureHeapSnapshot(await page.target());
+```
+
+via: https://github.com/adriancooney/puppeteer-heap-snapshot
+
+### 2022-05-22[好文]
+
+原文标题：《Tree shaking 问题排查指南来啦》，这是字节团队出品的好文，应用价值比较高，如果你有类似的需求， 那么有很大的参考价值。
+
+via: https://mp.weixin.qq.com/s/SfZbBg0lWhvgzS023wTjYA
+
+### 2022-05-21[仓库]
+
+一个可以美化你 Github Profile 页面的资料集合。
+
+我的 [Github Profile](https://github.com/azl397985856 "Github Profile") 所有内容都被这个仓库收录了。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2dyjpe127j217b0u0tde.jpg)
+
+via: https://github.com/rzashakeri/beautify-github-profile
+
 ### 2022-05-20[工具]
 
 国内音乐这块网易云很受欢迎。因此有很多针对网易云的工具。
