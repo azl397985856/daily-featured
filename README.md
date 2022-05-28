@@ -22,6 +22,8 @@
 
 无论如何，它能帮你查看和下载作者提交到 chrome 商店的代码。
 
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2o7dzddmkj20hs0b43zc.jpg)
+
 via: https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin
 
 ### 2022-05-26[仓库]
