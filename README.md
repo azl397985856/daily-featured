@@ -16,6 +16,14 @@
 
 ## 新鲜出炉 (2022-05)
 
+### 2022-05-27[工具]
+
+一个可以帮你查看其他扩展程序源码的工具。不过这个源码可能是编译后的代码，因为上传到 chrome 商店的就有可能是编译后的代码。
+
+无论如何，它能帮你查看和下载作者提交到 chrome 商店的代码。
+
+via: https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin
+
 ### 2022-05-26[仓库]
 
 一个基于 React 的后台管理系统的 UI。基于它，你可以快速开发同一个后台管理系统。
