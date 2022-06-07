@@ -16,6 +16,15 @@
 
 ## 新鲜出炉 (2022-06)
 
+### 2022-06-07[好文]
+
+web3 是什么？如何开发 web3 应用，什么 Dapp，DeFi？
+
+这两篇简单入门的文章，让我们一起来看看 web3 应用的基本流程。
+
+- Integrating Web3 into Vue applications via: https://blog.logrocket.com/integrate-web3-into-vue/
+- Integrating WalletConnect into Vue.js DApps via: https://blog.logrocket.com/integrating-walletconnect-vue-js-dapps/
+
 ### 2022-06-02[教程]
 
 圣彼得堡国立研究性 信息技术，机械和光学大学 (ITMO University) 的老师写的算法竞赛专题教程。
