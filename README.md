@@ -16,6 +16,12 @@
 
 ## 新鲜出炉 (2022-06)
 
+### 2022-06-12[网站]
+
+storybook 官方出品的 showcase，展示了各个使用 storybook 构建的组件库。其中有 Gitlab，Github，windows，BBC 等网站的 UI 组件，挺有意思的。如果你需要一些不太常见的组件库（我指的是和市面上常见的后台管理 UI 库（比如 antd，element ui 等）不一样的组件库），可以去看看有没有可以直接用的。
+
+via: https://storybook.js.org/showcase
+
 ### 2022-06-09[好文]
 
 学习一个东西的最好方式就是动手实现一遍。
