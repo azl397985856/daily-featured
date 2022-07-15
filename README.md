@@ -30,6 +30,18 @@ via: https://mp.weixin.qq.com/s/d1IQyMPU7IReD9RB-sdc8g
 
 via: https://cn-vuejs-challenges.netlify.app/
 
+### 2022-06-28[好文]
+
+我想很多人都看见过这个按钮，但是不知道它是做什么的吧？（甚至不知道这个功能叫啥名字）
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h46sa9axx2j21kq05qgnp.jpg)
+
+这个功能叫 live expression， 可以监听表达式的依赖，当依赖变化的时候更新表达式结果。 有点像 vue 的 reactive。
+
+这个文章详细讲述了这个功能的使用方法以及解决的问题。
+
+via: https://blog.bitsrc.io/debugging-javascript-with-live-expressions-in-chrome-devtools-9f0af008af45
+
 ### 2022-06-12[网站]
 
 storybook 官方出品的 showcase，展示了各个使用 storybook 构建的组件库。其中有 Gitlab，Github，windows，BBC 等网站的 UI 组件，挺有意思的。如果你需要一些不太常见的组件库（我指的是和市面上常见的后台管理 UI 库（比如 antd，element ui 等）不一样的组件库），可以去看看有没有可以直接用的。
