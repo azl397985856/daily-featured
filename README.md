@@ -16,6 +16,22 @@
 
 ## 新鲜出炉 (2022-08)
 
+### 2022-08-06[仓库]
+
+又一个类 React 的 UI 框架，主打还是小和快。其实和 preact 主打的点是相当重叠的，但是从 million 提供的 benchmark 数据来看的话比 preact 更小更快。
+
+不知道会不会超越 preact 甚至超越 react 呢？
+
+via: https://github.com/aidenybai/million
+
+### 2022-08-05[仓库]
+
+用 TS 写了一个 TS 类型系统。
+
+一个没啥应用场景的 TS 泛型 `HypeScript`，接受一段 ts 代码，然后返回报错信息。 不过却是你学习和理解泛型很好的资料哦。
+
+via: https://github.com/ronami/HypeScript
+
 ### 2022-08-04[工具]
 
 推荐几个前端打包相关的工具，如果你在做构建性能优化的话，或许能用上。
