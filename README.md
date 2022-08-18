@@ -16,6 +16,20 @@
 
 ## 新鲜出炉 (2022-08)
 
+### 2022-08-18[网站]
+
+一个可以在线给文字加拼音的网站。
+
+如果你想集成到你的项目或者应用里，只要下载它提供的字体即可。字体在 Github 上， 地址：https://github.com/jeffreyxuan/toneoz-font-pinyin-kai
+
+via: https://toneoz.com/ime/?fnt=1
+
+### 2022-08-17[仓库]
+
+一个可以用 vue 写命令行工具的库。 如果你在写一个需要一些复杂 UI 的命令行工具，就可以考虑使用它。当然 React 也有类似的库，感兴趣的可以自行搜索下。
+
+via： https://github.com/webfansplz/temir
+
 ### 2022-08-12[网站]
 
 一个类似于 learn-anything 的工具网站，它可以提供一个关于技术岗位的 roadmap。比如前端，后端， 数据库工程师等等。
@@ -27,6 +41,12 @@
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h54esqa33zj21gx0u079i.jpg)
 
 via: https://roadmap.sh
+
+### 2022-08-16[网站]
+
+一个在线玩数独的网站。同时推荐一个在线玩五子棋的网站。https://cloudpigapp.com/gobang/
+
+via: https://sudoku.com/
 
 ### 2022-08-06[仓库]
 
