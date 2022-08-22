@@ -16,6 +16,12 @@
 
 ## 新鲜出炉 (2022-08)
 
+### 2022-08-19[网站]
+
+一个基于 `web3` 的云盘，卖点是安全， 支持 10 GB 的免费存储。
+
+via: https://internxt.com/
+
 ### 2022-08-18[网站]
 
 一个可以在线给文字加拼音的网站。
@@ -29,6 +35,24 @@ via: https://toneoz.com/ime/?fnt=1
 一个可以用 vue 写命令行工具的库。 如果你在写一个需要一些复杂 UI 的命令行工具，就可以考虑使用它。当然 React 也有类似的库，感兴趣的可以自行搜索下。
 
 via： https://github.com/webfansplz/temir
+
+### 2022-08-16[好文]
+
+《SSL 和 SSH 和 OpenSSH，OpenSSL 有什么区别》
+
+via: https://www.cnblogs.com/foohack/p/4103212.html
+
+### 2022-08-17[网站]
+
+一个可以根据例子反推正则的工具，实际作用不大，更多的是参考。 就好像 copilot 的提供测试用例自动推导代码一样，参考作用更大一点。
+
+via: https://pemistahl.github.io/grex-js/
+
+### 2022-08-16[技巧]
+
+如果你不知道怎么为你的程序写 release note， 可以参考 prisma 的这个，可以说是很正规和常见了，可以当做模板来使用。
+
+via: https://github.com/prisma/prisma/releases/tag/4.2.0
 
 ### 2022-08-12[网站]
 
