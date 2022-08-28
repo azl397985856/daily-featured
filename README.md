@@ -16,6 +16,32 @@
 
 ## 新鲜出炉 (2022-08)
 
+### 2022-08-26[仓库]
+
+upptime 是一个自动化检测网站可用性的仓库。你可以直接通过 Github 直接 fork 不用写一行代码，只要改改配置文件就可以生成自己的网站并监控自己想监控的任意网站。
+
+如下是我自己生成的监控我旗下的四个网站的可用性。
+
+via: https://github.com/azl397985856/leetcode-pp-available
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5mnf8r5lhj21bb0u044j.jpg)
+
+可以看出我的博客的访问时间是最长的，看来还是需要优化啊。
+
+upptime 可以自动生成天，周，月，年的可用性报表，不用你做任何操作。
+
+我在使用的过程目前还有一些小的 bug 没有解决，我还提了 issue。不过这不影响它的整体使用。
+
+via: https://github.com/upptime/upptime
+
+### 2022-08-25[好文]
+
+如何开发一个简单的云服务？如果云函数需要使用数据怎么办？这边文章以 cloudflare 为例讲解了如何处理这一情况，内容非常详细。
+
+其他云服务厂商也是非常类似的， 你甚至可以使用一些工具来屏蔽云服务厂商的差异（除了价格差异，很多差异都很容易屏蔽）。
+
+via: https://blog.logrocket.com/creating-url-shortener-cloudflare-workers/
+
 ### 2022-08-19[网站]
 
 一个基于 `web3` 的云盘，卖点是安全， 支持 10 GB 的免费存储。
