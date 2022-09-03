@@ -16,11 +16,13 @@
 
 ## 新鲜出炉 (2022-09)
 
-### 2022-09-02
+### 2022-09-02[好文]
 
 git 就是一个分布式存储系统。 我之前也从零实现过简化版的 Git。
 
 而这篇文章更为细致，并配有大量图片，如果你对 git 原理感兴趣，非常值得深入阅读。目前已经更新了三篇。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5tghjb08aj20m808ljry.jpg)
 
 via: https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/
 
