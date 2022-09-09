@@ -16,6 +16,26 @@
 
 ## 新鲜出炉 (2022-09)
 
+### 2022-09-09[仓库]
+
+一个持续更新的 **打包 JavaScript 库的现代化指南**。
+
+里面很多提到的大多数规则都是开源社区一致认可的最佳实践。如果你在开发为他人服务的 JavaScript 库代码， 那么可以参考下，即使你是在做公司内部项目。
+
+> 有中文版本
+
+via: https://github.com/frehner/modern-guide-to-packaging-js-library
+
+### 2022-09-08[好文]
+
+上个月刚刚更新的 Chrome devtool 调试技巧 **Modern web debugging in Chrome DevTools**， 这几个功能我个人非常期待，或许会大大提高我的调试效率。
+
+除此之外还有一些其他的实验功能也很不错，推荐大家打开尝试一下。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h60m9lullej218o0demyp.jpg)
+
+via: https://developer.chrome.com/blog/devtools-modern-web-debugging/
+
 ### 2022-09-02[好文]
 
 git 就是一个分布式存储系统。 我之前也从零实现过简化版的 Git。
