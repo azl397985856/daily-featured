@@ -36,6 +36,18 @@ via: https://github.com/frehner/modern-guide-to-packaging-js-library
 
 via: https://developer.chrome.com/blog/devtools-modern-web-debugging/
 
+### 2022-09-07[工具]
+
+之前介绍过一个在线可视化生成 **nginx** 的网站。 而这个工具是类似的， 是一个 nginx 管理前端，通过它可以启动 nginx 服务并通过 UI 直接生成 nginx 配置。
+
+via: https://nginxproxymanager.com/screenshots/
+
+### 2022-09-06[工具]
+
+一个开源的 lldap， 可用于小型团队的验证服务。之前介绍过很多这种开源的给小公司团队的工具，比如堡垒机等。
+
+via: https://github.com/nitnelave/lldap
+
 ### 2022-09-02[好文]
 
 git 就是一个分布式存储系统。 我之前也从零实现过简化版的 Git。
