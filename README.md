@@ -16,6 +16,26 @@
 
 ## 新鲜出炉 (2022-09)
 
+### 2022-09-16[插件]
+
+有些网站很讨厌， 给你禁用右键(right-click)，不能把复制之类的。 这个 chrome 插件可以帮你解决这个问题。 使用方式很简单，安装好后只有点一下就行。
+
+via: https://chrome.google.com/webstore/detail/allow-right-click/hnafhkjheookmokbkpnfpmemlppjdgoi/related?hl=en-US
+
+### 2022-09-15[网站]
+
+又一个可以可视化 Github 用户资料的网站，包含的信息非常全，包括 star， code 和 code review 等。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6a0vxmxn9j21r70u00x2.jpg)
+
+via: https://ossinsight.io/analyze/azl397985856
+
+### 2022-09-14[好文]
+
+elab 团队的《联机游戏原理入门即入土 -- 入门篇》， 对游戏开发感兴趣的可以读一读。
+
+via: https://mp.weixin.qq.com/s?__biz=MzkxNTIwMzU5OQ==&mid=2247495741&idx=1&sn=140145af9fd8e838a5ded3200b3bd049&c
+
 ### 2022-09-13[网站]
 
 输入 URL，它能够帮你分析这个网站的技术栈，并提供一些分析和建议。 比如：
@@ -68,6 +88,12 @@ git 就是一个分布式存储系统。 我之前也从零实现过简化版的
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5tghjb08aj20m808ljry.jpg)
 
 via: https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/
+
+### 2022-09-01[类库]
+
+immerjs 是一个对标 immutable 的状态管理辅助库，优点是使用简单，一个 api 就可以搞定。缺点的话大概就是部分场景性能略差。至于原因，可以看看我之前写的这篇文章 《immutablejs 是如何优化我们的代码的？》，地址：https://lucifer.ren/blog/2020/06/13/immutable-js/。
+
+via: https://immerjs.github.io
 
 ## 历史汇总
 
