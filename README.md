@@ -79,6 +79,30 @@ via: https://nginxproxymanager.com/screenshots/
 
 via: https://github.com/nitnelave/lldap
 
+### 2022-09-05[好文]
+
+tsc --listFiles 可以列出来 ts 处理的所有文件。基于此可以使用一个工具对这些文件进行可视化分析，类似于 webpack 的包可视化工具。本文讲解了如何使用这个工具来分析并加速 tsc 编译速度。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6b0d7bkcij219m0pi76z.jpg)
+
+via: https://effectivetypescript.com/2022/07/30/treemap-for-source-files/
+
+### 2022-09-04[工具]
+
+又一个检测 JS 内存泄漏的网站。
+
+你只要告诉它你网站的进入和退出方法就可以使用 cli 来检测潜在的内存泄漏点。
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6b0bh5dxnj21j60u00zu.jpg)
+
+https://facebookincubator.github.io/memlab/
+
+### 2022-09-03[网站]
+
+目前国内比较便宜的 CDN 服务商（一个人搞的，好像不怎么出名）。感兴趣的可以先免费体验一个月。
+
+via: https://www.dfyun.com.cn/
+
 ### 2022-09-02[好文]
 
 git 就是一个分布式存储系统。 我之前也从零实现过简化版的 Git。
