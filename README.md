@@ -14,6 +14,10 @@
 
 大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/daily-featured/commits.atom) 来订阅我的仓库更新。
 
+## 图片加载不出来如何解决？
+
+<https://github.com/fe-lucifer/fanqiang>
+
 ## 新鲜出炉 (2022-09)
 
 ### 2022-09-27[技巧]
