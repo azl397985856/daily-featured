@@ -20,6 +20,47 @@
 
 ## 新鲜出炉 (2022-10)
 
+### 2022-10-05[好文]
+
+分享一篇雪球上的关于投资的好文。《众所周知，最有价值的投资资料，都是免费的》
+
+via: https://xueqiu.com/1830902728/230241156#h5o-8
+
+### 2022-10-04[仓库]
+
+novu 是一个关于消息推送的解决方案。
+
+它提供了易于使用的 JS 客户端。
+
+如下代码可以精准地向某一个用户推送一条 hello world 消息，并附带一个 logo。
+
+```js
+import { Novu } from "@novu/node";
+
+const novu = new Novu(process.env.NOVU_API_KEY);
+
+await novu.trigger("<TRIGGER_NAME>", {
+  to: [
+    {
+      subscriberId: "<UNIQUE_IDENTIFIER>",
+      email: "john1@doemail.com",
+      firstName: "John",
+      lastName: "Doe",
+    },
+  ],
+  payload: {
+    name: "Hello World",
+    organization: {
+      logo: "https://happycorp.com/logo.png",
+    },
+  },
+});
+```
+
+其中 NOVU_API_KEY 就是你在 novu 上申请的一个秘钥，由于服务端验证。
+
+via: https://github.com/novuhq/novu
+
 ### 2022-10-03[仓库]
 
 一个可以不多写一行代码就给 Java 项目生成 API 文档的工具。 基本原理是基于 AST 去分析代码，然后给其添加 API Doc。
