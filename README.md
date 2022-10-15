@@ -18,6 +18,22 @@
 
 <https://github.com/fe-lucifer/fanqiang>
 
+## :calendar:《91 天学算法》限时活动
+
+很多教育机构宣传的 7 天，一个月搞定算法面试的，我大概都了解了下，不怎么靠谱。学习算法这东西，还是要靠积累，没有量变是不可能有质变的。还有的人选择看书，这是一个不错的选择。但是很多人选了过时的或者质量差的书，又或者不会去写书中给的练习题，导致效果很差。
+
+基于这几个原因，我组织了一个 91 天刷题活动，通过一个相对比较长的时间（91 天）给出最新的学习路径，并强制大家打卡这种高强度练习来让大家**在 91 天后遇见更好的自己**。详细活动介绍可以点下方链接查看。另外往期的讲义也在下面了，大家可以看看合不合你的口味。
+
+最后送给大家一句话： **坚持下去，会有突然间成长的一天**。
+
+[点此参与](https://github.com/azl397985856/leetcode/discussions/532)
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gq0mm4lscqj313h0r0diy.jpg)
+
+- 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
+- [91 第三期讲义 - 二分专题（上）](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-search-1.md)
+- [91 第三期讲义 - 二分专题（下）](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-search-2.md)
+
 ## 新鲜出炉 (2022-10)
 
 ### 2022-10-15[网站]
@@ -27,6 +43,14 @@
 > 目前市面上已经有竞品了，这对用户来说是好事 😄
 
 via: https://makeavideo.studio/
+
+### 2022-10-16[教程]
+
+keynote 自从有了**神奇移动** 动效后， 我发现用 keynote（类似于 windows 的 ppt） 做动画很简单。很多人也发现了这一点。同时我看了一些教程，现在基本上大多数的动画只要看一眼就大概知道怎么去做了。
+
+这里推荐我看过的一个教程，里面有几十个 demo，每一个都用一分钟左右的碎片化时间完成。看完你会发现，使用到的技巧其实就那么几种。然而恰好就是这几种就能完成大多数的动画效果，而且还**特别简单**。
+
+via: https://space.bilibili.com/25777113/channel/collectiondetail?sid=83180
 
 ### 2022-10-06[好文]
 
