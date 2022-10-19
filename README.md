@@ -40,6 +40,28 @@
 
 ## 新鲜出炉 (2022-10)
 
+### 2022-10-19[仓库]
+
+Pake 是一个让你用 Rust 开发桌面客户端的工具， 类似于 electron 开发桌面应用，只不过这个基于 Rust 的，最大的特点是大小要小将近 50 倍，一般不到 2M。(electron 应用打出来都是百兆起)
+
+via: https://github.com/tw93/Pake
+
+### 2022-10-18[类库]
+
+两行代码将 playground 集成到你的项目中。
+
+```js
+import { Sandpack } from "@codesandbox/sandpack-react";
+
+<Sandpack template="react" />;
+```
+
+如上代码直接生成 playground 到 DOM 上， 你可以在左侧编辑代码，右侧可以实时看到效果。
+
+在这之前，我想实现类似的效果都是嵌入一些这种网站， 比如 codepen 到我的项目中的，自定义程度很差。
+
+via: https://github.com/codesandbox/sandpack
+
 ### 2022-10-15[网站]
 
 输入文字自动生成高清视频，视频素材打打字就能搞定？ 或许吧，目前网站还在预定中，对这个功能感兴趣的可以先预定。
