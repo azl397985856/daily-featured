@@ -40,7 +40,32 @@
 
 ## 新鲜出炉 (2022-11)
 
-### 20220-11-11[工具]
+### 2022-11-15[技巧]
+
+有时候我们使用的 Mac 应用突然间挂了，你又想知道为什么挂了。可以将 mac 应用使用终端（terminal） 打开，这样应用如果有打印日志的话，你就可以看到。
+
+那么如何将 mac 应用使用终端打开呢？大家可以在应用文件夹中找到你想打开的应用，然后右键**显示包内容**（show package contents），里面找到一个 Contents/MacOS/ 下 找到一个可执行文件，将其拖到终端即可。
+
+比如 /Applications/Karabiner-EventViewer.app/Contents/MacOS/Karabiner-EventViewer
+
+你也可以直接将上面的路径粘贴到终端执行。
+
+### 2022-11-14[工具]
+
+electron-log 是 electron 上一个日志管理工具，可以输入日志到终端，文件，也可以重写后上报到后端。其还支持很多功能， 比如 Catch Error， 从而上用户手动上报错误等。
+
+via: https://github.com/megahertz/electron-log
+
+### 2022-11-13[网站]
+
+一个开发人员参考手册，内容一般，但是界面还是蛮漂亮的，期待后续的完善吧。
+
+![](https://tva1.sinaimg.cn/large/008vxvgGly1h866cq6tl6j31ub0u0tc9.jpg)
+
+- 英文版: https://github.com/Fechin/reference
+- 中文版：https://github.com/jaywcjlove/reference
+
+### 2022-11-11[工具]
 
 AutoCut: 通过字幕来剪切视频
 
