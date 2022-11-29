@@ -40,6 +40,51 @@
 
 ## 新鲜出炉 (2022-11)
 
+### 2022-11-29[算法]
+
+输入一个 DOM， 返回这个 DOM 的选择器（selector）。
+
+Given a DOM, can you return its selector?
+
+```js
+function t(dom: HTMLElement): string {}
+```
+
+我们可以从当前 DOM 借助 parentNode 属性往上找到根节点， 路上的节点通过选择器进行定位，最后拼接即可。代码参考：
+
+```js
+function t(dom: HTMLElement): string {
+  if (dom.tagName.toLowerCase() == "html") return "HTML";
+  let str = dom.tagName;
+  str += dom.id != "" ? "#" + dom.id : "";
+  if (dom.className) {
+    str += dom.className
+      .split(/\s/)
+      .map((c) => `.${c}`)
+      .join("");
+  }
+  return t(dom.parentNode) + " > " + str;
+}
+```
+
+其实我们还可以做的更好一点，那就是遇到 ID 选择器直接 break。
+
+```js
+function t(dom: HTMLElement): string {
+  if (dom.tagName.toLowerCase() == "html") return "HTML";
+  let str = dom.tagName;
+  str += dom.id != "" ? "#" + dom.id : "";
+  if (dom.id) return str;
+  if (dom.className) {
+    str += dom.className
+      .split(/\s/)
+      .map((c) => `.${c}`)
+      .join("");
+  }
+  return t(dom.parentNode) + " > " + str;
+}
+```
+
 ### 2022-11-24[网站]
 
 如果你发现一个网站无法打开，你可能会想知道是你打不开了还是所有都打不开了。
