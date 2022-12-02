@@ -40,6 +40,20 @@
 
 ## 新鲜出炉 (2022-11)
 
+### 2022-11-30[软件]
+
+Syncthing 是一个在不同设备之间同步文件的软件， 你可以用它来备份还原。
+
+使用方法很简单，下载后双击打开后访问：http://127.0.0.1:8384/#
+
+接下来选择你需要同步的文件， 然后添加远程设备（输入一个设备 ID 就好了）就可以发送文件了。
+
+![](https://tva1.sinaimg.cn/large/008vxvgGly1h8pqybbhc1j31xz0u0gqn.jpg)
+
+via: https://syncthing.net/
+
+一个类似的软件是 Sendy，通过它可以分享文件，生成链接给任意朋友，当然你也可以发送给自己实现跨设备发送文件。地址：https://chrome.google.com/webstore/detail/sendy-for-chrome-gmail-sl/pagahecnnmjjlpoakhagcpnalaodfbkk
+
 ### 2022-11-29[算法]
 
 输入一个 DOM， 返回这个 DOM 的选择器（selector）。
