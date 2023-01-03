@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/73g74n.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -98,7 +98,7 @@ Github 年度统计，以下是我的 Github 年度统计，大家可以用下�
 
 > 统计数据不包括私有仓库，但包括你的所有个人账户和组织（比如下图的 leetcode-pp 就是组织）下的数据
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gxkhrchc0gj31ez0u0tdc.jpg)
+![](https://p.ipic.vip/fgsa3z.jpg)
 
 地址： https://wrapped.run/
 
@@ -247,7 +247,7 @@ chrome 中 你可以给资源手动地指定优先级。如果浏览器目前还
 
 我使用的是 chrome，因此点击这里就可以下载插件了。如果你是其他浏览器，那么就点击对应链接即可。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gx1sw2j5ttj31010u0qdp.jpg)
+![](https://p.ipic.vip/ff2ezc.jpg)
 
 地址：https://polcak.github.io/jsrestrictor/
 
@@ -259,11 +259,11 @@ chrome 中 你可以给资源手动地指定优先级。如果浏览器目前还
 
 第一步，取一块石头：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gx1szxnz6dj31lm0mewi4.jpg)
+![](https://p.ipic.vip/31fvxm.jpg)
 
 最后一步（第 19 步），CPU 做好了。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gx1t0kpqo3j31980u0gpw.jpg)
+![](https://p.ipic.vip/vtz31q.jpg)
 
 地址：https://blog.robertelder.org/how-to-make-a-cpu/
 

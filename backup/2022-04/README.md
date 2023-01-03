@@ -1,6 +1,6 @@
 # 快来 **伯克利大学** 学计算机
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/bf0p0k.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -42,7 +42,7 @@ Navidrome 是一个音乐管理系统，你可以将其部署到本地，然后�
 
 很多其他的工具使用的都是网上现成的资源，比如 1listen 就是使用的虾米，QQ 和网易云的音乐源。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1ika0dv7mj20sm0fut9d.jpg)
+![](https://p.ipic.vip/kfr1t2.jpg)
 
 via: https://www.navidrome.org/
 
@@ -93,13 +93,13 @@ Github 的 issue 有很多不好用的地方，比如不支持 comment 自定义
 
 Disscussion 弥补了这块空白。 Disscussion 内置两种排序规则，分别是时间顺序和投票数。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h17zutur0fj20w80u0n16.jpg)
+![](https://p.ipic.vip/14e1qg.jpg)
 
 你可以结合使用 issue 和 Disscussion 获得更好的体验。
 
 近期 Github 还给 Disscussion 提供了问答社区才有的功能 - **选为答案**。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h17ztg5lguj20yl0u0ado.jpg)
+![](https://p.ipic.vip/etgt0t.jpg)
 
 只需要在新建 Disscussion 的时候类别选择 Q&A 就可以体验这个功能了。
 
@@ -123,7 +123,7 @@ via: https://vocalremover.org/
 
 一个无需注册的在线网站，你可以用它来移除图片中的部分内容。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h13qrdsd1cg20g40g4x1e.gif)
+![](https://p.ipic.vip/iuy1kf.gif)
 
 via: https://www.magiceraser.io/
 
@@ -131,7 +131,7 @@ via: https://www.magiceraser.io/
 
 一个俄罗斯的网站，据说是全世界最大的**名画博物馆**。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h13famjjjtj21el0u0ae7.jpg)
+![](https://p.ipic.vip/azpsbw.jpg)
 
 并且提供免费的高清下载，比如蒙娜丽莎这里可以直接下载，分辨率是 3931 \* 5178，4 M 左右的大小。
 
@@ -141,7 +141,7 @@ via: https://gallerix.asia/
 
 Games104 网站提供了从零学习游戏引擎的教程，有成型的完整代码托管在开源的 Github 仓库。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h12buulgk5j21wp0u0tby.jpg)
+![](https://p.ipic.vip/oeb82c.jpg)
 
 有做游戏的，或者想了解游戏引擎的可以看一下。
 
@@ -170,7 +170,7 @@ document.querySelector(".pick-file").onclick = async () => {
 
 除了 chrome 103 ，其他部分浏览器的新版本也提供了支持，具体支持情况如下图。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h12jqsmkbnj20nw0m6q4s.jpg)
+![](https://p.ipic.vip/2d53wj.jpg)
 
 via: https://css-tricks.com/getting-started-with-the-file-system-access-api/
 
@@ -186,7 +186,7 @@ bitbucket 是一个开源的代码仓库，可以用来存放开源项目的代�
 
 和 Github，Gitlab 不同，bitbucket 内置了 jira 用于管理需求 ，snyk 用于管理 包安全。个人感觉 Github 和 Gitlab 在这几方面体验还没那么好。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0yxmq4gwoj21r70u0tfa.jpg)
+![](https://p.ipic.vip/dk87k4.jpg)
 
 via: https://bitbucket.org
 
@@ -196,11 +196,11 @@ vscode 中会自动为 typescript 项目选择 workspace 的 node_modules 的 ty
 
 方法很简单， 你只需要打开一个 workespace 下的 TypeScript 文件，然后点击右下角的 TypeScript 旁边的版本号。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wl93ju5oj20o006lgm9.jpg)
+![](https://p.ipic.vip/h1ilnf.jpg)
 
 然后会让你选择版本。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0wl8r7c9xj217q0bqjtn.jpg)
+![](https://p.ipic.vip/b4aj8s.jpg)
 
 如果有多个 TypeScript ，错误使用其他版本的 TypeScript 会导致编译失败。项目中可以通过配置 vscode 的方式解决这问题。
 
@@ -226,7 +226,7 @@ via: https://github.blog/2022-03-31-how-github-does-take-home-technical-intervie
 
 CS61A（Structure and Interpretation of Computer Programs）是伯克利所有计算机系学生必须要上的第一门编程课，前半部分以 Python 为主，后半部分以 Schema 为主。网站资源很丰富，作为一个普通游客最主要的就是课件，其提供了 html 和 pdf 两种格式。课件图文丰富，这和其他同级别课程差异很大，对新手比较友好。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h28eoynvaej21kf0u0wnb.jpg)
+![](https://p.ipic.vip/dcsbso.jpg)
 
 via: https://cs61a.org/
 

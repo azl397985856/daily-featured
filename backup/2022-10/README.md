@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/y0jsyp.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -158,7 +158,7 @@ via: https://github.com/tudou527/OneAPI
 
 大家可能看过这种表格，里面的上涨和下跌使用不同深度的颜色来区分。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1h6qsaflgmbj30do0l4jvn.jpg)
+![](https://p.ipic.vip/i1ohfv.jpg)
 
 使用 excel 可以很容易实现这个需求。
 

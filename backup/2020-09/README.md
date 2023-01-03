@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/875iym.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -12,7 +12,7 @@
 
 Google 有一个服务 automl， 旨在降低人工智能的学习和使用成本，可以在运动训练数据，使用简单。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjj8v7g8atj317a0ovdk1.jpg)
+![](https://p.ipic.vip/x7txop.jpg)
 
 地址：https://cloud.google.com/automl
 
@@ -20,13 +20,13 @@ Google 有一个服务 automl， 旨在降低人工智能的学习和使用成�
 
 shell 是程序员的标配技能之一。掌握基础的 shell 是每个程序员必备的， 除此之外， 也有一些复杂的 shell 。 比如这个：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjj8zdgdamj30rn0ciwg3.jpg)
+![](https://p.ipic.vip/4a5lhr.jpg)
 
 这是一个中高难度的 shell 题目，地址：https://github.com/azl397985856/fe-interview/issues/151。
 
 如果你对 shell 感兴趣，可以去 leetcode shell 专区找几个题做（截止目前， 一共四道题，真希望他们多出一点）。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjj8yxlqjdj30pv09j3zi.jpg)
+![](https://p.ipic.vip/v7vgb5.jpg)
 
 地址： https://leetcode-cn.com/problemset/shell/
 
@@ -34,7 +34,7 @@ shell 是程序员的标配技能之一。掌握基础的 shell 是每个程序�
 
 antd pro 新增了图形编辑器。如果你有类似流程编辑器，脑图编辑器的需求可以试试。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjkdrzamvyj313i0inq5g.jpg)
+![](https://p.ipic.vip/4fphg4.jpg)
 
 https://preview.pro.ant.design/editor/flow
 
@@ -44,7 +44,7 @@ Service Worker Cookbook 是 Mozilla 发起的一个网站，该网站包含了�
 
 如果你想用 Service Worker 增强你的应用， 基本都可以在这个网站找到对应的 Demo。网站还贴心地按照难度进行了区分，有 `Beginner`， `Intermediate` 和 `Advanced` 难度。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj5ey06vnjj316h0je42o.jpg)
+![](https://p.ipic.vip/0bnbex.jpg)
 
 地址：https://serviceworke.rs/
 
@@ -52,7 +52,7 @@ Service Worker Cookbook 是 Mozilla 发起的一个网站，该网站包含了�
 
 大家写 ts 的时候是不是写了 好多 any。你可以通过 typeof 利用 ts 的类型推导来自动生成类型。不过还是有点麻烦。 大家可以试试 `JSON To TS` ， 复制你的 JSON 自动生成 interface。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1giuufh1r3fj31300de76b.jpg)
+![](https://p.ipic.vip/685q9h.jpg)
 
 地址:http://www.jsontots.com/
 
@@ -85,7 +85,7 @@ React Hooks library for remote data fetching。一个专注于请求的 hooks �
 
 界面都是直接用的 whistle：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1girfjqdbq0j31710sa475.jpg)
+![](https://p.ipic.vip/thhmkc.jpg)
 
 支持 ES6 模板字符串， 语法上来说更爽了?(Maybe) 我的态度是观望。
 
@@ -95,7 +95,7 @@ React Hooks library for remote data fetching。一个专注于请求的 hooks �
 
 vuedraggable 是一个支持拖拽的高阶组件，可用于实现拖拽排序的功能。start 数比较高， 且更新稳定，很多项目都在用。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimrdl34brj308a03f74c.jpg)
+![](https://p.ipic.vip/2uzbtg.jpg)
 
 地址：https://github.com/SortableJS/Vue.Draggable
 
@@ -113,11 +113,11 @@ VSCode 的 Keyboard Shortcuts” 中搜索 “前进 / Go Forward 或 后退 / G
 
 会正则真的可以为所欲为。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimhwl6jpkj30q70k076l.jpg)
+![](https://p.ipic.vip/8eh2kl.jpg)
 
 （力扣真题 https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions/）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimhwvvsguj30nj0ojjvz.jpg)
+![](https://p.ipic.vip/jgpkkq.jpg)
 
 （牛客真题）https://github.com/azl397985856/leetcode/issues/424
 
@@ -149,7 +149,7 @@ console.log("%c", devtools);
 
 一个适合程序员的，充满极客风的，非常硬核的 PPT 制作工具。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gimsl44w6og30s40i23zg.gif)
+![](https://p.ipic.vip/pz4170.gif)
 
 地址： https://github.com/vinayak-mehta/present
 

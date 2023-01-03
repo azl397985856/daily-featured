@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/t13gz9.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -12,9 +12,9 @@
 
 上次（2020-12）给大家推荐了一个可视化算法的网站。今天给大家介绍一个 功能更全面的网站，不仅可以可视化算法，还提供了大量数据结构的可视化。
 
-![网站截图](https://tva1.sinaimg.cn/large/008eGmZEly1gmm43gho7tj31er0n0gs5.jpg)
+![网站截图](https://p.ipic.vip/oftble.jpg)
 
-![二叉堆的可视化](https://tva1.sinaimg.cn/large/008eGmZEly1gmm444sdypj30o506zjrq.jpg)
+![二叉堆的可视化](https://p.ipic.vip/exgli1.jpg)
 
 地址：https://visualgo.net/
 
@@ -108,7 +108,7 @@ KeePassXC 以及 1 password 就是这样的密码管理工具。
 - KeePassXC 是开源免费的，不过没有浏览器插件等辅助工具，因此使用上不方便，需要自己手动保存各种密码。https://keepassxc.org/
 - 1 password 体验很好，很多人都推荐。不过它是一个付费软件。 https://1password.com/
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmf3akup6jj309s08c3zc.jpg)
+![](https://p.ipic.vip/bi10b6.jpg)
 
 ### 2021-01-18[技巧]
 
@@ -137,13 +137,13 @@ NodeJS 中的流和 Buffer 是两个很重要的概念，几乎所有的内容�
 
 FlameGraph 是一个对操作系统的性能制作火焰图的工具。
 
-![FlameGraph](https://tva1.sinaimg.cn/large/008eGmZEly1gme7d6beljj30x80gsq6j.jpg)
+![FlameGraph](https://p.ipic.vip/smb4xl.jpg)
 
 我们知道火焰图横轴表示的是时间长短，越宽表示运行的时间越长。纵轴表示的是调用栈，可以看出代码的执行顺序。
 
 Chrome 的 Performance 面板就使用了火焰图。
 
-![Chrome Performance 的火焰图](https://tva1.sinaimg.cn/large/008eGmZEly1gme7eomq4zj30ni0qc78g.jpg)
+![Chrome Performance 的火焰图](https://p.ipic.vip/2yyo42.jpg)
 
 你可以用它分析应用的性能瓶颈，除此之外，Chrome 还提供了饼图，智能诊断等其他工具，帮助你更好的发现潜在的性能问题。
 
@@ -161,11 +161,11 @@ lnav 是一个日志查看工具。使用方式超级简单，直接打开就行
 
 它会帮助你自动分析当前目录下所有的日志，并根据时间戳自动排序。如果来自不同的文件，他也会进行分组，并使用不同的颜色加以区分。
 
-![不同颜色区分的日志](https://tva1.sinaimg.cn/large/008eGmZEly1gme77g4zb1j30mt0hkgrl.jpg)
+![不同颜色区分的日志](https://p.ipic.vip/2tlkkx.jpg)
 
 只要你的日志是以时间戳开始，都可以被 Lnav 捕获到。另外它还提供了常见的过滤功能，更有意思的是它竟然内置了 sqlLite 数据库，使得你可以使用 sql 语言来对日志进行查询。
 
-![使用 SQL 查询](https://tva1.sinaimg.cn/large/008eGmZEly1gme7aeg8zdj30lm0fl79s.jpg)
+![使用 SQL 查询](https://p.ipic.vip/xribrx.jpg)
 
 地址：http://lnav.org/features
 

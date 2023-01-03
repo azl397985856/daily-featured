@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/vx25of.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -48,7 +48,7 @@ fastify.listen(3000, (err, address) => {
 
 这看起来不错， 以至于很长时间被认为是标配和主流，直到 Svelte 的出现，用他们自己的话来说就是 **It's important to understand that virtual DOM isn't a feature. It's a means to an end**。Svelte 是一个不算新的 UI 框架。 和 React， Vue 不同的是，其没有采用虚拟 DOM，而是编译时确定。 如果你还没有用过， 可以尝试一下。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk6ft1ngdqj30wc0fo0uy.jpg)
+![](https://p.ipic.vip/cnchiq.jpg)
 
 地址：https://svelte.dev/
 
@@ -58,7 +58,7 @@ fastify.listen(3000, (err, address) => {
 
 使用效果：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk410e7xatj30jz0hpak7.jpg)
+![](https://p.ipic.vip/9x2drp.jpg)
 
 地址：https://github.com/sherlock-project/sherlock#usage
 
@@ -70,7 +70,7 @@ Playwright 是由一群在谷歌开发 Puppeteer 的家伙跑路到微软开发�
 
 如果你需要用到无头浏览器做一些自动化的事情不妨考虑一下它。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkbtlizlkaj30ma0fntao.jpg)
+![](https://p.ipic.vip/be59pv.jpg)
 
 地址：https://playwright.dev/
 
@@ -145,7 +145,7 @@ RSLint 是一个用 Rust 写的 lint 工具。 规则挺有意思的， 最关�
 
 vue3 出来了，大家都开始学了起来。这里有一份 vue3 学习资料的集合，或者可以帮助你。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjlbt5q7ygj30u00w1wkz.jpg)
+![](https://p.ipic.vip/6z0m47.jpg)
 
 地址：https://github.com/gautemo/vue-3-playground
 
@@ -159,7 +159,7 @@ vue3 出来了，大家都开始学了起来。这里有一份 vue3 学习资料
 
 figlet.js 是一个用于生产 FIGfont 规范的一个 JS 库。效果图：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjlbpo5l30j31c00tgdix.jpg)
+![](https://p.ipic.vip/u106ub.jpg)
 
 地址：https://github.com/patorjk/figlet.js
 
@@ -196,7 +196,7 @@ const open = require("open");
 
 一个 30 天免费学习的网站，适合基础薄弱的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjmpyj2eiuj30zg0lo7l2.jpg)
+![](https://p.ipic.vip/aymizr.jpg)
 
 https://javascript30.com/
 

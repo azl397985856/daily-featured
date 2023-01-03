@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/cjkump.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -44,7 +44,7 @@ Access-Control-Max-Age: 86400
 
 因此一个通用的给请求增加头信息的插件就有必要了。于是我选择了 `requestly`
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gysjmuktv3j32do0u0q6n.jpg)
+![](https://p.ipic.vip/xidtqb.jpg)
 
 美中不足是每个规则只能免费改**一个**头。不过好消息是你可以新建多个规则，每个规则改一个头就可以白嫖了。
 
@@ -116,7 +116,7 @@ feiker.js 作者故意添加无限死循环逻辑到代码中，这究竟是人�
 
 Electron 的竞品，用来开发桌面客户端。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gydie04gijj30u012bjv5.jpg)
+![](https://p.ipic.vip/vcxw34.jpg)
 
 地址：https://github.com/tauri-apps/tauri
 
@@ -134,7 +134,7 @@ monorepo 越来越流行，相应的工具也在不断发展。
 
 其中两个工具最近很是抢眼。这两个工具其实都算是构建工具（build tool）
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gydibmaccej31ua0u0gv8.jpg)
+![](https://p.ipic.vip/in2iiv.gif)
 
 一个是 TurboRepo，另外一个是 nx。其中 TurboRepo 借鉴了 nx 了一些内容。二者其实各有优劣。这里有一个对于二者的比较文章 [Nx and Turborepo](https://nx.dev/guides/turbo-and-nx) ，这篇文章是 nx 官方写的。
 
@@ -276,13 +276,13 @@ vue 的可视化模板编译工具 Template Explorer
 
 clinic.js 是一个诊断工具，可以帮助你发现潜在的性能和安全问题。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gy1mtk9y0lj32f90u0dlw.jpg)
+![](https://p.ipic.vip/keo2t6.jpg)
 
 如上图， clinic 可以诊断包括 CPI，内存，事件循环延迟（卡顿）以及 handlers。
 
 它还可以直接帮你定位到具体的可能存在的问题点。如下图：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gy1muyqj26j31j90u0aff.jpg)
+![](https://p.ipic.vip/gq273v.jpg)
 
 clinic.js 就诊断到了代码可能存在 IO 方面的问题。
 

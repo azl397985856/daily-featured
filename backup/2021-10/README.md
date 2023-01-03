@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/q822bn.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -72,9 +72,9 @@ chrome.devtools.panels.elements.createSidebarPane("Images", function(sidebar)
 
 图片演示：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gvvdqdygloj30al063jrd.jpg)
+![](https://p.ipic.vip/sse11l.jpg)
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gvvdqjzykhj306s03ldfv.jpg)
+![](https://p.ipic.vip/nkswpa.jpg)
 
 
 文章很长，有几万字，大家可以根据自己的需要挑重点看。
@@ -103,7 +103,7 @@ OAuth 是什么？你如果还不知道就太 out 了。我的《91天学算法�
 
 这个工具是直接集成到 vscode 中的，无需切换到其他窗口，对于程序来说方便许多。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gvky0grh7jj61d30u0wkx02.jpg)
+![](https://p.ipic.vip/nm15vr.jpg)
 
 地址：https://github.com/apptools-lab/AppWorks
 
@@ -130,7 +130,7 @@ Here is a simple footnote[^1].
 
 这样就可以渲染出如下带有脚注的内容：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gvh9d925moj615u08kt8x02.jpg)
+![](https://p.ipic.vip/u5evhq.jpg)
 
 类似地，之前其他平台有类似如下的渲染脚注的语法，它通过扩展 markdown 链接语法的形式实现了脚注。
 
@@ -187,13 +187,13 @@ Webview UI Toolkit for Visual Studio Code 是一个针对 vscode 开发的组件
 
 仍然以 C++ 的 reverse 为例:
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gv9ez855smj31lo0din01.jpg)
+![](https://p.ipic.vip/w3ryuq.jpg)
 
 你可以点击上面的编程语言查看其他语言的 reverse 是如何实现的，目前该网站已经提供了 277 个语言特性，这个工具网站对那些刚开始学习新语言的人非常有用。
 
 我们甚至可以直接开启对比模式，以 Python 和 C++ 对比为例：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gv9f2k5i2uj60y50u0wiy02.jpg)
+![](https://p.ipic.vip/h8ntg5.jpg)
 
 地址：https://programming-idioms.org/idiom/19/reverse-a-list
 

@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/2m7umy.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -15,7 +15,7 @@
 
 如下图，当我打开豆瓣的时候，下面就显示了包括豆瓣在内的若干其他平台的评分。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzsi6lipkxj21d20u077p.jpg)
+![](https://p.ipic.vip/80gu22.jpg)
 
 除了看评分，还可以找片源，甚至可以找解说视频。
 
@@ -27,7 +27,7 @@ testflight 是一个 apple 推出的工具，允许没有上架 apple store 的�
 
 如果你想做上线之前的测试，使用它会很有用。你只需要生成一个测试链接，用户点击链接就可以下载安装并使用了。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gzsi8tg2flj21jw0qwmzu.jpg)
+![](https://p.ipic.vip/lqc3zl.jpg)
 
 地址：http://testflight.apple.com
 
@@ -51,7 +51,7 @@ https://rsshub.app/bilibili/user/video/${userid}
 
 比如我的公众号《力扣加加》的 RSS 就是 https://cdn.werss.weapp.design/api/v1/feeds/b4cf5a3e-fbea-4cc1-b8e8-50a448c5e9bc.xml
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1gznrhf1r3uj21av0u0jtz.jpg)
+![](https://p.ipic.vip/bxzmuq.jpg)
 
 ### 2022-02-24[好文]
 
@@ -155,7 +155,7 @@ nginx playground 是一个在线配置和运行 nginx 的网站，在这里你�
 
 附上我的通关截图：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gz8b0ec5r4j31mu0u0dk6.jpg)
+![](https://p.ipic.vip/jgupt0.jpg)
 
 地址：https://www.executeprogram.com/courses/regexes
 

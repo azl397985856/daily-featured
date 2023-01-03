@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/l6pj9m.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -41,7 +41,7 @@
 
 这个工具的原理正是如此， 具体使用方法在[这里](https://github.com/zarkin404/sweater/tree/master/jingdong/2020_cake_baker "2020 京东 618 叠蛋糕活动脚本")。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gf9ab99jlnj30a00f90ue.jpg)
+![](https://p.ipic.vip/9cref5.jpg)
 
 提前祝大家 618 快乐？😂😂😂
 
@@ -116,7 +116,7 @@ blitz 是一个类似 CRA 和 vue-cli 的脚手架工具，只不过其提供的
 
 基本思路是将 opencv 编译成 webassembly，然后通过 web worker 加载 webassembly 脚本实现。大家有做计算机视觉，且想让其在浏览器端发光发热的可以看下。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1get9s6ix35j30mm0by0w8.jpg)
+![](https://p.ipic.vip/cqns0w.jpg)
 
 文章地址：https://aralroca.com/blog/opencv-in-the-web
 
@@ -126,7 +126,7 @@ blitz 是一个类似 CRA 和 vue-cli 的脚手架工具，只不过其提供的
 
 从 Benchmark 上来看， 其性能有着明显的优势，从实际使用上来说也是如此。但是目前其还不是很稳定，大家可以先关注一下。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gepil3ncjbj30pe0dq0to.jpg)
+![](https://p.ipic.vip/onfrqc.jpg)
 
 地址：https://github.com/evanw/esbuild
 
@@ -136,7 +136,7 @@ webpack 是最流行的打包工具之一，尤其是对于业务类型的应用
 
 很多人的选择是复制粘贴的模式。 这本身无可厚非，因为 webpack 的语法很多，并且还是经常变化的。这个仓库提供了一种新的方式，你可以将所有的 webpack 配置封装到一个个函数中，然后通过函数实现复用。 这样业务内的 webpack 配置就可以很方便的共享， 因为函数更容易被定制。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1geocd0j9woj30ps02z74t.jpg)
+![](https://p.ipic.vip/7ub9ms.jpg)
 
 项目地址：https://github.com/andywer/webpack-blocks
 
@@ -152,7 +152,7 @@ Chrome 商店地址：https://chrome.google.com/webstore/detail/apollo-client-de
 
 课程内容与赫尔辛基大学计算机科学系的 2020 春季课程【全栈课程】相同，含金量比较高。 我大概看了下，内容写的还不错。相信看完之后， 简单的全栈开发已经难不倒你了。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0jycsdqj30z50qljux.jpg)
+![](https://p.ipic.vip/691lfl.jpg)
 （部分课程）
 
 这门课程`从基本的 web 开发到 react，redux，typescript，graphql 一应俱全，一共是 10 章内容`。该课的合作伙伴和友情机构包括 Houston Inc, Terveystalo, Elisa, K-ryhmä, Unity Technologies 以及 Konecranes。这里可以观看由我们的合作伙伴和友情机构的多为专家提供的与本门课程主题相关的客座讲座。
@@ -169,13 +169,13 @@ Chrome 商店地址：https://chrome.google.com/webstore/detail/apollo-client-de
 - 数据比较全。 除了基础薪资（Base）还有签字费（Sign-On），股票等信息。
 - 可以很方便对比各个公司的职级。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0dr41ykj31dz0j4diq.jpg)
+![](https://p.ipic.vip/3sy4l8.jpg)
 （薪资数据经常会更新，实时性好）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0db9vnvj31b40o8aen.jpg)
+![](https://p.ipic.vip/f5td66.jpg)
 （收录了很多大公司，国内国外都有）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gel0cs7ce2j31c70o1dhn.jpg)
+![](https://p.ipic.vip/p3o68v.jpg)
 （公司职级对比）
 
 地址：https://www.salarytics.com/
@@ -194,7 +194,7 @@ Chrome 商店地址：https://chrome.google.com/webstore/detail/apollo-client-de
 
 今天给大家分享的是一个“换脸”工具。其基于著名的人工智能框架 tensorflow 生成。 可以将照片，影片中中的人物头像发生变化，变成别人的头像。甚至可以实时处理，这就非常可怕了。图谋不轨的人可以用来发展色情产业，敲诈勒索等等。当然运用得当的话，会产生意想不到的效果，比如给电影人物换脸，每个人可以在看电影的时候将影片中的人物实时换算成任意人物（比如自己）。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gegbcx4yfwj30xz0u0b29.jpg)
+![](https://p.ipic.vip/zxi451.jpg)
 
 https://github.com/deepfakes/faceswap
 
@@ -204,7 +204,7 @@ https://github.com/deepfakes/faceswap
 
 如果用户设置了地理位置，那么将鼠标悬浮到头像上，会显示其当地时间。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gedvhuahc3j31000e2417.jpg)
+![](https://p.ipic.vip/t123aw.jpg)
 
 ### 2020-05-02[技巧]
 
@@ -214,21 +214,21 @@ https://github.com/deepfakes/faceswap
 
 你可以在 Github 回复他人的时候使用快捷回复的功能，从而更快的进行回复。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gedulo7cboj31840fa418.jpg)
+![](https://p.ipic.vip/qqoqb8.jpg)
 
 默认只有一条回复， 快捷键是`ctrl + 1` - 插入回复`Duplicate of #`，这个快捷键只有在点击上图红色部分的时候才管用。
 
 2. suggestion
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1geduo4gwcij32qg0fw41a.jpg)
+![](https://p.ipic.vip/epia2h.jpg)
 
 如上图在进行 pull request 的 review 的时候，可以点击加号位置，使用类似评论的功能。注意这里多了一个项目，点击可以添加修复建议。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1geduq3istyj318o0hygnt.jpg)
+![](https://p.ipic.vip/s39r2i.jpg)
 
 效果如下：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gedur0x5elj318y0jo41r.jpg)
+![](https://p.ipic.vip/ed4kqj.jpg)
 
 ## 关注我
 

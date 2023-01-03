@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/muc567.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -12,13 +12,13 @@
 
 今天再来给大家安利 6 个 chrome 扩展程序，排名不分先后。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hccis83hj30g30gl3z1.jpg)
+![](https://p.ipic.vip/d4xgc5.jpg)
 
 1. Proxy SwitchyOmega
 
 此扩展为 SwitchySharp 的升级版，可替代 SwitchyPlus 或 Proxy Switchy. 可轻松快捷地管理和切换多个代理设置，是一个我使用多年的一个插件，配合 PAC 食用味道更好。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hcjh2gmjj30hs0b43ym.jpg)
+![](https://p.ipic.vip/rpeh4i.jpg)
 
 [下载地址](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 
@@ -26,7 +26,7 @@
 
 节省高达 95％的内存，并减轻标签页混乱现象。 有些标签关了舍不得，不关太多看的很乱并且更关键的是占用内存。有了这个工具就不存在这些问题了。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hchdk0tyj30hs0b4js1.jpg)
+![](https://p.ipic.vip/3m791v.jpg)
 
 [下载地址](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
 
@@ -34,7 +34,7 @@
 
 Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万用户在使用它。这是一个社区驱动的开源项目，有数百名志愿者为 Adblock Plus 的成功作出了贡献，以实现所有烦人的广告被自动阻挡。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hcm4giztj30u70anjs2.jpg)
+![](https://p.ipic.vip/pj9iom.jpg)
 
 [下载地址](https://chrome.google.com/webstore/search/AdBlock)
 
@@ -42,17 +42,17 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 普通的网页搜索只能一个一个搜索，不能同时搜索多个关键字，这个扩展提供了这种功能上的扩展。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcoq78bhj30hs0b4q3i.jpg)
+![](https://p.ipic.vip/4gz056.jpg)
 
 [下载地址](https://chrome.google.com/webstore/detail/multi-highlight/pfgfgjlejbbpfmcfjhdmikihihddeeji)
 
 5. HTML5 Outliner
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcpx8en4j30hs09vmxp.jpg)
+![](https://p.ipic.vip/y30opf.jpg)
 
 我平时再看文章或者文档的时候习惯先看一遍目录或者大纲，然后再决定我到底要不要看，看哪里。我相信很多人和我一样有着同样的习惯。但是很多网站，包括 infoq，知乎等大网站这方面都做的比较差。下图是我的个人博客的大纲功能：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7hcwcm5wgj30uo0prq5e.jpg)
+![](https://p.ipic.vip/d7k945.jpg)
 
 因此这款工具对于我这种人来说就非常重要了，他能根据当前网页的结果快速生成大纲，并且支持锚点功能，当然它也有很多覆盖不到的情况，因为标题的种类实现太多了，大家完全可以写一个`div class = 'header'`从而让这个工具无用武之地。 这也从侧面说明了语义化的重要性，不仅对于障碍人士重要，对于无障碍人士也有很大的意义。
 
@@ -75,22 +75,22 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7eb8e0j03j30lc0ftq3q.jpg)
 (国内测速)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7eb8xtac5j30kn097dfz.jpg)
+![](https://p.ipic.vip/u881ds.jpg)
 (国际测试)
 
 > 不得不吐槽下，网站体验做的不太好，而且广告有点多。
 
 另外还有一个网站，不过这个只能够测试国内的网速，[17ce](https://www.17ce.com/)的体验做的稍微好一点，广告也没有那么显眼，如果你的客户只是国内，不妨考虑这个。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebbwxvykj31340l53z8.jpg)
+![](https://p.ipic.vip/mdps4j.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebcj8p59j30xq0hcq3l.jpg)
+![](https://p.ipic.vip/tkucg9.jpg)
 
 最后介绍一个国外的网站[pingdom](https://tools.pingdom.com)，如果客户是全球的，可以考虑用这个，这个是这几个中用户体验做的最好的。给出的技术指标比较多一点，但是他没有区域分布热力图, 并且支持的区域也不多。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7ebja8fm6j30vy0aft93.jpg)
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebgcr1elj30uf0llaay.jpg)
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ebhmc7iij30v20nh74w.jpg)
+![](https://p.ipic.vip/en41ex.jpg)
+![](https://p.ipic.vip/62w9dr.jpg)
+![](https://p.ipic.vip/mg26v2.jpg)
 
 ### 2019-09-27[类库]
 
@@ -98,16 +98,16 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 今天给大家推荐的是一个非常流行的前端测试框架 jest 的 GUI 工具[majestic](https://github.com/Raathigesh/majestic) (⚡ Zero config GUI for Jest)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7d2hpkzxuj30ym0u0wg9.jpg)
+![](https://p.ipic.vip/wyuzj2.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7d2icroztj30cx0a33yn.jpg)
+![](https://p.ipic.vip/wk8usx.jpg)
 
 ### 2019-09-26[工具]
 
 你一定有想用某一个功能的快捷键，却想不出来的情况。也一定面临过多个软件快捷键不统一带来的烦恼，比如 A 软件`CMD + S`是保存， 另外一个软件 B 是`Shift + S`。
 
 对于第一种问题，我们可以用一个叫 cheatsheet 的 mac 软件，有了它你就可以通过长按 command 键，从而查看当前应用的快捷键。
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7bja8uiysj31c20ohdkr.jpg)
+![](https://p.ipic.vip/cu1s9z.jpg)
 
 cheatsheet 下载地址： https://cheatsheet-mac.en.softonic.com/mac
 
@@ -115,11 +115,11 @@ cheatsheet 下载地址： https://cheatsheet-mac.en.softonic.com/mac
 
 对于按键不统一的问题，我们可以直接修改对应软件的快捷键即可，毕竟大多数软件都是支持快捷键定制的，还有一些`服务`快捷键我们可以去`系统偏好设置 - 键盘 - 服务`中修改。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7bjf9q87uj30ik0g1jry.jpg)
+![](https://p.ipic.vip/xjnpkb.jpg)
 
 另外给大家安利一个软件`Karabiner-Elements`, 它是一个 mac 上好用的键盘定制工作，可以用来改键，定制超级键等，更多功能等你挖掘。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7bjhb8tfzj30rq0fvjrh.jpg)
+![](https://p.ipic.vip/a1jt9o.jpg)
 
 > 配合 HHKB 效果更佳
 
@@ -135,7 +135,7 @@ Karabiner-Elements 下载地址： https://github.com/tekezo/Karabiner-Elements
 
 仓库目录（目录是我用工具自己抓的，非官方提供）：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7aupokxczj30ed0bp74e.jpg)
+![](https://p.ipic.vip/el7kli.jpg)
 
 仓库地址： https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md
 
@@ -145,11 +145,11 @@ Karabiner-Elements 下载地址： https://github.com/tekezo/Karabiner-Elements
 
 VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。而你所需要做的仅仅是点击 SSH 面板，然后配置一下就好了，配置也极其简单，对于经常使用 SSH 的你来说千万不要错过了。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g79mut0ml3j30d40ebjra.jpg)
+![](https://p.ipic.vip/kxe8su.jpg)
 
 下面是官方提供的原理架构图：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g79mw5gg3mj30qw08q0tc.jpg)
+![](https://p.ipic.vip/hq0ixx.jpg)
 
 地址： https://code.visualstudio.com/docs/remote/ssh
 
@@ -159,7 +159,7 @@ VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。
 
 我个人一直是 80 字符的践行者，不仅仅是因为是这大家都普遍采用的标准，更重要的是我个人更习惯多窗口平铺的方式来展示我的窗口，这样效率更高一点，因此太大肯定会影响窗口平铺，太小又不方便阅读，80 对我来说其实刚刚好，其他比较常见的还有 100 字符等， 现在就让我们来看下为什么一行 80 个字符是一个值得遵守的规范吧。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn405nqj31hc0u0asd.jpg)
+![](https://p.ipic.vip/pb9ahj.jpg)
 
 文章地址： https://nickjanetakis.com/blog/80-characters-per-line-is-a-standard-worth-sticking-to-even-today
 
@@ -167,7 +167,7 @@ VSCode SSH 扩展允许你连接到远程的主机，虚拟机或者是容器。
 
 我开启了[个人博客](https://lucifer.ren/blog/)，增加了评论，分类，统计，RSS，歌单等功能， 之后的文章会在博客首发。 感兴趣的可以 RSS 订阅我的博客。订阅方法我画了个图。
 
-![rss-feed](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn4kb9ej30pk0g03zx.jpg)
+![rss-feed](https://p.ipic.vip/k9rn16.jpg)
 
 RSS 是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。RSS 文件包含全文或是节录的文字，再加上发布者所订阅之网摘数据和授权的元数据。
 
@@ -177,7 +177,7 @@ RSS 是一种消息来源格式规范，用以聚合经常发布更新数据的�
 
 Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运行 iOS 或 Android 的移动设备，也是一个基于云端的服务。其从各种在线资源聚合用户自定的新闻订阅源，并可与他人分享。
 
-![feedly](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn51dupj313j0hjjtr.jpg)
+![feedly](https://p.ipic.vip/yl23t2.jpg)
 
 后续有机会我会向大家推荐我的 RSS 订阅源。
 
@@ -187,7 +187,7 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 早些时候，我使用的比较多的是[MacDown](https://macdown.uranusjr.com)和 VSCode 自带的 Markdown 功能。这两个功能非常简单，但是却能满足我当时的需求，之后我开始经常用 Markdown 更新文章之类的，因此这些就显得不太够用了，现在我用的是 Yu Writer， 算是一个值得推荐的国人开发的 MarkDown 编辑器，功能非常强大而且免费。 你可能听过 MWeb，但是它是收费的，功能和这个比起来也并不占优势。
 
-![yu-writer](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn5yydqj31hc0u0tep.jpg)
+![yu-writer](https://p.ipic.vip/dx6tyx.jpg)
 
 下载地址：https://ivarptr.github.io/yu-writer.site/
 
@@ -195,11 +195,11 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 前天分享了我的 chrome 插件管理器，今天我们就来分享我的《娱乐插件》。
 
-![extension-joy](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn6fnetj30fe04adg6.jpg)
+![extension-joy](https://p.ipic.vip/39l7p3.jpg)
 
 1. listen1
 
-![listen1-icon](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn70jguj301z021we9.jpg)
+![listen1-icon](https://p.ipic.vip/6r9ugt.jpg)
 
 娱乐插件第一个要分享的是一个听歌的插件，各个平台都有一些独家的音乐，就像视频网站一样，这就可怜了我们这些消费者。
 如果想要听所有的音乐就要办理各个 APP 的会员，或者在多个音乐 APP 中切换。
@@ -207,7 +207,7 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 这个插件能让我们听到所有国内几个主流大平台的所有音乐，足不出户畅享所有的音乐，并且值得称赞的是它支持会员系统，你可以保存
 你的歌单，甚至可以直接登陆你的 Github 账户同步多端的数据。
 
-![listen1](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn7ialcj30pa0j3dyl.jpg)
+![listen1](https://p.ipic.vip/m7p5t4.jpg)
 
 仓库地址：https://github.com/listen1/listen1
 
@@ -229,11 +229,11 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 [bilibili 助手](https://chrome.google.com/webstore/detail/kpbnombpnpcffllnianjibmpadjolanh)
 
-![pakku-icon](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn9c9r3j30250210sk.jpg)
+![pakku-icon](https://p.ipic.vip/4d223x.jpg)
 
 [pakku 哔哩哔哩弹幕过滤器](http://s.xmcp.ml/pakkujs/?src=wext_homepage)
 
-![danmu-icon](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdnades9j3022020742.jpg)
+![danmu-icon](https://p.ipic.vip/v04aa8.jpg)
 
 [bilibili 猜你喜欢](https://chrome.google.com/webstore/detail/ngjddnobeppdekpmimhiamkoonoaccdf)
 
@@ -245,15 +245,15 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 lucifer 的早晨：
 
-![morning-lucifer](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdnas1atj30bl0de40e.jpg)
+![morning-lucifer](https://p.ipic.vip/mqd5vj.jpg)
 
 lucifer 搬砖的一天开始了：
 
-![morning-lucifer](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdnbsm32j30bl08c74r.jpg)
+![morning-lucifer](https://p.ipic.vip/5bvmdz.jpg)
 
 lucifer 的晚上：
 
-![morning-lucifer](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdnclwccj30bl05aq39.jpg)
+![morning-lucifer](https://p.ipic.vip/azrafv.jpg)
 
 ### 2019-09-16[工具]
 
@@ -262,7 +262,7 @@ lucifer 的晚上：
 因此我打算出一个《工具推荐》专题， 然后细分一个类别《工具推荐 - chrome 插件》。 这个算是这个系列的开篇之作，我默默翻开自己的 chrome 插件列表来看，
 有什么好用的推荐给大家。突然灵机一动，干脆把这个“扩展插件管理器”安利给大家好了。之后我会向大家推荐更多好用好玩的插件，有“工具”，“效率”， “娱乐”，“前端”等等。
 
-![chrome-extension-manager](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdnd1mbdj30fn0g1ab3.jpg)
+![chrome-extension-manager](https://p.ipic.vip/vn5ro3.jpg)
 
 我的 chrome 插件差不多有 60 多个，插件多起来的时候，良好的分类，开启关闭，禁用，卸载等管理就变得非常重要了。
 毕竟谁也不想在众多插件中寻寻觅觅的感觉，也不想因为开启太多插件吃我们宝贵的内存吧？
@@ -279,7 +279,7 @@ lucifer 的晚上：
 
 这个项目可以说更进一步，通过图的形式，让你更快地感知到这些信息，`可视化形式的沟通毫无疑问是最最有效的。因为人的大脑更擅长处理图像。` 项目提供了几十种 emoji，几乎覆盖了所有的场景。 仓库地址： [https://gitmoji.carloscuesta.me/](https://gitmoji.carloscuesta.me/)
 
-![git-emoji](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdndga7qj30w20nedi8.jpg)
+![git-emoji](https://p.ipic.vip/a1qfax.jpg)
 
 ### 2019-09-11[技能]
 

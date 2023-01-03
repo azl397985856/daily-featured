@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/j7mttv.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -44,7 +44,7 @@ via: https://github.com/vercel/pkg
 
 如下图是中国人民银行日前发布的《2022 年人民币国际化报告》 中的一张图：
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6l2c78rbhj20tc0j3dgl.jpg)
+![](https://p.ipic.vip/w0fsrv.gif)
 
 人民币如果和其他货币一个纵轴的话， 那么就会显得人民币很不显眼（事实就是这样）。 这里直接将人民币的纵轴画到右侧，这样从图上看人民币和其他的就差不多，甚至还特别领先！
 
@@ -70,7 +70,7 @@ via: https://chrome.google.com/webstore/detail/allow-right-click/hnafhkjheookmok
 
 又一个可以可视化 Github 用户资料的网站，包含的信息非常全，包括 star， code 和 code review 等。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6a0vxmxn9j21r70u00x2.jpg)
+![](https://p.ipic.vip/bn2ws6.jpg)
 
 via: https://ossinsight.io/analyze/azl397985856
 
@@ -107,7 +107,7 @@ via: https://github.com/frehner/modern-guide-to-packaging-js-library
 
 除此之外还有一些其他的实验功能也很不错，推荐大家打开尝试一下。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h60m9lullej218o0demyp.jpg)
+![](https://p.ipic.vip/ymv8tw.jpg)
 
 via: https://developer.chrome.com/blog/devtools-modern-web-debugging/
 
@@ -127,7 +127,7 @@ via: https://github.com/nitnelave/lldap
 
 tsc --listFiles 可以列出来 ts 处理的所有文件。基于此可以使用一个工具对这些文件进行可视化分析，类似于 webpack 的包可视化工具。本文讲解了如何使用这个工具来分析并加速 tsc 编译速度。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6b0d7bkcij219m0pi76z.jpg)
+![](https://p.ipic.vip/wjvoe8.jpg)
 
 via: https://effectivetypescript.com/2022/07/30/treemap-for-source-files/
 
@@ -137,7 +137,7 @@ via: https://effectivetypescript.com/2022/07/30/treemap-for-source-files/
 
 你只要告诉它你网站的进入和退出方法就可以使用 cli 来检测潜在的内存泄漏点。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h6b0bh5dxnj21j60u00zu.jpg)
+![](https://p.ipic.vip/p3ffar.jpg)
 
 https://facebookincubator.github.io/memlab/
 
@@ -153,7 +153,7 @@ git 就是一个分布式存储系统。 我之前也从零实现过简化版的
 
 而这篇文章更为细致，并配有大量图片，如果你对 git 原理感兴趣，非常值得深入阅读。目前已经更新了三篇。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5tghjb08aj20m808ljry.jpg)
+![](https://p.ipic.vip/8ayd3n.jpg)
 
 via: https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/
 

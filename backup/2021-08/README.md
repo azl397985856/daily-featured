@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/hdy3j2.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -14,7 +14,7 @@ wavesurfer.js 是一个可视化声波的 js 库。
 
 它可以将一个音频（比如 mp3）的声波以可视化的方式渲染到浏览器上。不仅如此，你也可以通过组合多种参数，响应事件，调用方法等实现更多的效果，具体可参考官方文档。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtww39y86ij61jw0dydhn02.jpg)
+![](https://p.ipic.vip/fhxewr.jpg)
 
 地址：https://wavesurfer-js.org/
 
@@ -40,7 +40,7 @@ marked 是又一个将 markdown 转为 html 工具。这其实是我很早就 st
 
 这算是我见过的唯一一个通俗易懂的 haskell 教程。目前已经更新了三篇：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtww9r129uj61i90u0dkl02.jpg)
+![](https://p.ipic.vip/6jffxu.jpg)
 
 如果你对函数式编程感兴趣，不妨学习一下 haskell，一定不会让你失望。几年前我在学习 fp（函数式编程）的时候，就借用了一些 haskell 的思想。比如使用 fn :: a -> a 的方式给函数添加签名。
 
@@ -52,7 +52,7 @@ marked 是又一个将 markdown 转为 html 工具。这其实是我很早就 st
 
 AppWorks Toolkit 就是这样一个工具。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtxn2vsqnbj61e00u0mzp02.jpg)
+![](https://p.ipic.vip/q8q3e0.jpg)
 
 可惜的是，现在功能还没有图上那么多。目前似乎只有可怜 node 管理，并且迟迟不更新，因此我的建议是不妨**再等等，等个一年半载等它完善或者参考这个思路自己开发一款类似的工具**。
 
@@ -87,17 +87,17 @@ describe("#1 do something", () => {
 
 那为什么 jest 要设计成空的测试用例要报错呢？不报错不好么？这里有一个回答很中肯：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtwfeyiugoj60y20j2wgv02.jpg)
+![](https://p.ipic.vip/53iiaz.jpg)
 
 那既然空的测试用例报错是合理的，我们写空的测试用例这个事情也是合理的，那如何调节这个矛盾呢？
 
 - 一种方式是使用 test.skip 跳过测试用例。这个和使用 jest -t 'test case name' 有点像。都是跳过部分用例，仅执行一部分用例。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtwfi6w404j60hi02mdfy02.jpg)
+![](https://p.ipic.vip/30903m.jpg)
 
 - 另外一种方式是使用 test.todo。这个是新增的一个方法，功能类似。不过显示的方式有点变化，起到了前面那位小哥提到的**提示用户有空的测试用例没有写**的效果。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtwfhxqp4zj60g4030mx802.jpg)
+![](https://p.ipic.vip/17td7j.jpg)
 
 ### 2021-08-20[工具]
 
@@ -165,7 +165,7 @@ url: "https://github.com/github/linguist"
 
 这样你的 Github 主页就有这样一个按钮。其他人想要引用你的 Github 论文，就可以直接点击这里进行复制粘贴。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtnodqvgbpj30xq0jgmzl.jpg)
+![](https://p.ipic.vip/xzap3o.jpg)
 
 关于这个功能的详细介绍请参考：https://github.blog/2021-08-19-enhanced-support-citations-github/
 
@@ -183,7 +183,7 @@ mitosis 是一个遵循 **write once，run everywhere** 哲学的前端框架。
 
 如下是其目前对各个框架的支持情况：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gtl8zwhq9yj60fs0uugn302.jpg)
+![](https://p.ipic.vip/0p6sr2.jpg)
 
 它的基本原理很简单，就是将 mitosis 代码转义为 JSON，接下来 mitosis 通过解析这份 JSON 文件生成其他不同平台的代码。
 
@@ -262,7 +262,7 @@ if (req.session.test.bucket == 0) {
 
 RPC 是什么？自己如何实现 RPC？实现 RPC 需要考虑什么内容？听字节跳动 web infra 团队大佬娓娓道来。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gt82hmlkw3j30nk1ck763.jpg)
+![](https://p.ipic.vip/7oh4md.jpg)
 （RPC 流程图，包含通信和加解码两大部分）
 
 https://mp.weixin.qq.com/s/Ky6SoWJv85orqYioihTRqg

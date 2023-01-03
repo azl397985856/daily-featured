@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/78bpi0.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -12,7 +12,7 @@
 
 是不是有许多小伙伴在刷力扣的时候感觉无从下手？从头按顺序开始刷的童鞋们可能会比较有感触，为什么才第四题就感觉很难了?没关系，本文将对力扣的 1-700 题中不需要会员的数据结构与算法题目(数据库与 shell 除外)进行分类，并推荐一个刷题的顺序。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1go4po7ryy7j20ki0q1wif.jpg)
+![](https://p.ipic.vip/i9c9hc.gif)
 
 （部分题目）
 
@@ -22,7 +22,7 @@
 
 A\* 算法是一种比较复杂的启发式算法，在面试中考察的次数不多。但是其本身覆盖的知识很广，也可以解决很多实际问题，比如游戏路径指引（我承认很多算法没有用）。因此我建议学有余力的同学可以尝试学习一下。 而今天这篇文章是我见过的 A\* 算法讲的最好的文章之一。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gnzsypjm6yj30n20obacx.jpg)
+![](https://p.ipic.vip/0vyjmh.jpg)
 
 （部分目录）
 
@@ -32,7 +32,7 @@ A\* 算法是一种比较复杂的启发式算法，在面试中考察的次数�
 
 这是一个关于 Domain-Driven Design（领域驱动设计），简称 DDD 的一个聚合型仓库。里面包含了基本概念，六边形理论，原则方法，例子，最佳实践等。**是我见过最全的 DDD 知识仓库**。最近这个仓库也登上了 Github Trending。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gnzsn98drpj30ee0m140e.jpg)
+![](https://p.ipic.vip/8onwfi.jpg)
 
 （仓库部分目录）
 
@@ -101,7 +101,7 @@ type-challenges 是一批 ts 爱好者搞出来的一个网站，它提供了大
 
 这个网站最大的特点是不仅按照难度对问题进行了归类，而且难度非常大，比我在市面上看到的题目难度高出不少，适合想挑战自己的人。当然如果你觉得自己能力还不够，可以尝试从简单难度开始。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gnsmc2xsfoj30te0gltcm.jpg)
+![](https://p.ipic.vip/6uz2fy.jpg)
 
 地址：https://github.com/type-challenges/type-challenges/blob/master/README.zh-CN.md
 
@@ -109,7 +109,7 @@ type-challenges 是一批 ts 爱好者搞出来的一个网站，它提供了大
 
 midwayjs 是阿里淘宝前端团队在 serverless 领域开源的一个行业标杆级产品。除了提供”完善的 serverless 生命周期管理，不绑定某一家云服务厂商，提供方便的从其他框架迁移功能“等核心功能之外。其还提供了一些通用组件，hooks 能力，丰富的装饰器等辅助功能。更加令人欣慰的是，它还提供了 vscode 的良好支持，使得我们可以在 vscode 中方便地进行调试，以及查看接口信息。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gnsm76n0q6j30lp0nhq8s.jpg)
+![](https://p.ipic.vip/0nb9w9.jpg)
 
 地址：https://www.yuque.com/midwayjs/faas/what_to_do
 
@@ -117,7 +117,7 @@ midwayjs 是阿里淘宝前端团队在 serverless 领域开源的一个行业�
 
 Github 老是挂。但是最近 Github 在这方面做得努力真的令人佩服，不仅有事故报告，值班制度，工单系统等，还提供了 github status，方便你查看现在 github 的状况。通过它，你可以知道 Github Action 是挂的。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gn3dqpxbsxj30pt0n3n1h.jpg)
+![](https://p.ipic.vip/sylmw4.jpg)
 
 它精确地告诉了你事故发生的时间以及具体影响的业务，真的是很贴心了，我希望更多的产品都能提供这样的功能。
 
@@ -201,7 +201,7 @@ https://www.skypack.dev/
 
 功能强大的 Kafka 集群监控和运维管理平台
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gn7urs549qj30u00h6q4f.jpg)
+![](https://p.ipic.vip/7wht8x.jpg)
 
 地址：https://github.com/didi/Logi-KafkaManager
 
@@ -211,7 +211,7 @@ https://www.skypack.dev/
 
 该网站目前提供了 36 道练习题，覆盖了 Python 中绝大数知识点，每一道题都提供了答案，方便你卡壳的时候参考。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gnsm0bciw6j30mv0ezgoi.jpg)
+![](https://p.ipic.vip/bnig4w.jpg)
 
 地址： http://www.practicepython.org/
 
@@ -223,11 +223,11 @@ transform 是一个提供在线**数据格式转换**服务的网站。它提供
 
 比如你可以将 JSON 转为 MYSQl。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gn1be3crfyj31ae0bfmyt.jpg)
+![](https://p.ipic.vip/p5kryz.jpg)
 
 再比如你可以将 JSON 转换为 TS 的 interface。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gn1bgrpq5mj31ar08lmyg.jpg)
+![](https://p.ipic.vip/2jo30u.jpg)
 
 总之你如果需要数据格式转换，请务必考虑一下。值得注意的是，其不仅提供在线网站，还提供 API 供开发者调用，以更灵活的方式集成到自己的业务中。
 

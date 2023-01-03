@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/q7kph0.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -26,7 +26,7 @@
 
 一个交互式 SQL 学习网站。在这里你扮演一个侦探，根据线索和警察局的数据库，使用 SQL 语句逐步缩小范围，最后找到真凶。
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gca4qr9lpcj30xc0m8q4x.jpg)
+![](https://p.ipic.vip/aac5or.jpg)
 
 网站地址：http://mystery.knightlab.com/walkthrough.html
 
@@ -42,11 +42,11 @@
 
 - 使用 [leetcode for vscode 插件](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-leetcode)
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc8jbzur3zj30m812uq7g.jpg)
+![](https://p.ipic.vip/yk9w47.jpg)
 
 - 使用 https://leetcode.jp/problemdetail.php?id=1334
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc8jck92xkj30ru1m60yi.jpg)
+![](https://p.ipic.vip/s80xbu.jpg)
 
 你只需要将上面的 id 改成你想看的 LeetCode 题号即可。这个网站还有一个用途，那就是可以查看被锁定的题目。
 
@@ -62,9 +62,9 @@
 
 微软出了一套图形语言 chart-parts，很好地解决了这个问题。地址：https://microsoft.github.io/chart-parts/documentation/tutorial 。 目前其官方提供了 react 版本：
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc57dlj85zj30vu0u0n7o.jpg)
+![](https://p.ipic.vip/94yhum.jpg)
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc57dynfw4j30se0tcwhh.jpg)
+![](https://p.ipic.vip/6r5m5a.jpg)
 
 可以看出实现同一个功能，代码量显著增加，这是灵活领和可控性之间的平衡。
 因此当你决定使用它的时候，一定要仔细做好评估，是否适合你。
@@ -81,7 +81,7 @@ age 是一款加解密命令行工具，类似 ssh，我们可以生成自己的
 
 有时候我们开发了一个应用，想给别人看下效果，而这个人不和你一个局域网，并且你没有公网 IP。那么你可以使用一种叫做内网穿透的技术，其中比较有名的有花生壳，如果不熟悉内网穿透的可以看下这篇科普文 https://zhuanlan.zhihu.com/p/30351943。 而我现在使用的是 ngrok：
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc42ncii7vj30m80duabo.jpg)
+![](https://p.ipic.vip/kqbamx.jpg)
 
 ngrok 主页： https://ngrok.com/
 
@@ -110,7 +110,7 @@ NodeTube 是一个使用 node 构建的 用来取代 youtube 的客户端，支�
 
 AWS 是什么？都有哪些功能？如果你不知道，那么这篇文章可以帮到你。这篇文章很详细地讲解了 AWS 提供的服务。
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gbztweann6j30hs0v6jvz.jpg)
+![](https://p.ipic.vip/ku102n.jpg)
 
 文章地址： https://blog.logrocket.com/aws-services-cheat-sheet/
 
@@ -134,9 +134,9 @@ AWS 是什么？都有哪些功能？如果你不知道，那么这篇文章可�
 
 今天推荐给大家一个交互式学习网站，会给你准备一些环境，这样就不需要在本地安装环境了，并且还可以检测你的操作是否正确等，类似国内的实验楼。
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gbtqjql0csj32lg0p6q84.jpg)
+![](https://p.ipic.vip/nydhmn.jpg)
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gbtr376ka9j32290u0gui.jpg)
+![](https://p.ipic.vip/pzlx56.jpg)
 
 地址： https://www.katacoda.com
 

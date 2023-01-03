@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/8vq2ak.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -57,7 +57,7 @@ ESM 可以借助浏览器的模块化能力从而实现”无打包“，这样�
 
 你可以将其部署到一些免费的平台，比如 heroku 的 free plan。这样你就可以拥有一个自己独有的云端 vscode 了。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gukrsa7xzej61ca0tmjw002.jpg)
+![](https://p.ipic.vip/atufq5.jpg)
 
 地址：https://github.com/cdr/deploy-code-server
 
@@ -111,7 +111,7 @@ lit 是一个我关注了蛮长时间的库。这个库目前完善了很多功�
 
 它可以用声明式的方式去写前端应用。并且非常小巧，只有 几 kb。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guczoeowfxj30wo0u0tbv.jpg)
+![](https://p.ipic.vip/ftuzc8.jpg)
 
 地址：https://lit.dev/
 
@@ -159,7 +159,7 @@ API Extractor 是一个帮你更好地管理 ts 声明文件的工具。API Extr
 - 打包 .d.ts 声明文件
 - 生成 api 文档
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gu3tw7h7m6j604k046wed02.jpg)
+![](https://p.ipic.vip/u0nh73.jpg)
 
 如果你是一个库的开发者，不妨尝试一下这个工具。如果你的仓库是 mono repo，那就更推荐使用了。
 
@@ -171,7 +171,7 @@ API Extractor 是一个帮你更好地管理 ts 声明文件的工具。API Extr
 
 你可以在这里申请：https://education.github.com/discount_requests/student_application
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gu2n2awta8j60yt0u0adn02.jpg)
+![](https://p.ipic.vip/r6d43k.jpg)
 
 地址：https://education.github.com/
 
@@ -193,7 +193,7 @@ mac 用户可以安装 pkg 文件，windows 用户可以安装 exe 文件。之�
 
 一个可以摆在桌子上的**监控服务器的小摆件**。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gu1i395vywj60m80dh76e02.jpg)
+![](https://p.ipic.vip/sn9ujy.jpg)
 
 它可以可以实现通用服务器或计算机的数据监控，包括 CPU 占用、RAM 占用、两个硬盘的可用空间、硬盘读写速度、网络 IO 速率。
 

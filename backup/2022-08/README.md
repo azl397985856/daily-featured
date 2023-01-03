@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/jz9ms7.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -35,7 +35,7 @@ upptime 是一个自动化检测网站可用性的仓库。你可以直接通过
 
 via: https://github.com/azl397985856/leetcode-pp-available
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5mnf8r5lhj21bb0u044j.jpg)
+![](https://p.ipic.vip/lzhbmf.jpg)
 
 可以看出我的博客的访问时间是最长的，看来还是需要优化啊。
 
@@ -111,7 +111,7 @@ via: https://github.com/prisma/prisma/releases/tag/4.2.0
 
 现在每一个学习项目都是可以点击的。点击后就可以看到推荐的学习资料， 有文章和视频。 我看了几个，资料还是非常高质量的。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h54esqa33zj21gx0u079i.jpg)
+![](https://p.ipic.vip/9hbj5y.jpg)
 
 via: https://roadmap.sh
 

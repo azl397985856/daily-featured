@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/oydz5z.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -16,7 +16,7 @@ Web 应用（包括 PC 和移动）变得越来越流行，相对于传统的客
 
 对于前端安全，量化构成“良好开发实践”的内容可能比较困难，但是可以相当准确地度量安全头的强度。就像我们使用 Lighthouse 获取性能，SEO 和可访问性分数一样，我们可以使用工具，这个工具可以根据当前响应头获取安全分数。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1geagknl5zoj30xm0khzmm.jpg)
+![](https://p.ipic.vip/ds83v6.jpg)
 
 网址： https://securityheaders.com
 
@@ -26,10 +26,10 @@ Web 应用（包括 PC 和移动）变得越来越流行，相对于传统的客
 
 业界很多工具，比如 Puppeteer 也是基于 CDP 完成的。 值得注意的是，其有多种实现，可以作用在不同的浏览器，只要浏览器实现了 CDP 规定的接口即可。如果没有实现，那么你需要做一个代理进行格式转换。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge9ism7vtcj30l30783zd.jpg)
+![](https://p.ipic.vip/yi2idd.jpg)
 （不同实现）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge9iutukhnj30al08zmyd.jpg)
+![](https://p.ipic.vip/rfnuqc.jpg)
 （API 种类）
 
 https://github.com/cyrus-and/chrome-remote-interface
@@ -53,9 +53,9 @@ https://zhuanlan.zhihu.com/p/76237595
 
 大家也可以思考下这几个问题。当然这个问题的答案相对比较宽泛，并且需要自己来做一些权衡。其中针对 API 进行一些定制是一个思路。拿 React 来说，它有一个渲染器的包，用户可以通过这个包定制端的概念，从而理论上让 React 可以运行在任何端。 不过这个包，目前还在实验阶段，如果要使用的话，需要冒一定的风险，因此不建议生产环境直接使用。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gebrio1pm8j30yi08hdgy.jpg)
+![](https://p.ipic.vip/ip80xm.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gebrj1rpe6j31jk0qsn1d.jpg)
+![](https://p.ipic.vip/ybmn6y.jpg)
 
 仓库地址： https://github.com/facebook/react/tree/master/packages/react-reconciler
 
@@ -69,7 +69,7 @@ https://zhuanlan.zhihu.com/p/76237595
 
 这是一个划时代的技术。试想，你可以拥有任何人的声音，那么你就可以将某些人作为虚拟人物永远存在这个世界上，比如已故的人，明星等。当然用的不好，也可能会被用到不好的地方。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge4thpquajj31ex0mmn24.jpg)
+![](https://p.ipic.vip/lqhp84.jpg)
 
 https://google.github.io/tacotron/publications/speaker_adaptation/
 
@@ -77,7 +77,7 @@ https://google.github.io/tacotron/publications/speaker_adaptation/
 
 来了一个挑战 TS 的货？JSMonk/hegel 号称是没有`运行时的类型错误`，上次看到 No Runtime Error 还是在看 Elm，不过 ELM 更牛逼的地方在于， 其是真正的 No Runtime Error。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge01re791aj310t06qjt0.jpg)
+![](https://p.ipic.vip/wkc0db.jpg)
 
 https://github.com/JSMonk/hegel
 
@@ -87,7 +87,7 @@ https://github.com/JSMonk/hegel
 
 要回答这些问题，恐怕仅靠查阅 MDN，是很难查到的。比如 `String.prototype.substring.call(undefined, 2, 4)`会输出什么？ `String.prototype.substring.call(window, 2, 4)`又会输出什么？ 要回答这个问题，最根本的就是查 ECMA 文档，比如上面这个问题， 我就会查到[ecma262/#sec-string.prototype.substring](https://tc39.es/ecma262/#sec-string.prototype.substring)，可以看出 ECMA 给出了我们答案：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdz71b627aj31w80j6wkb.jpg)
+![](https://p.ipic.vip/7sm549.jpg)
 
 但是这些符号 - `?`，`!`代表什么？ `RequireObjectCoercible` 和 `ToString()` 是什么？ 很多人是懵逼的，即使你是很熟悉 JS 的各种特性，但是阅读标准或许不是一件容易的事情。 为了方便描述，它掺杂了很多其他内容，比如一些记法（Notation）。如何阅读 ECMA 文档呢？
 
@@ -123,9 +123,9 @@ https://www.yuque.com/antv/blog/ydsuqn
 
 一个可视化图标网站，可以在线拖拽生成图表，支持多种图表类型。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdt9pamyhqj30rm0ekgmg.jpg)
+![](https://p.ipic.vip/0bz244.jpg)
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmexjfnhd4g30hs0amqv6.gif)
+![](https://p.ipic.vip/z1ekjs.gif)
 
 https://github.com/dongsuo/vue-data-board
 
@@ -133,11 +133,11 @@ https://github.com/dongsuo/vue-data-board
 
 来自 Chrome 官方人员最最权威的宏任务，微任务指南。 这篇文章是目前我看过最好的讲解《浏览器事件循环，宏任务，微任务》的文章。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdoh95vy36j30by0940t3.jpg)
+![](https://p.ipic.vip/tdy7r8.jpg)
 
 他的教程的特点是可以可视化交互式学习，真的很赞：
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdoh9td11hj30ke0fit9p.jpg)
+![](https://p.ipic.vip/vow55z.jpg)
 
 https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
 
@@ -153,11 +153,11 @@ https://mp.weixin.qq.com/s/yDOXb9diMFcmbKhc58oH4w
 
 大家经常会在分享大会上看到过一些高大上的 PPT，这些看起来高大上 PPT 除了内容本身优质之外，还有一个共同点，就是善于运用图和表。之前我分享过一篇文章 - [累死累活干不过一个写 PPT 的](https://lucifer.ren/blog/2019/12/11/ppt-data/)。里面讲到了如何讲数据说话，将自己的成果通过可视化的方式展示出来，其中也推荐了几个工具。今天再向大家推荐一个相对来说“更加面向新手，入门更容易”的产品，虽然操作简单，但实际上其自定义设置也非常丰富。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc53wwrdj318j0jwwm3.jpg)
+![](https://p.ipic.vip/41tezk.gif)
 
 对于常见的图表可以直接使用，并且支持导入数据，多种自定义设置等。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc68fz5yj31h60nywi2.jpg)
+![](https://p.ipic.vip/o4nxz8.gif)
 
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc6lom1lj31gk0gagnq.jpg)
 
@@ -175,11 +175,11 @@ https://mp.weixin.qq.com/s/yDOXb9diMFcmbKhc58oH4w
 
 新一代的前端打包工具，采用 Go 编写，由于采用 Go 编写，而不是 JavaScript，因此性能相对较好，下面是一个 benchmark 对比图：
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdge8ksiphj30mq07h40j.jpg)
+![](https://p.ipic.vip/thepp1.jpg)
 
 只不过这个仓库目前只有一人维护，因此更新可能会是个问题，大家不妨先关注一下。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdgea4hjm7j30uj069751.jpg)
+![](https://p.ipic.vip/qe8u05.jpg)
 
 地址： https://github.com/evanw/esbuild
 
@@ -193,7 +193,7 @@ https://mp.weixin.qq.com/s/yDOXb9diMFcmbKhc58oH4w
 
 WebAssembly 是一种一种新的“语言”。允许开发者使用 C/C++等转化为 JS 可以直接调用的形式，由于是二进制形式，因此相比直接使用 JS 实现，性能更好。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdd3aut07ij30lb07awfn.jpg)
+![](https://p.ipic.vip/f0ckac.jpg)
 
 本文（英文）详细解释了如何使用 WebAssembly 来进行图片处理。实际上基于 WebAssembly 来实现 webp，视频编解码等都在业界有所实现。这篇文章相对其他而言有两个特点： 简单，实用。
 

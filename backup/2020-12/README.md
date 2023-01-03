@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/qcm31p.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -59,7 +59,7 @@ https://github.com/krisk/fuse
 
 可视化递归过程的网站。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glxvy2lyyej31fp0otn2c.jpg)
+![](https://p.ipic.vip/e22cl9.jpg)
 
 https://recursion.now.sh/
 
@@ -69,11 +69,11 @@ pycallgraph 是一个可以可视化代码执行过程的 Python 工具，底层
 
 使用效果：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gme42mm6fcj30fs0cc754.jpg)
+![](https://p.ipic.vip/tujt9c.jpg)
 
 一个更复杂的例子：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gme43jhu6qj311z0u00yl.jpg)
+![](https://p.ipic.vip/cxa4js.jpg)
 
 http://pycallgraph.slowchop.com/en/master/index.html
 
@@ -89,7 +89,7 @@ brew install htop
 
 使用效果：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gme465kigrj30gn0bo0uw.jpg)
+![](https://p.ipic.vip/f8m3rz.jpg)
 
 地址：https://htop.dev/
 
@@ -153,7 +153,7 @@ https://www.bilibili.com/video/BV1Gx411Q7ro?p=1
 
 一个可以帮助你可视化递归过程的工具，我在[几乎刷完了力扣所有的树题，我发现了这些东西。。。](https://lucifer.ren/blog/2020/11/23/tree/)中提到过 ta。
 
-![递归计算 fib 的过程图](https://tva1.sinaimg.cn/large/0081Kckwly1gmbr9fvjcbj30f90iowfs.jpg)
+![递归计算 fib 的过程图](https://p.ipic.vip/yo6ys2.jpg)
 
 https://recursion.now.sh/
 
@@ -161,7 +161,7 @@ https://recursion.now.sh/
 
 很多人问我使用的画图工具是什么。这里就介绍一个我经常使用的一个画图工具 - **excalidraw**。它可以快速画出一些基本图形，并且支持手写风（目前仅支持英文手写风，中文是不行的）。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gmbr52hkn9j30nd0gngme.jpg)
+![](https://p.ipic.vip/11cn3q.jpg)
 
 > 不过这对于写题解的我来说还是不够方便，于是我有了自己做一个画图工具的打算，主要功能就是根据数据结构直接生成图片，省去了手绘的过程。
 
@@ -187,7 +187,7 @@ https://assets.ctfassets.net/nrgyaltdicpt/4e825etqMUW8vTF8drfRbw/d4f3d9adcb2980b
 
 ShellCheck 是一个帮助你检查 shell 错误的工具，本质就是一个 lint 工具，和 eslint 等工具的功能是类似的。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gmboimrvc3j30fc05ldgb.jpg)
+![](https://p.ipic.vip/zxuq37.jpg)
 
 https://github.com/koalaman/shellcheck
 

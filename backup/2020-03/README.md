@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/jo8tae.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -18,7 +18,7 @@ gRPC 使用 protobuf 进行数据封装(序列化和反序列化)，同时使用
 
 《吊打面试官》系列 Node.js 全栈秒杀系统。这篇文章非常详细地讲述了如何使用 nodejs 构建一个秒杀系统，文中提到的知识点，我也经常在面试中向候选人提问。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdbxfr99o9j30jb0p4405.jpg)
+![](https://p.ipic.vip/5nzrs3.jpg)
 
 https://mp.weixin.qq.com/s/LoRr76smB-M8sNp-85wdqg
 
@@ -35,7 +35,7 @@ https://mp.weixin.qq.com/s/LoRr76smB-M8sNp-85wdqg
 
 更重要的是其源码写的很赞，模块划分，代码解耦，以及单元测试都非常值得学习， 感兴趣的可以研究一下。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd6c9hp23qj30u30gfgpc.jpg)
+![](https://p.ipic.vip/48zjfm.jpg)
 
 https://github.com/elninotech/uppload
 
@@ -43,7 +43,7 @@ https://github.com/elninotech/uppload
 
 一个外国游客来中国广州游玩，定了一家酒店，但是通过 Google 地图去找，离目的地相差几英里，原因在于 Google 使用的地图坐标系统是 WGS-84 ，而国内的比如 Baidu 地图可以很好的显示，因为其用的是 GCJ-02。一句话总结来说：
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd64j9pkdlj30ge02s3yt.jpg)
+![](https://p.ipic.vip/wys4ck.jpg)
 
 原文地址：https://abstractkitchen.com/blog/a-short-guide-to-chinese-coordinate-system/
 
@@ -61,7 +61,7 @@ https://github.com/elninotech/uppload
 
 如果你是学生党或者学术党，需要经常查找文献，那么一个文献管理工具就显得很有必要。这里推荐一个工具：Zotero。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd3of2gqywj30wi0iaqbp.jpg)
+![](https://p.ipic.vip/k3pn0x.jpg)
 
 地址： https://www.zotero.org/
 
@@ -75,7 +75,7 @@ Elasticsearch 已经火了很多年了，现在依然可以见到他们活跃的
 
 这是一个在线服务，用来生成几何占位符，类似于 Github 的默认头像。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd0hyqu3sij30fy069q2y.jpg)
+![](https://p.ipic.vip/ndcc71.jpg)
 （Github 的默认头像）
 
 使用方式也很简单，并支持多种参数：
@@ -130,7 +130,7 @@ Elasticsearch 已经火了很多年了，现在依然可以见到他们活跃的
 
 一个可以制作类似“Github Project”效果的库。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gcnvvmc8y3j30r50cpta0.jpg)
+![](https://p.ipic.vip/10jcgf.jpg)
 
 地址： https://github.com/lourenci/react-kanban
 
@@ -158,9 +158,9 @@ Base64 编/解码器有不同实现，有的不相互兼容，如果使用了不
 
 原文标题《使用 TypeScript 开发 Web 应用的最佳实践》。文中基本将 TS 在日常开发中的姿势都提到了，并且总结了很多坑点，并且给出了自己的探索和思考。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gcfiu94lj4j30u00xttg8.jpg)
+![](https://p.ipic.vip/uqhezg.jpg)
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gcfiuwib4fj31ao0pk44a.jpg)
+![](https://p.ipic.vip/s87hyj.jpg)
 
 文章地址：https://yrq110.me/post/front-end/best-practice-of-typescript-in-webapp-developing/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 

@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/8nz0hv.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -14,7 +14,7 @@
 
 我看了一下，内容很简单，干货不多，更适合初学者或者是查缺补漏，不适合拿来**修炼**。不过这种将知识点浓缩到一张超级大的图片中的做法还是很震撼的。尤其是我第一次打开的时候。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1grr47lidm1j31h20r6hbq.jpg)
+![](https://p.ipic.vip/o9udce.jpg)
 
 地址：https://github.com/mechaniac/Map-of-Javascript
 
@@ -127,7 +127,7 @@ eggjs 是一个很火的阿里出品的 nodejs 框架。不过我一直认为 ta
 
 一个可视化 TypeScript AST 节点的网站。与其他 AST 可视化网站不同的是其专门用于 TS 的可视化，有 Node，Symbol 这种 TS 专用的节点显示。如果你要了解 TypeScript 的原理或者准备基于其进行改造，那么这个东西一定不要错过了。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1grwxr8a1ugj31p30u0aiv.jpg)
+![](https://p.ipic.vip/8pwlux.jpg)
 
 地址：https://ts-ast-viewer.com/#code/DYUwLgBAhgXAzmATgSwHYHMIF4BEBGHAKEKmwhwCYcg
 
@@ -150,7 +150,7 @@ astro 是 snowpack 团队开发的项目。由于之前看过一个关于 astro 
 
 简单使用 esbuild-loader 替换 babel-loader 就把项目构建速度提升了一倍以上？
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1grt7m077zxj30ka0djtbz.jpg)
+![](https://p.ipic.vip/gxsupj.jpg)
 
 文章地址：[webpack or esbuild: Why not both?](https://blog.logrocket.com/webpack-or-esbuild-why-not-both/ "webpack or esbuild: Why not both?")
 

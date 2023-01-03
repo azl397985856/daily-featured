@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/z1gao9.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。。
 
@@ -12,7 +12,7 @@
 
 网上关于 HTTP 协议的文章很多，面试的时候关于 HTTP 三大版本的差异也是热门考点。这篇文章就通俗易懂地解释了`HTTP/2与HTTP/3 的新特性`, 相比于之前，为什么要推出新的协议，核心解决了什么问题？有什么不足？ 这些东西网上资料要么就是太专业，要么就是太笼统和人云亦云，这篇文章是相对比较适合新手读的一个文章。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8gfh4xbabj30kp09y3yq.jpg)
+![](https://p.ipic.vip/z6ndx7.jpg)
 
 文章地址： https://segmentfault.com/a/1190000020714686#articleHeader16
 
@@ -29,14 +29,14 @@
 今天我继续给大家介绍几个正则学习&练习的网站。
 
 - [Regex Golf](https://alf.nu/RegexGolf) 是一个有名的正则练习网站，会根据你的正则打分，难度偏高。
-  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e747lxbtj30xp08w3yn.jpg)
+  ![](https://p.ipic.vip/1b5zph.jpg)
 - [regexone](https://regexone.com/lesson/introduction_abcs) 是一个交互友好，面向新手的一个正则练习网站，可以交互式地学习正则，右边还贴心地给出了 Notes，另外语言不同其实正则规范也不太一样，这个网站给出了不同语言的正则讲解，很用心。值得一题的是，里面的资料非常新，最新的`/u- interpret the regular expression as unicode codepoints` 都有。
-  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e77k79czj30wm0kwmyy.jpg)
+  ![](https://p.ipic.vip/h2l4qw.jpg)
 - [regexr](https://regexr.com/)这个不是练习的， 是用来可视化的， 和之前的[regexper](https://regexper.com/)有点像，就连域名都差不多，不过这个用户体验是真的棒。
-  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e7a58pt9j31gw0oogn4.jpg)
+  ![](https://p.ipic.vip/dxmwro.jpg)
 
 - [The regular expression game](http://play.inginf.units.it/#/) 是一个过关类型的正则练习网站，有意思的是它可以根据你写的正则匹配程度进行打分，即使你没有全部匹配也是可以得分的。
-  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8e7doryfpj30wv0exdgu.jpg)
+  ![](https://p.ipic.vip/z9hwxv.jpg)
 
 ### 2019-10-28[工具]
 
@@ -49,7 +49,7 @@
 
 目前这个仓库仅有个简陋的 `yaml 数据文件`，记录`技术活动的时间和一些信息`。后续希望能加入一个更好的查询界面。活动组织者可直接修改数据文件并提交 PR，或提交 issue 描述一下活动情况。活动组织者也可以 watch 本仓库，这样当有变动时（通常是会议信息更新），可以收到通知。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ankjskagj30rb0fs74l.jpg)
+![](https://p.ipic.vip/5i1vs1.jpg)
 
 仓库地址：https://github.com/hax/chinese-tech-conf-schedule
 
@@ -61,7 +61,7 @@
 
 另外它还搭配了一个软件[IPic Mover](https://apps.apple.com/cn/app/ipic-mover/id1183822957?mt=12)用来迁移图床，比如你的文章里面都是新浪图床，只需要一键就可以瞬间迁移到别的平台，比如腾讯云 COS。 不过这个搭配的工具是收费的，但是有免费体验时间。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g89bcu7rihj30ha0zkwgi.jpg)
+![](https://p.ipic.vip/kv3rjj.jpg)
 
 ### 2019-10-24[技能]
 
@@ -85,11 +85,11 @@ Github 地址： https://github.com/AliasIO/Wappalyzer
 
 今天给广大的前端朋友们介绍一个在线做题的网站，可以瞬间在线知道答案，而且不需要登陆，一共 58 道题目，不知道后续会不会更新。 这个网站的题目我看了其实没有什么新意，但是不需要登陆而是直接使用 LocalStorage 来存储你的答题情况对用户来说很轻量，给我的感觉很好，感兴趣的可以试一下。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g87wixe9u2j30gk0f93yu.jpg)
+![](https://p.ipic.vip/lcf3sw.jpg)
 
 (题目列表)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g87wji13epj30ht0ket8v.jpg)
+![](https://p.ipic.vip/wu99hs.jpg)
 
 (题目详情)
 
@@ -116,7 +116,7 @@ Github 地址： https://github.com/AliasIO/Wappalyzer
 
 mac 电脑可以在系统偏好设置 - 通知 - 对应 APP - 将标记应用程序的勾去掉
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g82fq7pugoj30hj09vmzb.jpg)
+![](https://p.ipic.vip/hgkwmx.jpg)
 
 一般而言，你也不用担心会错过什么东西，因为右侧通知还是会有的，比如钉钉的会议提醒等。
 
@@ -128,7 +128,7 @@ UMI 的官方定位是`可插拔的企业级 react 应用框架`。其作者云�
 
 说白了，Umi 和 create-react-app（cra）类似，就是现有技术栈的组合，封装细节，让开发者用起来更简单，只写业务代码就可以了，它有几个特点：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g81gv20dydj30rd0g7gq3.jpg)
+![](https://p.ipic.vip/9eixut.jpg)
 
 - 零配置就是默认选型都给你做好了。
 - 开箱即用就是技术栈都固化了。
@@ -136,7 +136,7 @@ UMI 的官方定位是`可插拔的企业级 react 应用框架`。其作者云�
 
 下图是云谦介绍 umi 的定位的时候贴的一张架构图：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hiqa9s0wj30u00l0ac7.jpg)
+![](https://p.ipic.vip/3zntux.jpg)
 
 项目地址：https://github.com/umijs/umi
 
@@ -150,17 +150,17 @@ UMI 的官方定位是`可插拔的企业级 react 应用框架`。其作者云�
 
 > 搭配使用快捷键效果更棒
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g80yebwmr2j30u10fwdhw.jpg)
+![](https://p.ipic.vip/tnd7ba.jpg)
 
 ### 2019-10-16[工具]
 
 今天给大家推荐的是一款非常好用的 Chrome 插件，可以用来查看网站是由什么技术栈构建的。其实类似的软件也有别的，但是这个是我使用过的最好的一个。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7z2wky65hj30d5093gln.jpg)
+![](https://p.ipic.vip/yesxyi.jpg)
 
 （这个是其官网的检测结果）
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7z2wyx0jzj30db09374b.jpg)
+![](https://p.ipic.vip/8p6yr5.jpg)
 
 （这个是 GitHub 的检测结果）
 
@@ -177,11 +177,11 @@ UMI 的官方定位是`可插拔的企业级 react 应用框架`。其作者云�
 - 如果拉黑会提示： `请确认你和他（她）的好友关系是否正常`
 - 如果删除，则会提示： `你不是收款方的好友`
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7ynsya4cmj306m05wt8l.jpg)
+![](https://p.ipic.vip/yro7m7.jpg)
 
 2. 点开好友名片，如果显示左图，说明她真的没有发过一条朋友圈。若显示右图，点开个人相册却什么也看不到，那么你有可能被删除、拉黑、朋友圈屏蔽，或者发过朋友圈但设为私密了。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7yns7ad9uj30k00f0aal.jpg)
+![](https://p.ipic.vip/udu1nn.jpg)
 
 为了搞清楚对方是删除还是屏蔽，你就可以用到开头转账的那一招啦！
 
@@ -189,7 +189,7 @@ UMI 的官方定位是`可插拔的企业级 react 应用框架`。其作者云�
 
 如果想做一些高级的东西，编译是一个绕不过的坎，Babel 是一个前端的转义工具，Babel 有着自己的插件系统，这是个系列文章，通过这个系列你可以学到 AST，以及 Babel 插件相关的东西，并且你可以自己动手写一个 Babel 插件。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7xhj17ovfj30kv0hhmxq.jpg)
+![](https://p.ipic.vip/usdzta.jpg)
 
 文章地址：
 
@@ -200,7 +200,7 @@ UMI 的官方定位是`可插拔的企业级 react 应用框架`。其作者云�
 
 前端在调试兼容性样式的时候是一个很头疼的问题，各个浏览器以及同一个浏览器不同版本支持的 css 都是不同的，比如有些不支持 Grid，有些不支持 cal 函数。如果你自己根据这些去修改代码肯定是非常低效的，这个 Chrome 插件就是解决这样的问题，你可以在高级的浏览器上调试，自行禁用一些 css 特性来 debug。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7ucx8rqutj30dv05sq2v.jpg)
+![](https://p.ipic.vip/bm2mr4.jpg)
 
 仓库地址： https://github.com/keithclark/css-feature-toggle-devtools-extension
 
@@ -212,11 +212,11 @@ chrome 插件地址： https://chrome.google.com/webstore/detail/css-feature-tog
 
 值得一提的是它支持 VSCode 插件形式使用：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7u0yqfy5nj30jn0eg0t4.jpg)
+![](https://p.ipic.vip/kyez90.jpg)
 
 目前有 57 个正则：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7u0zximv9j30b80g3dgg.jpg)
+![](https://p.ipic.vip/1suvao.jpg)
 
 插件地址： https://github.com/any86/any-rule
 
@@ -224,11 +224,11 @@ chrome 插件地址： https://chrome.google.com/webstore/detail/css-feature-tog
 
 傅里叶变换是一种在各个领域都经常使用的数学工具。这个网站将为你介绍傅里叶变换能干什么，为什么傅里叶变换非常有用，以及你如何利用傅里叶变换干漂亮的事。傅立叶变换有很多实际的应用，比如 MP3 的原理，MP3 是如何将声波转化为二进制，并如何进行压缩的？ 比如 JPEG 的原理等。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7s4pz83xyj30x50kpt9s.jpg)
+![](https://p.ipic.vip/bl9p1v.jpg)
 
 这个文章（网站）是我见过傅立叶变换最直观的一个解释之一，并且支持交互式操作。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7s4pm4mooj307404j0sl.jpg)
+![](https://p.ipic.vip/ike7wl.jpg)
 
 网站地址： http://www.jezzamon.com/fourier/zh-cn.html
 
@@ -238,15 +238,15 @@ VSCode 是我经常使用的一个软件，结合自己的开发习惯我也会�
 
 这个需要结合 Gist 使用，具体使用方式请查看官方文档：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7r455m0zmj30i909dq36.jpg)
+![](https://p.ipic.vip/zxr114.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7r4cvxwb5j30rw0gc74r.jpg)
+![](https://p.ipic.vip/nxhasy.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7r4db2zxbj30tf0kcgm9.jpg)
+![](https://p.ipic.vip/h2xa6n.jpg)
 
 其实我有一个专门的[开发常用配置文件备份仓库](https://github.com/azl397985856/dev-config)用来存放这些东西，这是我的仓库存放的配置，这样我即使换了电脑也能很快地用到我最舒服的配置。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7r4nhzmjgj30a808ajrb.jpg)
+![](https://p.ipic.vip/mvp7f0.jpg)
 
 如果大家没有更好的方式，不妨采用这种方式，如果你有更好的方式欢迎给我留言。
 
@@ -258,13 +258,13 @@ VSCode 是我经常使用的一个软件，结合自己的开发习惯我也会�
 
 而在电脑上我使用的是 Alfred 自带的`剪贴板历史`功能，只不过默认不开启，你需要去配置一下才行。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7pqb232pxj30w50fvdgy.jpg)
+![](https://p.ipic.vip/r4ivdg.jpg)
 
 然后你就可以查看你的剪贴板历史了：
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7pqbppfxrj30hg0cn0tt.jpg)
+![](https://p.ipic.vip/i8quci.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7pqc0f7tbj30g40bv75d.jpg)
+![](https://p.ipic.vip/xf00ma.jpg)
 
 ## 关注我
 

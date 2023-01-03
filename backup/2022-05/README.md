@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/vmh9kg.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -49,7 +49,7 @@ via: https://cosdna.com/chs/product.php
 
 无论如何，它能帮你查看和下载作者提交到 chrome 商店的代码。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2o7dzddmkj20hs0b43zc.jpg)
+![](https://p.ipic.vip/3lb3hp.jpg)
 
 via: https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin
 
@@ -111,7 +111,7 @@ via: https://mp.weixin.qq.com/s/SfZbBg0lWhvgzS023wTjYA
 
 我的 [Github Profile](https://github.com/azl397985856 "Github Profile") 所有内容都被这个仓库收录了。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2dyjpe127j217b0u0tde.jpg)
+![](https://p.ipic.vip/arhkz0.jpg)
 
 via: https://github.com/rzashakeri/beautify-github-profile
 
@@ -141,7 +141,7 @@ via: https://jpghd.com/
 
 如下是我云旅游东京的效果：
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h2akh7otscj21e60u0nbz.jpg)
+![](https://p.ipic.vip/8m5zjz.jpg)
 
 PS：似乎有点吃性能
 
@@ -168,7 +168,7 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write -g WebKitDeveloperExtras -bool YES
 ```
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27zhe2s0pj20u00v142c.jpg)
+![](https://p.ipic.vip/dmobjp.jpg)
 
 via: https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/
 
@@ -353,7 +353,7 @@ actual 是最近上 Github trending 的一个仓库。
 
 如下图是我本地部署 actual 后的效果。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h1vmj3dcabj21hz0u0ju3.jpg)
+![](https://p.ipic.vip/tq4xhd.jpg)
 
 如果你满足以下两点，那么可以考虑使用这个支持私有化部署的**个人记账理财工具**。
 
@@ -368,7 +368,7 @@ via: https://github.com/actualbudget/actual
 
 一个后台管理系统的前端 UI。我之前的公司内部的系统就和这个长的几乎一样。如果当时直接拿过来用，岂不是省了很多时间么？
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27zk8mxsqj21hc0u0dit.jpg)
+![](https://p.ipic.vip/3z90ex.jpg)
 
 via: https://github.com/HalseySpicy/Geeker-Admin
 
@@ -376,7 +376,7 @@ via: https://github.com/HalseySpicy/Geeker-Admin
 
 一个可以下载咪咕音乐曲库的 cli 工具。
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h27zzxnfs1j20vg07i0uf.jpg)
+![](https://p.ipic.vip/o5nb67.jpg)
 
 via: https://github.com/zonemeen/musicn
 

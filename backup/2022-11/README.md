@@ -1,7 +1,7 @@
 
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/ptsz11.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -17,7 +17,7 @@ Syncthing 是一个在不同设备之间同步文件的软件， 你可以用它
 
 接下来选择你需要同步的文件， 然后添加远程设备（输入一个设备 ID 就好了）就可以发送文件了。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h8pqybbhc1j31xz0u0gqn.jpg)
+![](https://p.ipic.vip/arcjyh.jpg)
 
 via: https://syncthing.net/
 
@@ -92,7 +92,7 @@ github 代码搜索确实不好用，以至于我一般都是直接将 .com 改�
 
 而现在搜索功能以及代码阅读等都进行了增强，比如可以通过正则来搜代码。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h866cq6tl6j31ub0u0tc9.jpg)
+![](https://p.ipic.vip/lj25qz.jpg)
 
 via: https://github.blog/2022-11-15-a-better-way-to-search-navigate-and-understand-code-on-github/
 
@@ -116,7 +116,7 @@ via: https://github.com/megahertz/electron-log
 
 一个开发人员参考手册，内容一般，但是界面还是蛮漂亮的，期待后续的完善吧。
 
-![](https://tva1.sinaimg.cn/large/008vxvgGly1h866cq6tl6j31ub0u0tc9.jpg)
+![](https://p.ipic.vip/lj25qz.jpg)
 
 - 英文版: https://github.com/Fechin/reference
 - 中文版：https://github.com/jaywcjlove/reference

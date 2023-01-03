@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/r2m9p0.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -71,7 +71,7 @@ OpenSSH 实践手册详细讲解了如何使用 ssh，比如 sshpass 实现无�
 
 vue-use-gesture 是一个 vue 的 hooks 库，用于手势控制。可以使得任意的元素可拖动。你还可以配合 `vue-use-spring` 实现更多动画效果。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1goh5o62202g30jc08y4qq.gif)
+![](https://p.ipic.vip/vm4m8x.gif)
 
 地址：https://vue-use-gesture.netlify.app/docs
 
@@ -93,7 +93,7 @@ npx create-snowpack-app react-snowpack --template @snowpack/app-template-react
 
 console-ban 是一个脑洞很大的库。其可以让你的前端代码免于被人打开控制台查看，减少了前端代码被分析，盗取的风险。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gog22w36j7j30p90nbdhu.jpg)
+![](https://p.ipic.vip/5hwhh5.jpg)
 
 地址：https://github.com/fz6m/console-ban
 
@@ -185,7 +185,7 @@ OrbitDB 一个去中心化的 p2p 数据库，非常有意思。相对于传统�
 
 ### 2021-03-04[仓库]
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gocg4np4s6j31980e0q4b.jpg)
+![](https://p.ipic.vip/ipwo1a.jpg)
 
 类似于 Rust，deno 等，rome 是对 JS,TS, JSON, HTML, CSS 等资源进行管理的一体化工具。之所以说是一体化，指的是其提供 lint，编译，打包，测试等全生命周期。
 
@@ -205,7 +205,7 @@ OrbitDB 一个去中心化的 p2p 数据库，非常有意思。相对于传统�
 
 其实很多语言都有在线运行网站，这里推荐一个在线运行各种语言的网站（现在支持语言有十余种）。免去了你准备环境的烦恼，直接打开浏览器输入代码就可运行看效果。
 
-![网站效果](https://tva1.sinaimg.cn/large/e6c9d24ely1go5pivwe8ij20tr09r3zx.jpg)
+![网站效果](https://p.ipic.vip/pny9qi.jpg)
 
 地址： https://www.onlinegdb.com/online_python_compiler
 
