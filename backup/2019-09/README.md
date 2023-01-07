@@ -72,11 +72,9 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 你的用户如果都是中国用户，那么用[站长工具-国内测试](http://tool.chinaz.com/speedtest/lucifer.ren)应该就够用了。 如果你的用户有海外的话，可以试试[站长工具-国际测试](https://tool.chinaz.com/speedworld/)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7eb8e0j03j30lc0ftq3q.jpg)
-(国内测速)
+![](https://p.ipic.vip/nnd98l.jpg) (国内测速)
 
-![](https://p.ipic.vip/u881ds.jpg)
-(国际测试)
+![](https://p.ipic.vip/u881ds.jpg) (国际测试)
 
 > 不得不吐槽下，网站体验做的不太好，而且广告有点多。
 
@@ -88,9 +86,7 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 最后介绍一个国外的网站[pingdom](https://tools.pingdom.com)，如果客户是全球的，可以考虑用这个，这个是这几个中用户体验做的最好的。给出的技术指标比较多一点，但是他没有区域分布热力图, 并且支持的区域也不多。
 
-![](https://p.ipic.vip/en41ex.jpg)
-![](https://p.ipic.vip/62w9dr.jpg)
-![](https://p.ipic.vip/mg26v2.jpg)
+![](https://p.ipic.vip/en41ex.jpg) ![](https://p.ipic.vip/62w9dr.jpg) ![](https://p.ipic.vip/mg26v2.jpg)
 
 ### 2019-09-27[类库]
 
@@ -106,8 +102,7 @@ Adblock Plus 是世界上最流行的浏览器扩展，世界各地有数百万�
 
 你一定有想用某一个功能的快捷键，却想不出来的情况。也一定面临过多个软件快捷键不统一带来的烦恼，比如 A 软件`CMD + S`是保存， 另外一个软件 B 是`Shift + S`。
 
-对于第一种问题，我们可以用一个叫 cheatsheet 的 mac 软件，有了它你就可以通过长按 command 键，从而查看当前应用的快捷键。
-![](https://p.ipic.vip/cu1s9z.jpg)
+对于第一种问题，我们可以用一个叫 cheatsheet 的 mac 软件，有了它你就可以通过长按 command 键，从而查看当前应用的快捷键。 ![](https://p.ipic.vip/cu1s9z.jpg)
 
 cheatsheet 下载地址： https://cheatsheet-mac.en.softonic.com/mac
 
@@ -131,7 +126,7 @@ Karabiner-Elements 下载地址： https://github.com/tekezo/Karabiner-Elements
 
 今天介绍的这个仓库，首发于 Quora， 后面迁移到了 Github，并由众多高手做出了许多改进，现在已经有 6W+ Star 了。
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7aupdnzicj30dc08040e.jpg)
+![](https://p.ipic.vip/9pc4fs.jpg)
 
 仓库目录（目录是我用工具自己抓的，非官方提供）：
 
@@ -201,11 +196,9 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 ![listen1-icon](https://p.ipic.vip/6r9ugt.jpg)
 
-娱乐插件第一个要分享的是一个听歌的插件，各个平台都有一些独家的音乐，就像视频网站一样，这就可怜了我们这些消费者。
-如果想要听所有的音乐就要办理各个 APP 的会员，或者在多个音乐 APP 中切换。
+娱乐插件第一个要分享的是一个听歌的插件，各个平台都有一些独家的音乐，就像视频网站一样，这就可怜了我们这些消费者。如果想要听所有的音乐就要办理各个 APP 的会员，或者在多个音乐 APP 中切换。
 
-这个插件能让我们听到所有国内几个主流大平台的所有音乐，足不出户畅享所有的音乐，并且值得称赞的是它支持会员系统，你可以保存
-你的歌单，甚至可以直接登陆你的 Github 账户同步多端的数据。
+这个插件能让我们听到所有国内几个主流大平台的所有音乐，足不出户畅享所有的音乐，并且值得称赞的是它支持会员系统，你可以保存你的歌单，甚至可以直接登陆你的 Github 账户同步多端的数据。
 
 ![listen1](https://p.ipic.vip/m7p5t4.jpg)
 
@@ -213,7 +206,7 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 2. Video Downloader Professional
 
-![video-downloader-icon](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn8f9wkj3022020jr5.jpg)
+![video-downloader-icon](https://p.ipic.vip/iy5cy6.jpg)
 
 我主要用它来下载 Youtube 的视频，据说可以下载任何视频网站的视频，但是我亲测了几个网站不可以。
 
@@ -225,7 +218,7 @@ Feedly 是一个 RSS 聚合器应用程序，支持各种网页浏览器和运�
 
 这几个插件的功能基本满足了我看番的所有需求，包括弹幕合并，查找弹幕，自动签到，一键直达，猜你喜欢等等，大家可以安装下自己体验。
 
-![helper-icon](https://tva1.sinaimg.cn/large/006y8mN6gy1g7hdn8wijhj301x01q0sj.jpg)
+![helper-icon](https://p.ipic.vip/nvc2a2.jpg)
 
 [bilibili 助手](https://chrome.google.com/webstore/detail/kpbnombpnpcffllnianjibmpadjolanh)
 
@@ -259,14 +252,11 @@ lucifer 的晚上：
 
 经常有同学问我“你的这个扩展看着不错，叫什么”， “有什么好用的扩展程序推荐么？”。
 
-因此我打算出一个《工具推荐》专题， 然后细分一个类别《工具推荐 - chrome 插件》。 这个算是这个系列的开篇之作，我默默翻开自己的 chrome 插件列表来看，
-有什么好用的推荐给大家。突然灵机一动，干脆把这个“扩展插件管理器”安利给大家好了。之后我会向大家推荐更多好用好玩的插件，有“工具”，“效率”， “娱乐”，“前端”等等。
+因此我打算出一个《工具推荐》专题， 然后细分一个类别《工具推荐 - chrome 插件》。 这个算是这个系列的开篇之作，我默默翻开自己的 chrome 插件列表来看，有什么好用的推荐给大家。突然灵机一动，干脆把这个“扩展插件管理器”安利给大家好了。之后我会向大家推荐更多好用好玩的插件，有“工具”，“效率”， “娱乐”，“前端”等等。
 
 ![chrome-extension-manager](https://p.ipic.vip/vn5ro3.jpg)
 
-我的 chrome 插件差不多有 60 多个，插件多起来的时候，良好的分类，开启关闭，禁用，卸载等管理就变得非常重要了。
-毕竟谁也不想在众多插件中寻寻觅觅的感觉，也不想因为开启太多插件吃我们宝贵的内存吧？
-这个插件的名字是[扩展管理器（Extension Manager)](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+我的 chrome 插件差不多有 60 多个，插件多起来的时候，良好的分类，开启关闭，禁用，卸载等管理就变得非常重要了。毕竟谁也不想在众多插件中寻寻觅觅的感觉，也不想因为开启太多插件吃我们宝贵的内存吧？这个插件的名字是[扩展管理器（Extension Manager)](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
 
 > 对于没有梯子的同学，我还贴心地给大家准备了我从官方下载的扩展文件。 [链接](./assets/2019-09/extension-manager.crx)
 
@@ -274,8 +264,7 @@ lucifer 的晚上：
 
 今天给大家推荐的是一个在给 Git 提交记录增加 emojis 的仓库。
 
-或许你知道[AngularJS Git Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153) , 现在很多开源项目和内部项目都在使用
-，是一道非常流行的 git commit message 规范。 它的好处就是你可以很轻松地通过提交信息，看出`这次提交干的什么，影响范围等`，比如是新特性，修复 bug，增加文档， 重构代码等。
+或许你知道[AngularJS Git Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153) , 现在很多开源项目和内部项目都在使用，是一道非常流行的 git commit message 规范。 它的好处就是你可以很轻松地通过提交信息，看出`这次提交干的什么，影响范围等`，比如是新特性，修复 bug，增加文档， 重构代码等。
 
 这个项目可以说更进一步，通过图的形式，让你更快地感知到这些信息，`可视化形式的沟通毫无疑问是最最有效的。因为人的大脑更擅长处理图像。` 项目提供了几十种 emoji，几乎覆盖了所有的场景。 仓库地址： [https://gitmoji.carloscuesta.me/](https://gitmoji.carloscuesta.me/)
 
@@ -305,8 +294,7 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 
 ### 2019-09-09[类库]
 
-一个可以将草稿转化 HTML 的工具，利用了机器学习来生成页面。 你可以手画一些东西，然后将其直接生成静态页面。缺点也很明显，一方面是静态的，因此没有什么交互，对于交互强的应用没什么用。
-其次就是生成的是 HTML，可维护性会比较差，如果生成类似 JSX 这样的中间产物可能会好一点。当然市面上其实已经有了生成 JSX 产物的开源框架了。 地址：https://github.com/ashnkumar/sketch-code
+一个可以将草稿转化 HTML 的工具，利用了机器学习来生成页面。 你可以手画一些东西，然后将其直接生成静态页面。缺点也很明显，一方面是静态的，因此没有什么交互，对于交互强的应用没什么用。其次就是生成的是 HTML，可维护性会比较差，如果生成类似 JSX 这样的中间产物可能会好一点。当然市面上其实已经有了生成 JSX 产物的开源框架了。 地址：https://github.com/ashnkumar/sketch-code
 
 ### 2019-09-06[学习方法, 好文]
 
@@ -326,4 +314,4 @@ Google 内部有很多通用的最佳实践，在这我推荐一个项目，这�
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

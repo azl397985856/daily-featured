@@ -152,8 +152,7 @@ Chrome 商店地址：https://chrome.google.com/webstore/detail/apollo-client-de
 
 课程内容与赫尔辛基大学计算机科学系的 2020 春季课程【全栈课程】相同，含金量比较高。 我大概看了下，内容写的还不错。相信看完之后， 简单的全栈开发已经难不倒你了。
 
-![](https://p.ipic.vip/691lfl.jpg)
-（部分课程）
+![](https://p.ipic.vip/691lfl.jpg) （部分课程）
 
 这门课程`从基本的 web 开发到 react，redux，typescript，graphql 一应俱全，一共是 10 章内容`。该课的合作伙伴和友情机构包括 Houston Inc, Terveystalo, Elisa, K-ryhmä, Unity Technologies 以及 Konecranes。这里可以观看由我们的合作伙伴和友情机构的多为专家提供的与本门课程主题相关的客座讲座。
 
@@ -169,14 +168,11 @@ Chrome 商店地址：https://chrome.google.com/webstore/detail/apollo-client-de
 - 数据比较全。 除了基础薪资（Base）还有签字费（Sign-On），股票等信息。
 - 可以很方便对比各个公司的职级。
 
-![](https://p.ipic.vip/3sy4l8.jpg)
-（薪资数据经常会更新，实时性好）
+![](https://p.ipic.vip/3sy4l8.jpg) （薪资数据经常会更新，实时性好）
 
-![](https://p.ipic.vip/f5td66.jpg)
-（收录了很多大公司，国内国外都有）
+![](https://p.ipic.vip/f5td66.jpg) （收录了很多大公司，国内国外都有）
 
-![](https://p.ipic.vip/p3o68v.jpg)
-（公司职级对比）
+![](https://p.ipic.vip/p3o68v.jpg) （公司职级对比）
 
 地址：https://www.salarytics.com/
 
@@ -240,4 +236,4 @@ https://github.com/deepfakes/faceswap
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

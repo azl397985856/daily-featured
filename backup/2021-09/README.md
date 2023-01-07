@@ -223,4 +223,4 @@ unplugin （是 universal plugin 的缩写，中文为通用插件）也是一�
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

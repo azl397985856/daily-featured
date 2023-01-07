@@ -262,8 +262,7 @@ if (req.session.test.bucket == 0) {
 
 RPC 是什么？自己如何实现 RPC？实现 RPC 需要考虑什么内容？听字节跳动 web infra 团队大佬娓娓道来。
 
-![](https://p.ipic.vip/7oh4md.jpg)
-（RPC 流程图，包含通信和加解码两大部分）
+![](https://p.ipic.vip/7oh4md.jpg) （RPC 流程图，包含通信和加解码两大部分）
 
 https://mp.weixin.qq.com/s/Ky6SoWJv85orqYioihTRqg
 
@@ -333,4 +332,4 @@ git commit -m "fix brokenFile.js in some-package"
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

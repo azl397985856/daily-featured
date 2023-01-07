@@ -56,16 +56,19 @@ chrome 扩展开发最最头疼的就是各种通信，比如 content-script 和
 ```js
 // 创建自定义面板，同一个插件可以创建多个自定义面板
 // 几个参数依次为：panel标题、图标（其实设置了也没地方显示）、要加载的页面、加载成功后的回调
-chrome.devtools.panels.create('MyPanel', 'img/icon.png', 'mypanel.html', function(panel)
-{
-  console.log('自定义面板创建成功！'); // 注意这个log一般看不到
-});
+chrome.devtools.panels.create(
+  "MyPanel",
+  "img/icon.png",
+  "mypanel.html",
+  function (panel) {
+    console.log("自定义面板创建成功！"); // 注意这个log一般看不到
+  }
+);
 
 // 创建自定义侧边栏
-chrome.devtools.panels.elements.createSidebarPane("Images", function(sidebar)
-{
+chrome.devtools.panels.elements.createSidebarPane("Images", function (sidebar) {
   // sidebar.setPage('../sidebar.html'); // 指定加载某个页面
-  sidebar.setExpression('document.querySelectorAll("img")', 'All Images'); // 通过表达式来指定
+  sidebar.setExpression('document.querySelectorAll("img")', "All Images"); // 通过表达式来指定
   //sidebar.setObject({aaa: 111, bbb: 'Hello World!'}); // 直接设置显示某个对象
 });
 ```
@@ -76,14 +79,13 @@ chrome.devtools.panels.elements.createSidebarPane("Images", function(sidebar)
 
 ![](https://p.ipic.vip/nkswpa.jpg)
 
-
 文章很长，有几万字，大家可以根据自己的需要挑重点看。
 
 地址：https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html
 
 ### 2021-10-26[好文]
 
-OAuth 是什么？你如果还不知道就太 out 了。我的《91天学算法》官方网站就用了 OAuth 来链接 Github 登录，地址：https://leetcode-solution.cn/91
+OAuth 是什么？你如果还不知道就太 out 了。我的《91 天学算法》官方网站就用了 OAuth 来链接 Github 登录，地址：https://leetcode-solution.cn/91
 
 本文以 Github 为例，讲解如果从零接入 OAuth2，适合新手。
 
@@ -207,4 +209,4 @@ Webview UI Toolkit for Visual Studio Code 是一个针对 vscode 开发的组件
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

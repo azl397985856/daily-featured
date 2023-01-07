@@ -1,10 +1,10 @@
-const fs = require('fs')
-const path = require("path")
+const fs = require("fs");
+const path = require("path");
 
 const renderTemplate = (title, body) => `
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/0bhil1.jpg)![](https://p.ipic.vip/0bhil1.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -24,30 +24,33 @@ ${body}
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">
 
-`
+`;
 
-const readme = fs.readFileSync(path.resolve(__dirname, '../README.md')).toString()
+const readme = fs
+  .readFileSync(path.resolve(__dirname, "../README.md"))
+  .toString();
 
-const title = readme.match(/新鲜出炉 ((.+))$/m)[1].slice(1, -1)
-const body = /(###[\d\D]+)## 历史汇总/mg.exec(readme)[1]
+const title = readme.match(/新鲜出炉 ((.+))$/m)[1].slice(1, -1);
+const body = /(###[\d\D]+)## 历史汇总/gm.exec(readme)[1];
 
-
-const template = renderTemplate(title, body)
+const template = renderTemplate(title, body);
 
 // 写入 backup
-fs.mkdirSync(path.resolve(__dirname, `../backup/${title}`))
-fs.writeFileSync(path.resolve(__dirname, `../backup/${title}/README.md`), template)
+fs.mkdirSync(path.resolve(__dirname, `../backup/${title}`));
+fs.writeFileSync(
+  path.resolve(__dirname, `../backup/${title}/README.md`),
+  template
+);
 
 // 更新 summary
 
-const lines = fs.readFileSync(path.resolve(__dirname, '../SUMMARY.md')).toString().split('\n')
+const lines = fs
+  .readFileSync(path.resolve(__dirname, "../SUMMARY.md"))
+  .toString()
+  .split("\n");
 
-lines.splice(1, 0, `- [${title}](backup/${title}/README.md)`)
+lines.splice(1, 0, `- [${title}](backup/${title}/README.md)`);
 
-fs.writeFileSync(path.resolve(__dirname, '../SUMMARY.md'), lines.join('\n'))
-
-
-
-
+fs.writeFileSync(path.resolve(__dirname, "../SUMMARY.md"), lines.join("\n"));

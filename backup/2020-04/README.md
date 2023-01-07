@@ -26,11 +26,9 @@ Web 应用（包括 PC 和移动）变得越来越流行，相对于传统的客
 
 业界很多工具，比如 Puppeteer 也是基于 CDP 完成的。 值得注意的是，其有多种实现，可以作用在不同的浏览器，只要浏览器实现了 CDP 规定的接口即可。如果没有实现，那么你需要做一个代理进行格式转换。
 
-![](https://p.ipic.vip/yi2idd.jpg)
-（不同实现）
+![](https://p.ipic.vip/yi2idd.jpg) （不同实现）
 
-![](https://p.ipic.vip/rfnuqc.jpg)
-（API 种类）
+![](https://p.ipic.vip/rfnuqc.jpg) （API 种类）
 
 https://github.com/cyrus-and/chrome-remote-interface
 
@@ -159,7 +157,7 @@ https://mp.weixin.qq.com/s/yDOXb9diMFcmbKhc58oH4w
 
 ![](https://p.ipic.vip/o4nxz8.gif)
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdmc6lom1lj31gk0gagnq.jpg)
+![](https://p.ipic.vip/f4l9q0.jpg)
 
 地址： https://app.flourish.studio/projects
 
@@ -209,4 +207,4 @@ WebAssembly 是一种一种新的“语言”。允许开发者使用 C/C++等�
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

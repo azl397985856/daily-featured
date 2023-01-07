@@ -111,16 +111,13 @@ Github Large File Storage （简称 git-lfs）, 可以用来存储大文件，�
 - 会话多选删除
 - 自动登录开关
 - 通知中心快捷回复
-- 聊天窗口表情包复制 & 存储
-  ...
+- 聊天窗口表情包复制 & 存储 ...
 
 我用的比较多的功能恐怕就是双开和防撤回了。
 
-- 消息防撤回
-  ![消息防撤回.gif](https://p.ipic.vip/ssjr8v.gif)
+- 消息防撤回 ![消息防撤回.gif](https://p.ipic.vip/ssjr8v.gif)
 
-- 微信多开
-  ![微信多开.gif](https://p.ipic.vip/94olws.gif)
+- 微信多开 ![微信多开.gif](https://p.ipic.vip/94olws.gif)
 
 仓库地址：https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/tree/master
 
@@ -201,10 +198,7 @@ dig 命令是常用的域名查询工具，可以用来测试域名系统工作�
 
 前几天读了一篇文章《Scaling webapps for newbs & non-techies》，文章从最简单的单体应用，逐步讲到大型应用架构，不仅讲的通俗易懂，并且图画的也非常好，是我喜欢的风格。 很期待他的第二篇《the cloud for newbs and non-techies》。
 
-![](https://p.ipic.vip/e5iwtf.jpg)
-（A single server + database）
-![](https://p.ipic.vip/suk04i.jpg)
-（Adding a Reverse Proxy）
+![](https://p.ipic.vip/e5iwtf.jpg) （A single server + database） ![](https://p.ipic.vip/suk04i.jpg) （Adding a Reverse Proxy）
 
 文章地址： https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/
 
@@ -280,4 +274,4 @@ VSCode 和 MDN 进行了官方联动，[详情](https://code.visualstudio.com/up
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

@@ -48,7 +48,7 @@ RSLint 是一个用 Rust 写的 lint 工具。 规则挺有意思的， 最关�
 
 vue3 出来了，大家都开始学了起来。这里有一份 vue3 学习资料的集合，或者可以帮助你。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjlbt5q7ygj30u00w1wkz.jpg)
+![](https://p.ipic.vip/xnhx4z.jpg)
 
 地址：https://github.com/gautemo/vue-3-playground
 
@@ -62,7 +62,7 @@ vue3 出来了，大家都开始学了起来。这里有一份 vue3 学习资料
 
 figlet.js 是一个用于生产 FIGfont 规范的一个 JS 库。效果图：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjlbpo5l30j31c00tgdix.jpg)
+![](https://p.ipic.vip/p8m8f1.jpg)
 
 地址：https://github.com/patorjk/figlet.js
 
@@ -99,6 +99,6 @@ const open = require("open");
 
 一个 30 天免费学习的网站，适合基础薄弱的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjmpyj2eiuj30zg0lo7l2.jpg)
+![](https://p.ipic.vip/21ccmw.jpg)
 
 https://javascript30.com/

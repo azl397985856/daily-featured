@@ -1,4 +1,3 @@
-
 # 每日一荐
 
 ![](https://p.ipic.vip/jz9ms7.jpg)
@@ -145,8 +144,6 @@ via: https://github.com/ronami/HypeScript
 - 第二个是 HardSourceWebpackPlugin，它可以缓存构建的结果以便下次使用，实际使用上来看效果很明显。https://github.com/mzgoddard/hard-source-webpack-plugin
 - 最后一个是 esbuild-loader，它是基于大名鼎鼎的 esbuild 来做的，速度相当快，并且配套设施发展地很快。同样， 这个工具的提速效果也相当明显。https://github.com/privatenumber/esbuild-loader
 
-
-
 ## 关注我
 
 我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
@@ -157,5 +154,4 @@ via: https://github.com/ronami/HypeScript
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
-
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

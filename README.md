@@ -1,6 +1,6 @@
 # 每日一荐
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8d0sktqrwj30hs07maae.jpg)
+![](https://p.ipic.vip/2in7io.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
@@ -28,7 +28,7 @@
 
 [点此参与](https://github.com/azl397985856/leetcode/discussions/532)
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gq0mm4lscqj313h0r0diy.jpg)
+![](https://p.ipic.vip/plj0jz.jpg)
 
 - 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
 - [91 第三期讲义 - 二分专题（上）](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-search-1.md)
@@ -75,11 +75,11 @@ via: https://github.com/iptv-org/iptv
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">
 
 大家也可以加我微信好友进行交流！
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gx11szd02ej30e80e8dg3.jpg)
+![](https://p.ipic.vip/p6dekr.jpg)
 
 ## 贡献
 

@@ -156,7 +156,7 @@ OrbitDB 一个去中心化的 p2p 数据库，非常有意思。相对于传统�
 
 文章名《如何构建一款超级玛丽》。虽然说是教你构建超级玛丽，其实就是一个简单的小人运动，并没有什么吃蘑菇的场景。不过基于它的代码再去实现也不是难事，毕竟入门是最难的。作者写了好几篇博客来讲构建超级玛丽的细节。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go7ygjneihg318y0cy4c4.gif)
+![](https://p.ipic.vip/bpqcws.gif)
 
 文章地址：http://www.wopaige.cn/views/JS%E5%9F%BA%E7%A1%80/Super.html
 
@@ -164,7 +164,7 @@ OrbitDB 一个去中心化的 p2p 数据库，非常有意思。相对于传统�
 
 随着 vue3.0 的发布 elementui 也开始跟进，推出了 elementui-plus。如果你对 element-ui 比较熟悉，那么使用它的话过渡也会比较自然。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gocg8zb556j30sv0ozgox.jpg)
+![](https://p.ipic.vip/bmcu5z.jpg)
 
 地址：https://github.com/element-plus/element-plus
 
@@ -227,4 +227,4 @@ OrbitDB 一个去中心化的 p2p 数据库，非常有意思。相对于传统�
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

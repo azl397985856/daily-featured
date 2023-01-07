@@ -32,29 +32,21 @@
 
 Matches patterns in input text.Supports simple patterns and regular expressions.
 
-- Search for an exact string:
-  grep search_string path/to/file
+- Search for an exact string: grep search_string path/to/file
 
-- Search in case-insensitive mode:
-  grep -i search_string path/to/file
+- Search in case-insensitive mode: grep -i search_string path/to/file
 
-- Search recursively (ignoring non-text files) in current directory for an exact string:
-  grep -RI search_string .
+- Search recursively (ignoring non-text files) in current directory for an exact string: grep -RI search_string .
 
-- Use extended regular expressions (supporting ?, +, {}, () and |):
-  grep -E ^regex\$ path/to/file
+- Use extended regular expressions (supporting ?, +, {}, () and |): grep -E ^regex\$ path/to/file
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
-  grep -C|B|A 3 search_string path/to/file
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match: grep -C|B|A 3 search_string path/to/file
 
-- Print file name with the corresponding line number for each match:
-  grep -Hn search_string path/to/file
+- Print file name with the corresponding line number for each match: grep -Hn search_string path/to/file
 
-- Use the standard input instead of a file:
-  cat path/to/file | grep search_string
+- Use the standard input instead of a file: cat path/to/file | grep search_string
 
-- Invert match for excluding specific strings:
-  grep -v search_string
+- Invert match for excluding specific strings: grep -v search_string
 
 ### 2019-12-23[学习方法]
 
@@ -155,8 +147,7 @@ alias unproxy='unset all_proxy'
 
 其中`socks5://127.0.0.1:1086`是我的本机的正向代理地址。
 
-如下是使用效果：
-![](https://p.ipic.vip/jhy93x.jpg)
+如下是使用效果： ![](https://p.ipic.vip/jhy93x.jpg)
 
 如图显示我们代理成功了，而且我们可以方便的在不想要代理的时候去掉代理。
 
@@ -170,12 +161,7 @@ alias unproxy='unset all_proxy'
 
 在分析 CPU、内存、磁盘等的性能指标时，有几种工具是高频出现的，如 top、vmstat、pidstat，这里稍微总结一下:
 
-CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；
-内存：top、free、vmstat、cachetop、cachestat、sar、jmap；
-磁盘：top、iostat、vmstat、pidstat、du/df；
-网络：netstat、sar、dstat、tcpdump；
-应用：profiler、dump 分析。
-排查 Java 应用的线上异常或者分析应用代码瓶颈，可以使用阿里开源的 Arthas ，nodejs 应用可以使用 alinode
+CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；内存：top、free、vmstat、cachetop、cachestat、sar、jmap；磁盘：top、iostat、vmstat、pidstat、du/df；网络：netstat、sar、dstat、tcpdump；应用：profiler、dump 分析。排查 Java 应用的线上异常或者分析应用代码瓶颈，可以使用阿里开源的 Arthas ，nodejs 应用可以使用 alinode
 
 ![](https://p.ipic.vip/mojctf.jpg)
 
@@ -238,4 +224,4 @@ CPU：top、vmstat、pidstat、sar、perf、jstack、jstat；
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

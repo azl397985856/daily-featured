@@ -1,4 +1,3 @@
-
 # 每日一荐
 
 ![](https://p.ipic.vip/vmh9kg.jpg)
@@ -380,8 +379,6 @@ via: https://github.com/HalseySpicy/Geeker-Admin
 
 via: https://github.com/zonemeen/musicn
 
-
-
 ## 关注我
 
 我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
@@ -392,5 +389,4 @@ via: https://github.com/zonemeen/musicn
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
-
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">

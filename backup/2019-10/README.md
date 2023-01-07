@@ -28,15 +28,11 @@
 
 今天我继续给大家介绍几个正则学习&练习的网站。
 
-- [Regex Golf](https://alf.nu/RegexGolf) 是一个有名的正则练习网站，会根据你的正则打分，难度偏高。
-  ![](https://p.ipic.vip/1b5zph.jpg)
-- [regexone](https://regexone.com/lesson/introduction_abcs) 是一个交互友好，面向新手的一个正则练习网站，可以交互式地学习正则，右边还贴心地给出了 Notes，另外语言不同其实正则规范也不太一样，这个网站给出了不同语言的正则讲解，很用心。值得一题的是，里面的资料非常新，最新的`/u- interpret the regular expression as unicode codepoints` 都有。
-  ![](https://p.ipic.vip/h2l4qw.jpg)
-- [regexr](https://regexr.com/)这个不是练习的， 是用来可视化的， 和之前的[regexper](https://regexper.com/)有点像，就连域名都差不多，不过这个用户体验是真的棒。
-  ![](https://p.ipic.vip/dxmwro.jpg)
+- [Regex Golf](https://alf.nu/RegexGolf) 是一个有名的正则练习网站，会根据你的正则打分，难度偏高。 ![](https://p.ipic.vip/1b5zph.jpg)
+- [regexone](https://regexone.com/lesson/introduction_abcs) 是一个交互友好，面向新手的一个正则练习网站，可以交互式地学习正则，右边还贴心地给出了 Notes，另外语言不同其实正则规范也不太一样，这个网站给出了不同语言的正则讲解，很用心。值得一题的是，里面的资料非常新，最新的`/u- interpret the regular expression as unicode codepoints` 都有。 ![](https://p.ipic.vip/h2l4qw.jpg)
+- [regexr](https://regexr.com/)这个不是练习的， 是用来可视化的， 和之前的[regexper](https://regexper.com/)有点像，就连域名都差不多，不过这个用户体验是真的棒。 ![](https://p.ipic.vip/dxmwro.jpg)
 
-- [The regular expression game](http://play.inginf.units.it/#/) 是一个过关类型的正则练习网站，有意思的是它可以根据你写的正则匹配程度进行打分，即使你没有全部匹配也是可以得分的。
-  ![](https://p.ipic.vip/z9hwxv.jpg)
+- [The regular expression game](http://play.inginf.units.it/#/) 是一个过关类型的正则练习网站，有意思的是它可以根据你写的正则匹配程度进行打分，即使你没有全部匹配也是可以得分的。 ![](https://p.ipic.vip/z9hwxv.jpg)
 
 ### 2019-10-28[工具]
 
@@ -276,4 +272,4 @@ VSCode 是我经常使用的一个软件，结合自己的开发习惯我也会�
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-<img width="300" src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7he9xdtmyj30by0byaac.jpg">
+<img width="300" src="https://p.ipic.vip/bp35i7.jpg">
