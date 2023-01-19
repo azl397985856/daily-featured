@@ -40,6 +40,34 @@
 
 ## 新鲜出炉 (2023-01)
 
+### 2023-01-19[仓库]
+
+这是一个给 JS 选手的 Go 语言学习手册。
+
+通过一个个常见的 case 的 JS 写法和 Go 写法对照，帮你快速掌握 Go。 之前我也分享过一些各种语言主流写法对比，感兴趣的可以翻翻历史记录。
+
+![](https://p.ipic.vip/9unsf7.png)
+
+这个仓库的对比写法或许有用， 不过大家千万不能仅仅阅读一下就完事了，这不是 API 手册。
+
+我的方法是每天通过刷力扣的时候使用 Go 来刷来强化， 话说我的 Python 就是这么学习的 😄。
+
+![](https://p.ipic.vip/de8c5c.png)
+
+via: https://github.com/miguelmota/golang-for-nodejs-developers
+
+### 2023-01-18[扩展]
+
+meduim 是一个很流行的国外网站， 里面各种内容都有， 我之前会时常在里面看一些技术文章。
+
+这个网站很反人性的一点是，他会给你每一月的阅读额度，超过后需要付费才能继续看。这本身可以理解， 但是竟然只要你使用无痕模式就没有这种限制，这让付费的我很难接受。
+
+这个扩展工具可以在你没有额度的时候通过点击一下立马解锁阅读权限，原理和上面类似，就是退出登录并将一些标记你身份的信息消除。
+
+![](https://p.ipic.vip/18p8e2.png)
+
+via: https://chrome.google.com/webstore/detail/unlimited-medium/medpfcealkejgpagldhgadbfaejjacaa/
+
 ### 2023-01-17[类库]
 
 astro 是一个不错的框架，不过给我印象最深的是它的 tutorial，做的太好了，值得我学习。
