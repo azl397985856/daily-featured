@@ -40,6 +40,30 @@
 
 ## 新鲜出炉 (2023-01)
 
+### 2023-01-31[插件]
+
+error lens 是一个 vscode 插件， 可以内敛的形式显示错误信息。在这之前大家需要在 output 或者 problems 面板查看，相当麻烦。
+
+![](https://p.ipic.vip/6kpp7b.png)
+
+比如你的括号少了一个， 它就立马提示你哪里需要添加一个括号。大家 vscode 插件市场搜索 Error Lens 即可安装。 
+
+### 2023-01-30[好文]
+
+Zod: The Next Biggest thing after Typescript
+
+本文介绍了 zod 如何同时在运行时和编译时进行类型校验的。 有点像一次编写，到处运行？
+
+via: https://dev.to/jareechang/zod-the-next-biggest-thing-after-typescript-4phh
+
+### 2023-01-28[库]
+
+你可能遇到文本换行后第二行只有一个字的情况， 这个时候会显得不美观，能不能让他们挤挤，弄到一行呢？
+
+react-wrap-balancer 就可以满足这个需求， 它是一个优化换行样式的 react 库。当浏览器视口发生变化的时候，它能适应这个变化，然后以最佳的方式展现换行文字。
+
+via: https://www.npmjs.com/package/react-wrap-balancer
+
 ### 2023-01-19[仓库]
 
 这是一个给 JS 选手的 Go 语言学习手册。
