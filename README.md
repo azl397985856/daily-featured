@@ -118,11 +118,25 @@ astro 是一个不错的框架，不过给我印象最深的是它的 tutorial�
 
 via: https://docs.astro.build/en/tutorial/0-introduction/
 
-### 2023-01-14[仓库]
+### 2023-01-13[仓库]
 
 根据文件的引用关系计算文件的重要程度，被引用的越多越重要，这个思路和代码其实都蛮简单的。大家没必要真的项目中使用，主要就是学习思路。
 
 via: https://github.com/codemix/deprank
+
+### 2023-01-12[教程]
+
+这个视频教程教你如何使用 JavaScript 在几分钟内实现一个迷你区块链，二倍速观看效果更佳。看完后你会对区块链背后的技术有一个简单认知， 别小看这个简单认知， 这就是区块链的核心。一些其他都是围绕这个核心展开。
+
+> 这是第一部分，视频的介绍部分有第二部分的链接。为了防止修改， 我贴一下 https://youtu.be/HneatE69814
+
+via: https://www.youtube.com/watch?v=zVqczFZr124
+
+### 2023-01-11[教程]
+
+《The Newbies Guide to Crypto》一个面向新手（无需编程语言基础）的加密货币，区块链教程。 更加侧重的是实用角度，你如何想开发，可以关注一下智能合约， Dapp 等， Github 也有很多优秀的资料。
+
+via: https://helpthisbook.com/sunny/the-newbies-guide-to-crypto/42abff74-1052-4181-a097-ca0309c4cc15
 
 ### 2023-01-04[工具]
 
