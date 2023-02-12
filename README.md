@@ -40,6 +40,39 @@
 
 ## 新鲜出炉 (2023-02)
 
+### 2023-02-10[技巧]
+
+分享几个 git 配置技巧。
+
+1. 先配 name 和 email。
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@your-domain.com"
+```
+
+2. 再执行这两条命令。
+```bash
+git config --global --add push.default current
+git config --global --add push.autoSetupRemote true
+```
+
+你会收获两个好处。
+
+- 1）不需要「git push origin xxx」，只要「git push」
+
+- 2）再也不会遇到「no upstream branch」的报错，也不需要「git push --set-upstream origin test && git push」。
+
+因为我们执行 git push 的大部分场景都是 push 到同名的 remote branch。来源是 Auto setup remote branch and never again see an error about the missing upstream
+
+3. 再修改 ~/.gitignore_global，加入和你 IDE 相关的 ignore 配置。
+
+我会把 .idea 加进去，这是和你相关的专有配置，如果给其他用 VSCode 的作者的项目提交时，都加上 .idea 的 .gitignore 配置，其实并不太礼貌。反之，VSCode 或其他编辑器工具的用户也要加上自己的。
+
+```
+*~
+.DS_Store
+.idea
+```
 ### 2023-02-07[工具]
 
 turbo 管理 mono 有一很吸引我的点就是它的 cache。它会利用尽可能多的信息（比如参数， 环境变量等），判断 output 在之前是否已经生成了，进行减少重复工作。它甚至支持服务端缓存， 整个开发团队共享一份 cache，那么构建速度肯定会显著提高。
