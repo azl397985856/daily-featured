@@ -40,6 +40,25 @@
 
 ## 新鲜出炉 (2023-02)
 
+### 2023-02-14[新闻]
+
+chrome 110 新增一个新的伪类选择器：:picture-in-picture 可以自定义画中画元素样式。
+
+其实从 chrome 69 开始我们就可以通过 api 来让视频画中画播放。
+
+```js
+function togglePictureInPicture() {
+  if (document.pictureInPictureElement) {
+    document.exitPictureInPicture();
+  } else if (document.pictureInPictureEnabled) {
+    video.requestPictureInPicture();
+  }
+}
+```
+不过现在我们甚至可以为其自定义样式。
+
+via: https://developer.mozilla.org/en-US/docs/Web/CSS/:picture-in-picture
+
 ### 2023-02-10[技巧]
 
 分享几个 git 配置技巧。
