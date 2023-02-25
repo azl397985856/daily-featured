@@ -40,6 +40,85 @@
 
 ## 新鲜出炉 (2023-02)
 
+### 2023-02-25[工具]
+
+The fastest JSON schema Validator. Supports JSON Schema（最快的 JSON schema 验证器，支持 JSON schema）。
+
+via: https://github.com/ajv-validator/ajv
+
+如果你有验证 JSON 的需求，可以一试。
+
+下面是一个使用 ajv 的简单例子。
+
+```js
+// or ESM/TypeScript import
+import Ajv from "ajv"
+// Node.js require:
+const Ajv = require("ajv")
+
+const ajv = new Ajv() // options can be passed, e.g. {allErrors: true}
+
+const schema = {
+  type: "object",
+  properties: {
+    foo: {type: "integer"},
+    bar: {type: "string"},
+  },
+  required: ["foo"],
+  additionalProperties: false,
+}
+
+const data = {
+  foo: 1,
+  bar: "abc",
+}
+
+const validate = ajv.compile(schema)
+const valid = validate(data)
+if (!valid) console.log(validate.errors)
+```
+
+另外它的报错相对于用户来说不友好，可以结合使用 
+better-ajv-errors 来获得更好的效果。
+
+![](https://p.ipic.vip/s7ifcr.jpg)
+
+via: https://github.com/atlassian/better-ajv-errors
+
+
+### 2023-02-24[类库]
+
+一个帮助你 debug 的库。可以：
+
+- 通过环境变量显示指定的信息（信息过滤的作用
+- 自动在尾部添加时间消耗
+- 不同颜色高亮显示
+- 等等
+
+支持在 nodejs 和 浏览器中使用。
+
+![](https://p.ipic.vip/eamq1p.jpg)
+
+![](https://p.ipic.vip/9czksq.jpg)
+
+via: https://www.npmjs.com/package/debug
+
+### 2023-02-15[教程]
+
+这个教程内容其实一般，不是我看过的同类型中质量最好的，但是其交互式的这种形式我特别喜欢，想要借鉴。
+
+这真的是一个我一直想做的类型 - 交互式教程。我的想法是做一个交互式的算法教程，我之前没有接触过这种形式，但是在我的想象中如果做出来，那么肯定能帮助到很多人。
+
+这个教程是使用 JS 编写 Lisp 的编译器。可以帮助你理解：
+
+- 词法分析
+- 语法分析
+- AST 遍历
+- 代码生成
+
+另外可以帮助你理解语言规范，递归等内容。
+
+via: https://citw.dev/tutorial/create-your-own-compiler
 ### 2023-02-14[新闻]
 
 chrome 110 新增一个新的伪类选择器：:picture-in-picture 可以自定义画中画元素样式。
