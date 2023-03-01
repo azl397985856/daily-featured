@@ -40,6 +40,44 @@
 
 ## 新鲜出炉 (2023-02)
 
+### 2023-02-28[新闻]
+
+chrome 的 headless 模式（无头浏览器）可以做一些集成测试。而之前由于 headless 模式和非 headless 模式两者是使用不用的技术实现，因此会有一些 bug（比如在无头浏览器好好的，在有头浏览器就有 bug，反之亦然）。
+
+新的 chrome (版本大于等于 Chrome 112) 无头浏览器和有头浏览器采用的技术（codebase）是一样的， 因此不会有上面提到的问题。
+
+via: https://developer.chrome.com/articles/new-headless/
+
+### 2023-02-27[好文]
+
+《useSignal() is the Future of Web Frameworks》这篇文章解释了为什么 react 不能像 vue 那样智能追踪需要更新的组件。react 想做到这一点，就需要引入类似 useSignal() 这样的机制。而 preact 就对 useSignal() 进行了支持。
+
+目前  Vue, Preact, Solid 和 Qwik 都支持。
+
+via: https://www.builder.io/blog/usesignal-is-the-future-of-web-frameworks
+
+### 2023-02-26[库]
+
+> A 'CSS reset' for TypeScript, improving types for common JavaScript API's
+
+ts-reset 是一个类似于垫片的库，可以”修复“一些 ts 上的诡异行为。
+
+Without ts-reset:
+
+- 🚨 .json (in fetch) and JSON.parse both return any
+- 🤦 .filter(Boolean) doesn't behave how you expect
+- 😡 array.includes often breaks on readonly arrays
+ts-reset smooths over these hard edges, just like a CSS reset does in the browser.
+
+With ts-reset:
+
+- 👍 .json (in fetch) and JSON.parse both return unknown
+- ✅ .filter(Boolean) behaves EXACTLY how you expect
+- 🥹 array.includes is widened to be more ergonomic
+- 🚀 And several more changes!
+
+via: https://github.com/total-typescript/ts-reset
+
 ### 2023-02-25[工具]
 
 The fastest JSON schema Validator. Supports JSON Schema（最快的 JSON schema 验证器，支持 JSON schema）。
