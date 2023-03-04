@@ -40,6 +40,29 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-06[好文]
+
+FinalizationRegistry 是一个新的浏览器 api，可以监听 JS 中的变量的内存释放情况。
+
+《Experiments with the JavaScript Garbage Collector》 使用了这个 API 对常见的内存泄漏情况进行了分析，非常通俗易懂。 其中有一个 case 使用 eval，非常有意思。
+
+via: https://dev.to/codux/experiments-with-the-javascript-garbage-collector-2ae3
+### 2023-03-05[类库]
+
+texthighlighter 是一个 JS 类库，可以高亮 textarea。 
+
+如果不使用这个库，你可能需要自己实现一个 textarea，然后用样式定制， 比较麻烦。
+
+![](https://p.ipic.vip/a8aemg.png)
+
+via: https://wstaeblein.github.io/texthighlighter/
+
+### 2023-03-04[类库]
+
+idraw 是一个画图工具， 不仅提供网页版本， 还提供一个 JS 库供开发者使用。类似 @excalidraw/excalidraw， UI 风格不太一样， 当时 API 基本是一致的。
+
+via: https://idraw.js.org/
+
 ### 2023-03-02[好文]
 
 deno 自从诞生就考虑安全，隐私问题。 因此使用 deno 来搭建在线环境要比使用 node 简单很多。 这篇文章就介绍如何使用 deno 来搭建一个安全的 sandbox 用于执行用户的代码，提供一个云平台（Cloud Platform）。
