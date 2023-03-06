@@ -40,6 +40,60 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-09[工具]
+
+我经常需要写一些脚本做一些事情，之前都是用 bash。但 bash 用起来实在没有高级语言方便，尤其是 JS。
+
+于是后来我也尝试使用 nodejs 写脚本，但是 node 写起来真的是又臭又长。
+
+这个工具是 Google 开源的，通过它你可以使用 JS 来写脚本，并且不会像原生 nodejs 写法一样又臭又长。尤其你需要使用 child_process 去做一些其他事情，然后需要通过进程通信传输数据的时候。
+
+来看一个官方的例子感受一下：
+
+```js
+#!/usr/bin/env zx
+
+await $`cat package.json | grep name`
+
+let branch = await $`git branch --show-current`
+await $`dep deploy --branch=${branch}`
+
+await Promise.all([
+  $`sleep 1; echo 1`,
+  $`sleep 2; echo 2`,
+  $`sleep 3; echo 3`,
+])
+
+let name = 'foo bar'
+await $`mkdir /tmp/${name}`
+```
+
+以下是一些其提供的很好用的”简写“。
+
+```js
+$ · cd() · fetch() · question() · sleep() · echo() · stdin() · within() · retry() · spinner() · chalk · fs · os · path · glob · yaml · minimist · which · __filename · __dirname · require()
+```
+
+via: https://github.com/google/zx
+
+### 2023-03-08[新闻]
+
+Github 资料中可以编辑代称了，通过代称其他可以知道你是个人还是团体，是男的还是女的。
+
+![](https://p.ipic.vip/o84h1m.png)
+
+这个是 Github 2023-03-01 加的一个新功能。via: https://github.blog/changelog/2023-03-01-add-pronouns-to-your-github-profile/
+
+### 2023-03-07[新闻]
+
+TypeScript 5.0 RC 已经发布了，来看看人家是怎么写发布博客的。如果你也要发布重大更新，想通知他人，而不知道如何写，不妨参考一下。
+
+另外这个博客有个很有意思的事情。”原来 anyscript 这个梗， 微软官方也玩 😄“
+
+![](https://p.ipic.vip/paggl6.png)
+
+via: https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/#const-type-parameters
+
 ### 2023-03-06[好文]
 
 FinalizationRegistry 是一个新的浏览器 api，可以监听 JS 中的变量的内存释放情况。
