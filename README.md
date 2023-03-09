@@ -40,6 +40,66 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-11[类库]
+
+TanStack Query (以前叫 React Query)，是一个功能异常强大的状态管理库，以前是为 React 做的。现在支持所有主流框架，就连名字都改了，目前的版本是 V4。
+
+几大核心功能：
+
+- fetching
+- caching
+- synchronizing
+- updating server state
+
+我的感受是，使用了它可以让你更方便的管理状态，尤其是服务端的数据。比如你新建了一个 mutation 是修改服务端的 post 数据， 那么这个库可以帮助你自动更新绑定了这个 post 数据源的组件。就不会发生修改了数据后，页面没有刷新的问题。同时它可以减少一些网络请求，至于什么时候以及为什么可以减少网络请求，留给大家去发现原因吧。
+
+React 引入 hooks 之后，这个库就更好用了，核心功能就是 useQuery 的一个 hook。 代码大概这样：
+
+```js
+function Todos() {
+  const { status, data, error } = useQuery({
+    queryKey: ['todos'],
+    queryFn: fetchTodoList,
+  })
+
+  if (status === 'loading') {
+    return <span>Loading...</span>
+  }
+
+  if (status === 'error') {
+    return <span>Error: {error.message}</span>
+  }
+
+  // also status === 'success', but "else" logic works, too
+  return (
+    <ul>
+      {data.map((todo) => (
+        <li key={todo.id}>{todo.title}</li>
+      ))}
+    </ul>
+  )
+}
+```
+
+via: https://tanstack.com/query/latest/docs/react/overview
+
+### 2023-03-10[框架]
+
+remix 是一个基于 JS 的全栈框架。类似于 next.js 或者 nuxt.js ，大家可以对比起来理解和学习。
+
+它可以通过 esbuild 构建出：
+
+- 服务端代码
+- 客户端代码
+
+并”自动”进行优化，使得发送到客户端的代码足够少，进而实现更好的性能，这也是它的主打特点。
+
+要做到这一点，就需要严格区分 client 和 server，并贯穿整个 codebase。所以它就是一个服务端渲染+客户端渲染的框架，屏蔽了一些底层细节，开发者更好上手。
+
+我的下一个网站就打算使用 remix 来做，看看它到底有多快。
+
+via: https://remix.run/docs/
+
 ### 2023-03-09[工具]
 
 我经常需要写一些脚本做一些事情，之前都是用 bash。但 bash 用起来实在没有高级语言方便，尤其是 JS。
