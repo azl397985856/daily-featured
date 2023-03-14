@@ -40,6 +40,41 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-14[好文]
+
+前端最近有一个新的概念 特别火，叫 Signal，之前也在 daily featured 中介绍过。
+
+今天给大家推荐几个资料。
+
+- 《Demystifying Create React Signals Internals》via: https://blog.axlight.com/posts/demystifying-create-react-signals-internals/
+- 《dan_abramov's reply for Discussion on: React vs Signals: 10 Years Later》via: https://dev.to/dan_abramov/comment/256g9
+- 《The Evolution of Signals in JavaScript》via: https://dev.to/this-is-learning/the-evolution-of-signals-in-javascript-8ob
+- 《React vs Signals: 10 Years Later》 via: https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71
+
+### 2023-03-13[投资]
+
+这家企业值多少钱，换句话说：
+
+- 如果你有钱买这个公司，你愿意花多少？
+- 如果你是这个公司的老板，别人出价多少你愿意卖？
+
+这篇文章提供了三个计算方法，企业价值＝分红 /（折现率 - 增长率），这三种方法都是 DDM 估值法，只是折现率取值不一样，分别是 10%，4% 和 2.5% ，并且通过巴菲特的例子来帮助大家理解什么时候应该用哪个折现率更合适。
+
+文章标题：《永久持股收息是兑现伟大企业价值的唯一途径》
+
+via: https://xueqiu.com/3921480024/243769146
+
+
+### 2023-03-12[投资]
+
+芒格年度股东会（Daily Journal ）很有意思，里面很多内容都很有用。 给我的感觉就像是和一个投资界大佬谈话（实际上就是一个谈话类的会议），拓展我的投资视野。
+
+2023 年的会议文字整理版本可以看这个，往年的大家可以自行搜索一下。
+
+2023 年内容主要讲到了自己的投资策略和思想以及半导体行业，加密货币行业等，很有启发。
+
+part1 via: https://xueqiu.com/1173786903/243801264
+part2 via: https://xueqiu.com/1173786903/243807832
 ### 2023-03-11[类库]
 
 TanStack Query (以前叫 React Query)，是一个功能异常强大的状态管理库，以前是为 React 做的。现在支持所有主流框架，就连名字都改了，目前的版本是 V4。
