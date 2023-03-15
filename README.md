@@ -40,6 +40,42 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-18[工具]
+
+Codex-CLI 是一个基于 chatgpt 的工具， 你可以使用自然语言来描述， Codex-CLI 自动帮你转化为 cli 语言，比如 bash 语言。
+
+对于一些经常需要查 shell 语法的人来说，简直就是福音。但是如果你很熟悉 shell 的话，基本没啥用。
+
+对于我来说， 常见命令我都有插件（我用的是 zsh 的第三方插件， 比如 git-plugin 等），缩写很容易就敲出来了，因此用处不是很大。我这里说的是常见命令，假如我突然需要做一些非常见的任务， 那么或许对我会很有用。
+
+via： https://github.com/microsoft/Codex-CLI
+
+### 2023-03-17[心得]
+
+买贵重物品东西前，可以先将价格转化为生命。比如你一天可以赚 100，买一个手机 3000，那么相等于你花了 30 天的生命买了个手机， 你觉得值么？如果你觉得值，那就买。
+
+### 2023-03-16[工具]
+
+一个前端打包工具 farm， 采用 rust 编写，主要卖点是快。
+
+rspack 才出几天，farm 就出来和 rspack 比性能了 😄。 想当初 rspack 出来就和 webpack，swc 等比性能。
+
+作者还专门写了一篇中文文章来介绍《比 Vite 快 5 倍? 2ms HMR？Farm：基于 Rust 的极速构建引擎！》via: https://zhuanlan.zhihu.com/p/611603260
+
+via: https://github.com/farm-fe/farm
+### 2023-03-15[框架]
+
+vitest 是一个前端测试框架， 类似于 jest，用法”基本“兼容了 jest 中的常用 api， 因此很多项目都可以很容易地从 jest 迁移到 vitest。 比如大名鼎鼎的 react query 就刚刚从 jest 迁移到了 vitest。
+
+vitest 的特点是：
+
+- 快
+- 支持 in-source 测试。即在代码文件中直接写测试（灵感来源于 rust ）
+- 类型测试。还能对 TS 类型进行测试 😄
+- 内置 benchmark
+
+via: https://vitest.dev/guide/features.html
+
 ### 2023-03-14[好文]
 
 前端最近有一个新的概念 特别火，叫 Signal，之前也在 daily featured 中介绍过。
