@@ -40,6 +40,54 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-23[好文]
+
+学习一个东西最好是亲自经历，其次就是从别人的经历中学习。
+
+作者介绍了自己从业二十年的两次重大投资失败案例，  最后的总结很重要，尤其是最后一条。
+
+以下是最后一条的原文：
+
+```
+自由现金流才是投资企业第一要素，只有企业靠经营有了自由现金流，以上问题基本都可避免，它才有能力对你分红，不圈你的钱，所以我目前研究企业第一看企业有没有自由现金流，然后才看其成长性。
+```
+
+里面的经验有几条我都感同身受，那就是国内的报表几乎啥都可以造假（唯有现金，分红是不可能造假的），上市公司代表说的话啥也别信，高科技谨慎投资。
+
+via：https://xueqiu.com/1960822545/245105713
+
+### 2023-03-21[好文]
+
+将 react hooks 放到一张图中，并根据类型进行分类（state 相关的，effect 相关的，context 相关的等等）。一图胜前言，秒懂，好记。
+
+![](https://p.ipic.vip/7zfnqc.png)
+
+via: https://julesblom.com/writing/map-of-react-api
+
+### 2023-03-20[工具]
+
+socket-npm = npm + audit
+
+即 npm 的功能外加审核，你每次操作都会对你的包进行安全分析，防止安装一些危险的包。
+
+这个工具的流行恰恰说明 npm 官方做的不行啊。
+
+官方提供了一种使用方法：
+
+```bash
+alias npm="socket-npm"
+alias npx="socket-npx"
+```
+
+这样以后使用 npm 都自动使用 socket-npm ，没有任何心智负担。不过我建议这样设置别名，类型 cnpm，给自己留一个区分二者的行为，并期待 npm 官方的行动。
+
+```bash
+alias snpm="socket-npm"
+alias snpx="socket-npx"
+```
+
+via: https://socket.dev/blog/introducing-safe-npm
+
 ### 2023-03-18[工具]
 
 Codex-CLI 是一个基于 chatgpt 的工具， 你可以使用自然语言来描述， Codex-CLI 自动帮你转化为 cli 语言，比如 bash 语言。
@@ -63,6 +111,7 @@ rspack 才出几天，farm 就出来和 rspack 比性能了 😄。 想当初 rs
 作者还专门写了一篇中文文章来介绍《比 Vite 快 5 倍? 2ms HMR？Farm：基于 Rust 的极速构建引擎！》via: https://zhuanlan.zhihu.com/p/611603260
 
 via: https://github.com/farm-fe/farm
+
 ### 2023-03-15[框架]
 
 vitest 是一个前端测试框架， 类似于 jest，用法”基本“兼容了 jest 中的常用 api， 因此很多项目都可以很容易地从 jest 迁移到 vitest。 比如大名鼎鼎的 react query 就刚刚从 jest 迁移到了 vitest。
@@ -100,7 +149,6 @@ via: https://vitest.dev/guide/features.html
 
 via: https://xueqiu.com/3921480024/243769146
 
-
 ### 2023-03-12[投资]
 
 芒格年度股东会（Daily Journal ）很有意思，里面很多内容都很有用。 给我的感觉就像是和一个投资界大佬谈话（实际上就是一个谈话类的会议），拓展我的投资视野。
@@ -109,8 +157,8 @@ via: https://xueqiu.com/3921480024/243769146
 
 2023 年内容主要讲到了自己的投资策略和思想以及半导体行业，加密货币行业等，很有启发。
 
-part1 via: https://xueqiu.com/1173786903/243801264
-part2 via: https://xueqiu.com/1173786903/243807832
+part1 via: https://xueqiu.com/1173786903/243801264 part2 via: https://xueqiu.com/1173786903/243807832
+
 ### 2023-03-11[类库]
 
 TanStack Query (以前叫 React Query)，是一个功能异常强大的状态管理库，以前是为 React 做的。现在支持所有主流框架，就连名字都改了，目前的版本是 V4。
@@ -129,16 +177,16 @@ React 引入 hooks 之后，这个库就更好用了，核心功能就是 useQue
 ```js
 function Todos() {
   const { status, data, error } = useQuery({
-    queryKey: ['todos'],
+    queryKey: ["todos"],
     queryFn: fetchTodoList,
-  })
+  });
 
-  if (status === 'loading') {
-    return <span>Loading...</span>
+  if (status === "loading") {
+    return <span>Loading...</span>;
   }
 
-  if (status === 'error') {
-    return <span>Error: {error.message}</span>
+  if (status === "error") {
+    return <span>Error: {error.message}</span>;
   }
 
   // also status === 'success', but "else" logic works, too
@@ -148,7 +196,7 @@ function Todos() {
         <li key={todo.id}>{todo.title}</li>
       ))}
     </ul>
-  )
+  );
 }
 ```
 
@@ -184,19 +232,15 @@ via: https://remix.run/docs/
 ```js
 #!/usr/bin/env zx
 
-await $`cat package.json | grep name`
+await $`cat package.json | grep name`;
 
-let branch = await $`git branch --show-current`
-await $`dep deploy --branch=${branch}`
+let branch = await $`git branch --show-current`;
+await $`dep deploy --branch=${branch}`;
 
-await Promise.all([
-  $`sleep 1; echo 1`,
-  $`sleep 2; echo 2`,
-  $`sleep 3; echo 3`,
-])
+await Promise.all([$`sleep 1; echo 1`, $`sleep 2; echo 2`, $`sleep 3; echo 3`]);
 
-let name = 'foo bar'
-await $`mkdir /tmp/${name}`
+let name = "foo bar";
+await $`mkdir /tmp/${name}`;
 ```
 
 以下是一些其提供的很好用的”简写“。
@@ -232,9 +276,10 @@ FinalizationRegistry 是一个新的浏览器 api，可以监听 JS 中的变量
 《Experiments with the JavaScript Garbage Collector》 使用了这个 API 对常见的内存泄漏情况进行了分析，非常通俗易懂。 其中有一个 case 使用 eval，非常有意思。
 
 via: https://dev.to/codux/experiments-with-the-javascript-garbage-collector-2ae3
+
 ### 2023-03-05[类库]
 
-texthighlighter 是一个 JS 类库，可以高亮 textarea。 
+texthighlighter 是一个 JS 类库，可以高亮 textarea。
 
 如果不使用这个库，你可能需要自己实现一个 textarea，然后用样式定制， 比较麻烦。
 
@@ -253,6 +298,7 @@ via: https://idraw.js.org/
 deno 自从诞生就考虑安全，隐私问题。 因此使用 deno 来搭建在线环境要比使用 node 简单很多。 这篇文章就介绍如何使用 deno 来搭建一个安全的 sandbox 用于执行用户的代码，提供一个云平台（Cloud Platform）。
 
 via: https://healeycodes.com/sandboxing-javascript-code
+
 ### 2023-03-01[好文]
 
 一个可以去除网页中讨厌的悬浮框的小工具。 之前我都是直接打开控制台，然后找到悬浮窗手动”删除 DOM 元素“。
@@ -260,26 +306,33 @@ via: https://healeycodes.com/sandboxing-javascript-code
 有了这个工具就可以自动地完成这个操作。原理也很简单， 就是直接使用 DOM API 找到 fixed 和 sticky 的 DOM，然后将其移除。代码参考：
 
 ```js
-    document.querySelectorAll('body *').forEach(function(node) {
-        if (['fixed', 'sticky'].includes(getComputedStyle(node).position))  {
-            node.parentNode.removeChild(node);
-        }
-    });
+document.querySelectorAll("body *").forEach(function (node) {
+  if (["fixed", "sticky"].includes(getComputedStyle(node).position)) {
+    node.parentNode.removeChild(node);
+  }
+});
 
-    document.querySelectorAll('html *').forEach(function(node) {
-        var s = getComputedStyle(node);
-        if ('hidden' === s['overflow']) { node.style['overflow'] = 'visible'; }
-        if ('hidden' === s['overflow-x']) { node.style['overflow-x'] = 'visible'; }
-        if ('hidden' === s['overflow-y']) { node.style['overflow-y'] = 'visible'; }
-    });
+document.querySelectorAll("html *").forEach(function (node) {
+  var s = getComputedStyle(node);
+  if ("hidden" === s["overflow"]) {
+    node.style["overflow"] = "visible";
+  }
+  if ("hidden" === s["overflow-x"]) {
+    node.style["overflow-x"] = "visible";
+  }
+  if ("hidden" === s["overflow-y"]) {
+    node.style["overflow-y"] = "visible";
+  }
+});
 
-    var htmlNode = document.querySelector('html');
-    htmlNode.style['overflow'] = 'visible';
-    htmlNode.style['overflow-x'] = 'visible';
-    htmlNode.style['overflow-y'] = 'visible';
+var htmlNode = document.querySelector("html");
+htmlNode.style["overflow"] = "visible";
+htmlNode.style["overflow-x"] = "visible";
+htmlNode.style["overflow-y"] = "visible";
 ```
 
 via: https://github.com/t-mart/kill-sticky
+
 ## 历史汇总
 
 - [SUMMARY](./SUMMARY.md)
