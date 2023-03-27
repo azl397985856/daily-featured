@@ -40,6 +40,95 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-30[好文]
+
+人工智能时代已经开启？？来看比尔盖茨的发言。
+
+via: https://www.gatesnotes.com/The-Age-of-AI-Has-Begun
+
+盖茨竟然将现在的 ai 比作它的旷世大作 windows，可见其厉害。
+
+### 2023-03-29[技巧]
+
+bash 中可以使用 ctrl + r 开启前缀搜索功能，根据你输入的前缀在历史输入记录中进行匹配。如果想匹配下一项可以再次按下 ctrl + r。个人认为这个设计有点反人类，好在很多人都意识到了这个问题，并有了解决方案。
+
+我使用的 oh-my-zsh，只需要下载一个插件 zsh-history-substring-search，并就其添加到配置文件，最后设置 bindkey ，将上下翻阅历史记录的按键映射到 up 和 down 上即可。
+
+部分 .zshrc 文件如下：
+
+```zsh
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line
+
+plugins=(
+    zsh-history-substring-search
+)
+```
+
+不仅仅是 ctrl + r 的搜索， 如果你安装了自动补全插件， 那么直接输入前缀就可以 up 和 down 切换了，也就说帮你省了按 ctrl + r 的时间！
+
+如果需要使用，安装并在配置文件增加如下插件即可：
+
+```
+plugins=(
+    zsh-autosuggestions
+    zsh-history-substring-search
+)
+```
+
+别忘记 source ~/.zshrc 使配置文件生效哦。
+
+### 2023-03-28[网站]
+
+chatgpt 训练的数据是 2022 年以前的，因此如果你的数据太新了，可能会搜不到结果。
+
+另外大家想把自己的网站集成 chatgpt，让他回答用户的问题，增强体验。
+
+但是有两个问题：
+
+- 太贵
+- 训练比较麻烦。（比如你一段一段给它输入，让他学习，chatgpt 有输入限制）
+
+chatpdf 这个网站可以支持几百页的一次性输入，要大得多。而且这个网站支持每天解析三个 pdf（截止到目前是的）。
+
+你只需要将 pdf 丢给它训练，之后你就可以对 pdf 的内容进行提问。他会自己提炼，然后生成回答。（只不过一些回答是错的，大家需要注意，等待 chatgpt 升级可能会好点）
+
+via ： https://www.chatpdf.com/
+
+### 2023-03-27[好文]
+
+node 18 中终于内置了 fetch，test 等基础函数，太棒了，可惜来得太晚了一点。
+
+node 19 原生支持 --watch 参数，终于不用安装三方包了。
+
+更多请访问链接。
+
+via: https://blog.logrocket.com/exploring-competitive-features-node-js-v18-v19/
+
+### 2023-03-26[工具]
+
+ Simplified IP client using WebRTC.
+
+一个可以获取客户端 IP 的 JS 脚本，原理是基于 webrtc 协议会发送 IP 的特点。
+
+注意是获取客户端 IP，而不是本机，因此这其实涉及到了隐私问题。 不过浏览器并不会提示你有人正在获取你的 IP，听起来还有点可怕，尽管使用代理可以解决这个问题，但是很多人都不用代理的，即使使用代理，有可能使用了规则， 对于某些网站仍然会暴露自己的真实 IP。
+
+via: https://github.com/joeymalvinni/webrtc-ip
+
+### 2023-03-25[好文]
+
+deno 竟然为了兼容 node 加入了 package.json，很多人表示不解，这篇文章来自 deno 官方博客，解释了其原因，。
+
+via: https://deno.com/blog/package-json-support
+### 2023-03-24[好文]
+
+NPM 发布了新功能 granular-access-token，详情：https://github.blog/changelog/2023-03-21-general-availability-of-granular-access-token-on-npm/， Github 也在 Actions 中对其进行了支持。
+
+这篇文章详细讲解了如何在 Github Action 中使用 以最大限度保证代码安全。
+
+via: https://httptoolkit.com/blog/automatic-npm-publish-gha/
 ### 2023-03-23[好文]
 
 学习一个东西最好是亲自经历，其次就是从别人的经历中学习。
