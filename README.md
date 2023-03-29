@@ -40,6 +40,16 @@
 
 ## 新鲜出炉 (2023-03)
 
+### 2023-03-31[工具]
+
+visual-chatpgt 可以允许你使用自然语言来进行图像识别， 图片修改（P图）等操作， 底层基于 chatgpt，由微软开源的一个项目，短短三个礼拜就收获了将近 30 k 的 star。
+
+你只需要有 OPENAI_API_KEY 就可以按照网站上的方法进行安装了。如果没有 OPENAI_API_KEY，可以去 openai 网站上注册申请一个。
+
+![](https://p.ipic.vip/dwhd33.jpg)
+
+via: https://github.com/microsoft/visual-chatgpt
+
 ### 2023-03-30[好文]
 
 人工智能时代已经开启？？来看比尔盖茨的发言。
@@ -145,6 +155,19 @@ via: https://httptoolkit.com/blog/automatic-npm-publish-gha/
 
 via：https://xueqiu.com/1960822545/245105713
 
+### 2023-03-22[好文]
+
+精读《维护好一个复杂项目》,文章提炼了两个观点：
+
+- 要有主人翁心态
+- 要解耦
+
+第一个观点比较有启发，就是你招聘的那个人很重要，而这个人的心态更重要。文章给了一个自动化测试用例的例子也很有启发，实际上已经有很多成熟的产品了，普遍的名字叫”录制测试用例“，比如微信的自动化测试就可以录制测试用例。
+
+第二个观点有点老生常谈了。
+
+via: https://mp.weixin.qq.com/s/Fh72-rVU_I-ilCLQTCfgug#h5o-6
+
 ### 2023-03-21[好文]
 
 将 react hooks 放到一张图中，并根据类型进行分类（state 相关的，effect 相关的，context 相关的等等）。一图胜前言，秒懂，好记。
@@ -176,6 +199,32 @@ alias snpx="socket-npx"
 ```
 
 via: https://socket.dev/blog/introducing-safe-npm
+
+### 2023-03-19[类库]
+
+Framer Motion 是一个基于 react 的动画库， 相比于 animejs 这种不依赖于框架的动画库，其更加易用。你只需要设置当前的值，它会自动根据上一个值自动做动画效果。
+
+比如:
+
+```js
+<motion.div animate={{ x: 100 }} />
+```
+
+几秒后：
+
+<motion.div animate={{ x: 200 }} />
+
+那么就会自动生成一个 100 - 200 平滑动画。
+
+主要功能有：
+
+- 手势支持（比如点击）
+- 滚动
+- 多种 Component，比如 Reorder 组件可以生成可拖动的组件（当然是自带动画的）
+- 众多 hooks
+- 。。。
+
+via: https://www.framer.com/motion/animation/
 
 ### 2023-03-18[工具]
 
