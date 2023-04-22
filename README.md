@@ -40,6 +40,40 @@
 
 ## 新鲜出炉 (2023-04)
 
+### 2023-04-11[新闻]
+
+Github 官方推出了商店系统，可以在上面购物，不过目前能买的东西比较少。
+
+https://www.thegithubshop.com/
+
+### 2023-04-10[类库]
+
+以更可读的方式操作 AST。
+
+比如你想给一个文件增加一个导出成员，可以这样：
+
+```js
+import { loadFile, writeFile } from "magicast";
+
+const mod = await loadFile("config.js");
+
+mod.exports.default.foo.push("b");
+
+await writeFile(mod);
+```
+
+其底层会操作 AST 来完成， 而如果你来操作 AST， 肯定会复杂一点。如果是我的话，还会去查一下 AST 操作库的 api 文档。 而使用了这个库就不用查询文档了，基本都是比较符合直觉的。
+
+via: https://github.com/unjs/magicast
+
+### 2023-04-09[新闻]
+
+copilot 集成了 chatgpt， 可以通过自然语言聊天实现修改代码了（会有一个类似聊天的窗口）。
+
+copilot lab 扩展（https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs）还可以直接翻译代码， 自动生成测试用例等。（虽说不用这个也可以，但是却更加方便，相当于chatgpt 的 prompt）
+
+via: https://code.visualstudio.com/blogs/2023/03/30/vscode-copilot
+
 ### 2023-04-02[网站]
 
 UX matters！
