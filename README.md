@@ -40,6 +40,20 @@
 
 ## 新鲜出炉 (2023-04)
 
+### 2023-04-28[新闻]
+
+亚马逊也推出了自己对标微软 copilot 的产品 CodeWhisperer，对个人免费，企业收费。
+
+via: https://aws.amazon.com/blogs/aws/amazon-codewhisperer-free-for-individual-use-is-now-generally-available/
+
+### 2023-04-27[好文]
+
+讲解 chatgpt 的原理的一篇文章，比较浅显，但是对于想了解但又不愿意花时间学习的外行来说很有用。
+
+简单来说就是根据大数据建立模型， 并使用训练数据调整参数。 当用户提问时，它会内部使用机器学习算法计算出多种 output，然后取概率最大的 output 返回给用户。
+
+via: https://typefully.com/DanHollick/yA3ppZC
+
 ### 2023-04-23[网站]
 
 自从 openai 公布自己的 chatgpt 后，各大公司也都在跟进，推出自己的 ai 产品。
