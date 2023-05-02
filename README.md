@@ -40,6 +40,22 @@
 
 ## 新鲜出炉 (2023-04)
 
+### 2023-04-30[工具]
+
+将可视化测试集成到你的系统？ 本工具（chromatic）是著名的 storybook 开发的。
+
+via: https://www.chromatic.com/docs/
+
+### 2023-04-29[工具]
+
+这是一个类似 chatgpt ，只不过其实一个 IDE 插件， 并且只是为了生成测试用例和优化代码。
+
+我预测，将来一定会有很多仅覆盖某个领域的工具产生。
+
+比如只喂法律数据源的法律 AI， 只喂前端数据源的前端助手等等。这样不仅回答更加专业，而且对于用户来说也更容易写提示词（prompt）。
+
+via: https://www.codium.ai/
+
 ### 2023-04-28[新闻]
 
 亚马逊也推出了自己对标微软 copilot 的产品 CodeWhisperer，对个人免费，企业收费。
@@ -63,6 +79,41 @@ vercel 就出了一个 playground ，集成了市面上常见的 ai 聊天引擎
 ![](https://p.ipic.vip/rxs7ek.png)
 
 via: https://play.vercel.ai/
+
+### 2023-04-22[库]
+
+一个基于 svelt 的移动端组件库，特点是体积小， 速度快（无运行时 diff）。
+
+via: https://github.com/dufu1991/stdf
+
+### 2023-04-23[库]
+
+如何在 node 中引用其他语言写的库？
+
+你可以使用 Node.js 的 child_process 模块来在 Node.js 中调用其他语言编写的库。具体而言，您可以使用 child_process 模块的 exec 或 spawn 方法来执行其他语言编写的可执行文件或脚本，并从 Node.js 中传递参数和接收输出。另外，您也可以使用 Node.js 的 C++ 插件来编写与其他语言库交互的 Node.js 模块。
+
+linker.js 可以帮助你轻松生成 binding， 从而实现在 nodejs 中调用 cpp，rust，go 等代码。
+
+via: https://github.com/bitair-org/linker.js
+
+### 2023-04-22[好文]
+
+使用 webworker 来解决主进程负载过高是一个好的办法。 不过有如下问题：
+
+1. 无法对 DOM 进行访问，因此设计到 DOM 时代码会比较复杂，需要不停地传输数据。 这个文章介绍可以通过 https://github.com/ampproject/worker-dom 来封装，屏蔽掉细节
+2. 通信开销。 虽然减少了主进程的占用， 但是总的计算不但没有少，还增加了通信时间。如果通信数据很大，或者很频繁，那么这个开销就不可忽略。文章也提供了一种简单的参考方式。
+
+via: https://www.smashingmagazine.com/2023/04/potential-web-workers-multithreading-web/
+
+### 2023-04-18[好文]
+
+文章介绍了如果溯源 NPM 包，从而发现 npm 包是否是正规的（不是山寨的），有没有被篡改，最近有没有异常提交， 有没有危险的依赖等等。
+
+但是这个成立的前提是这些 npm 包是通过 github action 发布的。
+
+这或许是微软的一个野心，收购 github 和 npm，然后将其完全整合。
+
+via: https://github.blog/2023-04-19-introducing-npm-package-provenance/
 
 ### 2023-04-11[新闻]
 
