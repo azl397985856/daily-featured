@@ -40,6 +40,22 @@
 
 ## 新鲜出炉 (2023-05)
 
+### 2023-05-17[工具]
+
+midjourney 是一个 ai 工具，可以根据文字生成图片。最大的卖点就是生成后会给你若干选项， 你可以基于给出的选项不断优化图片使之满足你的预期效果，这是我在其他文字生成图片工具中没有看到的。
+
+话说，已经有自媒体基于它给自己文章配图了。
+
+via: https://docs.midjourney.com/docs/quick-start
+### 2023-05-16[工具]
+
+slate 是一个富文本编辑器组件，语雀就是基于它来实现的。
+
+via: https://github.com/ianstormtaylor/slate
+
+另外一个特别火的最新的富文本编辑器是 blocksuite，和 notion 类似，是基于 block 来组织的。
+
+via: https://github.com/toeverything/blocksuite
 ### 2023-05-15[工具]
 
 Easydict 是一个简洁易用的翻译词典 macOS App，能够轻松优雅地查找单词或翻译文本。Easydict 开箱即用，能自动识别输入文本语言，支持输入翻译，划词翻译和 OCR 截图翻译，可同时查询多个翻译服务结果，目前支持有道词典，🍎苹果系统翻译，DeepL，谷歌，百度和火山翻译。
