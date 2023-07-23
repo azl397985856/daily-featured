@@ -39,7 +39,79 @@
 如果大家觉得上面的集体活动效率比较低，我目前也接受 1v1 算法辅导，价格根据你的算法基础以及想要学习的内容而定感兴趣的可以加我微信，备注“算法辅导”，微信号 DevelopeEngineer。
 
 ## 新鲜出炉 (2023-07)
+### 2023-07-24
 
+一个在线的海报制作工具。在如今很多工具都收费的时候， 可以用这个私有化部署到本地进行使用。
+
+官方的介绍是：一款漂亮且功能强大的在线图片设计器，仿稿定设计，适用于多种场景：海报生成、电商产品图、文章长图、视频/公众号封面等，让设计更简单！（A beautiful online image designer, suitable for various scenarios like generate posters, making design easier.）
+
+
+当然也可以当做技术进行学习，里面使用了很多主流的工具：
+
+- moveable: 提供了画布中选择、拖动缩放等能力
+- html2canvas: 前端生成图片兜底方案
+- qr-code-styling: 风格化二维码
+- sky: 参考了其 PSD 解析的实现
+
+另外其是一个前后端同构的项目，这一点也可以学习一下（只不过很简单就是了，纯新手可能能够学习点东西）。
+
+via: https://github.com/palxiao/poster-design
+### 2023-07-23[好文]
+
+《Testing the dark scenarios of your Node.js application(测试 Node.js 应用程序的暗场景)》讲述了一些 node 服务测试中容易被大家忽略的点。比如应用启动不了的情况，请求超时的情况，文档和代码不一致的情况等等。
+
+其中文档和代码不一致的方法这一点让我学到了，作者使用了 toSatisfyApiSpec 来进行类似于 snapshot 的测试。即根据你的请求返回值和文档文件（比如你使用了 openapi 做文档，那就是其导出的 yml 文件）进行对比，比如不一致就抛出错误。
+
+有一个基于 jest 的工具 jest-openapi（https://www.npmjs.com/package/jest-openapi） 就是做这个的。
+
+via: https://practica.dev/blog/testing-the-dark-scenarios-of-your-nodejs-application/
+
+### 2023-07-22[类库]
+
+sortable 允许你给 HTML 的 table 标签增加一个 class="sortable" 就可以实现 sort 的功能。用法足够灵活， 需要注意的是在和目前主流的虚拟 DOM 框架结合使用的时候需要注意一下。
+
+其原理很简单，就是绑定在 document 上一个 click 事件，handle 里进行判断，如果你点击的是 table 且有 sortable 的 class，并且点击的是表头，那么就将 table rows 进行排序，然后将排序后的结果 replaceChild 到原有的 table 上。
+
+via: https://github.com/tofsjonas/sortable
+
+
+### 2023-07-21[技巧]
+
+都 2023 年了， node 20 终于即将支持 timer 的 mocke 了。使用后，用户使用 settimeout 和 setinterval 等 api 就不需要真正地等待那么久了。
+
+其实很多测试库都支持，但是 node 原生一直没有支持，现在支持了。
+
+之前我们业务中就有一个需求是每五分钟拉取一次数据， 然后处理一下。 有了它就可以 tick 5 分钟， 然后断言。
+
+```js
+import assert from 'node:assert';
+import { test } from 'node:test';
+
+test('mocks setTimeout to be executed synchronously without having to actually wait for it', (context) => {
+  const fn = context.mock.fn();
+  // Optionally choose what to mock
+  context.mock.timers.enable(['setTimeout']);
+  const nineSecs = 9000;
+  setTimeout(fn, nineSecs);
+
+  const threeSeconds = 3000;
+  context.mock.timers.tick(threeSeconds);
+  context.mock.timers.tick(threeSeconds);
+  context.mock.timers.tick(threeSeconds);
+
+  assert.strictEqual(fn.mock.callCount(), 1);
+});
+```
+
+context.mock.timers.tick(ms)， 会模拟经过了 ms 毫秒，而不必等真实世界过去 ms 毫秒。
+
+via: https://nodejs.org/en/blog/release/v20.4.0
+
+### 2023-07-20[库]
+
+一个新手导航插件，之前用过别的，这个插件的特点是体积小，无依赖，定制化程度也够用。
+
+via: https://driverjs.com/
 
 ### 2023-07-14[技巧]
 
