@@ -40,6 +40,41 @@
 
 ## 新鲜出炉 (2023-07)
 
+### 2023-07-31[好文]
+
+chatgpt 发展了好久了， 很多人封装了一些工具给大家用。
+
+比如
+
+```
+请用中文回答我。如果是代码问题，只提供代码，不要解释。
+${query}
+```
+
+然后你的所有问题都会经过上面的包装，这样你不需要每个 thread 提问都告诉 gpt “用中文回答我。如果是代码问题，只提供代码，不要解释”。
+
+openai 官方提供了类似的支持 Custom Instructions，目前是内测阶段，具体介绍请看文章。
+
+via: https://sspai.com/post/81470
+
+### 2023-07-28[技巧]
+
+有时候我会写一些自动化脚本。 就有一些系统层面上的接口需求， 比如我想获取当前正在激活的窗口等等。这在传统的 shell 脚本中不提供的功能。
+
+我是 Mac 用户，可以利用 osascript 来实现这个需求。Windows 不太熟悉，有知道的小伙伴欢迎告诉我。
+
+学习 osascript 都做 Mac 上的自动化很有帮助，结合 afred 等工具，简直如鱼得水。
+
+比如我就写过一个 create new file in current folder 的功能。它会获取当前激活的 finder 的路径，然后在其下新建文件。（要是 Mac 下原生右键有新建文件我可能就不会写这个自动化工具了）。核心代码参考:
+
+```bash
+myPath=$(osascript -e 'try' -e 'tell application "Finder"' -e 'set this_folder to (the target of the front window) as alias' -e 'set this_folder to POSIX path of this_folder' -e 'return this_folder' -e 'end tell' -e 'end try' -e 'set this_folder to POSIX path of (path to desktop)' -e 'return this_folder')
+cd ${myPath}
+touch ${query}
+```
+
+有没有发现 osascript 和自然语言几乎一样了？ 有没有想到让 chatgpt 来帮你写？大家可以去试试。
+
 ### 2023-07-25[网站]
 
 有些港剧会限制 IP，只有香港才能看，开了 VPN 也没用，可以试试埋堆堆。
