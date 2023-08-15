@@ -40,6 +40,22 @@
 
 ## 新鲜出炉 (2023-08)
 
+### 2023-08-16[好文]
+
+文章名：<The virtual keyboard API>
+
+一个目前只有 chrome for android 才有的 api。通过它，可以给 input 指定弹起的键盘的位置。有了它，web 越来越逼近小程序了。如果继续发展， 或许小程序会消失也不一定？
+
+![](https://p.ipic.vip/zockv1.jpg)
+
+via: https://ishadeed.com/article/virtual-keyboard-api/
+
+### 2023-08-15[类库]
+
+一个 chatgpt 网页风格的 UI 库。 如果你想要搭建一个基于类似 chatgpt 的网站，那么这个还算有点用，会让你快速搭建一个大家普遍熟悉的 ai 聊天网站。
+
+via: https://www.langui.dev/components/prompt-containers
+
 ### 2023-08-04[库]
 
 neutralinojs 是一个类似于 electron 以及 NWJS 的桌面应用程序框架。主打的就是体积小，内存占用少，构建速度快。
