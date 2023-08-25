@@ -40,6 +40,59 @@
 
 ## 新鲜出炉 (2023-08)
 
+### 2023-08-26[好文]
+
+很有意思的一个想法。 通过 API 发送 UI，这样可以更容易做到千人千面的个性化 UI 页面。 然后发布也更容易。
+
+不过似乎也加大了平台的审核难度。因为代码是通过 API 来发送的，而 API 可能不是部署到平台的，这样平台就很难审核。所以后期这个技术发展起来了，平台有可能会进行抵制。
+
+via: https://www.builder.io/blog/ui-over-apis
+
+### 2023-08-25[类库]
+
+Make React Faster. Automatically.
+
+一个基于编译时的类库， 通过它可以将 react 应用重新编译（主要是加速 VDOM 算法），并获得性能提升。
+
+比如你使用 CRA（create react app）创建 react 项目，那么就可以通过简单地如下配置接入 million。
+
+```js
+const million = require('million/compiler');
+module.exports = {
+  webpack: {
+    plugins: { add: [million.webpack({ auto: true })] }
+  }
+};
+```
+via: https://million.dev/
+### 2023-08-24[新闻]
+
+idx 是谷歌的线上开发环境，支持 AI 辅助编程。目前还没发布， 不过可以申请内测资格， 一变第一时间进行体验。（我已经申请啦~）
+
+via: https://addyosmani.com/blog/project-idx/
+
+### 2023-08-23[好文]
+
+一个 css 属性，轻松制作缩略图？
+
+用法很简单，只需要给想显示缩略图的元素一个属性即可。代码：
+
+```css
+mini-map .screen-image .canvas {
+  background: white -moz-element(#main) no-repeat scroll center center / contain;
+}
+```
+
+其中  -moz-element(#main) 是关键。 main 是想要显示缩略图的主体 DOM 的 id。
+
+效果如下图（注意右面的缩略图）：
+
+![](https://p.ipic.vip/7ekyiq.jpg)
+
+你也可以监听点击时间，从而做一个可交互的缩略图。用户点击到哪里，页面就跳转到对应位置。类似 VSC 的缩略图。
+
+via: https://www.stefanjudis.com/a-firefox-only-minimap/
+
 ### 2023-08-16[好文]
 
 文章名：<The virtual keyboard API>
