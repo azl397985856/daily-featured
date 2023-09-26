@@ -40,6 +40,42 @@
 
 ## 新鲜出炉 (2023-09)
 
+### 2023-09-26[网站]
+
+一个非常好用的编程语言互相转换的在线工具。
+
+我试用了一下，效果非常好，应该有 AI 的加持。
+
+我在刷题的时候，写题解需要提供多种编程语言就使用过这个工具，真的好用。
+
+via: https://www.codeconvert.ai/c++-to-python-converter
+
+### 2023-09-25[插件]
+
+一个油猴脚本。安装后可以直接在豆瓣读书中，下载对应的 pdf 和 epub 文件。
+
+![](https://p.ipic.vip/e2enzk.jpg)
+
+via: https://greasyfork.org/en/scripts/461293-%E6%88%91%E5%8F%AA%E6%83%B3%E5%A5%BD%E5%A5%BD%E7%9C%8B%E4%B9%A6
+
+### 2023-09-19[好文]
+
+《Design Trade-offs in Bundler: The Rationale Behind Creating Rspack 》是 rspack 的作者在字节对外的 github 组织下的一篇 discuss 分享。 讲述了为什么要自己开发 rspack，其解决了什么问题。
+
+通过这个文章，我学习了两点。
+
+1. webpack 中部分 loader 会 parse 生成 ast，原来这部分时间这么长。 文章作者通过复用 ast 达到了优化的目的。（当然其他构建工具也有复用 ast 的问题）如下图：
+
+![](https://p.ipic.vip/yku6ee.jpg)
+
+2. github dicsussion 支持了一个新的 markdrown 语言。用来给 quote 增加一些样式。如下图：
+
+![](https://p.ipic.vip/5qosmd.png)
+
+> 更多： https://github.com/orgs/community/discussions/16925
+
+via: https://github.com/web-infra-dev/wg/discussions/1
+
 ### 2023-09-14[工具]
 
 一个油猴脚本，可以帮助你解决一些网站跳转到第三种需要你二次确认的问题。通过它，直接一键跳转到目标第三方网站。
