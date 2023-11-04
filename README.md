@@ -40,6 +40,16 @@
 
 ## 新鲜出炉 (2023-11)
 
+### 2023-11-04[网站]
+
+一个在线网站， 可以帮你生成隐私声明网页。
+
+如果你是一个工具开发者（比如浏览器扩展），并且会收集一些隐私数据，比如用户当前访问的网站地址，有很多提供商现在要求你提供的工具的隐私声明网页。
+
+我的 chrome 插件最近就遇到了这个问题。于是我就使用了这个网站，不到一分钟就生成了，谷歌审核还真就通过了。
+
+via: https://www.generateprivacypolicy.com/#wizard
+
 ### 2023-11-03[库]
 
 FFCreator 是腾讯视频团队开源的生成视频的 JS库。通过它可以将图片，音频或者视频片段按照各种方式组合起来，从而形成一个视频。
@@ -47,6 +57,18 @@ FFCreator 是腾讯视频团队开源的生成视频的 JS库。通过它可以�
 使用FFCreator和vue.js，可以开发可视化拖拽搭建短视频的web项目，使用就像h5搭建工具一样的简单。
 
 via: https://github.com/tnfe/FFCreator
+
+### 2023-11-02[工具]
+
+一个脚本工具，可以集成到 ci 中，自动将你的 markdown 翻译为多种语言。由于集成了 chatgpt，因此翻译质量也很好。
+
+这里的翻译质量很大程度上取决于你的 prompt。让大家看看人家的其中一段 prompt 是怎么写的，大家可以作为参考。
+
+```
+You are a professional translation engine, please translate the text into a colloquial, professional, elegant and fluent content, without the style of machine translation. You must only translate the text content, never interpret it.
+```
+
+via: https://github.com/linyuxuanlin/Auto-i18n
 
 ### 2023-11-01[库]
 
