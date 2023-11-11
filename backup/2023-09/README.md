@@ -17,7 +17,7 @@
 
 我在刷题的时候，写题解需要提供多种编程语言就使用过这个工具，真的好用。
 
-via: https://www.codeconvert.ai/c++-to-python-converter
+via: https://www.codeconvert.ai/free-converter
 
 ### 2023-09-25[插件]
 

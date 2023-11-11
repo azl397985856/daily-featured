@@ -40,6 +40,47 @@
 
 ## 新鲜出炉 (2023-11)
 
+### 2023-11-09[仓库]
+
+一个 waf 工具， 可以直接私有化部署。 
+
+想当年我也给我们公司做过 waf，也是花了至少几个月时间来完成的。如果你没这个预算，这个就是不错的选择。
+
+配置要求也不高：
+
+```
+操作系统：Linux
+指令架构：x86_64
+软件依赖：Docker 20.10.6 版本以上
+软件依赖：Docker Compose 2.0.0 版本以上
+最小化环境：1 核 CPU / 1 GB 内存 / 10 GB 磁盘
+```
+
+via: https://github.com/chaitin/SafeLine
+
+### 2023-11-08[仓库]
+
+facebook 开源的 docusaurus，社区算是比较活跃的， 基于 MDX，用户直接写 markdown， 帮你转化为网站，支持插件，主题，搜索等高级功能。
+
+via: https://github.com/facebook/docusaurus
+
+### 2023-11-07[仓库]
+
+一个 docx 渲染器，原理是将 docx 里的 xml 格式转成 html
+
+相对于 Canvas 渲染，这个实现方案比较简单，最终页面也可以很方便复制，但无法保证和原始 docx 文件展现一致，因为有部分功能难以在 HTML 中实现，比如图文环绕效果。
+
+你可以将他直接集成到你的项目中，无需后端服务，无需付费就可以架设一个 word 解析网站。
+
+via: https://github.com/baidu/amis/tree/master/packages/office-viewer
+### 2023-11-06[好文]
+
+如果你是一个 react 库的开发者。不免会使用 npm link 来测试。而这样会因为使用了 react 两个不同的包副本。当我们运行 npm link 时，我们不仅需要链接我们的项目，我们还需要链接 react 和 react-dom 以确保只有一个副本。
+
+使用 yalc 可以解决这个问题，yalc publish 会在本机上进行发布，而不会发布到 npm。
+
+via: https://www.propelauth.com/post/test-your-react-libraries-with-yalc
+
 ### 2023-11-04[网站]
 
 一个在线网站， 可以帮你生成隐私声明网页。
