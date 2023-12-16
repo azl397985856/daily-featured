@@ -62,6 +62,39 @@ ARIA 是一个被很多人忽视的东西，但是它对于一些残疾人来说
 
 via: https://www.a11yproject.com/posts/an-indepth-guide-to-aria-roles/
 
+### 2023-11-29[好文]
+
+《Prettier's CLI: A Performance Deep Dive》 这篇文章讲解了 prettier 的性能优化过程，以及一些性能优化的技巧。
+
+主要是关于匹配和缓存相关的内容，比如如何避免不必要的匹配，如何使用缓存等。
+
+via: https://prettier.io/blog/2023/11/30/cli-deep-dive
+
+### 2023-11-28[类库]
+
+Million.js 是一个极其快速且轻量级的 <4kb 虚拟 DOM，使 React 速度提高了 70%。 通过使用经过微调、优化的虚拟 DOM，Million.js 减少了 React 的开销。
+
+可以理解为是一个让 React 组件以原始 JavaScript 的速度运行的类库。
+
+
+它的原理是运行时通过 ref 获取真实 dom, 然后将 state 编译为 props 形式。这样 hoc 就可以控制组件不 render ，然后自己修改 dom （上一步通过 ref 获取到的）的方式来加快速度。
+
+官方文档里有详细的介绍用法和底层原理，感兴趣的可以试试。
+
+这个库功能上有点类似于 react 官方后续将要退出的 react forget。
+
+via: https://million.dev/docs
+
+### 2023-11-23[好文]
+
+Preact 出了一个 singals 的状态管理库，大小仅为几 kb，但是功能却很强大。
+
+原理类似 vue3 里的响应式，能够自动跟踪依赖，实现应用的局部更新。正因为如此 react 团队觉得其和 react 基本理念不一致，因此不会将其集成到 react 中。但是表示会有一种类似的东西推出。
+
+singals 不再像 hooks 一样局限于函数组件，而是可以在任何地方使用，并且可以做到按需局部更新。感兴趣的可以看看这一个科普视频
+
+via: https://www.youtube.com/watch?v=SO8lBVWF2Y8
+
 ### 2023-11-22[好文]
 
 v8 是如何给字符串分配内存的？什么时候回收分配的内存？这里设计到很多性能方面的设计和考虑。
