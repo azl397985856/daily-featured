@@ -76,12 +76,11 @@ Million.js 是一个极其快速且轻量级的 <4kb 虚拟 DOM，使 React 速�
 
 可以理解为是一个让 React 组件以原始 JavaScript 的速度运行的类库。
 
-
 它的原理是运行时通过 ref 获取真实 dom, 然后将 state 编译为 props 形式。这样 hoc 就可以控制组件不 render ，然后自己修改 dom （上一步通过 ref 获取到的）的方式来加快速度。
 
 官方文档里有详细的介绍用法和底层原理，感兴趣的可以试试。
 
-这个库功能上有点类似于 react 官方后续将要退出的 react forget。
+这个库功能上有点类似于 react 官方后续将要推出的 react forget。
 
 via: https://million.dev/docs
 
