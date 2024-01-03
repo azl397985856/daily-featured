@@ -84,6 +84,79 @@ Million.js 是一个极其快速且轻量级的 <4kb 虚拟 DOM，使 React 速�
 
 via: https://million.dev/docs
 
+### 2023-11-27[框架]
+
+fresh 是一个基于 deno 的 web 框架。
+
+从本质上讲，Fresh 是**路由框架和模板引擎的组合**，可在服务器上按需呈现页面。除了在服务器上进行实时 （JIT） 呈现之外，Fresh 还提供了一个接口，用于在客户端上无缝呈现某些组件，以实现最大的交互性。该框架使用 **preact 和 JSX** 在服务器和客户端上进行渲染和模板化。
+
+via: https://fresh.deno.dev/docs/introduction
+
+### 2023-11-26[好文]
+
+得益于浏览器提供的强大 API，如下简单的代码，就可以实现一个简单的录屏，并导出视频功能。
+
+```js
+const button = document.createElement("button");
+button.innerHTML = "capture";
+document.body.append(button);
+button.addEventListener("click", async () => {
+  const stream = await navigator.mediaDevices.getDisplayMedia();
+  const recoder = new MediaRecorder(stream);
+  // start recording
+  recoder.start();
+  const [video] = stream.getVideoTracks();
+  video.addEventListener("ended", () => {
+    // stop recording
+    recoder.stop();
+  });
+  // save record
+  recoder.addEventListener("dataavailable", (evt) => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(evt.data);
+    a.download = "capture.webm";
+    a.click();
+  });
+});
+```
+
+via: https://dev.to/ninofiliu/simple-screen-recorder-in-20-lines-of-javascript-4ina
+
+### 2023-11-25[类库]
+
+jest-image-snapshot 是一个 jest 插件，可以帮助你测试 UI 组件的样式是否正确。相比原生的 snapshot 测试，它基于渲染后页面进行像素级对比（可以自定义允许的像素误差），而且不对代码有任何要求，只要是浏览器可以渲染的就可以。
+
+它扩展了 jest 的 expect 方法，你可以直接使用 expect(image).toMatchImageSnapshot() 来进行测试。
+
+```js
+const { toMatchImageSnapshot } = require("jest-image-snapshot");
+
+expect.extend({ toMatchImageSnapshot });
+```
+
+使用:
+
+```js
+it('should demonstrate this matcher`s usage', () => {
+    ...
+    expect(image).toMatchImageSnapshot();
+  });
+```
+
+via: https://github.com/americanexpress/jest-image-snapshot
+
+### 2023-11-24[类库]
+
+tencent design 是腾讯的一套 ui 组件库，支持 web，小程序，flutter（这算是一个亮点），可以帮助你快速搭建应用。
+
+它的文档设计地很好，进入到某一个组件，可以看到这个组件对应的 issue 有多少，以及多少是 open 的，组件最近更新的时间，以及组件最早可用版本等非常有用的信息。
+
+![](https://p.ipic.vip/jtt7g1.png)
+
+另外有指南来告诉你组件的最佳实践，也有实时预览（嵌入一个 iframe）。虽然这两个都是标配了，但是我还是从他的指南学到了一些东西。
+
+via: https://tdesign.tencent.com/
+
 ### 2023-11-23[好文]
 
 Preact 出了一个 singals 的状态管理库，大小仅为几 kb，但是功能却很强大。
@@ -132,7 +205,7 @@ via: https://www.redblobgames.com/making-of/draggable/
 
 ```css
 textarea {
-    form-sizing: normal;
+  form-sizing: normal;
 }
 ```
 
@@ -154,7 +227,7 @@ via: https://github.com/jameslee-7/Web3.0-club
 
 ### 2023-11-09[仓库]
 
-一个 waf 工具， 可以直接私有化部署。 
+一个 waf 工具， 可以直接私有化部署。
 
 想当年我也给我们公司做过 waf，也是花了至少几个月时间来完成的。如果你没这个预算，这个就是不错的选择。
 
@@ -185,6 +258,7 @@ via: https://github.com/facebook/docusaurus
 你可以将他直接集成到你的项目中，无需后端服务，无需付费就可以架设一个 word 解析网站。
 
 via: https://github.com/baidu/amis/tree/master/packages/office-viewer
+
 ### 2023-11-06[好文]
 
 如果你是一个 react 库的开发者。不免会使用 npm link 来测试。而这样会因为使用了 react 两个不同的包副本。当我们运行 npm link 时，我们不仅需要链接我们的项目，我们还需要链接 react 和 react-dom 以确保只有一个副本。
@@ -205,9 +279,9 @@ via: https://www.generateprivacypolicy.com/#wizard
 
 ### 2023-11-03[库]
 
-FFCreator 是腾讯视频团队开源的生成视频的 JS库。通过它可以将图片，音频或者视频片段按照各种方式组合起来，从而形成一个视频。
+FFCreator 是腾讯视频团队开源的生成视频的 JS 库。通过它可以将图片，音频或者视频片段按照各种方式组合起来，从而形成一个视频。
 
-使用FFCreator和vue.js，可以开发可视化拖拽搭建短视频的web项目，使用就像h5搭建工具一样的简单。
+使用 FFCreator 和 vue.js，可以开发可视化拖拽搭建短视频的 web 项目，使用就像 h5 搭建工具一样的简单。
 
 via: https://github.com/tnfe/FFCreator
 
@@ -237,26 +311,26 @@ msw 类似于 2，相当于在浏览器上直接启动了一个代理（原理�
 ```js
 // src/mocks.js
 // 1. Import the library.
-import { http, HttpResponse } from 'msw'
-import { setupWorker } from 'msw/browser'
+import { http, HttpResponse } from "msw";
+import { setupWorker } from "msw/browser";
 
 // 2. Describe network behavior with request handlers.
 const worker = setupWorker(
-  http.get('https://github.com/octocat', ({ request, params, cookies }) => {
+  http.get("https://github.com/octocat", ({ request, params, cookies }) => {
     return HttpResponse.json(
       {
-        message: 'Mocked response',
+        message: "Mocked response",
       },
       {
         status: 202,
-        statusText: 'Mocked status',
-      },
-    )
-  }),
-)
+        statusText: "Mocked status",
+      }
+    );
+  })
+);
 
 // 3. Start request interception by starting the Service Worker.
-worker.start()
+worker.start();
 
 // Performing a GET https://github.com/octocat request in your application will result into a mocked response that you can inspect in your browser's "Network" tab
 ```
