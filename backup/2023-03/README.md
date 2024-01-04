@@ -167,6 +167,8 @@ alias snpm="socket-npm"
 alias snpx="socket-npx"
 ```
 
+另外其官方网站提供了完全可以替代 npm 官网的功能。在此，你可以查看项目的贡献者，项目的依赖，项目的风险（包括依赖的风险）等等，并直观上从各个层面给出得分，帮助你更好的选择包。
+
 via: https://socket.dev/blog/introducing-safe-npm
 
 ### 2023-03-19[类库]
