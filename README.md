@@ -53,6 +53,24 @@ sms-active 是一个可以帮助你接收短信验证码的网站，它可以帮
 
 via: https://sms-activate.org/en/getNumber
 
+### 2024-01-11[好文]
+
+很多网站提供了 RSS 订阅，但是 RSS 的订阅地址并不是很好找，网站作者很少有一个认知，那就是：如果你提供了 RSS 订阅，那么大方地放在主页上，这样可以让更多的人知道你提供了 RSS 订阅。
+
+你如果你使用 RSS 管理工具， 一定试过将一个你关心的网站添加到 RSS 订阅却发现其找不到订阅地址。而其是提供了订阅地址的，只是藏的很深。
+
+因此网站作者在主页标签里明确告诉读者和 RSS 阅读器，我提供了 RSS 订阅，你可以订阅我的 RSS，这是一种非常好的做法。这篇文章 《Exposed RSS （公开的 RSS）》  就讨论了这个问题。
+
+我的博客就提供了这样的一个标签来告诉大家我提供了 RSS 订阅，你可以在这里找到我的 RSS 订阅地址。
+
+```html
+<link rel="alternate" href="/blog/atom.xml" title="lucifer的网络博客">
+```
+
+> 博客地址：https://lucifer.ren/blog/
+
+via: https://chriscoyier.net/2024/01/13/exposed-rss/
+
 ### 2024-01-08[工具]
 
 oxlint 是一个用于检查 rust 代码的工具，它可以检查 rust 代码中的一些常见错误。相比 eslint 来说， 它更快，并且提示信息更加友好。
