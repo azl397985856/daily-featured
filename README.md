@@ -40,6 +40,52 @@
 
 ## 新鲜出炉 (2024-01)
 
+### 2024-01-19[技巧]
+
+如何清除 input 输入框历史下拉数据？
+
+有时候我们在 input 中输入东西的时候会出现历史记录，这很容易泄漏隐私。一般的浏览器清除是无法清除这样的数据的。那么如何清除呢？
+
+主要有两种方式：
+
+1. 取消自动填充。
+
+这里以谷歌浏览器为例，在浏览器地址栏输入：
+
+```
+chrome://settings/autofill
+```
+
+关闭自动填充表单即可（自动填充和密码下面的每一项都可以关闭），这样处理后所有网站下的 input 框都不会出现历史记录了。
+
+2. 删除历史输入记录。
+
+当已输入过的输入框中，点一下输入框就会自动带出先前所输入过的文字，接着当要删除某个文字记录时，只需将滑鼠滑到上方，再按 Shift+fn+Del 键(MAC)/Shift+Del 键(Win)，就可将它删除。
+
+个人推荐第二种，毕竟第一种会影响其他网站的自动填充功能，并且无法再次开启的话仍然会再次泄漏隐私。
+
+### 2024-01-18[好文]
+
+原文标题：《The Who, What, When, Where, Why and How of Image Optimization in Angular》。
+
+本文结合 chrome 提出的若干关键浏览器指标，介绍了如何使用 angular 来优化图片加载。
+
+angular 新增了 ngSrc 指令，它可以帮助我们更好地优化图片加载。这篇文章介绍了如何使用这个指令来优化图片加载。
+
+这是 angular 团队与 chrome 团队合作成果！尽管你仍然可以自己去实现这个功能，但是这个指令可以帮助你更加方便地实现这个功能。结合 provider 可以更加精细化控制图片的加载策略。比如这里的 loaderParams。
+
+```js
+<img
+    [ngSrc]="'photo-1417325384643-aac51acc9e5d'"
+    [loaderParams]="{ compression: 50 }"
+    fill
+    priority
+    ngSrcset="300w, 800w, 1500w"
+/>
+```
+
+via: https://angularindepth.com/posts/1522/the-who-what-where-when-why-and-how-of-image-optimization-in-angular
+
 ### 2024-01-12[好文]
 
 sms-active 是一个可以帮助你接收短信验证码的网站，它可以帮助你接收各种网站的短信验证码，从而帮助你注册各种网站。
@@ -62,10 +108,10 @@ via: https://sms-activate.org/en/getNumber
 我的博客就提供了这样的一个标签来告诉大家我提供了 RSS 订阅，你可以在这里找到我的 RSS 订阅地址。
 
 ```html
-<link rel="alternate" href="/blog/atom.xml" title="lucifer的网络博客">
+<link rel="alternate" href="/blog/atom.xml" title="lucifer的网络博客" />
 ```
 
-这篇文章 《Exposed RSS （公开的 RSS）》  就讨论了这个问题。
+这篇文章 《Exposed RSS （公开的 RSS）》 就讨论了这个问题。
 
 > 博客地址：https://lucifer.ren/blog/
 
