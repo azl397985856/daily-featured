@@ -40,6 +40,44 @@
 
 ## 新鲜出炉 (2024-01)
 
+### 2024-01-29[工具]
+
+给大家推荐几个 ai 聊天工具。
+
+1. Google 出的 Google Gemini Pro，可以免费使用。地址： https://googlegemini.co/try-google-gemini-for-free
+2. perplexity 是我最早使用的 ai 聊天工具之一，同样免费使用。地址：www.perplexity.ai
+3. glados 也支持集成 chatgpt。如果你使用了 glados 的服务，那么也可以免费使用。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
+4. 如果有条件，可以直接使用 openai（主要是可能会限制某些区域的 IP 地址）。 https://platform.openai.com
+5. 豆包。头条出的 ai 聊天工具，可以免费使用。地址：https://www.doubao.com/?hh=1
+6. copilot。如果你使用了 copilot，那么 copilot chat 也可以免费使用。比如我使用了 vscode，那么右下角就会出现一个 chat 的按钮，点击即可使用。
+
+我个人更建议使用 3 和 6，这也是目前我在使用的两个工具。
+
+### 2024-01-28[好文]
+
+Heat.js 是一个用于创建和管理热图的 JavaScript 库。热图是一种数据可视化技术，它使用颜色的强度来表示数据的大小或密度。类似于 Github 上的提交热图。
+
+![](https://p.ipic.vip/ureb9t.png)
+
+这个库的工作原理如下：
+
+- 初始化：首先，你需要创建一个 Heat 对象。这个对象需要一个配置对象，其中包含了创建热图所需的所有信息，如元素的 id、热图的宽度和高度、颜色梯度等。
+
+- 添加数据：一旦你有了一个 Heat 对象，你就可以开始添加数据了。数据是一个包含 x 和 y 坐标以及一个值的对象。这个值将决定该点在热图上的颜色。
+
+- 渲染热图：添加完所有数据后，你可以调用 Heat.render 方法来渲染热图。这个方法会遍历所有的数据点，根据每个点的值和颜色梯度来确定其颜色，然后在相应的位置上画出一个颜色块。
+
+- 更新和清除数据：你可以使用 Heat.clear 方法来清除所有的数据，或者使用 Heat.update 方法来更新某个数据点的值。
+
+在代码层面，Heat.js 主要由以下几个部分组成：
+
+- Heat 类：这是库的主要接口，用于创建热图、添加数据、渲染热图等。
+- Gradient 类：这个类用于创建颜色梯度。它接受一个包含颜色和位置的对象，然后使用线性插值来创建一个连续的颜色梯度。
+- Canvas 类：这个类封装了 HTML5 Canvas API，用于在 canvas 上绘制热图。
+- Point 类：这个类表示一个数据点。它包含 x 和 y 坐标以及一个值。
+
+via: https://github.com/williamtroup/Heat.js
+
 ### 2024-01-19[技巧]
 
 如何清除 input 输入框历史下拉数据？
