@@ -38,225 +38,45 @@
 
 如果大家觉得上面的集体活动效率比较低，我目前也接受 1v1 算法辅导，价格根据你的算法基础以及想要学习的内容而定感兴趣的可以加我微信，备注“算法辅导”，微信号 DevelopeEngineer。
 
-## 新鲜出炉 (2024-01)
+## 新鲜出炉 (2024-02)
 
-### 2024-01-31[工具]
+### 2024-02-19[工具]
 
-drizzle-orm 是一个用于操作数据库的无头 ORM，它可以帮助你更加方便地操作数据库。
+《Remix 入门实战》讲的内容比较浅显，但是却可以让你快速上手 Remix，了解它的基本使用方法。Remix 是一个新的 React 框架，它的目标是让开发者更容易地构建出高质量的 Web 应用。它的特点是开箱即用，自带了很多功能，比如路由、状态管理等。这篇文章是一个入门实战，通过一个简单的例子，让你快速上手 Remix。
 
-之前我一直使用的是 waterline 和 prism。
+如果有一些基础的话，阅读时间大概半个小时到一个小时。
 
-via: https://github.com/drizzle-team/drizzle-orm
+via: https://remix.lutaonan.com/
 
-### 2024-01-30[工具]
+### 2024-02-18[好文]
 
-从代码中删除过时内容的价值是不可否认的。然而，找到它们是一项手动且乏味的工作。这就是 Knip 的用武之地。随着代码库的复杂性和规模的增长，自动化和全面的工具变得至关重要。
+相信大家都看到过视频下方有一些 ai 工具对视频内容进行总结的情形。这篇文章就告诉你如何对视频内容进行总结，生成一些文字内容。
 
-via: https://knip.dev/overview/getting-started
+主要用到了  OpenAI API 和 the LangChain。
 
-### 2024-01-29[工具]
+via: https://blog.logrocket.com/extracting-youtube-video-data-openai-langchain/
 
-给大家推荐几个 ai 聊天工具。
+### 2024-02-03[工具]
 
-1. Google 出的 Google Gemini Pro，可以免费使用。地址： https://googlegemini.co/try-google-gemini-for-free
-2. perplexity 是我最早使用的 ai 聊天工具之一，同样免费使用。地址：www.perplexity.ai
-3. glados 也支持集成 chatgpt。如果你使用了 glados 的服务，那么也可以免费使用。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
-4. 如果有条件，可以直接使用 openai（主要是可能会限制某些区域的 IP 地址）。 https://platform.openai.com
-5. 豆包。头条出的 ai 聊天工具，可以免费使用。地址：https://www.doubao.com/?hh=1
-6. copilot。如果你使用了 copilot，那么 copilot chat 也可以免费使用。比如我使用了 vscode，那么右下角就会出现一个 chat 的按钮，点击即可使用。
+rspack 出的辅助工具，可以帮你分析项目信息，打包信息，帮助你更好地了解项目的构建情况，做出优化决策。
 
-我个人更建议使用 3 和 6，这也是目前我在使用的两个工具。
+lucifer PS：如果你也在做工具，不妨参考这个工具来做一个自己的辅助工具，帮助开发者更好地使用你的工具，同时也方便你收集用户的使用情况，定位问题等等。
 
-### 2024-01-28[好文]
+via: https://rsdoctor.dev/zh/guide/start/intro
 
-Heat.js 是一个用于创建和管理热图的 JavaScript 库。热图是一种数据可视化技术，它使用颜色的强度来表示数据的大小或密度。类似于 Github 上的提交热图。
+### 2024-02-02[工具]
 
-![](https://p.ipic.vip/ureb9t.png)
+openai 出的文字生成视频的工具，可以生成文字对应的视频，可以用来做一些文字生成的视频，比如一些短视频，或者一些文字解说的视频。
 
-这个库的工作原理如下：
+大家可以根据 demo 体验一下，效果非常的惊艳！
 
-- 初始化：首先，你需要创建一个 Heat 对象。这个对象需要一个配置对象，其中包含了创建热图所需的所有信息，如元素的 id、热图的宽度和高度、颜色梯度等。
+via: https://openai.com/sora
 
-- 添加数据：一旦你有了一个 Heat 对象，你就可以开始添加数据了。数据是一个包含 x 和 y 坐标以及一个值的对象。这个值将决定该点在热图上的颜色。
+### 2024-02-01[工具]
 
-- 渲染热图：添加完所有数据后，你可以调用 Heat.render 方法来渲染热图。这个方法会遍历所有的数据点，根据每个点的值和颜色梯度来确定其颜色，然后在相应的位置上画出一个颜色块。
+亚马逊出品的 JavaScript 运行时，是 V8，quickjs 的竞品，据说速度更快，有需要的可以看看。
 
-- 更新和清除数据：你可以使用 Heat.clear 方法来清除所有的数据，或者使用 Heat.update 方法来更新某个数据点的值。
-
-在代码层面，Heat.js 主要由以下几个部分组成：
-
-- Heat 类：这是库的主要接口，用于创建热图、添加数据、渲染热图等。
-- Gradient 类：这个类用于创建颜色梯度。它接受一个包含颜色和位置的对象，然后使用线性插值来创建一个连续的颜色梯度。
-- Canvas 类：这个类封装了 HTML5 Canvas API，用于在 canvas 上绘制热图。
-- Point 类：这个类表示一个数据点。它包含 x 和 y 坐标以及一个值。
-
-via: https://github.com/williamtroup/Heat.js
-
-### 2024-01-22[好文]
-
-Refine 在设计上是 headless(无头)的，因此提供了无限的样式和自定义选项。
-
-"headless" 指的是一个系统或框架没有预定义的前端界面。这意味着它不会限制你如何设计和实现用户界面。你可以使用任何你喜欢的技术和工具来创建用户界面，这就为样式和定制提供了无限的可能性。
-
-在 web 开发中，"headless" 通常用于描述那些只提供 API（如 RESTful API 或 GraphQL API）而不提供预定义用户界面的后端系统。这种设计方式的优点是灵活性高，可以根据项目的需要选择最合适的前端技术。缺点是可能需要更多的开发工作，因为你需要自己从头开始创建用户界面。
-
-via: https://github.com/refinedev/refine
-
-### 2024-01-19[技巧]
-
-如何清除 input 输入框历史下拉数据？
-
-有时候我们在 input 中输入东西的时候会出现历史记录，这很容易泄漏隐私。一般的浏览器清除是无法清除这样的数据的。那么如何清除呢？
-
-主要有两种方式：
-
-1. 取消自动填充。
-
-这里以谷歌浏览器为例，在浏览器地址栏输入：
-
-```
-chrome://settings/autofill
-```
-
-关闭自动填充表单即可（自动填充和密码下面的每一项都可以关闭），这样处理后所有网站下的 input 框都不会出现历史记录了。
-
-2. 删除历史输入记录。
-
-当已输入过的输入框中，点一下输入框就会自动带出先前所输入过的文字，接着当要删除某个文字记录时，只需将滑鼠滑到上方，再按 Shift+fn+Del 键(MAC)/Shift+Del 键(Win)，就可将它删除。
-
-个人推荐第二种，毕竟第一种会影响其他网站的自动填充功能，并且无法再次开启的话仍然会再次泄漏隐私。
-
-### 2024-01-18[好文]
-
-原文标题：《The Who, What, When, Where, Why and How of Image Optimization in Angular》。
-
-本文结合 chrome 提出的若干关键浏览器指标，介绍了如何使用 angular 来优化图片加载。
-
-angular 新增了 ngSrc 指令，它可以帮助我们更好地优化图片加载。这篇文章介绍了如何使用这个指令来优化图片加载。
-
-这是 angular 团队与 chrome 团队合作成果！尽管你仍然可以自己去实现这个功能，但是这个指令可以帮助你更加方便地实现这个功能。结合 provider 可以更加精细化控制图片的加载策略。比如这里的 loaderParams。
-
-```js
-<img
-    [ngSrc]="'photo-1417325384643-aac51acc9e5d'"
-    [loaderParams]="{ compression: 50 }"
-    fill
-    priority
-    ngSrcset="300w, 800w, 1500w"
-/>
-```
-
-via: https://angularindepth.com/posts/1522/the-who-what-where-when-why-and-how-of-image-optimization-in-angular
-
-### 2024-01-17[工具]
-
-bit 一种相对新的组件开发方式。 我在前一家公司就使用了 bit 来管理组件。它可以帮助你更好地管理组件，从而提高组件的复用性。
-
-shadcn 和 radix 和 bit 有点类似。他们都强调弱组件库，他们都不是组件库。你需要什么组件，就添加什么组件。每一个组件都是独立的，可以单独发布，也可以单独使用。
-
-radix 可以单独 install 单个组件。比如这样：
-
-```bash
-npm install @radix-ui/react-popover@latest -E
-```
-而 shadcn 则更干脆，你直接使用命令行，将组件源码下载到你本地，并安装组件的依赖。参考：https://github.com/shadcn-ui/ui/blob/main/packages/cli/src/commands/add.ts
-
-值得一提的是 shadcn 是 2023 年最火的 ui 组件集成工具。不过并不像 bit 一样你可以在上面开发组件。
-
-via:
-
-- https://ui.shadcn.com/docs
-- https://www.radix-ui.com/primitives/docs/overview/getting-started
-
-
-### 2024-01-12[好文]
-
-sms-active 是一个可以帮助你接收短信验证码的网站，它可以帮助你接收各种网站的短信验证码，从而帮助你注册各种网站。
-
-这在：
-
-1. 网站需要短信验证码的时候非常有用，比如你想注册一个网站，但是你**不想给他们你的手机号**，那么你可以使用这个网站来接收验证码。
-2. 网站限定手机归属地必须是某个国家的时候，你可以使用这个网站来接收验证码。
-
-这个网站是付费的。
-
-via: https://sms-activate.org/en/getNumber
-
-### 2024-01-11[好文]
-
-很多网站提供了 RSS 订阅，但是 RSS 的订阅地址并不是很好找，网站作者很少有一个认知，那就是：如果你提供了 RSS 订阅，那么大方地放在主页上，这样可以让更多的人知道你提供了 RSS 订阅。
-
-你如果你使用 RSS 管理工具， 一定试过将一个你关心的网站添加到 RSS 订阅却发现找不到订阅地址。而其实网站提供了 RSS 订阅地址，只是藏的很深。因此网站作者在主页标签里明确告诉读者和 RSS 阅读器：”我提供了 RSS 订阅，你可以订阅我的 RSS“ 是一种非常好的做法。
-
-我的博客就提供了这样的一个标签来告诉大家我提供了 RSS 订阅，你可以在这里找到我的 RSS 订阅地址。
-
-```html
-<link rel="alternate" href="/blog/atom.xml" title="lucifer的网络博客" />
-```
-
-这篇文章 《Exposed RSS （公开的 RSS）》 就讨论了这个问题。
-
-> 博客地址：https://lucifer.ren/blog/
-
-via: https://chriscoyier.net/2024/01/13/exposed-rss/
-
-### 2024-01-08[工具]
-
-oxlint 是一个用于检查 rust 代码的工具，它可以检查 rust 代码中的一些常见错误。相比 eslint 来说， 它更快，并且提示信息更加友好。
-
-使用方法和 eslint 类似，集成到你的项目也非常的简单，可能就只需要几秒钟。不过它并不是 eslint 的替代品，目前还不支持插件。不过我相信它会越来越好用的。
-
-via: https://oxc-project.github.io/blog/2023-12-12-announcing-oxlint.html
-
-### 2024-01-07[好文]
-
-这是一篇关于如何在浏览器中实现一个协同编辑器的文章，它介绍了如何使用 OT 算法来实现一个协同编辑器。
-
-OT 算法是一种用于解决协同编辑问题的算法，它的核心思想是将编辑操作转换为操作序列，然后在客户端和服务端分别执行这个操作序列，从而达到同步的目的。 实现上， 客户端和服务端通过 docReq 和 docRes 两个接口来进行通信。
-
-如果你对协同编辑器感兴趣或者正在实现协同编辑，那么这篇文章是一个不错的开始，尽管这篇文章使用 GO 写的，但是重在领会思想。
-
-via: https://www.aadhav.me/posts/collaborative-editor#h5o-23
-
-### 2024-01-04[好文]
-
-这篇文章介绍了如何在 mac 上使用两个 github 账号，这在我们同时使用公司和个人账号的时候非常有用。
-
-通过这篇文章，我学到了：
-
-1. 通过如下命令可以切换 ssh 验证使用的私钥
-
-```bash
-alias git_personal="(ssh-agent) && ssh-add ~/.ssh/personal"
-alias git_work="(ssh-agent) && ssh-add ~/.ssh/work"
-```
-
-2. git config 文件可以使用 path 来指定配置文件位置。
-
-3. git config 支持条件语句 `includeIf`
-
-```bash
-[includeIf "gitdir:~/"]
-path = ~/.gitconfig-personal
-
-[includeIf "gitdir:~/Work/"]
-path = ~/.gitconfig-work
-
-[core]
-excludesfile = ~/.gitignore
-```
-
-via: https://fayazahmed.com/articles/how-to-use-two-github-accounts-on-a-macbook-the-right-way
-
-### 2024-01-03[工具]
-
-pix2tex - LaTeX OCR 是一个将图片转换为 LaTeX 的工具，它可以将图片中的公式转换为 LaTeX 代码，从而直接粘贴出来。
-
-这在一些不提供复制功能的地方很有用。 虽然我认为网站应该自己提供复制功能，但是有时候我们也无法改变这些事实，所以这个工具还是很有用的。
-
-不过可惜的是，这个工具还不是特别好用，算是勉强可用吧，毕竟是免费的工具。它的准确率还不是特别高，不过这个工具还是很有潜力的，我相信它会越来越好用的。
-
-via: https://github.com/lukas-blecher/LaTeX-OCR
+via: https://github.com/awslabs/llrt
 
 ## 历史汇总
 
