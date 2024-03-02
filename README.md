@@ -40,6 +40,101 @@
 
 ## 新鲜出炉 (2024-02)
 
+### 2024-02-29[字体]
+
+《京華老宋体》是一个特别好看的字体，有浓厚的中国风，适合用来做一些中国风的设计。
+
+不过实际使用上来看，锐化的效果不是特别好，不知道是不是 mac 设备的原因。
+
+via: https://zhuanlan.zhihu.com/p/637491623
+
+### 2024-02-28[网站]
+
+输入 ts 类型，帮你生成 ts 类型的图表，可以帮助你更好地理解 ts 类型。
+
+![](https://p.ipic.vip/e3jg1u.png)
+
+via: https://tsdiagram.com/
+
+### 2024-02-27[工具]
+
+kiss-translator 是一个双语对照翻译工具，有对应的浏览器和油猴脚本。
+
+对于有一定英语背景但不是特别好的人来说，**双语对照**可以帮助你更好地理解英文文章，提高你的英文阅读能力。
+
+via: https://github.com/fishjar/kiss-translator
+
+### 2024-02-26[教程]
+
+一个超级实用和简短的 svg 教程，画面非常精美。
+
+![](https://p.ipic.vip/y37zjg.png)
+
+一共 25 个“关卡"。
+
+里面讲了 svg 中如何用 g 来 group 元素，如何处理事件，如何使用动画，如何使用滤镜高阶等等。
+
+via: https://svg-tutorial.com/
+
+### 2024-02-25[工具]
+
+我们见过不少 markdown 转化成 pdf，epub 的工具。但是反向地将 pdf，epub 转化成 markdown 的工具就比较少了。
+
+这个工具借助了人工智能，可以帮你将 pdf，epub 转化成 markdown。
+
+via: https://github.com/VikParuchuri/marker
+
+### 2024-02-23[网站]
+
+一个可以帮你保持屏幕常亮的网站，可以帮助你在一些需要屏幕常亮的场景下使用。
+
+其基本原理是使用了 noSleep.js 这个库，这个库可以阻止屏幕自动关闭。
+
+[noSleep.js](https://github.com/richtr/NoSleep.js/blob/master/src/index.js) 的原理是播放一个无限循环的假视频，让浏览器错误地认为你在看视频，从而阻止屏幕常亮。不过由于 浏览器的 [navigator.wakeLock](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/wakeLock) API 的出现，这个库会优先使用这个 api 来阻止屏幕常亮。
+
+via: https://www.keepscreenon.com/
+
+### 2024-02-22[好文]
+
+学习一个东西就是要从大的方向高屋建瓴地去理解。
+
+这篇文章就将 web 应用从是否动态和是否在线两个维度进行了分类，然后讲解了每一种类型的特点。
+
+两个维度，一共分了 2 * 2 = 4 种类型。
+
+![](https://p.ipic.vip/ptfto1.png)
+
+并且拿具体的知名的网站作为例子，讲解了每一种类型的特点，以及什么情况下使用什么样的技术栈构建什么样的类型 web 应用。
+
+via: https://jakelazaroff.com/words/the-website-vs-web-app-dichotomy-doesnt-exist/
+
+### 2024-02-21[好文]
+
+chrome 出了很多的 web vitals 监控指标，比如 First Contentful Paint，Cumulative Layout Shift，但是这些指标是如何收集的呢？
+
+说实话很难收集。而 chrome 修改了 performance API，可以帮助我们直接收集这些指标。
+
+比如如下代码就可以手机 Cumulative Layout Shift。
+
+```js
+const observer = new PerformanceObserver((list) => {
+  let cumulativeLayoutShift = 0;
+  list.getEntries().forEach((entry) => {
+    // Don't count if the layout shift is a result of user interaction.
+    if (!entry.hadRecentInput) {
+      cumulativeLayoutShift += entry.value;
+    }
+    console.log({ entry, cumulativeLayoutShift });
+  });
+});
+
+// Call the Observer.
+observer.observe({ type: "layout-shift", buffered: true });
+
+```
+
+via: https://www.smashingmagazine.com/2024/02/reporting-core-web-vitals-performance-api/
+
 ### 2024-02-19[工具]
 
 《Remix 入门实战》讲的内容比较浅显，但是却可以让你快速上手 Remix，了解它的基本使用方法。Remix 是一个新的 React 框架，它的目标是让开发者更容易地构建出高质量的 Web 应用。它的特点是开箱即用，自带了很多功能，比如路由、状态管理等。这篇文章是一个入门实战，通过一个简单的例子，让你快速上手 Remix。
@@ -55,6 +150,14 @@ via: https://remix.lutaonan.com/
 主要用到了  OpenAI API 和 the LangChain。
 
 via: https://blog.logrocket.com/extracting-youtube-video-data-openai-langchain/
+
+### 2024-02-17[好文]
+
+目前很多监控摄像头都是 wifi 传输的，本身没有内置 sd 卡，导致你可以简单地使用 wifi 干扰器来将其干掉。
+
+因此我的做法就是使用 sd 卡 + wifi，并且电池+电源双保险。不管你是切断电源还是干扰 wifi，都无法干掉我的摄像头。当然也有很多别的方式罢了，只是这帮我们多加了一层防护。
+
+via: https://www.tomshardware.com/networking/wi-fi-jamming-to-knock-out-cameras-suspected-in-nine-minnesota-burglaries-smart-security-systems-vulnerable-as-tech-becomes-cheaper-and-easier-to-acquire
 
 ### 2024-02-03[工具]
 
