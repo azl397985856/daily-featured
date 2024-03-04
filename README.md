@@ -159,6 +159,96 @@ via: https://blog.logrocket.com/extracting-youtube-video-data-openai-langchain/
 
 via: https://www.tomshardware.com/networking/wi-fi-jamming-to-knock-out-cameras-suspected-in-nine-minnesota-burglaries-smart-security-systems-vulnerable-as-tech-becomes-cheaper-and-easier-to-acquire
 
+### 2024-02-16[好文]
+
+sytax 的一期节目，标题是《how-to-be-productive》
+
+以下是我提取的博客重点内容：
+
+1. 最重要的是你首先要检查你当前的习惯。是什么阻碍了你？你在做什么？日常生活中有哪些事情让你感到困惑？
+2. 安排专注时间，排除干扰，专注于具体的一件事情。这个时间段不做其他事情，比如社交媒体，邮件等等，不要让别人打扰你。
+3. 专注的时间最好是固定时间。比如可以用番茄工作法，25 分钟专注，5 分钟休息。专注时间最好是创造性的工作，也就是说专注时间里创造性的工作的优先级更高。
+4. 改变习惯可能是很难的，但是轻微的环境变化可以改掉坏习惯。比如你可以把手机放在另外一个房间，这样你就不会一直看手机了。
+5. 你有一堆的事情要做，如何排序？按焦虑程度对待办事项进行排序
+6. 日历是最好的生产力工具。 这里其实关键点在于 deadline。你可以把 deadline 放在日历上，然后扫一下你就知道今天要做什么了。这个技巧我用了好久，现在一般我也会结合使用月度计划，周计划。而日历在我这里更像是部分日计划。
+7. 这条是我加的。如果完成了自己的计划，要给自己奖励。这个奖励可以是一些小的东西，比如吃一顿好的，看一部电影等等。这样可以让你更有动力去完成自己的计划。
+
+
+via: https://syntax.fm/show/717/how-to-be-productive/transcript#scott-formally-diagnosed-with-adhd-re-examining-how-he-works
+
+### 2024-02-15[工具]
+
+pa11y 是一个 web 端无障碍测试工具，可以帮助你测试你的网站是否符合无障碍标准。
+
+你可以使用 cli，也可以使用 api 来测试。
+
+cli 的使用方式如下：
+
+```bash
+npx pa11y https://example.com
+```
+
+api 的使用方式如下：
+
+```js
+const pa11y = require('pa11y');
+
+pa11y('https://example.com').then((results) => {
+    // Use the results
+});
+```
+
+扩展性也是有的，你可以通过 action 自定义一些浏览器的操作，这些操作和 puppeteer 的操作类似。
+
+
+via: https://github.com/pa11y/pa11y
+
+### 2024-02-14[新闻]
+
+JSR，Deno团队的新包注册表，旨在解决npm的限制。
+
+用户可以直接编写 TypeScript 发布到 JSR，JSR 会完成 ts 编译，ESM 转义等操作。而且据说还更加安全。
+
+via: https://socket.dev/blog/jsr-new-javascript-package-registry
+
+### 2024-02-13[好文]
+
+《How does B-tree make your queries fast?（B 树如何让您的查询更快？）》这篇文章讲解了 B 树的原理，以及为什么 B 树可以让你的数据库查询更快。
+
+文章总结了两个原因：
+
+1. every node may contain more than one value(每个节点可能包含多个值)
+2. inserting a new value is followed by a self-balancing algorithm(插入新值之后是自平衡算法)
+
+这是我见过的 B 树讲解最直观最好理解的一篇文章，图文并茂，讲解清晰。
+
+via: https://blog.allegro.tech/2023/11/how-does-btree-make-your-queries-fast.html
+
+### 2024-02-04[组件库]
+
+daisyui 是一个 tailwindcss 的组件库，它提供了一些常用的组件，比如按钮，表单，卡片等等。
+
+和其他组件库不同的是，它的组件是基于 tailwindcss 的，作为 tailwindcss 的插件进行安装。
+
+```js
+module.exports = {
+  //...
+  plugins: [require("daisyui")],
+}
+```
+
+使用的时候，你可以直接在 html 中使用 tailwindcss 的类名，然后就可以使用这些组件了。 而不需要像其他组件库一样引入组件。
+
+```html
+<button class="btn">Button</button>
+<button class="btn btn-primary">Button</button>
+<button class="btn w-64 rounded-full">Button</button>
+```
+
+原子化的类名，让你可以更加灵活地使用组件。
+
+via: https://github.com/saadeghi/daisyui
+
 ### 2024-02-03[工具]
 
 rspack 出的辅助工具，可以帮你分析项目信息，打包信息，帮助你更好地了解项目的构建情况，做出优化决策。
