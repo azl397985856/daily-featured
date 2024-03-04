@@ -231,6 +231,7 @@ daisyui 是一个 tailwindcss 的组件库，它提供了一些常用的组件�
 和其他组件库不同的是，它的组件是基于 tailwindcss 的，作为 tailwindcss 的插件进行安装。
 
 ```js
+// tailwind.config.js
 module.exports = {
   //...
   plugins: [require("daisyui")],
