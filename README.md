@@ -224,7 +224,88 @@ via: https://socket.dev/blog/jsr-new-javascript-package-registry
 
 via: https://blog.allegro.tech/2023/11/how-does-btree-make-your-queries-fast.html
 
-### 2024-02-04[组件库]
+### 2024-02-12[好文]
+
+vercel 的产品好多体验都不错。比如今天介绍的这个。它借助于 react server components 和 openai，可以让你在服务端渲染 react 组件，然后再将其传递给客户端。用户可以用纯文本或者图片输入，然后回复给用户一个可以交互的程序，而不是传统的纯文本回复，极大增强了用户体验，也扩展了 openai 产品的使用场景。
+
+![](https://p.ipic.vip/ehn5d4.png)
+
+你也可以直接使用这套 sdk 来构建自己的交互式程序。
+
+```js
+import { render } from 'ai/rsc'
+import OpenAI from 'openai'
+import { z } from 'zod'
+
+const openai = new OpenAI()
+
+async function submitMessage(userInput) { // 'What is the weather in SF?'
+  'use server'
+
+  return render({
+    provider: openai,
+    model: 'gpt-4',
+    messages: [
+      { role: 'system', content: 'You are a helpful assistant' },
+      { role: 'user', content: userInput }
+    ],
+    text: ({ content }) => <p>{content}</p>,
+    tools: {
+      get_city_weather: {
+        description: 'Get the current weather for a city',
+        parameters: z.object({
+          city: z.string().describe('the city')
+        }).required(),
+        render: async function* ({ city }) {
+          yield <Spinner/>
+          const weather = await getWeather(city)
+          return <Weather info={weather} />
+        }
+      }
+    }
+  })
+}
+```
+
+via: https://vercel.com/blog/ai-sdk-3-generative-ui
+
+### 2024-02-08[好文]
+
+tinyMCE@6 是一个富文本编辑器，它有很多的功能，比如图片上传，表格编辑，代码高亮等等。
+
+使用起来也非常简单，初始化一下就可以直接用了。
+
+```js
+tinymce.init({
+  selector: 'textarea',  // change this value according to your HTML
+  plugins: 'emoticons',
+  toolbar: 'emoticons',
+  a_plugin_option: true,
+  a_configuration_option: 400
+});
+```
+
+它的最大特点是插件化，你可以根据自己的需求来选择插件，比如 save 插件，全屏插件，emoji 插件等等。甚至还有 ai 插件，https://www.tiny.cloud/docs/tinymce/6/ai/
+
+相比于新兴的编辑器，它的优势在于稳定，功能齐全，插件丰富。缺点就是体积比较大，而且有些功能可能不够现代化。
+
+via: https://www.tiny.cloud/docs/tinymce
+
+### 2024-02-7[好文]
+
+这篇文章讲解了 chrome extension 是如何滥用权限来监控用户的行为，比如监控用户的点击行为，监控用户的输入行为等等。
+
+这提示我们在使用 chrome extension 的时候，一定要注意权限，不要随便安装一些不知名的插件。
+
+我对插件非常挑剔，只会安装很少的插件，同时也会注意权限。
+
+但是这其实很难避免被监控，因为插件是会静默更新的，你不知道它更新了什么。对此其实我也比较无奈。大家如果有好的解决方法，欢迎留言告诉我。
+
+因此最主要的方式应该是浏览器厂商加强审核，不要让一些恶意插件进入到插件商店。同时对所有敏感权限都要明确提示用户(类似于插件想要读取剪贴板时候的浏览器提示)。
+
+via: https://mattfrisbie.substack.com/p/spy-chrome-extension
+
+### 2024-02-06[组件库]
 
 daisyui 是一个 tailwindcss 的组件库，它提供了一些常用的组件，比如按钮，表单，卡片等等。
 
