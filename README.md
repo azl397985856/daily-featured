@@ -40,6 +40,25 @@
 
 ## 新鲜出炉 (2024-03)
 
+### 2024-03-25[好文]
+
+一个介绍如何在你的 IDE 中使用 GitHub Copilot 的文章。它介绍了一些使用技巧，最佳实践等等。
+
+对于我来说，最有用的两条是：
+
+- “1. Open your relevant files”。我之前以为 copilot 会自动扫描本地文件。但实际上它只会扫描本地中打开的文件。
+- “10. Use the @workspace agent” 使用 workspace 指令可以让 copilot 在整个项目中搜索，而不是网络上，这样可以针对你项目进行一些响应。比如你可以文项目的类型定义写在哪个文件等等。
+
+via: https://github.blog/2024-03-25-how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/
+
+### 2024-03-20[工具]
+
+oxc 是一套 JavaScript 工具集合，用 Rust 写的。比如用于 lint 的 oxlint， 用于构建的 rspack 等等。
+
+![](https://p.ipic.vip/vefwci.png)
+
+via: https://oxc-project.github.io/
+
 ### 2024-03-19[网站]
 
 FIRE(Finance, Independence, Retire Early) 是一个理财自由的概念，它的核心思想是通过投资和理财，让自己的被动收入大于支出，从而实现财务自由。
