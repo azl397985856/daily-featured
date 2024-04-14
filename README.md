@@ -56,6 +56,24 @@ chatgpt 3.5 终于可以免费使用了，无需登录即可使用。但是对�
 
 via: https://chat.openai.com/
 
+### 2024-04-10[技巧]
+
+quickjs 是一个小型的 JavaScript 引擎，它支持 ES2020 标准，可以作为嵌入式脚本引擎使用。它的特点是小巧，快速，可以作为一个库嵌入到你的应用中。
+
+但是你知道吗？它还支持编译为 wasm，这意味着你可以在 JS 引擎中运行 quickjs 来当做沙箱执行 JS 代码（如果你愿意的话也可以继续套娃）。
+
+via: https://bellard.org/quickjs/
+
+### 2024-04-09[工具]
+
+如果你想在 node 中运行 deno 引擎， deno 引擎再运行 JS（或者 TS） 代码，那么 `node-deno-vm` 这个工具可以帮助你做到这一点。
+
+什么情况下会用到这个工具呢？比如你想做一些权限文件读写等权限控制，就可以使用。这是因为 deno 引擎的权限控制更加严格，而 node 在这方面做的不好。
+
+它的原理是用 node 的 spawn 来启动 deno 引擎，然后通过 websocket（deno 目前不支持 IPC） 通信来执行代码，将 websocket 的 url 通过参数传给 deno，deno 构建 websocket 客户端，然后通过 websocket 来通信。
+
+via: https://github.com/casual-simulation/node-deno-vm
+
 ### 2024-04-01[网站]
 
 最近 web3 特别多空投（airdrop），但是消息都比较分散，这个 metamask 钱包提供的功能可以帮助你识别你有资格参与的空投。
