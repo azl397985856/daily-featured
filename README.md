@@ -42,7 +42,7 @@
 
 ### 2024-04-18[工具]
 
-figma 是一个非常好用的设计工具，但是它的插件生态也非常丰富，你可以通过插件来扩展 figma 的功能。这是因为 figma 的接口设计， figma 提供了 widget api，rest api 和 pl'ugin api 来让扩展 figma 变得非常容易。
+figma 是一个非常好用的设计工具，同时它的插件生态也非常丰富，你可以通过插件来扩展 figma 的功能。这是因为 figma 丰富的接口设计，figma 提供了 widget api，rest api 和 plugin api 来让扩展 figma 变得非常容易。
 
 - widget api：可以让你在 figma 中嵌入 ui 组件。
 - rest api：可以让你通过 restful api 来操作 figma 的文件，节点等。
