@@ -40,6 +40,22 @@
 
 ## 新鲜出炉 (2024-04)
 
+### 2024-04-18[工具]
+
+figma 是一个非常好用的设计工具，但是它的插件生态也非常丰富，你可以通过插件来扩展 figma 的功能。这是因为 figma 的接口设计， figma 提供了 widget api，rest api 和 pl'ugin api 来让扩展 figma 变得非常容易。
+
+- widget api：可以让你在 figma 中嵌入 ui 组件。
+- rest api：可以让你通过 restful api 来操作 figma 的文件，节点等。
+- plugin api：可以让你通过 JavaScript 来操作 figma 的文件，节点等。
+
+figma 的插件类似于浏览器的插件，你可以通过插件来实现一些自动化的操作，比如自动生成代码，自动生成图表等。也是用  JavaScript 来编写的。
+
+所谓万事开头难，如果你想自己写一个 figma 插件，看官方文档不那么容易上手。那么这个工具可以帮助你快速创建一个 figma 插件项目。
+
+使用它可以快速生成 typescript 项目，也可以生成 react 项目，让你可以专注于业务逻辑的实现。
+
+via: https://yuanqing.github.io/create-figma-plugin/quick-start/
+
 ### 2024-04-12[工具]
 
 准备好你的数据库，执行  `npx dashpress`， 就可以生成一个完整的后台管理系统，包括前端和后端。体验 demo：https://demo.dashpress.io/
