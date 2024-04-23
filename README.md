@@ -48,7 +48,9 @@ previewjs 是一个 IDE插件，通过它可以让你在你的 IDE 中预览 UI 
 
 下面这个视频展示了 previewjs 的功能，你可以看到它是如何在 IDE 中预览 UI 组件的，是如何修改代码，然后实时预览的。
 
-<div><video controls src="https://previewjs.com/videos/demo.mp4" muted="false"></video></div>
+<!-- <div><video controls src="https://previewjs.com/videos/demo.mp4" muted="false"></video></div> -->
+
+https://github.com/azl397985856/daily-featured/assets/12479470/a1bf8307-7d8e-4e8e-81a9-40a5574fb25c
 
 如果你要做一个类似的插件，其实也不难。核心只要：
 
