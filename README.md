@@ -40,6 +40,40 @@
 
 ## 新鲜出炉 (2024-04)
 
+### 2024-04-23[工具]
+
+previewjs 是一个 IDE插件，通过它可以让你在你的 IDE 中预览 UI 组件， 如果你了解 Storybook，那么你就可以很快上手 previewjs。 实际上通过 previewjs 甚至直接生成 Storybook 文件，实现和 storybook 的无缝衔接。
+
+对不熟悉 storybook 的同学我简单介绍下它。storybook 是一个 UI 组件的开发环境，它可以让你独立的开发 UI 组件，然后通过 storybook 来预览你的 UI 组件。通过 storybook 你可以很方便的查看 UI 组件的各种状态，比如 hover，active 等。组件的 props 也可以通过 storybook 来调整，最后这些属性组合什么的可以作为一个个 user case 来展示，也叫做用户故事（Storybook）。
+
+下面这个视频展示了 previewjs 的功能，你可以看到它是如何在 IDE 中预览 UI 组件的，是如何修改代码，然后实时预览的。
+
+<div><video controls src="https://previewjs.com/videos/demo.mp4" muted="false"></video></div>
+
+如果你要做一个类似的插件，其实也不难。核心只要：
+
+1. 拿到当前的组件代码，然后调用库的 api 来render 就可以了，比如 react 的话，你可以用 react-dom 的 render 方法来 render 你的组件。
+2. 至于下面的面板： Story，console，properties。这其实 vscode 等编辑器都有专门的文档告诉你怎么实现。至于展示的数据从哪里来，当前是解析组件的 props 类型定义之类的。
+3. 最后就是监听代码变化，然后重新 render。
+
+总的来说，我认为它是**和 wallaby.js 一样好用的工具，都是让你更快的看到你的代码的运行结果。** 而这种快速反馈正是提高开发效率的关键。
+
+via: https://previewjs.com/
+
+### 2024-04-22[工具]
+
+由于我经常用 markdown 写一些教程，因此常常会想：“如果 markdown 中可以直接嵌入代码，让文章既有代码又可以交互多好。”
+
+实际上这并不难实现。由于我写的 markdown 最终都是通过一些工具转成 html 来展示（比如我的博客）。因此只需要按照一定格式去写代码，然后将你的 markdown 编译一下，取出对应代码，将其插入到 html 对应位置即可。
+
+只是做这个插件需要时间，做好后每次写文章也会多很多工作量，因此就没有做。但是如果你有这个需求，可以参考这个工具，它可以让你在 markdown 中嵌入代码，然后通过一个插件来实现代码的交互。
+
+其直接内置了一些 UI 库和 helper 函数，让你可以很方便的实现代码的交互。当然你也可以自己引入你的库，然后实现你想要的效果。
+
+![](https://p.ipic.vip/32pgn5.png)
+
+via: https://genji-md.dev
+
 ### 2024-04-18[工具]
 
 figma 是一个非常好用的设计工具，同时它的插件生态也非常丰富，你可以通过插件来扩展 figma 的功能。这是因为 figma 丰富的接口设计，figma 提供了 widget api，rest api 和 plugin api 来让扩展 figma 变得非常容易。
