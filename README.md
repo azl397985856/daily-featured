@@ -40,6 +40,14 @@
 
 ## 新鲜出炉 (2024-04)
 
+### 2024-04-28[工具]
+
+bilibili 手机端是可以下载视频的（部分视频由于版权限制也无法下载），但是电脑端就不行了。这个网站可以帮助你下载 bilibili 视频，你只需要输入 bilibili 视频的地址，然后点击“提取”，等待分析完成后，点击“下载”就可以下载视频了。
+
+![](https://p.ipic.vip/d1srux.png)
+
+via: https://snapany.com/zh/bilibili
+
 ### 2024-04-23[工具]
 
 previewjs 是一个 IDE插件，通过它可以让你在你的 IDE 中预览 UI 组件， 如果你了解 Storybook，那么你就可以很快上手 previewjs。 实际上通过 previewjs 甚至直接生成 Storybook 文件，实现和 storybook 的无缝衔接。
