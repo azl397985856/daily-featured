@@ -40,6 +40,18 @@
 
 ## 新鲜出炉 (2024-04)
 
+### 2024-04-30[工具]
+
+一个像素级别的 diff 工具，可以帮助你比较两个图片的差异。或许可以用来分析白屏问题，或者是图片是否加载成功等。
+
+via: https://github.com/dmtrKovalenko/odiff
+
+### 2024-04-29[工具]
+
+和上一个工具有点像，也是提取视频下载地址的，只不过这个不针对某个特定网站，而是利用 chrome 的 devtools 来提取视频地址。因此好处是使用范围更广，坏处是精细化程度可能不如专门针对某个网站的工具。
+
+via: https://github.com/xifangczy/cat-catch
+
 ### 2024-04-28[工具]
 
 bilibili 手机端是可以下载视频的（部分视频由于版权限制也无法下载），但是电脑端就不行了。这个网站可以帮助你下载 bilibili 视频，你只需要输入 bilibili 视频的地址，然后点击“提取”，等待分析完成后，点击“下载”就可以下载视频了。
@@ -47,6 +59,25 @@ bilibili 手机端是可以下载视频的（部分视频由于版权限制也�
 ![](https://p.ipic.vip/d1srux.png)
 
 via: https://snapany.com/zh/bilibili
+
+### 2024-04-24[新闻]
+
+TestCafe v3.6.0 可以直接拿到 CDP（chrome devtool protocol） 链接，这样你就可以直接通过 CDP 来和 chrome 浏览器通信，做到更多 TestCafe 本身不支持而 CDP 支持的功能。
+
+```js
+fixture `Get current CDP session`
+    .page('https://devexpress.github.io/testcafe/example');
+
+test(`Get current CDP session`, async t => {
+    const mainWindowId = await t.testRun.activeWindowId;
+
+    let clientCDP = await t.getCurrentCDPSession();
+
+    await t.expect(clientCDP.webSocketUrl).contains(mainWindowId);
+}
+```
+
+via: https://github.com/DevExpress/testcafe/releases/tag/v3.6.0
 
 ### 2024-04-23[工具]
 
