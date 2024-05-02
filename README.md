@@ -60,6 +60,12 @@ bilibili 手机端是可以下载视频的（部分视频由于版权限制也�
 
 via: https://snapany.com/zh/bilibili
 
+### 2024-04-27[工具]
+
+一行命令直接将你的命令行分享给别人，让别人可以直接通过浏览器访问你的命令行。这对于远程调试，教学，合作等还是蛮有用的。比发文字图片告诉对方如何操作效率高多了。
+
+via: https://sshx.io/
+
 ### 2024-04-24[新闻]
 
 TestCafe v3.6.0 可以直接拿到 CDP（chrome devtool protocol） 链接，这样你就可以直接通过 CDP 来和 chrome 浏览器通信，做到更多 TestCafe 本身不支持而 CDP 支持的功能。
