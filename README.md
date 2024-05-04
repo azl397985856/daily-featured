@@ -87,7 +87,7 @@ via: https://github.com/DevExpress/testcafe/releases/tag/v3.6.0
 
 ### 2024-04-23[工具]
 
-previewjs 是一个 IDE插件，通过它可以让你在你的 IDE 中预览 UI 组件， 如果你了解 Storybook，那么你就可以很快上手 previewjs。 实际上通过 previewjs 甚至直接生成 Storybook 文件，实现和 storybook 的无缝衔接。
+previewjs 是一个 IDE 插件，通过它可以让你在你的 IDE 中预览 UI 组件， 如果你了解 Storybook，那么你就可以很快上手 previewjs。 实际上通过 previewjs 甚至直接生成 Storybook 文件，实现和 storybook 的无缝衔接。
 
 对不熟悉 storybook 的同学我简单介绍下它。storybook 是一个 UI 组件的开发环境，它可以让你独立的开发 UI 组件，然后通过 storybook 来预览你的 UI 组件。通过 storybook 你可以很方便的查看 UI 组件的各种状态，比如 hover，active 等。组件的 props 也可以通过 storybook 来调整，最后这些属性组合什么的可以作为一个个 user case 来展示，也叫做用户故事（Storybook）。
 
@@ -99,7 +99,7 @@ https://github.com/azl397985856/daily-featured/assets/12479470/a1bf8307-7d8e-4e8
 
 如果你要做一个类似的插件，其实也不难。核心只要：
 
-1. 拿到当前的组件代码，然后调用库的 api 来render 就可以了，比如 react 的话，你可以用 react-dom 的 render 方法来 render 你的组件。
+1. 拿到当前的组件代码，然后调用库的 api 来 render 就可以了，比如 react 的话，你可以用 react-dom 的 render 方法来 render 你的组件。
 2. 至于下面的面板： Story，console，properties。这其实 vscode 等编辑器都有专门的文档告诉你怎么实现。至于展示的数据从哪里来，当前是解析组件的 props 类型定义之类的。
 3. 最后就是监听代码变化，然后重新 render。
 
@@ -129,7 +129,7 @@ figma 是一个非常好用的设计工具，同时它的插件生态也非常�
 - rest api：可以让你通过 restful api 来操作 figma 的文件，节点等。
 - plugin api：可以让你通过 JavaScript 来操作 figma 的文件，节点等。
 
-figma 的插件类似于浏览器的插件，你可以通过插件来实现一些自动化的操作，比如自动生成代码，自动生成图表等。也是用  JavaScript 来编写的。
+figma 的插件类似于浏览器的插件，你可以通过插件来实现一些自动化的操作，比如自动生成代码，自动生成图表等。也是用 JavaScript 来编写的。
 
 所谓万事开头难，如果你想自己写一个 figma 插件，看官方文档不那么容易上手。那么这个工具可以帮助你快速创建一个 figma 插件项目。
 
@@ -139,7 +139,7 @@ via: https://yuanqing.github.io/create-figma-plugin/quick-start/
 
 ### 2024-04-12[工具]
 
-准备好你的数据库，执行  `npx dashpress`， 就可以生成一个完整的后台管理系统，包括前端和后端。体验 demo：https://demo.dashpress.io/
+准备好你的数据库，执行 `npx dashpress`， 就可以生成一个完整的后台管理系统，包括前端和后端。体验 demo：https://demo.dashpress.io/
 
 ![](https://p.ipic.vip/c2sm8x.png)
 
@@ -170,6 +170,28 @@ via: https://bellard.org/quickjs/
 它的原理是用 node 的 spawn 来启动 deno 引擎，然后通过 websocket（deno 目前不支持 IPC） 通信来执行代码，将 websocket 的 url 通过参数传给 deno，deno 构建 websocket 客户端，然后通过 websocket 来通信。
 
 via: https://github.com/casual-simulation/node-deno-vm
+
+### 2024-04-08[工具]
+
+2022-03-04 给大家推荐了一个工具 chrome-extension-cli，这个工具可以帮助你简化 chrome 插件的开发。
+
+今天给大家推荐一个类似的工具，个人感觉也更加好用。你不仅可以用它来开发新的 chrome 插件，还能用它来开发调试现有的 chrome 插件。
+
+via: https://extension.js.org/
+
+### 2024-04-02[网站]
+
+tradingview 是一个提供经济数据的网站，它提供了各种股票，期货，加密货币市场的图表，指标等。
+
+当然有些经济指标是有很多水分的，大家注意分辨。
+
+![](https://p.ipic.vip/quzn8x.png)
+
+值得一提的是，虽然大部分数据是免费的，但是有些数据是需要付费的，比如一些高级指标，高级图表等。你可以使用部分加密货币直接购买，加密货币购买方面是由 [coinbase](https://www.coinbase.com) 提供支持。
+
+如果你只想看加密货币的数据，也可以直接使用 [coinmarketcap](https://coinmarketcap.com)，它提供了更加专业的加密货币数据。
+
+via: https://cn.tradingview.com/markets/#economy
 
 ### 2024-04-01[网站]
 
