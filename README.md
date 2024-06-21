@@ -96,6 +96,14 @@ via: https://ssd.eff.org/
 
 via: https://github.com/williamtroup/JsonTree.js
 
+### 2024-05-16[好文]
+
+一个 OBS 的插件，可以在直播的时候显示你的键盘输入，这样观众就可以看到你的键盘输入了。这个插件支持 windows 和 linux。除了键盘输入显示，它还支持鼠标输入显示，手柄输入显示。
+
+![](https://p.ipic.vip/1n04cf.png)
+
+via: https://github.com/univrsal/input-overlay
+
 ### 2024-05-15[技巧]
 
 网络钓鱼危害非常大，你的隐私，你的资金都会因为网络钓鱼而受到威胁。
