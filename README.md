@@ -40,6 +40,40 @@
 
 ## 新鲜出炉 (2024-08)
 
+### 2024-08-01[好文]
+
+openai 官方提供的 node 版本的 sdk，可以方便的调用 openai 的 api，支持所有的 model，比如 gpt-3.5-turbo。
+
+```ts
+import OpenAI from 'openai';
+
+const client = new OpenAI({
+  apiKey: process.env['OPENAI_API_KEY'], // This is the default and can be omitted
+});
+
+async function main() {
+  const chatCompletion = await client.chat.completions.create({
+    messages: [{ role: 'user', content: 'Say this is a test' }],
+    model: 'gpt-3.5-turbo',
+  });
+}
+
+main();
+```
+
+同时也支持上传文件。
+
+```ts
+const fileList = [
+  createReadStream('/home/data/example.pdf'),
+  ...
+];
+
+const batch = await openai.vectorStores.fileBatches.uploadAndPoll(vectorStore.id, fileList);
+```
+
+via: https://github.com/openai/openai-node
+
 
 ## 历史汇总
 
