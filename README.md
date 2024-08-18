@@ -40,6 +40,75 @@
 
 ## 新鲜出炉 (2024-08)
 
+### 2024-08-16[新闻]
+
+《ECMAScript 错误安全赋值运算符草案》
+
+之前我们可能会这么写代码：
+
+```js
+try {
+  // try expression
+} catch (error) {
+  // catch code
+}
+
+// or
+
+promise // try expression
+  .catch((error) => {
+    // catch code
+  })
+```
+
+而有了这个特性后就可以这样写：
+
+```js
+const [error, data] ?= expression
+
+if (error) {
+  // catch code
+} else {
+  // try code
+}
+```
+
+它不仅仅免去了嵌套，使得代码更简洁，还避免了一些块级作用域问题。
+
+由于目前还是草案阶段，后续 API 可能会有所变动，甚至根本无法通过。
+
+via: https://github.com/arthurfiorette/proposal-safe-assignment-operator
+
+### 2024-08-15[工具]
+
+一个 TTS 工具，可以将文字转化为语音，支持多种语言，支持多种音色。
+
+![](https://p.ipic.vip/dqp7qq.png)
+
+via: https://tiktokvoice.net/
+
+### 2024-08-14[工具]
+
+部分代码工具提供了动态 IP， 你可以自己选择 IP 地址。这款工具的优势在于 IP 可以更加精确，目前可以精确到城市级别。另外有多种收费规则，基于使用量，基于时间收费等。
+
+via: https://www.proxy302.com/features/
+
+### 2024-08-12[好文]
+
+中国的高级资格「系统架构设计师」的考试应该如何准备，这篇文章给出了一些建议，比如要了解考试的内容，要有一定的实践经验，要有一定的技术深度等等。
+
+via: https://nekonull.me/posts/ruankao-architect/#
+
+### 2024-08-02[工具]
+
+Stirling PDF 是一个自托管的 pdf 工具，它可以帮助你修改，合并，转化 pdf 文件。
+
+![](https://p.ipic.vip/r13cl5.png)
+
+![](https://p.ipic.vip/svq13w.png)
+
+via: https://github.com/Stirling-Tools/Stirling-PDF
+
 ### 2024-08-01[好文]
 
 openai 官方提供的 node 版本的 sdk，可以方便的调用 openai 的 api，支持所有的 model，比如 gpt-3.5-turbo。
