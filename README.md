@@ -40,6 +40,44 @@
 
 ## 新鲜出炉 (2024-08)
 
+### 2024-08-31[工具]
+
+一个可以自动生成会议记录的 ai 工具，它是通过监控你的麦克风和音频输出来生成会议记录的。目前支持 mac 平台。
+
+![](https://p.ipic.vip/f0v9fq.png)
+
+via: https://www.guillaume.sh/watson
+
+### 2024-08-30[网站]
+
+一个可以将白话文转化为文言文的网站，速度还行，就是一次不能处理太多文本。
+
+via: https://modelscope.cn/studios/chostem/ancient_Chinese_text_generator
+
+### 2024-08-20[工具]
+
+在一个地方牌几张照片，然后它就可以帮你生成一个全景照片，效果还不错。
+
+![](https://p.ipic.vip/i9j3ik.png)
+
+via: https://github.com/krupkat/xpano
+
+### 2024-08-18[私有化部署]
+
+一个开源的在线配音工具，提取视频中的语音，将其转化为其他语言，支持多种语言，支持多种音色。工具特别优化了对中文的支持。
+
+部署好后就可以通过 web 来访问了，效果图：
+
+![](https://p.ipic.vip/f2ui3r.png)
+
+via: https://github.com/Kedreamix/Linly-Dubbing
+
+### 2024-08-17[私有化部署]
+
+一个开源且可自托管的 Heroku / Netlify / Vercel 替代品，可以用来部署你的应用，包含前端应用和后端应用。
+
+via: https://github.com/coollabsio/coolify
+
 ### 2024-08-16[新闻]
 
 《ECMAScript 错误安全赋值运算符草案》
@@ -98,6 +136,18 @@ via: https://www.proxy302.com/features/
 中国的高级资格「系统架构设计师」的考试应该如何准备，这篇文章给出了一些建议，比如要了解考试的内容，要有一定的实践经验，要有一定的技术深度等等。
 
 via: https://nekonull.me/posts/ruankao-architect/#
+
+### 2024-08-11[工具]
+
+ChatTTS 是一个 ai 工具，可以将文字转化为语音，支持多种语言，支持多种音色。
+
+其最大的特点是支持笑声，停顿等等，让语音听起来更加自然。基本上听不出来是机器生成的，而就像是真人在说话。这让我不免想到将来反诈骗是不是更加困难了。
+
+如果你不想私有化部署，只是想试试，这里有一些基于它的衍生品，大家可以直接尝试使用，via: https://github.com/libukai/Awesome-ChatTTS
+
+虽然目前的用法需要你输入控制字符 [laugh_0] [break_4] 等等，但是我相信不久的将来，它就可以根据上下文和预制的一些参数自动插入控制字符，而最大限度减少人为的参与。
+
+via: https://github.com/2noise/ChatTTS
 
 ### 2024-08-02[工具]
 
