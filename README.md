@@ -54,6 +54,47 @@ via: https://www.guillaume.sh/watson
 
 via: https://modelscope.cn/studios/chostem/ancient_Chinese_text_generator
 
+### 2024-08-29[新闻]
+
+HTTP 请求有一个幂等性的概念，即无论调用多少次，结果都是一样的。
+
+GET 请求被要求是幂等的，通常它只是获取数据，不会对服务器状态产生影响。但是这只是预期和约定，你仍然可以在 Get 请求做一些修改操作，只是不推荐。
+
+GET 有一个问题，这并不是 GET 协议本身的问题，而是浏览器的问题。由于 GET 参数是拼接在 url 上的，所以 GET 请求的 url 长度有限制，这个限制是由浏览器和服务器共同决定的。
+
+因此如果你想遵守“幂等性”约定对幂等请求使用 GET，但是又需要传递大量参考该怎么办？
+
+普遍的做法是将请求拆分为多个，比如 api1 和 api2。api1 接受 a，b，c 参数，api2 接受 d，e，f 参数。这样就可以避免 url 长度的限制。
+
+现在有了一个新的提案，截止到目前（2024-10-07），它还是一个草案，但是它提供了一个新的方法 QUERY，类似于在 GET 请求中传递 body。有了这个新的方法，你就可以遵守幂等性约定，同时又可以传递大量参数。
+
+一个可能得请求：
+
+```http
+QUERY /contacts HTTP/1.1
+Host: example.org
+Content-Type: example/query
+Accept: text/csv
+
+select surname, givenname, email limit 10
+```
+
+一个可能的对应响应：
+
+```http
+HTTP/1.1 200 OK
+Content-Type: text/csv
+
+surname, givenname, email
+Smith, John, john.smith@example.org
+Jones, Sally, sally.jones@example.com
+Dubois, Camille, camille.dubois@example.net
+```
+
+如上只是一个示意，至于 “body”的格式是什么样的，还需要进一步的讨论。
+
+via: https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-05.html
+
 ### 2024-08-20[工具]
 
 在一个地方牌几张照片，然后它就可以帮你生成一个全景照片，效果还不错。
