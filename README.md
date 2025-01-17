@@ -40,6 +40,18 @@
 
 ## 新鲜出炉 (2024-11)
 
+### 2024-11-30[好文]
+
+一个 AI 工具，允许你使用自然语言编写基于浏览器的集成测试的测试用例。只需要：
+
+1. 配置好你的 openapi 秘钥
+2. 用自然语言描述：Action，query，assertion。Action 就是你想要做什么，query 是你想要获取什么信息，assertion 是你期望的结果。
+3. 点击 Run 按钮，即可得到一个可以直接运行的测试用例。
+
+![](https://p.ipic.vip/hjrnz2.png)
+
+via: https://github.com/web-infra-dev/midscene
+
 ### 2024-11-29[好文]
 
 自从有了 url 这个东西，人们就在考虑是否有一种方式可以直接链接到页面的某个地方，于是锚点就出现了。那么如果想直接链接到页面的某一句话呢，甚至更复杂的 pattern 呢？类似于我们 ctrl + f 的效果。于是 Text fragments（文本片段）出现了。这篇文章介绍了 Text fragments 的用法。
