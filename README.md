@@ -111,6 +111,14 @@ via: https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-perce
 
 via: https://github.com/xxss0903/drawstamputils
 
+### 2024-11-12[网站]
+
+一个在线抓取博客的网站，可以抓取 微信公众号，CSDN，博客园，简书，掘金，思否。输出支持 HTML,Markdown,PDF,MHTML
+
+个人认为比较有用的是输出 markdown 格式，可以直接导入到博客编辑器中。输出 markdown 其实一个反过程。比如 markdown 的 `[title](link)` 转化为 html 的时候会变成 `<a href="link">title</a>`，但是在博客编辑器中，自动解析 `<a href="link" title="title">title</a>` 然后转化为 `[title](link)`。 虽然听起来很简单，但是不同的网站兼容性可能不一样，所以还是需要注意一下。这也是它只支持这几个博客网站，而不是全部的博客网站的原因。
+
+via: https://www.blog-keeper.com/
+
 ### 2024-11-06[工具]
 
 如果你是一个站长，可能有过接入第三方登录的经历。第三方登录可以让用户更方便的登录你的网站，同时也可以减少用户的注册成本。
