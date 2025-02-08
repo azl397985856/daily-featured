@@ -1,4 +1,4 @@
-### 2021-09-01[框架]
+### 1
 
 micro-app 是京东零售推出的一款微前端框架，它基于类 WebComponent 进行渲染，从组件化的思维实现微前端，旨在降低上手难度、提升工作效率。
 
@@ -29,3 +29,21 @@ https://gitee.com/koode/kooder
 ### 6
 
 https://sqliteonline.com/
+
+#### 7
+
+这个 js 库可以不通过文件后缀用来检测文件类型，它的检测逻辑是：”不同的文件拥有不同的特定前后缀“。比如 png 会以这八个字节开头："\211PNG\r\n\032\n" (89 50 4E 47 0D 0A 1A 0A). PDF 则以 "%PDF" (hex 25 50 44 46) 开头. 这样就可以通过文件头（有时候你是文件结尾）来判断文件类型。
+
+一个典型的用法：
+
+```js
+import {fileTypeFromBuffer} from 'file-type';
+import {readChunk} from 'read-chunk';
+
+const buffer = await readChunk('Unicorn.png', {length: 4100});
+
+console.log(await fileTypeFromBuffer(buffer));
+//=> {ext: 'png', mime: 'image/png'}
+```
+
+via: https://github.com/sindresorhus/file-type
