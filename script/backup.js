@@ -1,14 +1,17 @@
 const fs = require("fs");
 const path = require("path");
 
+// 把 README 上的最新一期归档到 backup/YYYY-MM/README.md，并更新 SUMMARY.md。
+// 在开始写新一期之前运行：node script/backup.js
+
 const renderTemplate = (title, body) => `
 # 每日一荐
 
-![](https://p.ipic.vip/0bhil1.jpg)![](https://p.ipic.vip/0bhil1.jpg)
+![](https://p.ipic.vip/0bhil1.jpg)
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
-> 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
+> 项目主页维护最新一期内容（不定期更新），想看往期内容，可以翻到下方历史汇总部分，选择自己感兴趣的期数点进去。
 
 ## ${title}
 
@@ -32,25 +35,36 @@ const readme = fs
   .readFileSync(path.resolve(__dirname, "../README.md"))
   .toString();
 
-const title = readme.match(/新鲜出炉 ((.+))$/m)[1].slice(1, -1);
-const body = /(###[\d\D]+)## 历史汇总/gm.exec(readme)[1];
+// 期标题形如：## 2026-10：世界之窗、文件头与被没收的比特币
+const issueMatch = /^## (\d{4}-\d{2})[：:]\s*(.+)$/m.exec(readme);
+if (!issueMatch) {
+  console.error("README 中没有找到期标题（## YYYY-MM：标题）");
+  process.exit(1);
+}
 
-const template = renderTemplate(title, body);
+const month = issueMatch[1];
+const title = `${month}：${issueMatch[2]}`;
+const bodyMatch = new RegExp(`(###[\\d\\D]+)## 历史汇总`).exec(readme);
+if (!bodyMatch) {
+  console.error("README 中没有找到“## 历史汇总”，无法确定期内容边界");
+  process.exit(1);
+}
+const body = bodyMatch[1].trim();
 
-// 写入 backup
-fs.mkdirSync(path.resolve(__dirname, `../backup/${title}`));
-fs.writeFileSync(
-  path.resolve(__dirname, `../backup/${title}/README.md`),
-  template
-);
+const backupDir = path.resolve(__dirname, `../backup/${month}`);
+if (fs.existsSync(backupDir)) {
+  console.error(`backup/${month} 已存在，不要重复归档`);
+  process.exit(1);
+}
 
-// 更新 summary
+fs.mkdirSync(backupDir);
+fs.writeFileSync(path.resolve(backupDir, "README.md"), renderTemplate(title, body));
 
-const lines = fs
-  .readFileSync(path.resolve(__dirname, "../SUMMARY.md"))
-  .toString()
-  .split("\n");
+// 更新 summary，插到 [最新] 后面
+const summaryPath = path.resolve(__dirname, "../SUMMARY.md");
+const lines = fs.readFileSync(summaryPath).toString().split("\n");
+const latestIndex = lines.findIndex((l) => l.includes("](./README.md)"));
+lines.splice(latestIndex + 1, 0, `- [${title}](backup/${month}/README.md)`);
+fs.writeFileSync(summaryPath, lines.join("\n"));
 
-lines.splice(1, 0, `- [${title}](backup/${title}/README.md)`);
-
-fs.writeFileSync(path.resolve(__dirname, "../SUMMARY.md"), lines.join("\n"));
+console.log(`已归档 ${title} -> backup/${month}/README.md`);

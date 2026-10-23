@@ -4,7 +4,7 @@
 
 每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。
 
-> 项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。
+> 项目主页维护最新一期内容（不定期更新），想看往期内容，可以翻到下方历史汇总部分，选择自己感兴趣的期数点进去。
 
 在线阅读：https://leetcode-solution-leetcode-pp.gitbook.io/mz-ri-yi-jm/
 
@@ -18,63 +18,124 @@
 
 <https://github.com/fe-lucifer/fanqiang>
 
-## :calendar:《91 天学算法》限时活动
+## 2026-10：世界之窗、文件头与被没收的比特币
 
-很多教育机构宣传的 7 天，一个月搞定算法面试的，我大概都了解了下，不怎么靠谱。学习算法这东西，还是要靠积累，没有量变是不可能有质变的。还有的人选择看书，这是一个不错的选择。但是很多人选了过时的或者质量差的书，又或者不会去写书中给的练习题，导致效果很差。
+> **本期导读**（共 14 条）：接入最简单的微前端框架 micro-app · 不看后缀识别文件类型的 file-type · 随机看世界各地窗外的 WindowSwap · 美国政府是如何没收大量比特币的 · AI 存储潮的底层逻辑 · 100 行手写一个测试框架 ······
 
-基于这几个原因，我组织了一个 91 天刷题活动，通过一个相对比较长的时间（91 天）给出最新的学习路径，并强制大家打卡这种高强度练习来让大家**在 91 天后遇见更好的自己**。详细活动介绍可以点下方链接查看。另外往期的讲义也在下面了，大家可以看看合不合你的口味。
+### 开源项目
 
-最后送给大家一句话： **坚持下去，会有突然间成长的一天**。
+#### micro-app：或许是接入成本最低的微前端框架
 
-[点此参与](https://github.com/azl397985856/leetcode/discussions/532)
+micro-app 是京东零售推出的一款微前端框架，它基于类 WebComponent 进行渲染，从组件化的思维实现微前端，旨在降低上手难度、提升工作效率。
 
-![](https://p.ipic.vip/plj0jz.jpg)
+它是目前接入微前端成本最低的框架，并且提供了 JS 沙箱、样式隔离、元素隔离、预加载、资源地址补全、插件系统、数据通信等一系列完善的功能。
 
-- 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
-- [91 第三期讲义 - 二分专题（上）](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-search-1.md)
-- [91 第三期讲义 - 二分专题（下）](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-search-2.md)
+micro-app 与技术栈无关，也不和业务绑定，可以用于任何前端框架。
 
-## 1V1 辅导
+一句话总结就是：或许是接入最简单的微前端框架。它的部分功能实现挺有意思的，有时间我后面会专门针对他们的部分功能进行讲解。
 
-如果大家觉得上面的集体活动效率比较低，我目前也接受 1v1 算法辅导，价格根据你的算法基础以及想要学习的内容而定感兴趣的可以加我微信，备注“算法辅导”，微信号 DevelopeEngineer。
+via: https://github.com/micro-zoe/micro-app/blob/master/README.zh-cn.md
 
-## 新鲜出炉 (2025-03)
+#### file-type：不看文件后缀，也能知道它的真实类型
 
-### 2025-03-05[web3]
+这个 js 库可以不通过文件后缀用来检测文件类型，它的检测逻辑是：”不同的文件拥有不同的特定前后缀“。比如 png 会以这八个字节开头："\211PNG\r\n\032\n" (89 50 4E 47 0D 0A 1A 0A). PDF 则以 "%PDF" (hex 25 50 44 46) 开头. 这样就可以通过文件头（有时候你是文件结尾）来判断文件类型。
 
-现在很多币都是固定时间解锁，这给币价上涨带来压力。赵长鵬提出了一种新的解锁机制。
+一个典型的用法：
 
-根据赵长鹏的设计,特设小组将首先解锁10%的令牌,并在令牌发行开始时将其投放市场。筹集的资金将用于满足业务需求,例如产品开发,营销和工资单。但是,将来的令牌解锁将受到严格的条件约束,包括至少六个月的间隔,价格需要达到最后一次解锁价格的两倍,并持续30天,并且单个解锁比率不得超过5%。
+```js
+import {fileTypeFromBuffer} from 'file-type';
+import {readChunk} from 'read-chunk';
 
-例如,假设令牌在首次发行时的定价为$ 1,如果六个月后价格未达到$ 2,则无法解锁更多令牌。假设在7个月4到8个月3期间价格稳定在$ 2以上,则最多可以在8月3日解锁5%的令牌。如果当天的价格为3美元,则最早的解锁时间是次年的3月3日,价格需要超过6美元并稳定30天。
+const buffer = await readChunk('Unicorn.png', {length: 4100});
 
-但是模型本身不是完美的，比如解锁 10% 后直接跑路，但至少解决了一部分问题。如果靠谱的团队再加上靠谱的模型，我相信没有谁能拒绝。
+console.log(await fileTypeFromBuffer(buffer));
+//=> {ext: 'png', mime: 'image/png'}
+```
 
-### 2025-03-04[知识]
+via: https://github.com/sindresorhus/file-type
 
-现在很多的 ai 编程工具并不了解你的代码仓库，比如不了解你的项目结构，约定以及依赖等等。所以写的代码并不是你想要的。你需要不断调整，这很浪费时间。另外一个 ai 编程工具则直接全部扫描你代码，这会导致两个问题：
+#### jest-worker：把重任务丢进子进程并行跑
 
-1. 有些隐私数据不想被访问和学习
-2. 有些是外部文件或者屎山代码，不需要学习它的写法
+Jest 团队出品的 Node.js 模块，用于把重任务分发到多个 fork 出的子进程中并行执行：提供基于 Promise 的接口，开销很小，worker 数量可控。Jest 自己跑测试就是靠它。如果你的 Node 服务里也有 CPU 密集型任务（图片处理、压缩、编译等），可以直接拿它当进程池用。
 
-如果可以提供一个类似 gitignore 的配置文件，让 ai 编程工具只扫描你想要学习的部分，而不是全部代码，这将会大大提高效率。这就像互联网早起的 robots.txt 文件一样，它可以帮助搜索引擎更好的索引你想要的内容。
+via: https://github.com/facebook/jest/tree/main/packages/jest-worker
 
-现在有一些工具明确支持，比如 augmentcode，我觉得这是一个不错的实践。希望 ai 编程工具的规范越来越完善，减少使用者的认知成本和学习负担。
+#### node-fetch：给 Node.js 带来 Fetch API 的元老级库
 
-### 2025-03-03[算法]
+在 Node 还没有内置 fetch 的年代，就是这个轻量模块让 Node 有了和浏览器一致的 fetch API。Node 18 之后全局内置了 fetch，它算是完成了历史使命，但无数存量项目和教程仍在使用，了解它依然有价值。
 
-前一段时间 deepseek（有时候简称 ds）很火，很多人竟然公开教别人如何部署 ds 赚钱，竟然还有很多人买。实际上部署 ds 非常容易，只需要按照文档操作几分钟就好了。这让我感受到了“信息差真的很容易赚钱”。大家可以参考这个文章的部分，几分钟就搞定了。
+via: https://github.com/node-fetch/node-fetch
 
-via: https://blog.lovefc.cn/archives/start.html
+#### kooder：为代码托管平台加上代码搜索
 
-### 2025-03-01[工具]
+Gitee 官方开源的代码搜索系统，可以为 Gitee、GitLab、Gitea 等代码托管平台提供代码搜索服务。公司自建了 GitLab 但搜索一直不好用的，可以看看这个。
 
-一个 chrome 扩展工具，可以自动将你的视频作品同步到多平台。如果你在做自媒体，并且主攻视频方向，可以试下。
+via: https://gitee.com/koode/kooder
 
-我之前主打文字方向，使用过另外一个类似的工具 openwrite, via https://openwrite.cn/，只不过那个是自动同步 markdown 文章到多个平台。效果没有自己手动好，比如 tag 等各个平台特有的东西很多都无法做到完美适配。但是确实省时间。
+### 工具
 
-via: https://github.com/leaper-one/MultiPost-Extension
+#### ai-video-editor：在线剪视频，素材不出本地
 
+在线剪辑视频，使用本地数据和资源， 不上传到服务器，保护隐私。
+
+via: https://github.com/MartinDelophy/ai-video-editor
+
+#### staticshield：给前端网站加上 AES 加密
+
+给你的前端网站加上 AES 加密的工具，适合“内容只想给一部分人看”的静态页面场景。
+
+via: https://github.com/wangshengithub/staticshield
+
+### 网站
+
+#### sqliteonline：浏览器里直接写 SQL
+
+不需要安装任何客户端，在浏览器里就能连接 SQLite、PostgreSQL、MySQL、SQL Server 等数据库执行查询，也支持直接打开本地的 SQLite 文件。临时验证一段 SQL、随手查点数据的时候非常好用。
+
+via: https://sqliteonline.com/
+
+#### window-swap：随机打开一扇世界各地的窗
+
+随机打开一个世界各地的窗户，看看外面的风景， 是动态的风景，不是静态的。（可以付费选择地区）
+
+via: https://www.window-swap.com/Window
+
+### 好文
+
+#### Building a JavaScript testing framework：100 行手写一个测试框架
+
+Jest 前维护者 cpojer 的教程：利用 Jest 体系里的现成包（jest-haste-map、jest-worker、expect、jest-circus 等），一步步实现一个约 100 行的迷你测试框架。过程中讲清楚了测试框架的几个核心问题——如何找到测试文件、如何并行执行、断言怎么实现、如何用 Node 的 vm 模块做用例间隔离。想搞懂测试框架原理的值得一读。
+
+via: https://cpojer.net/posts/building-a-javascript-testing-framework
+
+#### AI 热起来后，存储的需求和底层逻辑
+
+AI 热起来之后，存储的需求和底层逻辑发生了什么变化？这篇文章把需求端和底层逻辑都讲了一遍，还聊到了去中心化存储的机会。
+
+via: https://abmedia.io/ai-storage-boom-decentralized-storage
+
+### 知识
+
+#### 不同片源和介质，适合什么影厅？
+
+不同比例（画面长宽比）和介质（胶片，数码）的片源（杜比， IMAX 等）适用的影厅类型表，买票前可以对号入座。
+
+![](https://cdnfile.sspai.com/2026/07/27/c3cb0e75e198e799b23b004c9e30f386.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1/format/webp)
+
+via: https://sspai.com/post/112380
+
+### web3
+
+#### airdrop 集合 + 教程类网站
+
+- https://dappradar.com/rewards/airdrops
+- https://cryptorank.io/drophunting
+
+#### 《美国政府是如何没收大量比特币的》
+
+你说我要是早点知道这个漏洞，是不是早就发财了？现在或许还有这样的漏洞摆在那里，只是我不知道~
+
+via: https://brainz.fun/blog/2026/06/01/mei-guo-zheng-fu-shi-ru-he-mei-shou-da-liang-bi-te-bi-de/
 
 ## 历史汇总
 
